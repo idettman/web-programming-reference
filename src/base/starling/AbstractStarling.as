@@ -1,6 +1,6 @@
-package performance.display.starling
+package base.starling
 {
-	import performance.display.AbstractSprite;
+	import base.AbstractSprite;
 
 	import starling.core.Starling;
 

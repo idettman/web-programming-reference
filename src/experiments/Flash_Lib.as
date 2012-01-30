@@ -1,4 +1,4 @@
-package {
+package experiments {
 
 import flash.display.Sprite;
 import flash.text.TextField;

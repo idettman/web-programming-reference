@@ -1,12 +1,12 @@
-package performance.display
+package base
 {
-	import flash.display.MovieClip;
+	import base.events.ViewEvent;
+
+	import flash.display.Sprite;
 	import flash.events.Event;
 
-	import performance.events.ViewEvent;
 
-
-	public class AbstractMovieClip extends MovieClip
+	public class AbstractSprite extends Sprite
 	{
 		/**
 		 * Order of performance.events
@@ -30,7 +30,7 @@ package performance.display
 		private var _enterFrameCount:uint;
 		
 		
-		public function AbstractMovieClip()
+		public function AbstractSprite()
 		{
 			super();
 			preInit();
@@ -51,7 +51,6 @@ package performance.display
 		 */
 		public function init():void
 		{
-			stop();
 			initLayout();
 			addListeners();
 			refreshDisplay();
@@ -63,7 +62,6 @@ package performance.display
 		 */
 		public function destroy():void
 		{
-			stop();
 			removeListeners();
 			destroyLayout();
 		}

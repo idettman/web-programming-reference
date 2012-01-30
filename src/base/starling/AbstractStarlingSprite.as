@@ -1,7 +1,6 @@
-package performance.display.starling
+package base.starling
 {
 
-	import starling.core.Starling;
 	import starling.display.Quad;
 	import starling.display.Sprite;
 	import starling.events.Event;
