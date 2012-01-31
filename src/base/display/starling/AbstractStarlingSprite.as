@@ -1,6 +1,7 @@
-package base.starling
+package base.display.starling
 {
 
+	import starling.core.Starling;
 	import starling.display.Quad;
 	import starling.display.Sprite;
 	import starling.events.Event;
@@ -55,8 +56,8 @@ package base.starling
 		private function addedToStageHandler(e:Event):void
 		{
 			init();
-//			trace(Starling.context.driverInfo);
-
+			trace(Starling.context.driverInfo);
+			
 			addEventListener(Event.ENTER_FRAME, enterFrameHandler);
 		}
 

@@ -1,6 +1,6 @@
-package base.starling
+package base.display.starling
 {
-	import base.AbstractSprite;
+	import base.display.AbstractSprite;
 
 	import starling.core.Starling;
 

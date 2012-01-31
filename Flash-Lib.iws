@@ -2,21 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cddd4e9-cd70-4cff-8657-e5dacbd1588a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/AbstractButton.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/linked_fla/Main.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/linked_fla/MainContent.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/linked_fla/libraryitem/AbstractLibaryItem.as" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\Flash_Lib.as" afterPath="$PROJECT_DIR$/src/experiments/Flash_Lib.as" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\performance\display\AbstractMovieClip.as" afterPath="$PROJECT_DIR$/src/base/AbstractMovieClip.as" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\performance\display\AbstractSprite.as" afterPath="$PROJECT_DIR$/src/base/AbstractSprite.as" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\performance\display\starling\AbstractStarling.as" afterPath="$PROJECT_DIR$/src/base/starling/AbstractStarling.as" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\performance\display\starling\AbstractStarlingSprite.as" afterPath="$PROJECT_DIR$/src/base/starling/AbstractStarlingSprite.as" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\performance\events\ViewEvent.as" afterPath="$PROJECT_DIR$/src/base/events/ViewEvent.as" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\performance\listeners\EnterFrameListener.as" afterPath="$PROJECT_DIR$/src/utils/EnterFrameListener.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/data/AbstractVo.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/data/ButtonVo.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/display/animation/AbstractLibraryAnimation.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/display/ui/buttons/AbstractLibraryButton.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/display/ui/tooltip/AbstractTooltip.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/events/ButtonEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/events/ContentEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/events/TimelineEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/DrawDisplayObjectUtil.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/linked_fla/events/ApplicationEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/linked_fla/events/ContentEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/linked_fla/model/ContentProxy.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/linked_fla/model/ContentTypes.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/linked_fla/model/vo/ContentVo.as" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\experiments\Flash_Lib.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\templates\linked_fla\libraryitem\AbstractLibaryItem.as" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\base\AbstractButton.as" afterPath="$PROJECT_DIR$/src/base/display/ui/buttons/AbstractButton.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\base\AbstractMovieClip.as" afterPath="$PROJECT_DIR$/src/base/display/AbstractMovieClip.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\base\AbstractSprite.as" afterPath="$PROJECT_DIR$/src/base/display/AbstractSprite.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\base\starling\AbstractStarling.as" afterPath="$PROJECT_DIR$/src/base/display/starling/AbstractStarling.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\base\starling\AbstractStarlingSprite.as" afterPath="$PROJECT_DIR$/src/base/display/starling/AbstractStarlingSprite.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\experiments\StarlingSimpleTest.as" afterPath="$PROJECT_DIR$/src/experiments/startling/StarlingSimpleTest.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\templates\linked_fla\Main.as" afterPath="$PROJECT_DIR$/templates/linked_fla/Main.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\templates\linked_fla\MainContent.as" afterPath="$PROJECT_DIR$/templates/linked_fla/view/MainContent.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash-Lib.iml" afterPath="$PROJECT_DIR$/Flash-Lib.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash-Lib.ipr" afterPath="$PROJECT_DIR$/Flash-Lib.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash-Lib.iws" afterPath="$PROJECT_DIR$/Flash-Lib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/experiments/StarlingSimpleTest.as" afterPath="$PROJECT_DIR$/src/experiments/StarlingSimpleTest.as" />
     </list>
     <ignored path="Flash-Lib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,12 +86,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractSprite.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/base/AbstractSprite.as">
+      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/linked_fla/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="9" selection-start="603" selection-end="603" vertical-scroll-proportion="0.34097707">
+            <state line="110" column="20" selection-start="2038" selection-end="2038" vertical-scroll-proportion="-1.88">
               <folding>
-                <element signature="e#16#45#0" expanded="true" />
+                <element signature="e#12#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainContent.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/linked_fla/view/MainContent.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.1665005">
+              <folding>
+                <element signature="e#16#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,21 +123,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Flash_Lib.as" />
-        <option value="$PROJECT_DIR$/src/components/ui/AbstractButton.as" />
-        <option value="$PROJECT_DIR$/src/abstract/AbstractButton.as" />
-        <option value="$PROJECT_DIR$/src/abstract/documentclass/MainContent.as" />
-        <option value="$PROJECT_DIR$/src/abstract/documentclass/AbstractMain.as" />
-        <option value="$PROJECT_DIR$/src/templates/linked_fla/libraryitem/AbstractLibaryItem.as" />
-        <option value="$PROJECT_DIR$/src/base/starling/AbstractStarlingSprite.as" />
-        <option value="$PROJECT_DIR$/src/base/starling/AbstractStarling.as" />
-        <option value="$PROJECT_DIR$/src/base/events/ViewEvent.as" />
-        <option value="$PROJECT_DIR$/src/templates/linked_fla/Main.as" />
-        <option value="$PROJECT_DIR$/src/templates/linked_fla/MainContent.as" />
-        <option value="$PROJECT_DIR$/src/base/AbstractSprite.as" />
-        <option value="$PROJECT_DIR$/src/base/AbstractMovieClip.as" />
-        <option value="$PROJECT_DIR$/src/base/AbstractButton.as" />
-        <option value="$PROJECT_DIR$/src/experiments/StarlingSimpleTest.as" />
+        <option value="$PROJECT_DIR$/src/base/display/library/AbstractLibraryButton.as" />
+        <option value="$PROJECT_DIR$/src/base/display/ui/AbstractLibraryButton.as" />
+        <option value="$PROJECT_DIR$/src/utils/DrawDisplayObjectUtil.as" />
+        <option value="$PROJECT_DIR$/src/base/data/ButtonVo.as" />
+        <option value="$PROJECT_DIR$/src/base/events/ButtonEvent.as" />
+        <option value="$PROJECT_DIR$/src/base/events/ContentEvent.as" />
+        <option value="$PROJECT_DIR$/src/base/events/TimelineEvent.as" />
+        <option value="$PROJECT_DIR$/templates/linked_fla/model/ContentTypes.as" />
+        <option value="$PROJECT_DIR$/templates/linked_fla/model/vo/ContentVo.as" />
+        <option value="$PROJECT_DIR$/src/base/data/AbstractVo.as" />
+        <option value="$PROJECT_DIR$/src/base/display/ui/tooltip/AbstractTooltip.as" />
+        <option value="$PROJECT_DIR$/templates/linked_fla/events/ContentEvent.as" />
+        <option value="$PROJECT_DIR$/templates/linked_fla/events/ApplicationEvent.as" />
+        <option value="$PROJECT_DIR$/templates/linked_fla/model/ContentProxy.as" />
+        <option value="$PROJECT_DIR$/templates/linked_fla/view/MainContent.as" />
+        <option value="$PROJECT_DIR$/templates/linked_fla/Main.as" />
       </list>
     </option>
   </component>
@@ -157,15 +181,9 @@
               <option name="myItemId" value="Flash-Lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -175,32 +193,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linked_fla" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,15 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linked_fla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraryitem" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,50 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash-Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,6 +250,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="display" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="display" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash-Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -329,6 +339,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\GitHub\Flash-Lib\templates\linked_fla\events" />
+      <recent name="C:\Users\Faygo\Dev\GitHub\Flash-Lib\src\base" />
+      <recent name="C:\Users\Faygo\Dev\GitHub\Flash-Lib" />
+    </key>
   </component>
   <component name="RunManager" selected="Flex.Flash_Lib.swf">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -396,7 +413,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="Flash_Lib.swf" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/production/Flash-Lib/Flash_Lib.swf" launcher_type="OSDefault" main_class_name="" module_name="Flash-Lib" player_path="/Applications/Flash Player Debugger.app" run_mode="HtmlOrSwfFile" run_trusted="true" url_to_launch="http://">
+    <configuration default="false" name="Flash_Lib.swf" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/production/Flash-Lib/Flash_Lib.swf" launcher_type="Player" main_class_name="" module_name="Flash-Lib" player_path="$PROJECT_DIR$/../../flex_sdk/flex_sdk_4.6.0.23201B/runtimes/player/11.1/win/FlashPlayerDebugger.exe" run_mode="HtmlOrSwfFile" run_trusted="true" url_to_launch="http://">
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
     <list size="1">
@@ -456,7 +477,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -467,7 +488,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17342582" sideWeight="0.6702335" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17342582" sideWeight="0.6001946" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -528,90 +549,131 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/templates/linked_fla/libraryitem/AbstractLibaryItem.as">
+    <entry file="file://$PROJECT_DIR$/src/base/events/TimelineEvent.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="78" selection-end="78" vertical-scroll-proportion="0.08584338">
+        <state line="14" column="8" selection-start="452" selection-end="452" vertical-scroll-proportion="0.2652044">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/linked_fla/Main.as">
+    <entry file="file://$PROJECT_DIR$/src/base/display/animation/AbstractLibraryAnimation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08584338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/linked_fla/MainContent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08584338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/AbstractMovieClip.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="8" selection-end="12" vertical-scroll-proportion="0.0">
+        <state line="8" column="5" selection-start="194" selection-end="194" vertical-scroll-proportion="0.15154536">
           <folding>
-            <element signature="e#16#45#0" expanded="true" />
+            <element signature="e#34#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/AbstractButton.as">
+    <entry file="file://$PROJECT_DIR$/src/base/display/AbstractSprite.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+        <state line="35" column="22" selection-start="609" selection-end="609" vertical-scroll-proportion="0.15154536">
           <folding>
-            <element signature="e#16#51#0" expanded="true" />
+            <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/events/ViewEvent.as">
+    <entry file="file://$PROJECT_DIR$/templates/linked_fla/model/ContentTypes.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+        <state line="4" column="51" selection-start="91" selection-end="91" vertical-scroll-proportion="0.07577268">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/starling/AbstractStarling.as">
+    <entry file="file://$PROJECT_DIR$/src/base/data/ButtonVo.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="74" selection-end="74" vertical-scroll-proportion="0.11445783">
+        <state line="5" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.094715856">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/starling/AbstractStarlingSprite.as">
+    <entry file="file://$PROJECT_DIR$/src/base/display/AbstractMovieClip.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+        <state line="152" column="12" selection-start="2716" selection-end="2716" vertical-scroll-proportion="0.9471585">
           <folding>
-            <element signature="e#26#55#0" expanded="true" />
+            <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/experiments/StarlingSimpleTest.as">
+    <entry file="file://$PROJECT_DIR$/src/base/display/ui/tooltip/AbstractTooltip.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="80" selection-start="65" selection-end="141" vertical-scroll-proportion="0.14307229">
+        <state line="33" column="8" selection-start="420" selection-end="420" vertical-scroll-proportion="0.62512463">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/experiments/Flash_Lib.as">
+    <entry file="file://$PROJECT_DIR$/src/base/data/AbstractVo.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="228" selection-end="228" vertical-scroll-proportion="0.28614458">
+        <state line="5" column="31" selection-start="97" selection-end="97" vertical-scroll-proportion="0.094715856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/linked_fla/model/vo/ContentVo.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="98" selection-end="98" vertical-scroll-proportion="0.113659024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/display/ui/buttons/AbstractButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="27" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.333001">
           <folding>
-            <element signature="e#23#51#0" expanded="true" />
+            <element signature="e#35#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/AbstractSprite.as">
+    <entry file="file://$PROJECT_DIR$/../../CamrySuperBowl/Source/Yahoo Takeover/src/com/byhook/camrySuperBowlYahooTakeover/model/ContentProxy.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="603" selection-end="603" vertical-scroll-proportion="0.34097707">
+        <state line="97" column="24" selection-start="2120" selection-end="2718" vertical-scroll-proportion="0.8060606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/linked_fla/events/ApplicationEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="220" selection-end="220" vertical-scroll-proportion="0.17048854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/linked_fla/events/ContentEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="371" selection-end="388" vertical-scroll-proportion="0.30309072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/linked_fla/model/ContentProxy.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.056829512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/linked_fla/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="20" selection-start="2038" selection-end="2038" vertical-scroll-proportion="-1.88">
           <folding>
-            <element signature="e#16#45#0" expanded="true" />
+            <element signature="e#12#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/linked_fla/view/MainContent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.1665005">
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -645,7 +707,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Starling</last-edited>
+          <last-edited>Box2d v2.1 FlashPlayer 9+</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -674,6 +736,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

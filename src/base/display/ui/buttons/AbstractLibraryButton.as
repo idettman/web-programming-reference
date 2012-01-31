@@ -1,17 +1,17 @@
-package base
+package base.display.ui.buttons
 {
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
 	import flash.events.Event;
 
 
-	public class AbstractButton extends MovieClip
+	public class AbstractLibraryButton extends MovieClip
 	{
 		private var _buttonText:String;
 		private var _buttonIcon:DisplayObject;
 		
 		
-		public function AbstractButton()
+		public function AbstractLibraryButton()
 		{
 			super();
 			preInit();

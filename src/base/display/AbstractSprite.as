@@ -1,11 +1,11 @@
-package base
+package base.display
 {
 	import base.events.ViewEvent;
 
 	import flash.display.Sprite;
 	import flash.events.Event;
-
-
+	
+	
 	public class AbstractSprite extends Sprite
 	{
 		/**

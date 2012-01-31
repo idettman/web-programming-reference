@@ -1,6 +1,6 @@
-package experiments
+package experiments.startling
 {
-	import base.starling.AbstractStarling;
+	import base.display.starling.AbstractStarling;
 
 
 	[SWF(width="1280", height="752", frameRate="60", backgroundColor="#000000")]

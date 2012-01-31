@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
     <resourceExtensions />
@@ -25,6 +28,14 @@
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="IdProvider" IDEtalkID="FA3BF8B6CA204A79968857BFAD46C3C9" />
+  <component name="ProjectDictionaryState">
+    <dictionary name="Faygo">
+      <words>
+        <w>movieclip</w>
+        <w>timeline</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Flash-Lib.iml" filepath="$PROJECT_DIR$/Flash-Lib.iml" />
