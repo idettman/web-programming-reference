@@ -7,12 +7,12 @@ package
 
 	import model.ContentProxy;
 
-	import view.MainContent;
+	import view.Content;
 
 
 	public class Main extends MovieClip
 	{
-		private var _mainContent:MainContent;// Application View
+		private var _mainContent:Content;// Application View
 		private var _contentProxy:ContentProxy;// Application Model
 		
 		
@@ -45,7 +45,7 @@ package
 
 		private function initView():void
 		{
-			_mainContent = new MainContent();
+			_mainContent = new Content();
 			_mainContent.addEventListener(ApplicationEvent.VIEW_INIT_COMPLETE, viewInitCompleteHandler);
 			addChild(_mainContent);
 		}

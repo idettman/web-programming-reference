@@ -7,14 +7,14 @@ package view
 
 
 	/**
-	 * MainContent should always be linked to a library movieclip and instantiated from the Document class
+	 * Content should always be linked to a library movieclip and instantiated from the Document class
 	 */
-	public class MainContent extends MovieClip
+	public class Content extends MovieClip
 	{
 		private var _data:*;
 		
 		
-		public function MainContent()
+		public function Content()
 		{
 			super();
 			if (stage) init();
