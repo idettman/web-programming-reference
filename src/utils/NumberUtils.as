@@ -1,6 +1,6 @@
 package utils
 {
-	public class BitmapDataUtils
+	public class NumberUtils
 	{
 		
 		/**
