@@ -6,16 +6,16 @@ package components.media
 	import components.media.model.MediaViewerProxy;
 	import components.media.model.MediaViewerProxyEvent;
 	import components.media.view.Viewer;
-
+	
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
-
-
+	
+	
 	[SWF(width='640', height='480', backgroundColor='#000000', frameRate='30')]
 	public class MediaViewerComponent extends Sprite
 	{
-		public var imageViewerProxy:MediaViewerProxy;
+		public var mediaViewerProxy:MediaViewerProxy;
 		
 		public var viewer:Viewer;
 		public var thumbnailsTopRow:MediaSelector;
@@ -49,17 +49,18 @@ package components.media
 		
 		private function initModel():void
 		{
-			imageViewerProxy = new MediaViewerProxy();
-			imageViewerProxy.addEventListener(MediaViewerProxyEvent.UPDATED, modelUpdatedHandler);
-			imageViewerProxy.createTestData();
-			imageViewerProxy.selectDefaultGallery();
+			mediaViewerProxy = new MediaViewerProxy();
+			mediaViewerProxy.addEventListener(MediaViewerProxyEvent.MEDIA_LOADED, modelMediaLoadedHandler);
+			mediaViewerProxy.addEventListener(MediaViewerProxyEvent.UPDATED, modelUpdatedHandler);
+			mediaViewerProxy.createTestData();
 		}
 
 		private function destroyModel():void
 		{
-			imageViewerProxy.removeEventListener(MediaViewerProxyEvent.UPDATED, modelUpdatedHandler);
-			imageViewerProxy.destroy();
-			imageViewerProxy = null;
+			mediaViewerProxy.removeEventListener(MediaViewerProxyEvent.MEDIA_LOADED, modelMediaLoadedHandler);
+			mediaViewerProxy.removeEventListener(MediaViewerProxyEvent.UPDATED, modelUpdatedHandler);
+			mediaViewerProxy.destroy();
+			mediaViewerProxy = null;
 		}
 		
 		private function initLayout():void
@@ -73,7 +74,7 @@ package components.media
 			addChild(thumbnailsTopRow);
 			thumbnailsTopRow.height = 32;
 			thumbnailsTopRow.width = 300;
-			thumbnailsTopRow.y = viewer.getRect(this).bottom + 8;
+			thumbnailsTopRow.y = viewer.getRect(this).bottom + 8 - 40;
 			
 			thumbnailsBottomRow = new MediaSelector();
 			addChild(thumbnailsBottomRow);
@@ -97,7 +98,6 @@ package components.media
 
 		private function destroyLayout():void
 		{
-			
 			while (numChildren) { removeChildAt(0); }
 		}
 		
@@ -125,11 +125,22 @@ package components.media
 		
 		private function removedFromStageHandler(e:Event):void {    destroy();  }
 		
+		
+		private function modelMediaLoadedHandler(e:MediaViewerProxyEvent):void
+		{
+			viewer.data = mediaViewerProxy.selectedMedia;
+			thumbnailsTopRow.data = mediaViewerProxy.data[0];
+			thumbnailsBottomRow.data = mediaViewerProxy.data[1];
+			
+			thumbnailsTopRow.transitionIn(0);
+			thumbnailsBottomRow.transitionIn(1);
+		}
+		
 		private function modelUpdatedHandler(e:MediaViewerProxyEvent):void
 		{
-			viewer.data = imageViewerProxy.selectedMedia;
-			thumbnailsTopRow.data = imageViewerProxy.data[0];
-			thumbnailsBottomRow.data = imageViewerProxy.data[1];
+			viewer.data = mediaViewerProxy.selectedMedia;
+			thumbnailsTopRow.data = mediaViewerProxy.data[0];
+			thumbnailsBottomRow.data = mediaViewerProxy.data[1];
 		}
 		
 		private function mouseOverHandler(e:MouseEvent):void
@@ -143,25 +154,21 @@ package components.media
 			if (e.target is ThumbnailButton)
 				ThumbnailButton(e.target).out();
 		}
-
+		
 		private function mouseClickHandler(e:MouseEvent):void
 		{
 			if (e.target is ThumbnailButton)
-				imageViewerProxy.selectedMedia = ThumbnailButton(e.target).data;
+				mediaViewerProxy.selectedMedia = ThumbnailButton(e.target).data;
 		}
 		
 		private function nextButtonClickHandler():void
 		{
-			imageViewerProxy.next();
+			mediaViewerProxy.next();
 		}
 		
 		private function previousButtonClickHandler():void
 		{
-			imageViewerProxy.previous();
+			mediaViewerProxy.previous();
 		}
-		
-		
-		
-		
 	}
 }

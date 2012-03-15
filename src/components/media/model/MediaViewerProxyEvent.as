@@ -6,7 +6,7 @@ package components.media.model
 	public class MediaViewerProxyEvent extends Event
 	{
 		public static const UPDATED:String = "updated";
-		public static const MEDIA_SELECTED:String = "mediaSelected";
+		public static const MEDIA_LOADED:String = "mediaLoaded";
 		
 		
 		public function MediaViewerProxyEvent(type:String, bubbles:Boolean=false, cancelable:Boolean=false)

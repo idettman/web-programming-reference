@@ -5,6 +5,6 @@ package components.media.model.vo
 		public var id:String;
 		public var title:String;
 		public var activeMedia:MediaVo;
-		public var images:Vector.<MediaVo>;
+		public var media:Vector.<MediaVo>;
 	}
 }

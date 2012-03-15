@@ -1,5 +1,7 @@
 package components.media.view
 {
+	import com.greensock.TweenLite;
+
 	import components.media.model.vo.GalleryVo;
 	import components.media.model.vo.MediaVo;
 
@@ -26,6 +28,22 @@ package components.media.view
 			mouseEnabled = false;
 		}
 		
+		
+		public function transitionIn(delay:Number=0):void
+		{
+			var i:int = 0;
+			for each (var thumbnailButton:ThumbnailButton in _thumbnails)
+			{
+				if (thumbnailButton.visibleInSelector)
+				{
+					thumbnailButton.visible = false;
+					thumbnailButton.y = -50;
+					TweenLite.to(thumbnailButton, 0.3, {y: 0, visible: true, delay: (i * 0.1) + delay});
+					i++;
+				}
+			}
+		}
+		
 		private function update():void
 		{
 			if (_data)
@@ -38,7 +56,7 @@ package components.media.view
 					var lastRightX:Number;
 					var thumbnail:ThumbnailButton;
 					
-					for each (var media:MediaVo in _data.images)
+					for each (var media:MediaVo in _data.media)
 					{
 						if (thumbnail) lastRightX = thumbnail.getRect(this).right + THUMB_SPACING;
 						else lastRightX = 0;
@@ -69,18 +87,17 @@ package components.media.view
 				{
 					thumbnailOffsetX = scrollRect.x + selectedThumbnail.getRect(this).right - scrollRect.right;
 					if (thumbnailOffsetX < 0) thumbnailOffsetX = 0;
-					viewableArea.x = thumbnailOffsetX;
-					scrollRect = viewableArea;
+					
+					TweenLite.killTweensOf(viewableArea);
+					TweenLite.to(viewableArea, 0.4, { x:thumbnailOffsetX, onUpdate:updateScrollRect});
 				}
-				/*TweenLite.killTweensOf(viewableArea);
-				TweenLite.to(viewableArea, 0.2, { x:thumbnailOffsetX, onUpdate:updateScrollRect});*/
 			}
 		}
-
-		/*public function updateScrollRect():void
+		
+		public function updateScrollRect():void
 		{
 			scrollRect = viewableArea; 
-		}*/
+		}
 		
 		private function updateLayout():void
 		{
@@ -91,9 +108,9 @@ package components.media.view
 				graphics.endFill();
 				
 				viewableArea.x = 0;
-				viewableArea.y = 0;
+				viewableArea.y = -40;
 				viewableArea.width = _width;
-				viewableArea.height = _height;
+				viewableArea.height = _height + 40;
 				
 				scrollRect = viewableArea;
 			}

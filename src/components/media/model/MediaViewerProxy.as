@@ -18,7 +18,7 @@ package components.media.model
 			var galleryA:GalleryVo = new GalleryVo();
 			galleryA.id = "galleryA";
 			galleryA.title = "Gallery A";
-			galleryA.images = new Vector.<MediaVo>();
+			galleryA.media = new Vector.<MediaVo>();
 			
 			var i:int;
 			var media:MediaVo;
@@ -28,13 +28,18 @@ package components.media.model
 				media.id = i.toString();
 				media.image = getRandomBitmapData(300, 250);
 				media.thumbnail = getRandomBitmapData(32, 32);
-				galleryA.images.push(media);
+				galleryA.media.push(media);
 			}
+			
+			// SET DEFAULT GALLERY
+			galleryA.activeMedia = galleryA.media[0];
+			_selectedMedia = galleryA.activeMedia;
+			
 			
 			var galleryB:GalleryVo = new GalleryVo();
 			galleryB.id = "galleryB";
 			galleryB.title = "Gallery B";
-			galleryB.images = new Vector.<MediaVo>();
+			galleryB.media = new Vector.<MediaVo>();
 			
 			for (i = 0; i < 12; i++)
 			{
@@ -42,14 +47,15 @@ package components.media.model
 				media.id = i.toString();
 				media.image = getRandomBitmapData(300, 250);
 				media.thumbnail = getRandomBitmapData(32, 32);
-				galleryB.images.push(media);
+				galleryB.media.push(media);
 			}
 			
 			var galleries:Vector.<GalleryVo> = new Vector.<GalleryVo>();
 			galleries.push(galleryA);
 			galleries.push(galleryB);
 			
-			data = galleries;
+			_data = galleries;
+			dispatchEvent(new MediaViewerProxyEvent(MediaViewerProxyEvent.MEDIA_LOADED));
 		}
 
 		private const RANDOM_COLORS:Vector.<uint> = new <uint>[0xCDCDCD, 0x666666, 0x3b69a8, 0x3ba89f, 0x9c3ba8, 0xa8283d, 0xa87f28, 0xab0000, 0x21902c ];
@@ -58,11 +64,6 @@ package components.media.model
 		{
 			var fillColor:uint = RANDOM_COLORS[Math.round(Math.random() * (RANDOM_COLORS.length-1))]; 
 			return new BitmapData(width, height, false, fillColor);
-		}
-		
-		public function selectDefaultGallery():void
-		{
-			selectedMedia = _data[0].images[0];
 		}
 		
 		public function next():void
@@ -74,13 +75,13 @@ package components.media.model
 				
 				for each (gallery in _data)
 				{
-					mediaGalleryIndex = gallery.images.indexOf(_selectedMedia);
+					mediaGalleryIndex = gallery.media.indexOf(_selectedMedia);
 					
 					if (mediaGalleryIndex != -1)
 					{
-						if ((mediaGalleryIndex+1) < gallery.images.length)
+						if ((mediaGalleryIndex+1) < gallery.media.length)
 						{
-							selectedMedia = gallery.images[mediaGalleryIndex+1]; 
+							selectedMedia = gallery.media[mediaGalleryIndex+1]; 
 						}
 						else
 						{
@@ -91,7 +92,7 @@ package components.media.model
 								nextGallery = _data[currentGalleryIndex + 1];
 							else
 								nextGallery = _data[0];
-							selectedMedia = nextGallery.images[0];
+							selectedMedia = nextGallery.media[0];
 						}
 						return;
 					}
@@ -108,13 +109,13 @@ package components.media.model
 				
 				for each (gallery in _data)
 				{
-					mediaGalleryIndex = gallery.images.indexOf(_selectedMedia);
+					mediaGalleryIndex = gallery.media.indexOf(_selectedMedia);
 					
 					if (mediaGalleryIndex != -1)
 					{
 						if ((mediaGalleryIndex-1) >= 0)
 						{
-							selectedMedia = gallery.images[mediaGalleryIndex-1]; 
+							selectedMedia = gallery.media[mediaGalleryIndex-1]; 
 						}
 						else
 						{
@@ -125,19 +126,11 @@ package components.media.model
 								nextGallery = _data[currentGalleryIndex - 1];
 							else
 								nextGallery = _data[_data.length-1];
-							selectedMedia = nextGallery.images[nextGallery.images.length-1];
+							selectedMedia = nextGallery.media[nextGallery.media.length-1];
 						}
 						return;
 					}
 				}
-			}
-		}
-		
-		private function update():void
-		{
-			if (_data)
-			{
-				dispatchEvent(new MediaViewerProxyEvent(MediaViewerProxyEvent.UPDATED));
 			}
 		}
 		
@@ -148,7 +141,7 @@ package components.media.model
 			for each (var gallery:GalleryVo in _data)
 			{
 				gallery.activeMedia = null;
-				mediaGalleryIndex = gallery.images.indexOf(_selectedMedia);
+				mediaGalleryIndex = gallery.media.indexOf(_selectedMedia);
 				if (mediaGalleryIndex != -1)
 				{
 					gallery.activeMedia = _selectedMedia;
@@ -164,14 +157,14 @@ package components.media.model
 		public function set data(value:Vector.<GalleryVo>):void
 		{
 			_data = value;
-			update();
+			dispatchEvent(new MediaViewerProxyEvent(MediaViewerProxyEvent.UPDATED));
 		}
 		
 		public function destroy():void
 		{
 			_data = null;
 		}
-
+		
 		public function get selectedMedia():MediaVo { return _selectedMedia; }
 		public function set selectedMedia(value:MediaVo):void
 		{
