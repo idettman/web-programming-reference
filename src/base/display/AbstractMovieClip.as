@@ -1,173 +1,112 @@
 package base.display
 {
-	import base.events.ViewEvent;
 
 	import flash.display.MovieClip;
 	import flash.events.Event;
 
 
+	// app.base.AbstractMovieClip
 	public class AbstractMovieClip extends MovieClip
 	{
-		/**
-		 * Order of performance.events
-		 *
-		 * 1) preInit()
-		 *
-		 * 2) addedToStageHandler()
-		 * 3) init()
-		 * 4) initLayout()
-		 * 5) addListeners()
-		 *
-		 * 6) removedFromStageHandler()
-		 * 7) destroy()
-		 * 8) removeListeners();
-		 * 9) destroyLayout();
-		 *
-		 */
-		
-		
-		// Count frames to spacing out code execution on init
-		private var _enterFrameCount:uint;
-		
-		
-		public function AbstractMovieClip()
+		public function AbstractMovieClip ()
 		{
-			super();
-			preInit();
-		}
-		
-		
-		/**
-		 * Executed from the constructor 
-		 */
-		protected function preInit():void
-		{
-			addEventListener(Event.ADDED_TO_STAGE, addedToStageHandler);
-		}
-		
-		
-		/**
-		 * Executed when/if added to stage
-		 */
-		public function init():void
-		{
-			stop();
-			initLayout();
-			addListeners();
-			refreshDisplay();
-		}
-		
-		
-		/**
-		 * Executed when/if removed from stage
-		 */
-		public function destroy():void
-		{
-			stop();
-			removeListeners();
-			destroyLayout();
-		}
-		
-		
-		/**
-		 * Initialize/position display objects
-		 */
-		protected function initLayout():void
-		{
-			
-		}
-		
-		
-		/**
-		 * Cleanup display objects
-		 */
-		protected function destroyLayout():void
-		{
-			while(numChildren)
+			super ();
+
+			setDefaults ();
+
+			if (loaderInfo)
 			{
-				removeChildAt(0);
+				// loaderInfo NOT null, movieclip exists on the fla timeline
+				loaderInfo.addEventListener (Event.COMPLETE, loaderInfoCompleteHandler);
 			}
-			
-		}
-		
-		
-		/**
-		 * Executed after initLayout()
-		 */
-		protected function addListeners():void
-		{
-			addEventListener(Event.REMOVED_FROM_STAGE, removedFromStageHandler);
-		}
-		
-		
-		/**
-		 * Executed before destroy()
-		 */
-		protected function removeListeners():void
-		{
-			removeEventListener(Event.ADDED_TO_STAGE, addedToStageHandler);
-			removeEventListener(Event.REMOVED_FROM_STAGE, removedFromStageHandler);
-		}
-		
-		
-		/**
-		 * Invalidate stage and wait for refresh
-		 */
-		private function refreshDisplay():void
-		{
-			_enterFrameCount = 0;
-			stage.addEventListener(Event.RENDER, stageRenderHandler);
-			stage.invalidate();
-		}
-		
-		
-		/**
-		 * Invalidate stage and EnterFrame count completed, ready to animate
-		 */
-		protected function refreshDisplayComplete():void
-		{
-			dispatchEvent(new ViewEvent(ViewEvent.ADDED_TO_STAGE_COMPLETE));
-		}
-		
-		
-		/**
-		 * Event Handlers for added / removed from stage
-		 */
-		protected function addedToStageHandler(e:Event):void
-		{
-			removeEventListener(Event.ADDED_TO_STAGE, addedToStageHandler);
-			init();
-		}
-		
-		
-		protected function removedFromStageHandler(e:Event):void
-		{
-			removeEventListener(Event.REMOVED_FROM_STAGE, removedFromStageHandler);
-			destroy();
-		}
-		
-		
-		private function stageRenderHandler(e:Event):void
-		{
-			stage.removeEventListener(Event.RENDER, stageRenderHandler);
-			
-			stage.addEventListener(Event.ENTER_FRAME, enterFrameHandler);
-		}
-		
-		
-		private function enterFrameHandler(e:Event):void
-		{
-			if (_enterFrameCount > 3)
+			else
 			{
-				stage.removeEventListener(Event.ENTER_FRAME, enterFrameHandler);
-				
-				_enterFrameCount = 0;
-				refreshDisplayComplete();
-				return;
+				// loaderInfo IS null, movieclip not on fla timeline
+				if (stage)  init ();
+				else        addEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
 			}
-			_enterFrameCount++;
 		}
-		
-		
+
+
+		protected function setDefaults ():void
+		{
+			stop ();
+
+			enabled = false;
+			buttonMode = false;
+			tabEnabled = false;
+			tabChildren = true;
+			mouseEnabled = false;
+			useHandCursor = false;
+			mouseChildren = true;
+			doubleClickEnabled = false;
+		}
+
+
+		/**
+		 * Private Methods
+		 */
+		protected function init ():void
+		{
+			addListeners ();
+		}
+
+
+		protected function destroy ():void
+		{
+			stop ();
+			removeListeners ();
+
+			while (numChildren)
+			{
+				removeChildAt (0);
+			}
+		}
+
+
+		protected function addListeners ():void
+		{
+			addEventListener (Event.UNLOAD, unloadHandler);
+			addEventListener (Event.REMOVED_FROM_STAGE, removedFromStageHandler);
+		}
+
+
+		protected function removeListeners ():void
+		{
+			removeEventListener (Event.UNLOAD, unloadHandler);
+			removeEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
+			removeEventListener (Event.REMOVED_FROM_STAGE, removedFromStageHandler);
+			if (loaderInfo)loaderInfo.removeEventListener (Event.COMPLETE, loaderInfoCompleteHandler);
+		}
+
+
+		/**
+		 * Event Handlers
+		 */
+		protected function loaderInfoCompleteHandler (e:Event):void
+		{
+			loaderInfo.removeEventListener (Event.COMPLETE, loaderInfoCompleteHandler);
+			if (stage)  init ();
+			else        addEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
+		}
+
+
+		protected function addedToStageHandler (e:Event):void
+		{
+			removeEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
+			init ();
+		}
+
+
+		protected function removedFromStageHandler (e:Event):void
+		{
+			destroy ();
+		}
+
+
+		protected function unloadHandler (e:Event):void
+		{
+			destroy ();
+		}
 	}
 }
