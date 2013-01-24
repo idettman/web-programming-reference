@@ -16,25 +16,53 @@
 
 
 		<script>
-			init();
-			animate();
+
+
+			addEvent(window, 'load', init);
+
+			function addEvent(obj, evType, fn, useCapture){
+				if (obj.addEventListener){
+					obj.addEventListener(evType, fn, useCapture);
+					return true;
+				} else if (obj.attachEvent){
+					return obj.attachEvent("on" + evType, fn);
+				}
+			}
 
 			function init()
 			{
 				var output = document.createElement( 'div' );
-				output.style.cssText = 'position: absolute; left: 50px; top: 300px; background-color: #550000; width:100px; height:100px';
-				output.innerHTML = "&nbsp;";
-				document.body.appendChild( output );
+				output.style.cssText = 'position: relative; margin-left: 50px; margin-top: 300px; background-color: #550000; width:50px; height:50px';
+				document.body.appendChild(output);
 
-				var tween = new TWEEN.Tween( { x: 50, y: 0 } )
-						.to( { x: 400 }, 4000 )
-						.easing( TWEEN.Easing.Elastic.InOut )
-						.onUpdate( function ()
-						{
-							/*output.innerHTML = 'x == ' + Math.round( this.x );*/
-							output.style.left = this.x + 'px';
-						} )
+
+				var elem = {x: 50, y: 0};
+
+				var tweenStart = new TWEEN.Tween(elem)
+						.to( { x: 1000 }, 2000 )
+						.easing( TWEEN.Easing.Elastic.In )
+						.onUpdate(updateTween)
 						.start();
+
+				var tweenEnd = new TWEEN.Tween(elem, false )
+						.to( { x: 50 }, 3000 )
+						.easing( TWEEN.Easing.Cubic.Out )
+						.onUpdate(updateTween);
+
+				function updateTween()
+				{
+					/*output.innerHTML = 'x == ' + Math.round( this.x );*/
+					/*output.style.marginLeft = this.x + 'px';*/
+					/*output.style.left = Math.round(this.x) + 'px';*/
+					output.style.marginLeft = Math.round(this.x) + 'px';
+					output.style.height = this.x + 'px';
+
+				}
+
+				tweenStart.chain(tweenEnd);
+				tweenEnd.chain(tweenStart);
+
+				animate();
 			}
 
 			function animate()
