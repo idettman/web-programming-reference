@@ -1,0 +1,97 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+/* Wrap the size of the content */
+.wrapper {
+	height: 100%;
+	min-height: 768px;
+	min-width: 1024px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.wrapper #content {
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+.wrapper #content > div {
+	height: 100%;
+	width: 100%;
+}
+
+.wrapper #content .altContent {
+	display: none;
+	height: 100%;
+	position: relative;
+}
+
+/* Desktop fallback */
+.wrapper #content .altContent.desktop {
+	background-color: #15597a;
+	background-image: url('../img/gr-bg-loop.png');
+	background-position: center top;
+	background-repeat: repeat-y;
+}
+
+.wrapper #content .altContent.desktop .center {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.wrapper #content .altContent.desktop header {
+	background-image: url('../img/gr-header-bg.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 184px;
+}
+
+.wrapper #content .altContent.desktop header .center a {
+	display: block;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+.wrapper #content .altContent.desktop header .center a.seeOtherGames {
+	background-image: url('../img/btn-see-other-games.png');
+	height: 33px;
+	left: 110px;
+	top: 90px;
+	width: 139px;
+}
+
+.wrapper #content .altContent.desktop header .center a.logo {
+	background-image: url('../img/gr-logo.png');
+	height: 258px;
+	left: 255px;
+	margin-bottom: -93px;
+	top: 0px;
+	width: 450px;
+}
+
+.wrapper #content .altContent.desktop header .center a.introducingNewIcedCoffeeLight {
+	background-image: url('../img/btn-introducing-new-iced-coffee-light.png');
+	height: 124px;
+	left: 705px;
+	margin-bottom: -77px;
+	top: 43px;
+	width: 135px;
+}
+
+.wrapper #content .altContent.desktop div.copy {
+
+}
+
+.wrapper #content .altContent.desktop div.copy .center {
+	color: #ddebf5;
+	padding-top: 100px;
+	text-align: center;
+}

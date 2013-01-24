@@ -1,0 +1,96 @@
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"
+		>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<!-- Wrap the content to be the full width and height of the page -->
+	<div class='wrapper' style='display: none'>
+		<div id="flashContent" data-src='FlashFbApplicationSwf.swf'></div>
+	</div>
+
+	<div id='fb-root'></div>
+
+	<script>
+
+		var facebookAppId = "appid";
+		var facebookChannelUrl = "//WWW.site.COM/channel.html";
+
+
+		/*   Called when flash initializes completely  */
+		function checkFacebookLoginStatus()
+		{
+			window.flashFbApplication.flashInitComplete();
+		}
+
+		function facebookLogin()
+		{
+			window.flashFbApplication.logIn();
+		}
+
+		function postQuestionToFacebook(questionText)
+		{
+			window.flashFbApplication.postQuestionToFacebook(questionText);
+		}
+
+		function postQuestionToTwitter(questionText)
+		{
+			window.flashFbApplication.postQuestionToTwitter(questionText);
+		}
+
+		function shareApplicationOnTwitter()
+		{
+			var shareUrl = 'http://www.sonicdrivein.com/';
+			var shareText = "Check out this site";
+			var shareHashTags = '&hashtags=Predictathon,Sonic,Groundhog';
+			window.flashFbApplication.shareApplicationOnTwitter(shareUrl, shareText, shareHashTags);
+
+			return false;
+		}
+
+		function shareApplicationByEmail()
+		{
+			var subject = "Sonic DriveIn Predictathon";
+			var shareUrl = 'http://www.sonicdrivein.com/';
+			window.flashFbApplication.shareApplicationByEmail(subject, shareUrl);
+
+			return false;
+		}
+
+		function shareApplicationOnFacebook()
+		{
+			var subject = "Sonic DriveIn Predictathon";
+			var shareText = "Check out this site";
+			var shareUrl = 'http://www.sonicdrivein.com/';
+			var shareImage = 'http://www.hookfilez.com/sonic_groundhog/2013-01-18/fb_share_thumb.jpg';
+			var shareDescription = 'Ask the groundhog....';
+			window.flashFbApplication.shareApplicationOnFacebook(subject, shareText, shareUrl, shareImage, shareDescription);
+
+			return false;
+		}
+
+
+		function closeWindow()
+		{
+			$(document).close();
+		}
+	</script>
+
+	<!-- Load scripts -->
+	<script src="js/vendor/jquery-1.8.3.min.js"></script>
+	<script src="js/vendor/mdetect.js"></script>
+	<script src="js/vendor/swfobject.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
