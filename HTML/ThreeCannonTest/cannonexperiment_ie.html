@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>three.js / cannon.js example</title>
+		<meta charset="utf-8">
+		<style>* {margin:0;padding:0}</style>
+
+	</head>
+	<body>
+		<script src="libs/vendors/cannon.js/cannon.js"></script>
+		<script src="libs/vendors/requestanimationframe.js/RequestAnimationFrame.js"></script>
+
+		<div id="rect" style="position: absolute; background-color: #FF0000; left: 300px; width: 100px; height: 100px">i</div>
+
+		<script>
+
+			var rectangle = document.getElementById("rect");
+
+
+			var world, mass, body, shape, timeStep=1/60;
+
+			initCannon();
+			animate();
+
+			function initCannon()
+			{
+				world = new CANNON.World();
+				world.gravity.set(0,-6,0);
+				world.broadphase = new CANNON.NaiveBroadphase();
+				world.solver.iterations = 10;
+
+				shape = new CANNON.Box(new CANNON.Vec3(1,10,1));
+				mass = 1;
+				body = new CANNON.RigidBody(mass,shape);
+				body.angularVelocity.set(0,0,0);
+				body.angularDamping = 0.5;
+				world.add(body);
+
+				// ground plane
+				var groundShape = new CANNON.Plane(new CANNON.Vec3(10,0,10));
+				var groundBody = new CANNON.RigidBody(0,groundShape);
+				groundBody.position.set(0,0,0);
+				world.add(groundBody);
+			}
+
+			function animate()
+			{
+				updatePhysics();
+				requestAnimationFrame( animate );
+			}
+
+			function updatePhysics() {
+
+				// Step the physics world
+				world.step(timeStep);
+
+				// Copy coordinates from Cannon.js to Three.js
+				console.log("update physics:" + timeStep + ":" + body.position);
+
+				rectangle.style.top = (-body.position.y) + "px";
+
+				/*body.position.copy(mesh.position);
+				body.quaternion.copy(mesh.quaternion);
+
+				console.log("update physics" + mesh.position.x);*/
+			}
+
+		</script>
+	</body>
+</html>
