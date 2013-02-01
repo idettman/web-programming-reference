@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dynamic Navigation</title>
+
+		<style>
+
+			.navContainer
+			{
+				border: #00008b solid 1px;
+				background-color: #666666;
+				padding: 4px;
+			}
+
+			.navContainer div
+			{
+				float:left;
+				margin-left: 20px;
+				padding: 8px;
+				color: white;
+				background-color: #0d3349;
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<script>
+			// Create navigation using a list and add click events to each li element
+
+
+			function DynamicNavigation () {}
+
+
+			DynamicNavigation.prototype.data = function (navItemVoList)
+			{
+				// Create container for navigation
+
+
+				var navContainer = document.createElement ('div');
+				navContainer.className = 'navContainer';
+
+
+				// Generate navigation links
+
+
+				var navItem;
+				for (var i = 0; i < navItemVoList.length; i++)
+				{
+					navItem = document.createElement ('div');
+					navItem.innerHTML = navItemVoList[i].linkTitle;
+					navContainer.appendChild (navItem);
+				}
+
+
+				// End navigation with html element with clear: both
+
+				var clearNavigation = document.createElement ('br');
+				clearNavigation.style.cssText = 'display:block; clear: both; visibility: hidden;';
+				navContainer.appendChild (clearNavigation);
+
+
+				// Finally add navContainer with child nav item nodes to body
+				document.body.appendChild (navContainer);
+			}
+
+
+			function NavItemVo (id, linkUrl, linkTitle)
+			{
+				this.id = id;
+				this.linkUrl = linkUrl;
+				this.linkTitle = linkTitle;
+			}
+
+
+
+			var navItemData = [
+				new NavItemVo ('home', 'home.html', 'Home'),
+				new NavItemVo ('resume', 'resume.html', 'Resume'),
+				new NavItemVo ('gallery', 'gallery.html', 'Gallery'),
+				new NavItemVo ('about', 'about.html', 'Page')
+			];
+
+
+			var mainNavigation = new DynamicNavigation ();
+			mainNavigation.data (navItemData);
+
+		</script>
+	</body>
+</html>
