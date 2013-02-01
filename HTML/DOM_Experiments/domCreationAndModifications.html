@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>DOM Creation and Modification</title>
+		<style>
+
+			.navContainer
+			{
+				border: #0d3349 solid 2px;
+				padding: 8px;
+
+			}
+
+			.firstNavItem
+			{
+				float:left;
+				width:120px;
+				padding:10px;
+				margin-left: 0;
+				background-color: #C6E746;
+			}
+
+			.navItem
+			{
+				float: left;
+				width: 120px;
+				margin-left: 20px;
+				background-color: #550000;
+			}
+
+			.lastNavItem
+			{
+				float: left;
+				clear: right;
+				width: 120px;
+				padding: 10px;
+				margin-left: 20px;
+				background-color: #528CE0;
+
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<script>
+
+			var SiteLayout = function () {}
+
+
+			SiteLayout.createNavigation = function()
+			{
+				// Create the container div to hold the navigation
+				var navContainer = document.createElement('div');
+				navContainer.className = 'navContainer';
+				document.body.appendChild(navContainer);
+
+
+				for (var i = 0; i < 3; i++)
+				{
+					var navItem = document.createElement('div');
+					navItem.innerHTML = 'Foo Bar';
+
+
+					// First nav item
+					if (i == 0) {
+						navItem.className = 'firstNavItem';
+					}
+					// Last nav item
+					else if (i == 2) {
+						navItem.className = 'lastNavItem';
+					}
+					else {
+						navItem.className = 'navItem';
+					}
+
+					navContainer.appendChild(navItem);
+				}
+
+
+
+				// When you float elements, you need to add an element that has a style: clear: both
+				var clearNavItems = document.createElement('div');
+				clearNavItems.style.cssText = 'clear: both; visibility: hidden;';
+				navContainer.appendChild(clearNavItems);
+			}
+
+
+			SiteLayout.createNavigation();
+		</script>
+	</body>
+</html>
