@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<script src="libs/vendors/cannon.js"></script>
+		<script src="libs/vendors/cannon.demo.js"></script>
+		<script src="libs/vendors/dat.gui.js"></script>
+		<script src="libs/vendors/Three.js"></script>
+		<script src="libs/vendors/Detector.js"></script>
+		<script src="libs/vendors/Stats.js"></script>
+		<script src="libs/vendors/smoothie.js"></script>
+
+		<script>
+
+			addEvent(window, 'load', init);
+
+			function addEvent(obj, evType, fn, useCapture){
+				if (obj.addEventListener){
+					obj.addEventListener(evType, fn, useCapture);
+					return true;
+				} else if (obj.attachEvent){
+					return obj.attachEvent("on" + evType, fn);
+				}
+			}
+
+			function init()
+			{
+				var demo = new CANNON.Demo();
+
+				// Using the preStep callback to add a force
+				demo.addScene("Moon",function(){
+					var world = demo.getWorld();
+
+					var mass = 5/0.8;
+					var moonShape = new CANNON.Sphere(0.5);
+					var planetShape = new CANNON.Sphere(3.5);
+					var moon = new CANNON.RigidBody(mass,moonShape);
+					var planet = new CANNON.RigidBody(100,planetShape);
+					moon.position.set(5,0,0);
+					moon.velocity.set(0,0,8);
+					moon.linearDamping = 0.0;
+
+					// Use the preStep callback to apply the gravity force on the moon.
+					// This callback is evoked each timestep
+					moon.preStep = function(){
+						// Get the vector pointing from the moon to the planet center
+						var moon_to_planet = new CANNON.Vec3();
+						this.position.negate(moon_to_planet);
+
+						// Get distance from planet to moon
+						var distance = moon_to_planet.norm();
+
+						// Now apply force on moon
+						// Fore is pointing in the moon-planet direction
+						moon_to_planet.normalize();
+						moon_to_planet.mult(1500/Math.pow(distance,2),this.force);
+					}
+
+					world.add(moon);
+					world.add(planet);
+					demo.addVisual(moon);
+					demo.addVisual(planet);
+				});
+
+				demo.start();
+			}
+		</script>
+
+	</body>
+</html>
