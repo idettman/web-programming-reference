@@ -90,26 +90,25 @@
 			{
 				var bodyElements = document.body.childNodes;
 
-
 				for (var i = 0; i < bodyElements.length; i++)
 				{
-					console.log('element:'+bodyElements[i].id);
-
+					console.log('element:'+bodyElements[i]);
 
 					if (bodyElements[i].id === 'navContainer')
 					{
 						document.body.removeChild(bodyElements[i]);
 					}
-
 				}
 
-
-				console.log(document.body.childNodes.length);
+				var destroyCompleteMessage = document.createElement('div');
+				destroyCompleteMessage.innerHTML = 'Destroy Complete!';
+				document.body.appendChild(destroyCompleteMessage);
 			}
 
-
 			SiteLayout.createNavigation();
-			SiteLayout.destroyNavigation();
+			setTimeout(SiteLayout.destroyNavigation, 3000);
+
+			/*SiteLayout.destroyNavigation();*/
 		</script>
 	</body>
 </html>
