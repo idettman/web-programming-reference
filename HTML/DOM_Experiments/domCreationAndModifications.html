@@ -51,6 +51,7 @@
 			{
 				// Create the container div to hold the navigation
 				var navContainer = document.createElement('div');
+				navContainer.id = 'navContainer';
 				navContainer.className = 'navContainer';
 				document.body.appendChild(navContainer);
 
@@ -85,7 +86,30 @@
 			}
 
 
+			SiteLayout.destroyNavigation = function()
+			{
+				var bodyElements = document.body.childNodes;
+
+
+				for (var i = 0; i < bodyElements.length; i++)
+				{
+					console.log('element:'+bodyElements[i].id);
+
+
+					if (bodyElements[i].id === 'navContainer')
+					{
+						document.body.removeChild(bodyElements[i]);
+					}
+
+				}
+
+
+				console.log(document.body.childNodes.length);
+			}
+
+
 			SiteLayout.createNavigation();
+			SiteLayout.destroyNavigation();
 		</script>
 	</body>
 </html>
