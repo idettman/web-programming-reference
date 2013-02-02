@@ -1,5 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"
-		>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
 
 <head>
 	<meta charset="utf-8">
@@ -50,9 +49,9 @@
 
 		function shareApplicationOnTwitter()
 		{
-			var shareUrl = 'http://www.sonicdrivein.com/';
+			var shareUrl = 'http://www.testsite.com/';
 			var shareText = "Check out this site";
-			var shareHashTags = '&hashtags=Predictathon,Sonic,Groundhog';
+			var shareHashTags = '&hashtags=TwitterTest';
 			window.flashFbApplication.shareApplicationOnTwitter(shareUrl, shareText, shareHashTags);
 
 			return false;
@@ -60,8 +59,8 @@
 
 		function shareApplicationByEmail()
 		{
-			var subject = "Sonic DriveIn Predictathon";
-			var shareUrl = 'http://www.sonicdrivein.com/';
+			var subject = "Email Share Title";
+			var shareUrl = 'http://www.testsite.com/';
 			window.flashFbApplication.shareApplicationByEmail(subject, shareUrl);
 
 			return false;
@@ -69,11 +68,11 @@
 
 		function shareApplicationOnFacebook()
 		{
-			var subject = "Sonic DriveIn Predictathon";
+			var subject = "Feed Subject";
 			var shareText = "Check out this site";
-			var shareUrl = 'http://www.sonicdrivein.com/';
-			var shareImage = 'http://www.hookfilez.com/sonic_groundhog/2013-01-18/fb_share_thumb.jpg';
-			var shareDescription = 'Ask the groundhog....';
+			var shareUrl = 'http://www.testsite.com/';
+			var shareImage = 'http://www.testsite.com/fb_share_thumb.jpg';
+			var shareDescription = 'Share description....';
 			window.flashFbApplication.shareApplicationOnFacebook(subject, shareText, shareUrl, shareImage, shareDescription);
 
 			return false;

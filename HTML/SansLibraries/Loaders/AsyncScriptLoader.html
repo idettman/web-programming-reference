@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+
 		<title>JS Async Script Loader</title>
 	</head>
 	<body>
 		<script>
 
+
 			var Loader = function () {}
+
 
 			Loader.prototype = {
 
@@ -24,29 +28,36 @@
 				},
 
 
-				loaded: function (evt)
+				loaded: function (evt, script)
 				{
 					this.loadCount++;
 
-					if (this.loadCount == this.totalRequired)
+					console.log (script + ' loaded: progress=' + (this.totalRequired/this.loadCount));
+					/*console.log (evt);*/
+
+
+					if (this.loadCount == this.totalRequired && typeof this.callback == 'function')
 					{
-						if (typeof this.callback == 'function' && this.callback instanceof Function)
-						{
-							//noinspection JSCheckFunctionSignatures
-							this.callback.call();
-						}
+						//noinspection JSCheckFunctionSignatures
+						this.callback.call();
 					}
 				},
 
 
-				createScript: function(src) {
+				createScript: function(src)
+				{
 					var self = this;
 
 					var s = document.createElement ('script');
 					s.type = "text/javascript";
 					s.async = true;
 					s.src = src;
-					s.addEventListener('load', function (e) { self.loaded(e);}, false);
+
+
+					s.addEventListener('load', function (e, src)
+					{
+						self.loaded(e, src);
+					}, false);
 
 					var head = document.getElementsByTagName ('head')[0];
 					head.appendChild (s);
@@ -57,14 +68,16 @@
 
 			var l = new Loader ();
 			l.require ([
-				"http://code.jquery.com/jquery-1.9.0.min.js"
+				"http://code.jquery.com/jquery-1.9.0.min.js",
+				"http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js"
 			],  onScriptLoadsComplete);
 
 
 			function onScriptLoadsComplete ()
 			{
-				console.log ("jquery loaded");
+				console.log("all scripts loaded");
 			}
+
 		</script>
 	</body>
 </html>

@@ -1,72 +1,110 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 	<head>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width">
+
+		<meta http-equiv="refresh" content="10">
+
+
 		<title>Dynamic Navigation</title>
 
 		<style>
+			body
+			{
+				margin: 0;
+				overflow: auto;
+			}
 
 			.navContainer
 			{
-				border: #00008b solid 1px;
-				background-color: #666666;
-				padding: 4px;
+				border: #000000 solid 0.2em;
+				background-color: #a0dde9;
 			}
 
 			.navContainer div
 			{
 				float:left;
-				margin-left: 20px;
-				padding: 8px;
+				margin: 0;
+				padding: 4px 10px 4px 10px;
+				font-family: sans-serif;
+				font-size: 1.5em;
 				color: white;
-				background-color: #0d3349;
-
+				background-color: #666666;
+				cursor: pointer;
 			}
-
 		</style>
 	</head>
 	<body>
 		<script>
+
 			// Create navigation using a list and add click events to each li element
-
-
 			function DynamicNavigation () {}
 
 
-			DynamicNavigation.prototype.data = function (navItemVoList)
-			{
-				// Create container for navigation
+			DynamicNavigation.prototype = {
 
-
-				var navContainer = document.createElement ('div');
-				navContainer.className = 'navContainer';
-
-
-				// Generate navigation links
-
-
-				var navItem;
-
-				for (var i = 0; i < navItemVoList.length; i++)
+				data: function (navItemVoList)
 				{
-					navItem = document.createElement ('div');
-					navItem.innerHTML = navItemVoList[i].linkTitle;
-					navContainer.appendChild (navItem);
+					// Create navigation container div
+					var navContainer = document.createElement ('div');
+					navContainer.className = 'navContainer';
+
+
+					// Create and append navigation links to container
+					for (var i = 0; i < navItemVoList.length; i++)
+					{
+						//noinspection JSValidateTypes
+						var navigationLink = new NavigationLink (navItemVoList[i]);
+						navContainer.appendChild (navigationLink.htmlElement);
+						navigationLink.linkSelected ();
+					}
+
+
+					// End navigation with html element with clear: both
+					var clearNavigation = document.createElement ('br');
+					clearNavigation.style.cssText = 'display:block; clear: both; visibility: hidden; margin:0; padding:0';
+					navContainer.appendChild (clearNavigation);
+
+
+					// Finally add navContainer with child nav item nodes to body
+					document.body.appendChild (navContainer);
 				}
-
-
-				// End navigation with html element with clear: both
-
-				var clearNavigation = document.createElement ('br');
-				clearNavigation.style.cssText = 'display:block; clear: both; visibility: hidden;';
-				navContainer.appendChild (clearNavigation);
-
-
-				// Finally add navContainer with child nav item nodes to body
-				document.body.appendChild (navContainer);
 			}
 
 
-			function NavItemVo (id, linkUrl, linkTitle)
+			function NavigationLink (data)
+			{
+				this.data = data;
+				this.htmlElement = document.createElement ('div');
+				this.htmlElement.innerHTML = data.linkTitle;
+
+
+				this.onClickHandler = function(event)
+				{
+
+				};
+
+				this.onOutHandler = function(event)
+				{
+
+				};
+
+				this.onOverHandler = function(event)
+				{
+
+				};
+
+				this.htmlElement.addEventListener ("click", this.onClickHandler);
+				this.htmlElement.addEventListener ("mouseout", this.onOutHandler);
+				this.htmlElement.addEventListener ("mouseover", this.onOverHandler);
+			}
+
+
+			function LinkVo (id, linkUrl, linkTitle)
 			{
 				this.id = id;
 				this.linkUrl = linkUrl;
@@ -74,17 +112,31 @@
 			}
 
 
+			var Application = {
 
-			var navItemData = [
-				new NavItemVo ('home', 'home.html', 'Home'),
-				new NavItemVo ('resume', 'resume.html', 'Resume'),
-				new NavItemVo ('gallery', 'gallery.html', 'Gallery'),
-				new NavItemVo ('about', 'about.html', 'Page')
-			];
+				init: function ()
+				{
+					var linkVoList = [
+						new LinkVo ('home',     'home.html',    'Home'),
+						new LinkVo ('resume',   'resume.html',  'Resume'),
+						new LinkVo ('gallery',  'gallery.html', 'Gallery'),
+						new LinkVo ('about',    'about.html',   'Page')
+					];
 
 
-			var mainNavigation = new DynamicNavigation ();
-			mainNavigation.data (navItemData);
+					var mainNavigation = new DynamicNavigation ();
+					mainNavigation.data (linkVoList);
+				}
+			}
+
+
+
+
+			window.onload = function ()
+			{
+				Application.init ();
+			}
+
 
 		</script>
 	</body>
