@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+
+			Function.prototype.bind = function (object)
+			{
+				var method = this;
+				return function ()
+				{
+					return method.apply(object, arguments);
+				}
+			}
+
+
+			function Event()
+			{
+				this.events = [];
+				this.buildinEvents = [];
+
+				alert ("Event");
+			}
+
+
+			var evt = new Event ();
+		</script>
+
+	</body>
+</html>
