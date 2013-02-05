@@ -21,9 +21,7 @@ Loader.prototype = {
 	{
 		this.loadCount++;
 
-		console.log (script + ' loaded: progress=' + (this.totalRequired / this.loadCount));
-		/*console.log (evt);*/
-
+		console.log (script + ' loaded: progress=' + (this.loadCount / this.totalRequired));
 
 		if (this.loadCount == this.totalRequired && typeof this.callback == 'function')
 		{

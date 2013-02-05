@@ -32,9 +32,7 @@
 				{
 					this.loadCount++;
 
-					console.log (script + ' loaded: progress=' + (this.totalRequired/this.loadCount));
-					/*console.log (evt);*/
-
+					console.log (script + ' loaded: progress=' + (this.loadCount/this.totalRequired));
 
 					if (this.loadCount == this.totalRequired && typeof this.callback == 'function')
 					{
@@ -65,11 +63,11 @@
 			}
 
 
-
 			var l = new Loader ();
 			l.require ([
 				"http://code.jquery.com/jquery-1.9.0.min.js",
-				"http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js"
+				"http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js",
+				"https://raw.github.com/idettman/ProductionLib/master/HTML/MinimalLib/bindscope.js"
 			],  onScriptLoadsComplete);
 
 
