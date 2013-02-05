@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+
+			function BaseDisplay(id)
+			{
+				this.id = id;
+			}
+
+
+			BaseDisplay.prototype = {
+
+				id:null,
+
+				update: function () {
+
+				}
+			}
+
+
+			function DisplayElement(id)
+			{
+				BaseDisplay.call (this, id);
+
+
+			}
+
+		</script>
+	</body>
+</html>

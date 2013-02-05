@@ -60,7 +60,7 @@
 						//noinspection JSValidateTypes
 						var navigationLink = new NavigationLink (navItemVoList[i]);
 						navContainer.appendChild (navigationLink.htmlElement);
-						navigationLink.linkSelected ();
+						/*navigationLink.linkSelected ();*/
 					}
 
 
@@ -90,12 +90,12 @@
 
 				this.onOutHandler = function(event)
 				{
-
+					/*this.htmlElement.innerHTML = data.linkTitle;*/
 				};
 
-				this.onOverHandler = function(event)
+				this.onOverHandler = function()
 				{
-
+					/*this.htmlElement.innerHTML = "over";*/
 				};
 
 				this.htmlElement.addEventListener ("click", this.onClickHandler);
@@ -117,12 +117,11 @@
 				init: function ()
 				{
 					var linkVoList = [
-						new LinkVo ('home',     'home.html',    'Home'),
-						new LinkVo ('resume',   'resume.html',  'Resume'),
-						new LinkVo ('gallery',  'gallery.html', 'Gallery'),
-						new LinkVo ('about',    'about.html',   'Page')
+						new LinkVo ('home',     'home.html',    'Home Page'),
+						new LinkVo ('resume',   'resume.html',  'Resume Page'),
+						new LinkVo ('gallery',  'gallery.html', 'Gallery Page'),
+						new LinkVo ('about',    'about.html',   'Bout Page')
 					];
-
 
 					var mainNavigation = new DynamicNavigation ();
 					mainNavigation.data (linkVoList);

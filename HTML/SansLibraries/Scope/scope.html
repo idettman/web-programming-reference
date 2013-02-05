@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+
+			var iAmGlobal = "Global Var";
+
+
+
+
+			function BaseElement ()
+			{
+				alert ("constructor:" + this);
+			}
+
+
+			function ExtendedElement ()
+			{
+				BaseElement.call (this);
+			}
+
+
+			var element1 = new ExtendedElement ();
+
+		</script>
+	</body>
+</html>

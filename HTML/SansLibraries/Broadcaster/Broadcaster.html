@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Broadcaster</title>
+
+		<style>
+
+			body
+			{
+				margin: 0;
+			}
+
+			.navContainer
+			{
+
+			}
+		</style>
+
+	</head>
+	<body>
+		<script>
+
+			var ulElement = document.createElement ('ul');
+			ulElement.className = 'navContainer';
+
+			var liElement;
+
+			for (var i = 0; i < 10; i++)
+			{
+				liElement = document.createElement ('li');
+				liElement.innerHTML = 'element:' + (i + 1);
+
+				ulElement.appendChild (liElement);
+			}
+
+
+			document.body.appendChild (ulElement);
+
+		</script>
+	</body>
+</html>
