@@ -40,7 +40,7 @@
 
 
 
-			// Global scope, can go no higher
+			// Global variable scope
 			var iAmGlobal = "Global Var";
 
 
@@ -101,8 +101,7 @@
 			link.innerHTML = 'Click Me';
 			link.style.cssText = 'width:200px; height:24px; position:relative; background-color:#FF000F; cursor: pointer';
 			link.addEventListener ('mouseout', onMouseOutHandler);
-			link.addEventListener ('mouseover', onMouseOverHandler);
-			/*link.addEventListener ('mouseover', onMouseOverHandler.bindContext(this));*/
+			link.addEventListener ('mouseover', onMouseOverHandler.bindContext(this));
 			document.body.appendChild (link);
 
 
@@ -110,27 +109,30 @@
 			{
 				if (this instanceof HTMLDivElement)
 				{
-					/*console.log ('mouse over');*/
 					this.style.backgroundColor = '#00FF00';
+					this.innerHTML = 'OVER: DIV SCOPE';
 				}
-
-
-				/*console.log ('\nScope in event handler: onMouseOverHandler (scope will be global is event attached to html, will be dom element specific if attached to div');
-				console.log (this);
-				console.log ('Is body:', this.parentNode instanceof HTMLBodyElement);
-
-				if (this.parentNode && this.parentNode.parentNode)
+				else
 				{
-					console.log ('Is html node:', this.parentNode.parentNode instanceof HTMLElement);
-				}*/
+					var div = event.target;
+					div.style.backgroundColor = '#00FF00';
+					div.innerHTML = 'OVER: WINDOW SCOPE';
+				}
 			}
+
 
 			function onMouseOutHandler (event)
 			{
 				if (this instanceof HTMLDivElement)
 				{
-					/*console.log ('mouse over');*/
-					this.style.backgroundColor = '#FF0000';
+					this.style.backgroundColor = '#00FF00';
+					this.innerHTML = 'OUT: DIV SCOPE';
+				}
+				else
+				{
+					var div = event.target;
+					div.style.backgroundColor = '#00FF00';
+					div.innerHTML = 'OUT: WINDOW SCOPE';
 				}
 			}
 
