@@ -100,6 +100,7 @@
 			link.id = 'testButton'
 			link.innerHTML = 'Click Me';
 			link.style.cssText = 'width:200px; height:24px; position:relative; background-color:#FF000F; cursor: pointer';
+			link.addEventListener ('mouseout', onMouseOutHandler);
 			link.addEventListener ('mouseover', onMouseOverHandler);
 			/*link.addEventListener ('mouseover', onMouseOverHandler.bindContext(this));*/
 			document.body.appendChild (link);
@@ -107,13 +108,29 @@
 
 			function onMouseOverHandler (event)
 			{
-				console.log ('\nScope in event handler: onMouseOverHandler (scope will be global is event attached to html, will be dom element specific if attached to div');
+				if (this instanceof HTMLDivElement)
+				{
+					/*console.log ('mouse over');*/
+					this.style.backgroundColor = '#00FF00';
+				}
+
+
+				/*console.log ('\nScope in event handler: onMouseOverHandler (scope will be global is event attached to html, will be dom element specific if attached to div');
 				console.log (this);
 				console.log ('Is body:', this.parentNode instanceof HTMLBodyElement);
 
 				if (this.parentNode && this.parentNode.parentNode)
 				{
 					console.log ('Is html node:', this.parentNode.parentNode instanceof HTMLElement);
+				}*/
+			}
+
+			function onMouseOutHandler (event)
+			{
+				if (this instanceof HTMLDivElement)
+				{
+					/*console.log ('mouse over');*/
+					this.style.backgroundColor = '#FF0000';
 				}
 			}
 
