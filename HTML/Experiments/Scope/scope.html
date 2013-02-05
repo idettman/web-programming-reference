@@ -7,24 +7,85 @@
 		<script>
 
 
+			// Global scope, can go no higher
 			var iAmGlobal = "Global Var";
 
 
-
-
-			function BaseElement ()
+			// Scope in function
+			function go ()
 			{
-				alert ("constructor:" + this);
+				console.log ('Scope in function: go');
+				console.log (this);
+				console.log ('--------');
+			}
+			go ();
+
+
+			// Scope in object literal
+			var myObject = {
+
+				self: this,
+
+				go: function(param)
+				{
+					console.log ('Scope in object literal: myObject');
+					console.log (this);
+					console.log ('--------');
+				}
+			}
+
+			// Call at Object scope
+			myObject.go ();
+
+			// Call at Global/Window scope
+			myObject.go.call (this);
+
+
+			// Scope in function as constructor
+			function MyClass()
+			{
+				this.self = this;
+
+				this.go = function (param)
+				{
+					console.log ('Scope in function as constructor: MyClass');
+					console.log (this);
+					console.log ('--------');
+				}
+			}
+			var myClass = new MyClass ();
+
+			// Call at Object scope
+			myClass.go();
+
+			// Call at Global/Window scope
+			myClass.go.call(this);
+
+
+
+
+
+			// Scope in event handler
+			var link = document.createElement('div');
+			link.id = 'testButton'
+			link.innerHTML = 'Click Me';
+			link.style.cssText = 'width:200px; height:24px; position:relative; background-color:#FF000F; cursor: pointer';
+			link.addEventListener ('mouseover', onMouseOverHandler);
+			/*link.addEventListener ('mouseover', myObject.go);*/
+			document.body.appendChild (link);
+
+			function onMouseOverHandler (event)
+			{
+				console.log ('Scope in event handler: onMouseOverHandler (scope will be global is event attached to html, will be dom element specific if attached to div');
+				console.log (this);
+				console.log ('--------');
 			}
 
 
-			function ExtendedElement ()
-			{
-				BaseElement.call (this);
-			}
 
 
-			var element1 = new ExtendedElement ();
+			// Fix scope for event listener
+
 
 		</script>
 	</body>
