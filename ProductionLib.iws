@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.ipr" afterPath="$PROJECT_DIR$/ProductionLib.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Experiments/Inheritance/inheritance.html" afterPath="$PROJECT_DIR$/HTML/Experiments/Inheritance/inheritance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Experiments/Scope/scope.html" afterPath="$PROJECT_DIR$/HTML/Experiments/Scope/scope.html" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360096825416" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360098572450" ignored="false" />
     <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359750422283" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968520967" ignored="false" />
@@ -501,7 +498,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix: scriptloader console log progress was not using correct order for divisor and base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mouseover style changes to div element" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -514,7 +511,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Removed empty classes" />
     <MESSAGE value="Refactored all flash files under parent Flash directory" />
     <MESSAGE value="Additional flash restructuring/refactoring" />
     <MESSAGE value="Added livestream streaming videoplayer component, and AbstractButton class for timeline bases flash buttons" />
@@ -539,6 +535,7 @@
     <MESSAGE value="Extracted script loader to js file for addition to minimal lib" />
     <MESSAGE value="Removed unused file" />
     <MESSAGE value="Bug fix: scriptloader console log progress was not using correct order for divisor and base" />
+    <MESSAGE value="Added mouseover style changes to div element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
