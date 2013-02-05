@@ -6,6 +6,39 @@
 	<body>
 		<script>
 
+			// Allows context to be set for event handler functions
+			Function.prototype.bindContext = function ()
+			{
+				// when adding functions using prototype, "this" is the
+				// object which the new function was called on
+				var callingFunction = this;
+
+				// pass the desired scope object as the first arg
+				var scope = arguments[0];
+
+				// create a new arguments array with the first arg removed
+				var otherArgs = [];
+				for (var i = 1; i < arguments.length; i++)
+				{
+					otherArgs.push (arguments[i]);
+				}
+
+				// return a function remembering to include the event
+				return function (e)
+				{
+					// Add the event object to the arguments array
+					otherArgs.push (e || window.event);
+					// Array is in the wrong order so flip it
+					otherArgs.reverse ();
+
+					// Now use apply to set scope and arguments
+					callingFunction.apply (scope, otherArgs);
+				}
+			}
+
+
+
+
 
 			// Global scope, can go no higher
 			var iAmGlobal = "Global Var";
@@ -26,7 +59,7 @@
 
 				self: this,
 
-				go: function(param)
+				go: function (param)
 				{
 					console.log ('Scope in object literal: myObject');
 					console.log (this);
@@ -42,7 +75,7 @@
 
 
 			// Scope in function as constructor
-			function MyClass()
+			function MyClass ()
 			{
 				this.self = this;
 
@@ -56,35 +89,33 @@
 			var myClass = new MyClass ();
 
 			// Call at Object scope
-			myClass.go();
+			myClass.go ();
 
 			// Call at Global/Window scope
-			myClass.go.call(this);
-
-
-
+			myClass.go.call (this);
 
 
 			// Scope in event handler
-			var link = document.createElement('div');
+			var link = document.createElement ('div');
 			link.id = 'testButton'
 			link.innerHTML = 'Click Me';
 			link.style.cssText = 'width:200px; height:24px; position:relative; background-color:#FF000F; cursor: pointer';
 			link.addEventListener ('mouseover', onMouseOverHandler);
-			/*link.addEventListener ('mouseover', myObject.go);*/
+			/*link.addEventListener ('mouseover', onMouseOverHandler.bindContext(this));*/
 			document.body.appendChild (link);
+
 
 			function onMouseOverHandler (event)
 			{
-				console.log ('Scope in event handler: onMouseOverHandler (scope will be global is event attached to html, will be dom element specific if attached to div');
+				console.log ('\nScope in event handler: onMouseOverHandler (scope will be global is event attached to html, will be dom element specific if attached to div');
 				console.log (this);
-				console.log ('--------');
+				console.log ('Is body:', this.parentNode instanceof HTMLBodyElement);
+
+				if (this.parentNode && this.parentNode.parentNode)
+				{
+					console.log ('Is html node:', this.parentNode.parentNode instanceof HTMLElement);
+				}
 			}
-
-
-
-
-			// Fix scope for event listener
 
 
 		</script>
