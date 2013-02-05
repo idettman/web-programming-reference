@@ -1,0 +1,67 @@
+var Loader = function () {}
+
+
+Loader.prototype = {
+
+
+	require: function (scripts, callback)
+	{
+		this.loadCount = 0;
+		this.totalRequired = scripts.length;
+		this.callback = callback;
+
+		for (var i = 0; i < scripts.length; i++)
+		{
+			this.createScript (scripts[i]);
+		}
+	},
+
+
+	loaded: function (evt, script)
+	{
+		this.loadCount++;
+
+		console.log (script + ' loaded: progress=' + (this.totalRequired / this.loadCount));
+		/*console.log (evt);*/
+
+
+		if (this.loadCount == this.totalRequired && typeof this.callback == 'function')
+		{
+			//noinspection JSCheckFunctionSignatures
+			this.callback.call ();
+		}
+	},
+
+
+	createScript: function (src)
+	{
+		var self = this;
+
+		var s = document.createElement ('script');
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = src;
+
+
+		s.addEventListener ('load', function (e, src)
+		{
+			self.loaded (e, src);
+		}, false);
+
+		var head = document.getElementsByTagName ('head')[0];
+		head.appendChild (s);
+	}
+}
+
+
+/*var l = new Loader ();
+ l.require ([
+ "http://code.jquery.com/jquery-1.9.0.min.js",
+ "http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js"
+ ],  onScriptLoadsComplete);
+
+
+ function onScriptLoadsComplete ()
+ {
+ console.log("all scripts loaded");
+ }*/
