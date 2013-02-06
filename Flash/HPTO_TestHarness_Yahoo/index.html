@@ -63,8 +63,14 @@
 
 		<script>
 
-			var FIRST_IMPRESSION_OVERLAY_SWF = 'swf/autoplay_overlay_972x550.swf';
-			var FIRST_IMPRESSION_LEAVE_BEHIND_SWF = 'swf/leave_behind_300x250.swf';
+			var FIRST_IMPRESSION_OVERLAY_972x550_SWF = 'swf/first_impression_overlay_972x550.swf';
+			var FIRST_IMPRESSION_300x250_SWF = 'swf/first_impression_300x250.swf';
+
+			var USER_INITIATED_OVERLAY_972x900_SWF = 'swf/user_initiated_overlay_972x900.swf';
+
+			var SUBSEQUENT_IMPRESSION_300x250_SWF = 'swf/subsequent_impression_300x250.swf';
+
+
 
 
 			var isFirstImpression = true;
@@ -78,8 +84,8 @@
 
 			function initializeFirstImpressionView ()
 			{
-				initSwf (FIRST_IMPRESSION_OVERLAY_SWF, "swfContainer_Autoplay_Overlay", swfEmbedCompleteHandler);
-				initSwf (FIRST_IMPRESSION_LEAVE_BEHIND_SWF, "swfContainer_300x250_LeaveBehind", swfEmbedCompleteHandler);
+				initSwf (FIRST_IMPRESSION_OVERLAY_972x550_SWF, "swfContainer_Autoplay_Overlay", swfEmbedCompleteHandler);
+				initSwf (FIRST_IMPRESSION_300x250_SWF, "swfContainer_300x250_LeaveBehind", swfEmbedCompleteHandler);
 			}
 
 
