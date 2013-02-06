@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Inheritance</title>
 	</head>
 	<body>
 		<script>
 
 
-			function BaseDisplay(id)
+			function BaseElement()
 			{
-				this.id = id;
+				console.log ('BaseElement Constructor');
 			}
 
-
-			BaseDisplay.prototype = {
-
-				id:null,
-
-
-				update: function () {
-
-				}
-			}
-
-
-			function DisplayElement(id)
+			BaseElement.prototype.update = function ()
 			{
-				BaseDisplay.call (this, id);
+				console.log ('BaseElement.update()');
 			}
+
+
+			function ExtendedElement()
+			{
+				console.log ('ExtendedElement Constructor');
+				BaseElement.call (this);
+			}
+
+
+			ExtendedElement.prototype = new BaseElement ();
+
+			// Correct the constructor pointer, because it currently points to BaseElement
+			ExtendedElement.prototype.constructor = ExtendedElement;
+
+
+			var someElement = new ExtendedElement ();
+
+			// update method from BaseElement is available on ExtendedElement
+			someElement.update();
+
 
 
 		</script>
