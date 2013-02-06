@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inheritance</title>
+	</head>
+	<body>
+		<script>
+
+
+			function BaseElement(id)
+			{
+				this.id = id;
+
+				if (id != undefined)
+				{
+					console.log ('BaseElement Constructor', id);
+				}
+			}
+
+			BaseElement.prototype = {
+
+				id: null,
+
+				doSomething: function()
+				{
+					console.log ("DO SOMETHING, ARRGHGHGH!!!");
+				}
+			}
+
+
+			function ExtendedElement(id, name)
+			{
+				BaseElement.call (this, id);
+				this.name = name;
+
+				console.log ('ExtendedElement Constructor', name);
+			}
+			
+			ExtendedElement.prototype = new BaseElement();
+
+			// Correct the constructor pointer, because it currently points to BaseElement
+			ExtendedElement.prototype.constructor = ExtendedElement;
+
+
+			var someBase = new BaseElement ('firstElement');
+
+			var someElement = new ExtendedElement ('someElement', 'myLittleElement');
+
+
+		</script>
+	</body>
+</html>

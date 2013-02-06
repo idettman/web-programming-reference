@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>Inheritance</title>
 	</head>
 	<body>
 		<script>
 
 
-			function BaseElement()
-			{
-				console.log ('BaseElement Constructor');
-			}
+			function BaseElement() {}
 
 			BaseElement.prototype.update = function ()
 			{
@@ -20,8 +18,8 @@
 
 			function ExtendedElement()
 			{
-				console.log ('ExtendedElement Constructor');
 				BaseElement.call (this);
+				console.log ('ExtendedElement Constructor');
 			}
 
 
