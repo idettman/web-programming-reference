@@ -9,49 +9,66 @@
 		<link rel="stylesheet" type="text/css" href="css/screen.css" />
 	</head>
 	<body>
+		<script src="js/vendors/tween.min.js"></script>
+		<script src="js/vendors/RequestAnimationFrame.js"></script>
+
 		<script>
 
+
+			// All game characters will inherit from AbstractCharacter
+			function AbstractCharacter () {}
+
+
+			// Extend AbstractCharacter class
 			function Player () {}
 
 			Player.prototype = {
-				health:0,
+				score:0,
 				lives:0,
+				health:0,
 				items:[],
-				score:0
+				weapons:[]
 			}
 
 			function Level () {}
 
 			Level.prototype = {
-				map:null,
-				name:null,
-				enemies:null,
-				items:null
+				map: null,
+				name: null,
+				items: null,
+				enemies: null
+			}
+
+			function Screen () {}
+
+			Screen.prototype = {
+
+				layoutElements: [],
+
+				updateLayout: function ()
+				{
+
+				}
 			}
 
 
+			// Main Game Obj
 			function Game()
 			{
-				console.log ('Game:this = ',this);
 				this.init ();
 			}
 
 			Game.prototype = {
 
-
 				init: function ()
 				{
-					// Create intro screen
-
-
+					console.log ('Game:init creat start screen');
 				},
-
 
 				destroy: function ()
 				{
 
 				},
-
 
 				startGame: function ()
 				{
@@ -60,27 +77,32 @@
 					// set/init first level
 
 					// start render loop
-
 				},
-
 
 				endGame: function ()
 				{
 
 				},
 
-
 				pauseGame: function ()
 				{
 
 				},
 
-
 				resumeGame: function ()
 				{
 
-				}
+				},
 
+				startMainLoop: function ()
+				{
+
+				},
+
+				stopMainLoop: function ()
+				{
+
+				}
 			}
 
 

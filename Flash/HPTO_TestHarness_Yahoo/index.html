@@ -37,9 +37,11 @@
 				z-index: 1;
 				position: absolute;
 
-				margin-left: 170px;
 				width: 972px;
 				height: 550px;
+
+				margin-top: 158px;
+				margin-left: 170px;
 			}
 
 
@@ -57,8 +59,7 @@
 
 		</style>
 	</head>
-	<body id="bodyBase" style="min-height: 1085px" onload="init();">
-
+	<body id="bodyBase" style="min-height: 1083px" onload="init();">
 
 		<div id="backgroundContainer" class="container">
 			<img src="img/aol_background.jpg" width="1183" height="1413" border="0" style="display: block; width: 1183px; margin-left: auto; margin-right: auto" />
@@ -161,12 +162,14 @@
 			function firstImpressionOverlaySwfReady()
 			{
 				console.log ('firstImpressionOverlaySwfReady');
+
 				document.getElementById('swfContainer_Autoplay_Overlay').startAnimation();
 			}
 
 			function firstImpressionOverlaySwfCompleted()
 			{
 				console.log ('firstImpressionOverlaySwfCompleted');
+
 				document.getElementById('swfContainer_Autoplay_Overlay').style.display = 'none';
 				document.getElementById('swfContainer_300x250_LeaveBehind').startAnimation();
 			}
