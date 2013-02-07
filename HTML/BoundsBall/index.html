@@ -48,6 +48,25 @@
 				ammunition:0
 			}
 
+			function AbstractLevel () {}
+
+			AbstractLevel.prototype = {
+				map: null,
+				name: null,
+				items: null,
+				enemies: null
+			}
+
+			function AbstractScreen () {}
+
+			AbstractScreen.prototype = {
+				layoutElements: [],
+				updateLayout: function () {}
+			}
+
+
+
+
 
 
 			// Inherit from AbstractCharacter
@@ -61,23 +80,6 @@
 			Player.prototype = new AbstractCharacter ();
 			Player.prototype.constructor = Player;
 
-			function Level () {}
-
-			Level.prototype = {
-				map: null,
-				name: null,
-				items: null,
-				enemies: null
-			}
-
-			function Screen () {}
-
-			Screen.prototype = {
-				layoutElements: [],
-				updateLayout: function () {}
-			}
-
-
 			// Main Game Obj
 			function Game ()
 			{
@@ -85,6 +87,9 @@
 			}
 
 			Game.prototype = {
+
+				levels:null,
+
 
 				init: function ()
 				{
@@ -98,9 +103,8 @@
 
 				startGame: function ()
 				{
-					// create player
-
-					// set/init first level
+					// set active player/s
+					// set active level
 
 					// start render loop
 				},
