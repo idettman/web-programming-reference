@@ -14,8 +14,7 @@
 
 		<script>
 
-
-			// Positioning Elements
+			// Helpers
 			function Position () {}
 
 			Position.prototype = {
@@ -24,8 +23,7 @@
 				rotation: 0
 			}
 
-
-			// All game characters will inherit from AbstractCharacter
+			// Base classes
 			function AbstractCharacter () {}
 
 			AbstractCharacter.prototype = {
@@ -35,6 +33,21 @@
 				weapons: null,
 				position: null
 			}
+
+			function AbstractWeapon () {}
+
+			AbstractWeapon.prototype = {
+				id: null,
+				ammunition:0
+			}
+
+			function AbstractItem () {}
+
+			AbstractItem.prototype = {
+				id: null,
+				ammunition:0
+			}
+
 
 
 			// Inherit from AbstractCharacter
