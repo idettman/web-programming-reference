@@ -6,7 +6,7 @@
 
 		<title>Bounds Ball</title>
 
-		<link rel="stylesheet" type="text/css" href="css/screen.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen.css"/>
 	</head>
 	<body>
 		<script src="js/vendors/tween.min.js"></script>
@@ -30,27 +30,23 @@
 
 			AbstractCharacter.prototype = {
 				id: null,
-				health:0,
-				items:null,
-				weapons:null,
-				position:null
+				health: 0,
+				items: null,
+				weapons: null,
+				position: null
 			}
 
 
-			// Extend AbstractCharacter class
+			// Inherit from AbstractCharacter
 			function Player ()
 			{
 				AbstractCharacter.call (this);
+				this.score = 0;
+				this.lives = 0;
 			}
-
 
 			Player.prototype = new AbstractCharacter ();
-
-
-			Player.prototype = {
-				score:0,
-				lives:0
-			}
+			Player.prototype.constructor = Player;
 
 			function Level () {}
 
@@ -70,7 +66,7 @@
 
 
 			// Main Game Obj
-			function Game()
+			function Game ()
 			{
 				this.init ();
 			}
@@ -124,7 +120,7 @@
 
 
 			var game = new Game ();
-			game.init();
+			game.init ();
 
 		</script>
 	</body>
