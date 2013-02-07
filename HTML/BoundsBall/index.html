@@ -15,19 +15,41 @@
 		<script>
 
 
+			// Positioning Elements
+			function Position () {}
+
+			Position.prototype = {
+				x: 0,
+				y: 0,
+				rotation: 0
+			}
+
+
 			// All game characters will inherit from AbstractCharacter
 			function AbstractCharacter () {}
 
+			AbstractCharacter.prototype = {
+				id: null,
+				health:0,
+				items:null,
+				weapons:null,
+				position:null
+			}
+
 
 			// Extend AbstractCharacter class
-			function Player () {}
+			function Player ()
+			{
+				AbstractCharacter.call (this);
+			}
+
+
+			Player.prototype = new AbstractCharacter ();
+
 
 			Player.prototype = {
 				score:0,
-				lives:0,
-				health:0,
-				items:[],
-				weapons:[]
+				lives:0
 			}
 
 			function Level () {}
@@ -42,13 +64,8 @@
 			function Screen () {}
 
 			Screen.prototype = {
-
 				layoutElements: [],
-
-				updateLayout: function ()
-				{
-
-				}
+				updateLayout: function () {}
 			}
 
 
