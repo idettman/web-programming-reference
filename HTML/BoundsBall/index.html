@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Bounds Ball</title>
+
+		<link rel="stylesheet" type="text/css" href="css/screen.css" />
+	</head>
+	<body>
+		<script>
+
+			function Player () {}
+
+			Player.prototype = {
+				health:0,
+				lives:0,
+				items:[],
+				score:0
+			}
+
+			function Level () {}
+
+			Level.prototype = {
+				map:null,
+				name:null,
+				enemies:null,
+				items:null
+			}
+
+
+			function Game()
+			{
+				console.log ('Game:this = ',this);
+				this.init ();
+			}
+
+			Game.prototype = {
+
+				players:[],
+
+
+				init: function ()
+				{
+					// Create intro screen
+
+
+				},
+
+				destroy: function ()
+				{
+
+				},
+
+
+				startGame: function ()
+				{
+					// create player
+
+					// set/init first level
+
+					// start render loop
+
+				},
+
+
+				endGame: function ()
+				{
+
+				},
+
+
+				pauseGame: function ()
+				{
+
+				},
+
+
+				resumeGame: function ()
+				{
+
+				}
+
+			}
+
+
+			var game = new Game ();
+			game.init();
+
+		</script>
+	</body>
+</html>

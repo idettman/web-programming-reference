@@ -1,0 +1,510 @@
+/* Eric Meyer's reset
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0b1 | 201101 
+	NOTE: WORK IN PROGRESS
+	USE WITH CAUTION AND TEST WITH ABANDON */
+
+/* Use this reset as a starting point, and customize to your needs */
+/* Slightly modified to prevent anchor elements from losing outline, as in HTML5 Boilerplate */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Meyer's reset ends here */
+
+html {
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	background: #3f3f3f;
+	color: #c2be9e;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	font-size: 20px;
+	padding: 10px 30px 0 30px;
+}
+
+header, footer {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+footer {
+	padding: 20px 0 0 0;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+footer p {	
+	text-align: center;
+	margin: 20px 0;
+}
+
+.cr {
+	font-size: 17px;
+}
+
+a, a:link, a:visited {
+	color: #fff;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+	-o-transition: color .3s linear;
+	-ms-transition: color .3s linear;
+	transition: color .3s linear;
+}
+
+a:hover {
+	color: #8cd0d3;
+}
+
+a.help, a.help:link, a.help:visited {
+	text-decoration: none;
+	text-indent: -9999em;
+	overflow: hidden;
+	display: block;
+	width: 58px;
+	height: 50px;
+	background: transparent url(http://cdn.impressivewebs.com/animationfillcode/help.gif) no-repeat 0 -50px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+a.help:hover {
+	background-position: 0 0;
+}
+
+a.play, a.play:link, a.play:visited {
+	text-decoration: none;
+	text-indent: -9999em;
+	overflow: hidden;
+	display: block;
+	width: 58px;
+	height: 50px;
+	background: transparent url(http://cdn.impressivewebs.com/animationfillcode/play.gif) no-repeat 0 -50px;
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+a.play:hover {
+	background-position: 0 0;
+}
+
+.top-box {
+	display: block;
+	width: 840px;
+	margin: 20px auto 0 auto;
+	padding: 20px 80px 0 80px;
+	position: relative;
+	border: solid 1px #4e4e4e;
+}
+
+	.dn {
+		display: none;
+	}
+
+	#error p, #congrats p {
+		text-align: center;
+	}
+
+	a.closeHelp, a.closeHelp:link, a.closeHelp:visited {
+		text-decoration: none;
+		position: absolute;
+		top: 16px;
+		right: 24px;
+		color: #c2be9e;
+	}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+	
+	hgroup {
+		border-bottom: solid 1px #4e4e4e;
+		padding: 0 0 15px 0;
+	}
+
+	h1 {
+		text-align: center;
+	}
+	
+		h1 a, h1 a:link, h1 a:visited {
+			font-family: 'Open Sans Condensed', sans-serif;
+			font-size: 70px;
+			line-height: 90px;
+			text-transform: uppercase;
+			font-weight: bold;
+			text-decoration: none;
+			color: #c2be9e;
+		}
+		
+		h1 a:hover {
+			color: #fff;
+		}
+	
+	h2 {
+		text-align: center;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 30px;
+	}
+	
+	form {
+		padding: 20px 0 0 0;
+		text-align: center;
+		font-size: 17px;
+	}
+	
+	input[type=radio] {
+		margin-left: 30px;
+	}
+
+	textarea {
+		width: 1000px;
+		height: 400px;
+		background: #ccc;
+		font-family: Consolas, monospace;
+		padding: 10px;
+		font-size: 20px;
+		border: none;
+		border-radius: 15px;
+		min-height: 200px;
+		-moz-resize: vertical;
+		resize: vertical;
+		margin: 20px 0 16px 0;
+	}
+	
+	.bg {
+		-webkit-animation-name: bgchange;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-iteration-count: 1;	
+		-webkit-animation-direction: normal;
+		-webkit-animation-fill-mode: forwards;
+
+		-moz-animation-name: bgchange;
+		-moz-animation-duration: .5s;
+		-moz-animation-timing-function: linear;
+		-moz-animation-iteration-count: 1;	
+		-moz-animation-direction: normal;
+		-moz-animation-fill-mode: forwards;
+
+		-ms-animation-name: bgchange;
+		-ms-animation-duration: .5s;
+		-ms-animation-timing-function: linear;
+		-ms-animation-iteration-count: 1;	
+		-ms-animation-direction: normal;
+		-ms-animation-fill-mode: forwards;
+
+		animation-name: bgchange;
+		animation-duration: .5s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;	
+		animation-direction: normal;
+		animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes bgchange {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #6eb46c;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	@-moz-keyframes bgchange {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #6eb46c;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	@-ms-keyframes bgchange {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #6eb46c;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	@keyframes bgchange {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #6eb46c;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	.bgerror {
+		-webkit-animation-name: bgerror;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-iteration-count: 1;	
+		-webkit-animation-direction: normal;
+		-webkit-animation-fill-mode: forwards;
+
+		-moz-animation-name: bgerror;
+		-moz-animation-duration: .5s;
+		-moz-animation-timing-function: linear;
+		-moz-animation-iteration-count: 1;	
+		-moz-animation-direction: normal;
+		-moz-animation-fill-mode: forwards;
+
+		-ms-animation-name: bgerror;
+		-ms-animation-duration: .5s;
+		-ms-animation-timing-function: linear;
+		-ms-animation-iteration-count: 1;	
+		-ms-animation-direction: normal;
+		-ms-animation-fill-mode: forwards;
+
+		animation-name: bgerror;
+		animation-duration: .5s;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;	
+		animation-direction: normal;
+		animation-fill-mode: forwards;
+	}
+
+	@-webkit-keyframes bgerror {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #E36262;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	@-moz-keyframes bgerror {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #E36262;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	@-ms-keyframes bgerror {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #E36262;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	@keyframes bgerror {
+
+		0% {
+			background-color: #ccc;
+		}
+		
+		50% {
+			background-color: #E36262;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+
+	}
+
+	textarea:focus {
+		outline: none;
+	}
+
+	textarea.ph {
+		color: #8d8d8d;
+		font-style: italic;
+	}
+	
+	::-webkit-input-placeholder {
+		color: #8d8d8d;
+		font-style: italic;
+	}
+
+	:-moz-placeholder {
+		color: #8d8d8d;
+		font-style: italic;
+	}
+
+	#submit {
+		display: block;
+		width: 380px;
+		height: 60px;
+		font-size: 30px;
+		line-height: 24px;
+		margin: 0 auto;
+		border-radius: 14px;
+		border: none;
+		text-transform: uppercase;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: bold;
+		color: #555;
+		background: #d8d8d8 -moz-linear-gradient(#999, #fff); /* FF 3.6+ */  
+		background: #d8d8d8 -ms-linear-gradient(#999, #fff); /* IE10 */  
+		background: #d8d8d8 -webkit-gradient(linear, left top, left bottom, color-stop(0%, #999), color-stop(100%, #fff)); /* Safari 4+, Chrome 2+ */  
+		background: #d8d8d8 -webkit-linear-gradient(#999, #fff); /* Safari 5.1+, Chrome 10+ */  
+		background: #d8d8d8 -o-linear-gradient(#999, #fff); /* Opera 11.10 */
+		background: #d8d8d8 linear-gradient(#999, #fff); /* the standard */
+	}
+	
+	.nocssgradients #submit {
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#ffffff'); /* IE6 & IE7 */  
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#ffffff')"; /* IE8+ */	
+	}
+	
+	#submit:hover, #submit:focus {
+		background: -moz-linear-gradient(#999, #ddd); /* FF 3.6+ */  
+		background: -ms-linear-gradient(#999, #ddd); /* IE10 */  
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #999), color-stop(100%, #ddd)); /* Safari 4+, Chrome 2+ */  
+		background: -webkit-linear-gradient(#999, #ddd); /* Safari 5.1+, Chrome 10+ */  
+		background: -o-linear-gradient(#999, #ddd); /* Opera 11.10 */  
+		background: linear-gradient(#999, #ddd); /* the standard */
+		cursor: pointer;
+		outline: none;
+	}
+	
+	.github-ribbon {
+		position: absolute;
+		top: 0;
+		right: 0;
+		opacity: .8;
+		-webkit-transition: opacity .3s linear;
+		-moz-transition: opacity .3s linear;
+		-o-transition: opacity .3s linear;
+		-ms-transition: opacity .3s linear;
+		transition: opacity .3s linear;
+	}
+	
+	.github-ribbon:hover {
+		opacity: 1;
+	}
+	
+@media (max-width: 1280px) {
+
+	.github-ribbon {
+		display: none;
+	}
+	
+}
+	
