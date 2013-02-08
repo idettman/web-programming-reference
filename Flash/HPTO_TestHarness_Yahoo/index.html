@@ -7,22 +7,19 @@
 
 		<style>
 
-			body
-			{
-				margin:0;
+			body {
+				margin: 0;
 			}
 
-			.container
-			{
+			.container {
 				position: absolute;
-				top:0;
-				left:0;
+				top: 0;
+				left: 0;
 				width: 100%;
-				height:1413px;
+				height: 1413px;
 			}
 
-			#swfContainer_Interaction_Overlay
-			{
+			#swfContainer_Interaction_Overlay {
 				display: none;
 				z-index: 2;
 				position: absolute;
@@ -30,9 +27,7 @@
 				height: 900px;
 			}
 
-
-			#swfContainer_Autoplay_Overlay
-			{
+			#swfContainer_Autoplay_Overlay {
 				display: none;
 				z-index: 1;
 				position: absolute;
@@ -44,9 +39,7 @@
 				margin-left: 170px;
 			}
 
-
-			#swfContainer_300x250_LeaveBehind
-			{
+			#swfContainer_300x250_LeaveBehind {
 				display: none;
 				position: absolute;
 
@@ -62,7 +55,8 @@
 	<body id="bodyBase" style="min-height: 1083px" onload="init();">
 
 		<div id="backgroundContainer" class="container">
-			<img src="img/aol_background.jpg" width="1183" height="1413" border="0" style="display: block; width: 1183px; margin-left: auto; margin-right: auto" />
+			<img src="img/aol_background.jpg" width="1183" height="1413" border="0"
+			     style="display: block; width: 1183px; margin-left: auto; margin-right: auto"/>
 		</div>
 
 		<div id="adContainer" class="container">
@@ -91,10 +85,10 @@
 			var isFirstImpression = true;
 
 
-			function init()
+			function init ()
 			{
-				if (isFirstImpression) initializeFirstImpressionView();
-				else initializeSubsequentImpressionView();
+				if (isFirstImpression) initializeFirstImpressionView ();
+				else initializeSubsequentImpressionView ();
 			}
 
 
@@ -112,16 +106,16 @@
 			}
 
 
-			function initSwf(swfName, targetId, onCompleteHandler, wmode)
+			function initSwf (swfName, targetId, onCompleteHandler, wmode)
 			{
 				var flashVars = {
 
 				}
-				
+
 				var attributes = {
 					/*id: targetId+"_swf",
-					align: "left",
-					styleclass: "myclass"*/
+					 align: "left",
+					 styleclass: "myclass"*/
 				};
 
 				if (!wmode)
@@ -134,7 +128,7 @@
 					wmode: wmode
 				};
 
-				swfobject.embedSWF(swfName, targetId, '100%', '100%', '10.0.0', 'expressInstall.swf', flashVars, params, attributes, onCompleteHandler);
+				swfobject.embedSWF (swfName, targetId, '100%', '100%', '10.0.0', 'expressInstall.swf', flashVars, params, attributes, onCompleteHandler);
 			}
 
 
@@ -144,10 +138,11 @@
 			{
 				loadedSwfs.push (callbackObject.id);
 
-				if (loadedSwfs.indexOf('swfContainer_Autoplay_Overlay') != -1 && loadedSwfs.indexOf('swfContainer_300x250_LeaveBehind') != -1)
+				if (loadedSwfs.indexOf ('swfContainer_Autoplay_Overlay') != -1 && loadedSwfs.indexOf ('swfContainer_300x250_LeaveBehind') != -1)
 				{
 					// Both swfs embedded, display container divs
-					loadedSwfs.forEach(function (arg) {
+					loadedSwfs.forEach (function (arg)
+					{
 						document.getElementById (arg).style.display = 'block';
 					});
 				}
@@ -157,29 +152,29 @@
 
 
 			/*
-			Flash Callback Methods
+			 Flash Callback Methods
 			 */
-			function firstImpressionOverlaySwfReady()
+			function firstImpressionOverlaySwfReady ()
 			{
 				console.log ('firstImpressionOverlaySwfReady');
 
-				document.getElementById('swfContainer_Autoplay_Overlay').startAnimation();
+				document.getElementById ('swfContainer_Autoplay_Overlay').startAnimation ();
 			}
 
-			function firstImpressionOverlaySwfCompleted()
+			function firstImpressionOverlaySwfCompleted ()
 			{
 				console.log ('firstImpressionOverlaySwfCompleted');
 
-				document.getElementById('swfContainer_Autoplay_Overlay').style.display = 'none';
-				document.getElementById('swfContainer_300x250_LeaveBehind').startAnimation();
+				document.getElementById ('swfContainer_Autoplay_Overlay').style.display = 'none';
+				document.getElementById ('swfContainer_300x250_LeaveBehind').startAnimation ();
 			}
 
-			function firstImpressionLeavebehindSwfReady()
+			function firstImpressionLeavebehindSwfReady ()
 			{
 				/*alert ("first impression leave behind swf ready");*/
 			}
 
-			function firstImpressionLeavebehindSwfCompleted()
+			function firstImpressionLeavebehindSwfCompleted ()
 			{
 				/*alert ("first impression leave behind swf COMPLETED");*/
 			}
