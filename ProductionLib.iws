@@ -7,7 +7,7 @@
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360378589389" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360378667380" ignored="false" />
     <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360111257072" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968520967" ignored="false" />
@@ -100,8 +100,10 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flash/HPTO_TestHarness_Yahoo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="0" selection-start="3824" selection-end="3824" vertical-scroll-proportion="0.7126789">
-              <folding />
+            <state line="66" column="0" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.79141104">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -553,8 +555,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Flash/HPTO_TestHarness_Yahoo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="0" selection-start="3824" selection-end="3824" vertical-scroll-proportion="0.7126789">
-          <folding />
+        <state line="66" column="0" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.79141104">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
