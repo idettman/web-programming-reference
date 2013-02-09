@@ -77,7 +77,7 @@
 			var FIRST_IMPRESSION_300x250_SWF = 'swf/first_impression_300x250.swf';
 			var FIRST_IMPRESSION_OVERLAY_972x550_SWF = 'swf/first_impression_overlay_972x550.swf';
 
-			var USER_INITIATED_OVERLAY_972x900_SWF = 'swf/user_initiated_overlay_972x900.swf';
+			//var USER_INITIATED_OVERLAY_972x900_SWF = 'swf/user_initiated_overlay_972x900.swf';
 
 			var SUBSEQUENT_IMPRESSION_300x250_SWF = 'swf/subsequent_impression_300x250.swf';
 
@@ -146,7 +146,6 @@
 						document.getElementById (arg).style.display = 'block';
 					});
 				}
-
 				console.log ('swf embedded', callbackObject, loadedSwfs);
 			}
 
@@ -157,14 +156,12 @@
 			function firstImpressionOverlaySwfReady ()
 			{
 				console.log ('firstImpressionOverlaySwfReady');
-
 				document.getElementById ('swfContainer_Autoplay_Overlay').startAnimation ();
 			}
 
 			function firstImpressionOverlaySwfCompleted ()
 			{
 				console.log ('firstImpressionOverlaySwfCompleted');
-
 				document.getElementById ('swfContainer_Autoplay_Overlay').style.display = 'none';
 				document.getElementById ('swfContainer_300x250_LeaveBehind').startAnimation ();
 			}
