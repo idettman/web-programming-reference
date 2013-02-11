@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+
+		<title>idettman</title>
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<script>
+
+			addEvent(window, 'load', init);
+			function addEvent(obj, evType, fn, useCapture){
+				if (obj.addEventListener){
+					obj.addEventListener(evType, fn, useCapture);
+					return true;
+				} else if (obj.attachEvent){
+					return obj.attachEvent("on" + evType, fn);
+				}
+			}
+
+
+
+
+			var Preloader = function()
+			{
+				console.log ('Preload Constructor');
+			}
+
+
+			Preloader.prototype = {
+
+				percentage: 0,
+
+				initLayout: function ()
+				{
+					var output = document.createElement( 'div' );
+					output.style.cssText = 'position: relative; margin-left: 50px; margin-top: 300px; background-color: #550000; width:50px; height:50px';
+					document.body.appendChild(output);
+				},
+
+				startLoader: function ()
+				{
+					console.log ('Preload Start Loader');
+				}
+			};
+
+
+			var infinityLoader;
+
+			function init()
+			{
+				infinityLoader = new Preloader();
+				infinityLoader.startLoader ();
+			}
+
+
+
+
+		</script>
+	</body>
+</html>
