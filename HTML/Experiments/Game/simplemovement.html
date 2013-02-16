@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script src="js/Tween.js"></script>
+		<script src="js/requestanimationframe.js"></script>
+
+		<script>
+			addEvent (window, 'load', init);
+
+
+			var UP_ACTIVE = false;
+			var DOWN_ACTIVE = false;
+			var LEFT_ACTIVE = false;
+			var RIGHT_ACTIVE = false;
+
+
+			document.onkeypress = function (e)
+			{
+				e = e || window.event;
+				var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
+				if (charCode)
+				{
+					console.log ("Character typed: " + String.fromCharCode (charCode), charCode);
+
+				}
+			};
+
+
+			function addEvent (obj, evType, fn, useCapture)
+			{
+				if (obj.addEventListener)
+				{
+					obj.addEventListener (evType, fn, useCapture);
+					return true;
+				}
+				else if (obj.attachEvent)
+				{
+					return obj.attachEvent ("on" + evType, fn);
+				}
+			}
+
+
+			function init ()
+			{
+				mainLoop ();
+			}
+
+
+			function mainLoop ()
+			{
+
+
+				requestAnimationFrame (mainLoop);
+			}
+		</script>
+	</body>
+</html>

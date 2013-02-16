@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
+		<!--<meta http-equiv="refresh" content="15">-->
+
 
 		<title>idettman</title>
 
@@ -11,6 +13,10 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
+
+		<script src="js/Tween.js"></script>
+		<script src="js/requestanimationframe.js"></script>
+
 		<script>
 
 			addEvent(window, 'load', init);
@@ -28,24 +34,61 @@
 
 			var Preloader = function()
 			{
-				console.log ('Preload Constructor');
+				this.initLayout ();
 			}
 
 
 			Preloader.prototype = {
 
-				percentage: 0,
+				loaderDisplay: null,
 
 				initLayout: function ()
 				{
-					var output = document.createElement( 'div' );
-					output.style.cssText = 'position: relative; margin-left: 50px; margin-top: 300px; background-color: #550000; width:50px; height:50px';
-					document.body.appendChild(output);
+					var loader = document.createElement( 'div' );
+					loader.id = 'loader';
+					document.body.appendChild(loader);
+					loader.innerHTML = '<span>Getting Ready to load</span>';
+
+					loaderDisplay = document.getElementById ('loader');
 				},
 
 				startLoader: function ()
 				{
-					console.log ('Preload Start Loader');
+					var tweenStart = new TWEEN.Tween( {loadPercent: 0, y: 40, bottomUp: 66, topDown: 455, anger: 0} )
+							.to( { loadPercent: 9200, y: 620, bottomUp: 5, topDown: 10, anger: 1 }, 140000 )
+							.easing( TWEEN.Easing.Circular.InOut)
+							.onUpdate(this.updateTween)
+							.start();
+
+					animate ();
+				},
+
+
+				updateTween: function()
+				{
+					loaderDisplay.innerHTML = Math.round(this.topDown * 10)/10 + ' ' + Math.round(this.loadPercent).toString(2) + ' ' + Math.round(this.bottomUp * 100)/100;
+					loaderDisplay.style.marginTop = Math.round(this.y) + 'px';
+
+					if (this.anger > 0.2)
+					{
+						if (this.anger > 0.3)
+						{
+							if (this.anger > 0.4)
+							{
+								if (this.anger > 0.5)
+								{
+									document.body.style.backgroundColor = "#FF0000";
+									return;
+								}
+								document.body.style.backgroundColor = "#00FF00";
+								return;
+							}
+							document.body.style.backgroundColor = "#0000FF";
+							return;
+						}
+						document.body.style.backgroundColor = "#CDCDCD";
+						return;
+					}
 				}
 			};
 
@@ -59,7 +102,11 @@
 			}
 
 
-
+			function animate()
+			{
+				requestAnimationFrame (animate);
+				TWEEN.update();
+			}
 
 		</script>
 	</body>

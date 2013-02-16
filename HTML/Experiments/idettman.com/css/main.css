@@ -1,0 +1,16 @@
+body
+{
+	margin: 0;
+	background-color: #000000;
+}
+
+#loader
+{
+	display: block;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 86px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
