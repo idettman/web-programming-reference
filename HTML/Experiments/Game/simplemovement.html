@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title></title>
+		<title>Simple Movement</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	</head>
 	<body>
-		<script src="js/Tween.js"></script>
 		<script src="js/requestanimationframe.js"></script>
 
 		<script>
+
 			addEvent (window, 'load', init);
 
 
@@ -17,14 +20,62 @@
 			var RIGHT_ACTIVE = false;
 
 
-			document.onkeypress = function (e)
+
+			document.onkeydown = function (e)
 			{
 				e = e || window.event;
 				var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
 				if (charCode)
 				{
-					console.log ("Character typed: " + String.fromCharCode (charCode), charCode);
+					switch (charCode)
+					{
+						case 38:// Up
+							UP_ACTIVE = true;
+							break;
 
+						case 39:// Right
+							RIGHT_ACTIVE = true;
+							break;
+
+						case 40:// Down
+							DOWN_ACTIVE = true;
+							break;
+
+						case 37:// Left
+							LEFT_ACTIVE = true;
+							break;
+					}
+
+					//console.log ("DOWN: Character typed: " + String.fromCharCode (charCode), charCode);
+				}
+			};
+
+			document.onkeyup = function (e)
+			{
+				e = e || window.event;
+				var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
+				if (charCode)
+				{
+					switch (charCode)
+					{
+						case 38:// Up
+							UP_ACTIVE = false;
+							break;
+
+						case 39:// Right
+							RIGHT_ACTIVE = false;
+							break;
+
+						case 40:// Down
+							DOWN_ACTIVE = false;
+							break;
+
+						case 37:// Left
+							LEFT_ACTIVE = false;
+							break;
+					}
+
+					//console.log ("UP: Character typed: " + String.fromCharCode (charCode), charCode);
 				}
 			};
 
@@ -43,14 +94,52 @@
 			}
 
 
+			window.createPlayer = function ()
+			{
+				var player = document.createElement('div');
+				player.style.cssText = 'background-color:#FF0000; position: relative; top: 0; left: 0; width:40px; height:40px;';
+				player.innerHTML = ' ';
+				player.position = {x: 0, y: 0};
+
+				return player;
+			}
+
+			var gamePlayer;
+
 			function init ()
 			{
+				gamePlayer = window.createPlayer();
+				document.body.appendChild (gamePlayer);
+
 				mainLoop ();
 			}
 
 
 			function mainLoop ()
 			{
+				if (UP_ACTIVE)
+				{
+					gamePlayer.position.y -= 1;
+					gamePlayer.style.top = gamePlayer.position.y + "px";
+				}
+
+				if (DOWN_ACTIVE)
+				{
+					gamePlayer.position.y += 1;
+					gamePlayer.style.top = gamePlayer.position.y + "px";
+				}
+
+				if (LEFT_ACTIVE)
+				{
+					gamePlayer.position.x -= 1;
+					gamePlayer.style.left = gamePlayer.position.x + "px";
+				}
+
+				if (RIGHT_ACTIVE)
+				{
+					gamePlayer.position.x += 1;
+					gamePlayer.style.left = gamePlayer.position.x + "px";
+				}
 
 
 				requestAnimationFrame (mainLoop);
