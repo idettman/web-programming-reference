@@ -2,27 +2,510 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/Game/js/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/idettman.com/js/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/Game/js/bindscope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/Game/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/Game/js/requestanimationframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/Game/simplemovement.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/fla/DisplayList_Init_and_Cleanup_Sequence_Loader_Test.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/bin/DisplayList_Init_and_Cleanup_Sequence_Loader_Test.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/fla/DisplayList_Init_and_Cleanup_Sequence_Test.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/bin/DisplayList_Init_and_Cleanup_Sequence_Test.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/pb/NormalizeSplats.pbj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/fla/ParentLoader.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/bin/ParentLoader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/pb/RayTriangleKernel.pbj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/bin/iad_production_lib.swc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/html-template/playerProductInstall.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/AC3DParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/com/adobe/utils/AGALMiniAssembler.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/managers/AGALProgram3DCache.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/AS3PickingCollider.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/ATFCubeTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/ATFData.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/ATFTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/AWD1Parser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/AWD2Parser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/AWDParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d_experiment/AbstractAway3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimationScrubber/src/base/AbstractButton.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/errors/AbstractMethodError.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimationScrubber/src/base/AbstractMovieClip.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/audio/drivers/AbstractSound3DDriver.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/commands/Align.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/AlphaMaskMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/stereo/methods/AnaglyphStereoRenderMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/AnimationClipNodeBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/AnimationClipState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/AnimationNodeBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/AnimationRegisterCache.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimationScrubber/src/AnimationScrubber.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimationScrubber/src/components/animationscrubber/AnimationScrubberComponent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/AnimationSetBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/errors/AnimationSetError.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/AnimationStateBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/AnimationStateEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/AnimationSubGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/AnimatorBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/AnimatorEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/AnisotropicSpecularMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/AssetEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/AssetLibrary.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/AssetLibraryBundle.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/utils/AssetLibraryIterator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/AssetLoader.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/misc/AssetLoaderContext.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/misc/AssetLoaderToken.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/assets/AssetType.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/AutoPickingCollider.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/Away3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/debug/AwayStats.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/bounds/AxisAlignedBoundingBox.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/render/BackgroundImageRenderer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/BasicAmbientMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/BasicDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/BasicNormalMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/BasicSpecularMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/BitmapCubeTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/assets/BitmapDataAsset.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/BitmapTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/BitmapTextureCache.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/BloomFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/BlurFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/bounds/BoundingSphere.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/bounds/BoundingVolumeBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/Bounds.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/CHANGELOG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/cameras/Camera3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/CameraEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/CameraNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/CapsuleGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/CascadeShadowMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/shadowmaps/CascadeShadowMapper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/utils/Cast.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/errors/CastError.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/CelDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/CelSpecularMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/ColorHitMap.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/ColorMaterial.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/ColorMatrixMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/ColorMultiPassMaterial.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/ColorTransformMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/CompactSubGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/CompiledPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/CompositeDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/CompositeSpecularMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/ConeGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/naming/ConflictPrecedence.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/naming/ConflictStrategy.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/naming/ConflictStrategyBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/controllers/ControllerBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/transitions/CrossfadeTransition.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/transitions/CrossfadeTransitionNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/transitions/CrossfadeTransitionState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/CubeGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/shadowmaps/CubeMapShadowMapper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/CubeReflectionTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/CubeTextureBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/paths/CubicPath.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/paths/CubicPathSegment.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/CylinderGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/DAEParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/DXFParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/debug/Debug.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/utils/DefaultMaterialManager.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/render/DefaultRenderer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/extrusions/DelaunayMesh.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/errors/DeprecationError.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/DepthDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/DepthMapPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/DepthOfFieldFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/render/DepthRenderer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/DirectionalLight.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/DirectionalLightNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/shadowmaps/DirectionalShadowMapper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/classes/utils/DisplayListUtils.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/DistanceMapPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/DitheredShadowMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/Drag3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/DynamicGrid.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/EffectMethodBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/extrusions/Elevation.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/entities/Entity.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/traverse/EntityCollector.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/data/EntityListItem.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/data/EntityListItemPool.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/EntityNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/EnvMapAmbientMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/EnvMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/naming/ErrorConflictStrategy.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/commands/Explode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/data/Face.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/helpers/FaceHelper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/Filter3DBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DBrightPassTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DCompositeTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DDoubleBufferCopyTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DHBlurTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DHDepthOfFFieldTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DHueSaturationTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DRadialBlurTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/render/Filter3DRenderer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DTaskBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DVBlurTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DVDepthOfFFieldTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/tasks/Filter3DXFadeCompositeTask.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/FilteredShadowMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/controllers/FirstPersonController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/src/FlashExperiments.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/FogMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/controllers/FollowController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/cameras/lenses/FreeMatrixLens.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/FresnelEnvMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/FresnelPlanarReflectionMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/FresnelSpecularMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/GeomUtil.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/Geometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/GeometryEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/utils/GeometryUtil.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/GradientDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/Grid.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/HBlurFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/HDepthOfFieldFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/HardShadowMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/HeightMapNormalMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/controllers/HoverController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/HueSaturationFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/IAnimationSet.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/IAnimationState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/transitions/IAnimationTransition.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/IAnimator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/assets/IAsset.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/sort/IEntitySorter.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/IMaterialOwner.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/paths/IPath.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/paths/IPathSegment.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/IPicker.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/IPickingCollider.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/IRenderable.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ISkeletonAnimationState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/audio/drivers/ISound3DDriver.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/ISubGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/IUVAnimationState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/IVertexAnimationState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/utils/IVideoPlayer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/naming/IgnoreConflictStrategy.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/ImageParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/classes/base/display/InitializationCue.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/stereo/methods/InterleavedStereoRenderMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/errors/InvalidTextureError.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/InvertedOctreeNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/JointPose.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/extrusions/LatheExtrude.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/cameras/lenses/LensBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/LensEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/LightBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/LightEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/LightMapDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/LightMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/LightNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/lightpickers/LightPickerBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/LightProbe.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/LightProbeNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/LightSources.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/LightingMethodBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/LightingPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/LightingShaderCompiler.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/helpers/LightsHelper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/LineSegment.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/extrusions/LinearExtrude.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/Loader3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/LoaderEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/controllers/LookAtController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/MD2Parser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/MD5AnimParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/MD5MeshParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/idettman.com/js/Main.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/MaterialBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/MaterialPassBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/math/MathConsts.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/math/Matrix3DUtils.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/Max3DSParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/commands/Merge.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/entities/Mesh.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/helpers/data/MeshDebug.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/helpers/MeshDebugger.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/helpers/MeshHelper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/MeshNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/MethodDependencyCounter.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/MethodVO.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/MethodVOSet.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/utils/MipmapGenerator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/commands/Mirror.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/MotionBlurFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/managers/Mouse3DManager.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/MouseEvent3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/MultiPassMaterialBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/utils/MultipleMaterials.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/NURBSGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/data/NURBSVertex.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/assets/NamedAssetBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/shadowmaps/NearDirectionalShadowMapper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/NearShadowMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/NodeBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/pb/NormalizeSplats.pbk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/bounds/NullBounds.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/NullNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/library/naming/NumSuffixConflictStrategy.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/OBJParser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/Object3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/Object3DEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/containers/ObjectContainer3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/cameras/lenses/ObliqueNearPlaneLens.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/Octree.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/OctreeNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/cameras/lenses/OrthographicLens.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/cameras/lenses/OrthographicOffCenterLens.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/OutlineMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/OutlinePass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/PBPickingCollider.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/ParserBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/ParserDataFormat.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/ParserEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/utils/ParserUtil.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/parsers/Parsers.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleAccelerationNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleAccelerationState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/ParticleAnimationData.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/ParticleAnimationSet.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/ParticleAnimator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleBezierCurveNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleBezierCurveState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleBillboardNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleBillboardState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleColorNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleColorState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/data/ParticleData.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleFollowNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleFollowState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/ParticleGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/helpers/ParticleGeometryHelper.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/helpers/data/ParticleGeometryTransform.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleNodeBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleOrbitNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleOrbitState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleOscillatorNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleOscillatorState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticlePositionNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticlePositionState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/ParticleProperties.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/ParticlePropertiesMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleRotateToHeadingNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleRotateToHeadingState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleRotationalVelocityNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleRotationalVelocityState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleScaleNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleScaleState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleSpriteSheetNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleSpriteSheetState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleStateBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleTimeNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleTimeState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleUVNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleUVState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/ParticleVelocityNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/ParticleVelocityState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/Partition3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/traverse/PartitionTraverser.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/PathAnimator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/extrusions/PathDuplicator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/PathEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/extrusions/PathExtrude.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/cameras/lenses/PerspectiveLens.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/PickingColliderBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/PickingColliderType.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/PickingCollisionVO.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/PickingType.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/PlanarReflectionMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/PlanarReflectionTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/math/Plane3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/math/PlaneClassification.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/PlaneGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/PointLight.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/PointLightNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/render/PositionRenderer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/PrimitiveBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/ProjectiveTextureMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/Projector.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/QuadTree.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/QuadTreeNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/paths/QuadraticPath.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/paths/QuadraticPathSegment.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/math/Quaternion.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/managers/RTTBufferManager.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/RadialBlurFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/Ray.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/pb/RayTriangleKernel.pbk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/traverse/RaycastCollector.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/RaycastPicker.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/RefractionEnvMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/RegisterPool.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/RegularPolygonGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/RenderCubeTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/RenderTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/data/RenderableListItem.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/data/RenderableListItemPool.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/sort/RenderableMergeSort.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/RenderableNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/render/RendererBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/misc/ResourceDependency.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/RimLightMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/containers/Scene3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/Scene3DEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/traverse/SceneIterator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AnimationScrubber/src/Scratch.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/data/Segment.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/SegmentMaterial.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/SegmentPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/entities/SegmentSet.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/paths/SegmentedPathBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/serialize/Serialize.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/serialize/SerializerBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/ShaderCompiler.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/ShaderMethodSetup.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/pick/ShaderPicker.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/ShaderRegisterCache.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/ShaderRegisterData.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/ShaderRegisterElement.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/ShadingMethodBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/ShadingMethodEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/traverse/ShadowCasterCollector.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/ShadowCasterPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/ShadowMapMethodBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/lights/shadowmaps/ShadowMapperBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/audio/drivers/SimplePanVolumeDriver.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/SimpleShadowMapMethodBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/utils/SimpleVideoPlayer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/SimpleWaterNormalMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/loaders/misc/SingleFileLoader.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/SingleObjectDepthPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/SinglePassMaterialBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/Skeleton.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/SkeletonAnimationSet.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/SkeletonAnimator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/SkeletonBinaryLERPNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/SkeletonBinaryLERPState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/SkeletonClipNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/SkeletonClipState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/SkeletonDifferenceNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/SkeletonDifferenceState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/SkeletonDirectionalNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/SkeletonDirectionalState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/SkeletonJoint.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/SkeletonNaryLERPNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/SkeletonNaryLERPState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/SkeletonPose.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/utils/SkeletonUtils.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/extrusions/SkinExtrude.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/SkinnedSubGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/SkyBox.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/SkyBoxMaterial.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/SkyBoxNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/SkyBoxPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/SoftShadowMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/audio/Sound3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/audio/SoundTransform3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/SpecularBitmapTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/SpecularShadingModel.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/SphereGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/SplatBlendBitmapTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/controllers/SpringController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/entities/Sprite3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/events/Stage3DEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/managers/Stage3DManager.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/managers/Stage3DProxy.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/lightpickers/StaticLightPicker.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/stereo/StereoCamera3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/stereo/methods/StereoRenderMethodBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/stereo/StereoRenderer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/stereo/StereoView3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/SubGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/SubGeometryBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/SubMesh.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/SubsurfaceScatteringDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/compilation/SuperShaderCompiler.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/passes/SuperShaderPass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/TerrainDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/Texture2DBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/TextureMaterial.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/TextureMultiPassMaterial.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/entities/TextureProjector.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/TextureProxyBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/utils/TextureUtils.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/TorusGeometry.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/serialize/TraceSerializer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/debug/Trident.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/debug/data/TridentLines.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/TripleFilteredShadowMapMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/data/UV.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/UVAnimationFrame.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/UVAnimationSet.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/UVAnimator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/UVClipNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/UVClipState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/VBlurFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/filters/VDepthOfFieldFilter3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/math/Vector3DUtils.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/base/data/Vertex.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/data/VertexAnimationMode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/VertexAnimationSet.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/VertexAnimator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/nodes/VertexClipNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/animators/states/VertexClipState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/VideoTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/containers/View3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/ViewVolume.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/ViewVolumePartition.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/core/partition/ViewVolumeRootNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/textures/WebcamTexture.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/tools/commands/Weld.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/debug/WireframeAxesGrid.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/WireframeCube.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/WireframeCylinder.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/utils/WireframeMapGenerator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/WireframePlane.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/WireframePrimitiveBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/WireframeSphere.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/primitives/WireframeTetrahedron.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/materials/methods/WrapDiffuseMethod.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/arcane.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/away3d-license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/Game/js/gameengine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/idettman.com/css/google-glass.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/html-template/history/history.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/html-template/history/history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/html-template/history/historyFrame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/MNearman/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/html-template/index.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/ThreeJs/load_obj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlashExperiments/html-template/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/idettman.com/view-source www.google.com glass start what-it-does .htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash/classes/base/display/AbstractButton.as" afterPath="$PROJECT_DIR$/Flash/classes/base/display/AbstractButton.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash/classes/base/display/AbstractMovieClip.as" afterPath="$PROJECT_DIR$/Flash/classes/base/display/AbstractMovieClip.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash/classes/base/display/AbstractSprite.as" afterPath="$PROJECT_DIR$/Flash/classes/base/display/AbstractSprite.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iml" afterPath="$PROJECT_DIR$/ProductionLib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.ipr" afterPath="$PROJECT_DIR$/ProductionLib.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Experiments/idettman.com/index.html" afterPath="$PROJECT_DIR$/HTML/Experiments/idettman.com/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Experiments/idettman.com/css/main.css" afterPath="$PROJECT_DIR$/HTML/Experiments/idettman.com/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Experiments/idettman.com/js/requestanimationframe.js" afterPath="$PROJECT_DIR$/HTML/Experiments/idettman.com/js/requestanimationframe.js" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360978003684" ignored="false" />
-    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360111257072" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362093292595" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103145734" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
-    <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968520967" ignored="false" />
+    <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
     <file path="/DrawDisplayObjectUtil.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358978475854" ignored="false" />
     <file path="/index.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360976634826" ignored="false" />
-    <file path="/a.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359058485832" ignored="false" />
+    <file path="/a.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362093074274" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/view/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359067331419" ignored="false" />
     <file path="/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066861477" ignored="false" />
     <file path="/cannonexperiment_ie.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359079486956" ignored="false" />
@@ -32,20 +515,26 @@
     <file path="/domCreationAndModifications.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359686736367" ignored="false" />
     <file path="/DynamicNavigation.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360033722355" ignored="false" />
     <file path="/Broadcaster.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360003037976" ignored="false" />
-    <file path="/a.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359749436889" ignored="false" />
+    <file path="/a.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362093104985" ignored="false" />
     <file path="/AsyncLoader.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359749898572" ignored="false" />
     <file path="/AsyncScriptLoader.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359752547465" ignored="false" />
     <file path="/EventTarget.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360011907746" ignored="false" />
     <file path="/CustomEventBind.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359767606403" ignored="false" />
     <file path="/inheritance.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360117836730" ignored="false" />
     <file path="/scope.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360104355962" ignored="false" />
-    <file path="$PROJECT_DIR$/HTML/MNearman/index.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360105296903" ignored="false" />
     <file path="/inheritance02.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360119609233" ignored="false" />
     <file path="/fragment.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360181244747" ignored="false" />
     <file path="/requestanimationframe.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360620310032" ignored="false" />
-    <file path="/a.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360377752289" ignored="false" />
+    <file path="/a.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1361990846078" ignored="false" />
     <file path="/main.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360623540115" ignored="false" />
-    <file path="/simplemovement.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360978504576" ignored="false" />
+    <file path="/simplemovement.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1361316068064" ignored="false" />
+    <file path="/gameengine.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1361386473626" ignored="false" />
+    <file path="/load_obj.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1361411650393" ignored="false" />
+    <file path="/FlashExperiments.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362105938234" ignored="false" />
+    <file path="/DisplayListUtils.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362094438868" ignored="false" />
+    <file path="/AbstractAway3D.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362106053745" ignored="false" />
+    <file path="/AbstractSprite.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362102621402" ignored="false" />
+    <file path="/DisplayInitializationCue.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103200239" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +544,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CompilerWorkspaceConfiguration">
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+    <option name="USE_COMPILE_SERVER" value="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="C:\Users\Faygo\Dev\ProductionLib" />
@@ -63,7 +553,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -71,6 +560,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -87,6 +577,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -98,6 +589,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -106,43 +598,21 @@
     <favorites_list name="ProductionLib" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="simplemovement.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/Experiments/Game/simplemovement.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="173" selection-end="173" vertical-scroll-proportion="0.1734694">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="48" selection-start="2365" selection-end="2425" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requestanimationframe.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/Experiments/Game/js/requestanimationframe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="38" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="FlexCompilerConfiguration">
+    <option name="USE_BUILT_IN_COMPILER" value="false" />
+    <option name="USE_MXMLC_COMPC" value="true" />
+  </component>
   <component name="FlexIdeProjectLevelCompilerOptionsHolder">
-    <compiler-options />
+    <compiler-options>
+      <option name="additionalOptions" value="-swf-version=19" />
+    </compiler-options>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,22 +626,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/HTML/ThreeCannonTest/libs/vendors/eventdispatcher.js/EventDispatcher.js" />
-        <option value="$PROJECT_DIR$/HTML/ThreeCannonTest/cannonjstest.html" />
-        <option value="$PROJECT_DIR$/HTML/ThreeCannonTest/cannonjs_orbits.html" />
-        <option value="$PROJECT_DIR$/HTML/MinimalLib/addevent.js" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/Inheritance/inheritance02.html" />
-        <option value="$PROJECT_DIR$/HTML/MinimalLib/requestanimationframe.js" />
-        <option value="$PROJECT_DIR$/HTML/BoundsBall/index.html" />
-        <option value="$PROJECT_DIR$/Flash/HPTO_TestHarness_Yahoo/index.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/idettman.com/js/main.js" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/idettman.com/js/requestanimationframe.js" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/DOM_Experiments/DynamicNavigation.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/idettman.com/js/Tween.js" />
-        <option value="$PROJECT_DIR$/HTML/ThreeCannonTest/index.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/idettman.com/css/main.css" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/idettman.com/index.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/Game/simplemovement.html" />
+        <option value="$PROJECT_DIR$/HTML/Experiments/ThreeJs/load_obj.html" />
+        <option value="$PROJECT_DIR$/HTML/Experiments/Inheritance/inheritance.html" />
+        <option value="$PROJECT_DIR$/../AIRSDK_Compiler/frameworks/flex-config.xml" />
+        <option value="$FLEX_HOME$/frameworks/flex-config.xml" />
+        <option value="$PROJECT_DIR$/../AIRSDK_Compiler/flex-sdk-description.xml" />
+        <option value="$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" />
+        <option value="S:/Dev_Archive/GSP_Sonic_Groundhogs_Day/Source/Flash/Sonic_GroundhogsDay_GSP_Awards_Static_Demo_Version/classes/components/base/AbstractMovieClip.as" />
+        <option value="$PROJECT_DIR$/../529_ssla_toyota_rav4_sustaining/Source/Flash/HPTO_Yahoo/classes/utils/URLUtils.as" />
+        <option value="$PROJECT_DIR$/Flash/classes/base/display/AbstractButton.as" />
+        <option value="$PROJECT_DIR$/Flash/classes/utils/DisplayListUtils.as" />
+        <option value="$PROJECT_DIR$/Flash/classes/base/display/DisplayInitializationCue.as" />
+        <option value="$PROJECT_DIR$/Flash/classes/base/display/InitializationCue.as" />
+        <option value="$PROJECT_DIR$/Flash/classes/base/display/AbstractMovieClip.as" />
+        <option value="$PROJECT_DIR$/Flash/classes/base/display/AbstractSprite.as" />
+        <option value="$PROJECT_DIR$/FlashExperiments/src/FlashExperiments.as" />
+        <option value="$PROJECT_DIR$/FlashExperiments/away3d_experiment/AbstractAway3D.as" />
       </list>
     </option>
   </component>
@@ -208,6 +678,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,9 +698,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,34 +739,39 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
-    <property name="options.splitter.main.proportions" value="0.19400953" />
+    <property name="options.splitter.main.proportions" value="0.19400954" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.CSS" />
+    <property name="options.lastSelected" value="preferences.sourceCode" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProductionLib.ipr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.20000002" />
-    <property name="JavaScriptPreferStrict" value="true" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="JavaScriptPreferStrict" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="components.listslider" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML\Experiments\Game" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML\Experiments\idettman.com\js" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML\Experiments\idettman.com\css" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML\BoundsBall\js\vendors" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML\Experiments\Inheritance" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="base.display" />
+      <recent name="utils" />
+      <recent name="" />
+      <recent name="components.listslider" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML\Experiments\idettman.com\js" />
@@ -274,7 +781,7 @@
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML\ThreeCannonTest\libs\vendors\tween.js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flash App.FlashExperiments">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -357,7 +864,47 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="FlashExperiments" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="FlashExperiments" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="EXPLORER" />
+          <option name="launcherType" value="Player" />
+          <option name="playerPath" value="$PROJECT_DIR$/../AIRSDK_Compiler/runtimes/player/11.6/flashplayer_11_sa_debug.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="FlashExperiments" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Flash App.FlashExperiments" />
+    </list>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -403,22 +950,23 @@
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3760933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20811099" sideWeight="0.6715258" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19156884" sideWeight="0.6005831" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941692" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -460,9 +1008,13 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created dir structure for experiment site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hooked up up,down,left,right keyboard controls" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -473,10 +1025,9 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Added mouseover style changes to div element" />
-    <MESSAGE value="Added cleared debug text to show scope for button handler function" />
     <MESSAGE value="Swf initialization and flow for first impression view is setup, need to added replay functionality and interact functionality" />
     <MESSAGE value="Added inheritance example" />
     <MESSAGE value="Added inheritance example showing how to handle constructor parameter overloading" />
@@ -500,97 +1051,133 @@
     <MESSAGE value="Missed adding semi-colon to end of swfobject param" />
     <MESSAGE value="fixed formatting" />
     <MESSAGE value="Created dir structure for experiment site" />
+    <MESSAGE value="Added stub files for game experiments" />
+    <MESSAGE value="Hooked up up,down,left,right keyboard controls" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/css/normalize.css">
+    <entry file="file://$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="16" column="18" selection-start="780" selection-end="780" vertical-scroll-proportion="0.45182723" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/FacebookWebApp/css/main.css">
+    <entry file="file://$PROJECT_DIR$/Flash/classes/base/events/TimelineEvent.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="125" selection-end="125" vertical-scroll-proportion="0.1522388" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/FacebookWebApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.01734694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/js/bindscope.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash/HPTO_TestHarness_Yahoo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="12" selection-start="2618" selection-end="2618" vertical-scroll-proportion="0.20858896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/MinimalLib/requestanimationframe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/js/requestanimationframe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="478" selection-end="478" vertical-scroll-proportion="0.2542373" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/DOM_Experiments/DynamicNavigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="16" selection-start="558" selection-end="558" vertical-scroll-proportion="0.6257669" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/DOM_Experiments/domCreationAndModifications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="28" selection-start="355" selection-end="355" vertical-scroll-proportion="0.33026585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/js/Tween.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="8" selection-start="718" selection-end="718" vertical-scroll-proportion="0.5254237">
+        <state line="7" column="8" selection-start="99" selection-end="99" vertical-scroll-proportion="0.11840796">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/js/main.js">
+    <entry file="file://$PROJECT_DIR$/../529_ssla_toyota_rav4_sustaining/Source/Flash/HPTO_Yahoo/classes/utils/MovieClipUtils.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/ThreeCannonTest/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="16" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.6697342">
+        <state line="17" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.25373134">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/css/main.css">
+    <entry file="file://$PROJECT_DIR$/../529_ssla_toyota_rav4_sustaining/Source/Flash/HPTO_Yahoo/classes/utils/URLUtils.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.08457711" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/Game/js/requestanimationframe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+        <state line="69" column="53" selection-start="1840" selection-end="1840" vertical-scroll-proportion="1.1333333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/idettman.com/index.html">
+    <entry file="file://$PROJECT_DIR$/Flash/classes/base/display/AbstractButton.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="48" selection-start="2365" selection-end="2425" vertical-scroll-proportion="0.0">
+        <state line="24" column="62" selection-start="485" selection-end="485" vertical-scroll-proportion="0.40597016">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/Game/simplemovement.html">
+    <entry file="file://$PROJECT_DIR$/../529_ssla_toyota_rav4_sustaining/Source/Flash/HPTO_Yahoo/classes/base/AbstractButton.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="173" selection-end="173" vertical-scroll-proportion="0.1734694">
+        <state line="5" column="6" selection-start="50" selection-end="1125" vertical-scroll-proportion="0.08457711">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://S:/Dev_Archive/GSP_Sonic_Groundhogs_Day/Source/Flash/Sonic_GroundhogsDay_GSP_Awards_Static_Demo_Version/classes/components/base/AbstractMovieClip.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.9303483">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash/classes/components/media/view/MediaSelector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash/classes/utils/DisplayListUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#17#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash/classes/base/display/InitializationCue.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="134" selection-end="134" vertical-scroll-proportion="0.084745765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash/classes/base/display/AbstractMovieClip.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="8" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.5254237">
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash/classes/base/display/AbstractSprite.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="27" selection-start="760" selection-end="760" vertical-scroll-proportion="0.333001">
+          <folding>
+            <element signature="e#24#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlashExperiments/away3d-core-fp11-dev/src/away3d/arcane.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="38" selection-end="38" vertical-scroll-proportion="0.050847456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlashExperiments/away3d_experiment/AbstractAway3D.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.18888889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlashExperiments/src/FlashExperiments.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.3559322">
+          <folding>
+            <element signature="e#12#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Experiments/ThreeJs/load_obj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="821" selection-end="821" vertical-scroll-proportion="0.48670757">
           <folding />
         </state>
       </provider>
@@ -616,7 +1203,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20000002" />
+                <option value="0.20000003" />
               </list>
             </option>
           </splitter-proportions>
@@ -624,11 +1211,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>flex_sdk_4.6.0.23201B</last-edited>
+          <last-edited>AIRSDK_Compiler</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20000002" />
+                <option value="0.20000003" />
               </list>
             </option>
           </splitter-proportions>
@@ -636,7 +1223,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HTML</last-edited>
+          <last-edited>FlashExperiments</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

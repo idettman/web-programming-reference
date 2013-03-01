@@ -5,12 +5,10 @@ package base.display
 
 	public class AbstractButton extends AbstractMovieClip
 	{
-		/**
-		 * Private Methods
-		 */
 		override protected function setDefaults ():void
 		{
 			stop ();
+
 			enabled = true;
 			buttonMode = true;
 			tabEnabled = true;
@@ -45,19 +43,19 @@ package base.display
 		 */
 		protected function rollOverHandler (e:MouseEvent):void
 		{
-			//trace (this, "over handler");
+
 		}
 
 
 		protected function rollOutHandler (e:MouseEvent):void
 		{
-			//trace (this, "out handler");
+
 		}
 
 
 		protected function clickHandler (e:MouseEvent):void
 		{
-			//trace (this, "click handler");
+
 		}
 	}
 }

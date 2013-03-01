@@ -3,6 +3,9 @@ package base.display
 
 	import flash.display.MovieClip;
 	import flash.events.Event;
+	import flash.utils.getTimer;
+
+	import utils.DisplayListUtils;
 
 
 	public class AbstractMovieClip extends MovieClip
@@ -13,14 +16,17 @@ package base.display
 
 			setDefaults ();
 
-			if (loaderInfo)
+			// If root exists, then display obj was sitting on frame 1, and not added with code
+			if (root)
 			{
-				// loaderInfo NOT null, movieclip exists on the fla timeline
-				loaderInfo.addEventListener (Event.COMPLETE, loaderInfoCompleteHandler);
+				if (!InitializationCue.initializeCue)
+					InitializationCue.initializeCue = new Vector.<Object> ();
+
+				InitializationCue.initializeCue.push (this);
+				root.loaderInfo.addEventListener (Event.COMPLETE, loadInfoCompleteHandler);
 			}
 			else
 			{
-				// loaderInfo IS null, movieclip not on fla timeline
 				if (stage)  init ();
 				else        addEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
 			}
@@ -29,8 +35,6 @@ package base.display
 
 		protected function setDefaults ():void
 		{
-			stop ();
-
 			enabled = false;
 			buttonMode = false;
 			tabEnabled = false;
@@ -42,19 +46,70 @@ package base.display
 		}
 
 
-		/**
-		 * Private Methods
-		 */
 		protected function init ():void
 		{
 			addListeners ();
+
+			trace ("INIT: ", (getTimer()).toString(), this, this.name, "  depth:", DisplayListUtils.calculateDisplayListDepth(this));
+
+			if (InitializationCue.initializeCue)
+			{
+				var cuePosition:int = InitializationCue.initializeCue.indexOf (this);
+				if (cuePosition != -1)
+					InitializationCue.initializeCue[cuePosition] = null;
+
+				var initializeCueEmpty:Boolean = true;
+				for (var i:int = 0; i < InitializationCue.initializeCue.length; i++)
+				{
+					if (InitializationCue.initializeCue[i] != null)
+					{
+						initializeCueEmpty = false;
+						break;
+					}
+				}
+
+				if (initializeCueEmpty)
+				{
+					InitializationCue.initializeCue = null;
+					stage.dispatchEvent (new Event ("initializeCueEmpty"));
+				}
+			}
+			else
+			{
+				initComplete ();
+			}
+		}
+
+
+		protected function initComplete():void
+		{
+			trace ("INIT COMPLETE: ", (getTimer()).toString(), this, this.name, "  depth:", DisplayListUtils.calculateDisplayListDepth(this));
 		}
 
 
 		protected function destroy ():void
 		{
-			stop ();
-			removeListeners ();
+			if (InitializationCue.initializeCue)
+			{
+				var cuePosition:int = InitializationCue.initializeCue.indexOf (this);
+				if (cuePosition != -1)
+					InitializationCue.initializeCue[cuePosition] = null;
+
+				var initializeCueEmpty:Boolean = true;
+				for (var i:int = 0; i < InitializationCue.initializeCue.length; i++)
+				{
+					if (InitializationCue.initializeCue[i] != null)
+					{
+						initializeCueEmpty = false;
+						break;
+					}
+				}
+
+				if (initializeCueEmpty)
+				{
+					InitializationCue.initializeCue = null;
+				}
+			}
 
 			while (numChildren)
 			{
@@ -67,6 +122,7 @@ package base.display
 		{
 			addEventListener (Event.UNLOAD, unloadHandler);
 			addEventListener (Event.REMOVED_FROM_STAGE, removedFromStageHandler);
+			stage.addEventListener ("initializeCueEmpty", initializeCueEmptyHandler);
 		}
 
 
@@ -75,16 +131,15 @@ package base.display
 			removeEventListener (Event.UNLOAD, unloadHandler);
 			removeEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
 			removeEventListener (Event.REMOVED_FROM_STAGE, removedFromStageHandler);
-			if (loaderInfo)loaderInfo.removeEventListener (Event.COMPLETE, loaderInfoCompleteHandler);
+			stage.removeEventListener ("initializeCueEmpty", initializeCueEmptyHandler);
 		}
 
 
 		/**
 		 * Event Handlers
 		 */
-		protected function loaderInfoCompleteHandler (e:Event):void
+		protected function loadInfoCompleteHandler (e:Event):void
 		{
-			loaderInfo.removeEventListener (Event.COMPLETE, loaderInfoCompleteHandler);
 			if (stage)  init ();
 			else        addEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
 		}
@@ -92,6 +147,7 @@ package base.display
 
 		protected function addedToStageHandler (e:Event):void
 		{
+			//trace ("ADDED TO STAGE:", this, this.name);
 			removeEventListener (Event.ADDED_TO_STAGE, addedToStageHandler);
 			init ();
 		}
@@ -99,13 +155,25 @@ package base.display
 
 		protected function removedFromStageHandler (e:Event):void
 		{
+			trace ("REMOVED FROM STAGE:", this, this.name);
+			removeListeners ();
 			destroy ();
 		}
 
 
 		protected function unloadHandler (e:Event):void
 		{
+			trace ("UNLOAD:", this, this.name);
+			removeListeners ();
 			destroy ();
 		}
+
+
+		protected function initializeCueEmptyHandler (e:Event):void
+		{
+			stage.removeEventListener ("initializeCueEmpty", initializeCueEmptyHandler);
+			initComplete ();
+		}
+
 	}
 }
