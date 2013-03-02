@@ -3,6 +3,7 @@ package
 	import away3d.cameras.lenses.PerspectiveLens;
 	import away3d.containers.View3D;
 	import away3d.entities.Mesh;
+	import away3d.events.AssetEvent;
 	import away3d.materials.ColorMaterial;
 	import away3d.primitives.PlaneGeometry;
 	import away3d.primitives.SkyBox;
@@ -31,10 +32,19 @@ package
 		{
 			super.initComplete ();
 
+			initAway3D ();
+
+
+
+			addEventListener (Event.ENTER_FRAME, enterFrameHandler);
+		}
+
+		private function initAway3D ():void
+		{
 			_view = new View3D ();
 			addChild (_view);
 
-			_plane = new Mesh (new PlaneGeometry (700, 700), new ColorMaterial(0xFF0000));
+			_plane = new Mesh (new PlaneGeometry (700, 700), new ColorMaterial (0xFF0000));
 			_plane.z = 700;
 			_view.scene.addChild (_plane);
 
@@ -43,7 +53,11 @@ package
 			_view.camera.lens = new PerspectiveLens (90);
 			_view.camera.lookAt (_plane.position);
 
-			addEventListener (Event.ENTER_FRAME, enterFrameHandler);
+		}
+
+		private function onAssetComplete (e:AssetEvent):void
+		{
+			trace ("asset complete:", e.asset);
 		}
 
 		private function enterFrameHandler (e:Event):void
