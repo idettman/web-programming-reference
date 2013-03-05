@@ -7,11 +7,9 @@ package
 	import flash.display.Loader;
 	import flash.events.Event;
 	import flash.net.URLRequest;
-	import flash.system.Capabilities;
-	import flash.text.TextField;
-	import flash.text.TextFieldAutoSize;
 
 
+	[SWF(width="1024",height="769",frameRate="59")]
 	public class FlashExperiments extends AbstractSprite
 	{
 		public function FlashExperiments ()
@@ -30,15 +28,17 @@ package
 
 
 			super.init ();
-			var textField:TextField = new TextField ();
+			/*var textField:TextField = new TextField ();
 			textField.autoSize = TextFieldAutoSize.LEFT;
 			textField.multiline = false;
 			textField.text = Capabilities.isDebugger + " : " + Capabilities.playerType + " : " + Capabilities.version + " : " + loaderInfo.swfVersion.toString();
-			addChild (textField);
+			addChild (textField);*/
 			//trace ("width:", Capabilities.screenResolutionX, Capabilities.screenResolutionY);
 
+			//startLoading();
 
-			startLoading();
+			var away3d:AbstractAway3D = new AbstractAway3D ();
+			addChild (away3d);
 		}
 
 		private var loader:Loader;
