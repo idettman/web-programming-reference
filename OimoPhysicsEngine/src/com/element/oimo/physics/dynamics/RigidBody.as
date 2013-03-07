@@ -164,12 +164,12 @@ package com.element.oimo.physics.dynamics {
 		public var parent:World;
 		
 		/**
-		 * 新しく RigidBody オブジェクトを作成します。
-		 * 回転成分を指定することもできます。
-		 * @param	rad ラジアンでの回転角度
-		 * @param	ax 回転軸の x 成分
-		 * @param	ay 回転軸の y 成分
-		 * @param	az 回転軸の z 成分
+		 * I want to create a new object RigidBody.
+		 * You can also specify a rotational component.
+		 *  @ Param rad rotation angle in radians
+		 *	 X component of the rotation axis * @ param ax
+		 *	 Y component of the rotation axis * @ param ay
+		 *	 Z component of the rotation axis * @ param az
 		 */
 		public function RigidBody(rad:Number = 0, ax:Number = 0, ay:Number = 0, az:Number = 0) {
 			position = new Vec3();

@@ -17,6 +17,9 @@
  * SOFTWARE.
  */
 package com.element.oimo.math {
+	import flash.geom.Matrix3D;
+
+
 	/**
 	 * 4行4列の要素を持つ行列を扱うクラスです。
 	 * この行列は、ある三次元座標系から別の三次元座標系への、平行移動を含む完全な変換をサポートします。
@@ -90,6 +93,15 @@ package com.element.oimo.math {
 		 * 4行4列目の要素です。
 		 */
 		public var e33:Number;
+
+
+
+		/*
+		Isaac: Addition for use with Away3d
+		 */
+		private var matrix3d:Matrix3D;
+		private var rawData:Vector.<Number>;
+
 		
 		/**
 		 * 新しく Mat44 オブジェクトを作成します。
@@ -133,6 +145,9 @@ package com.element.oimo.math {
 			this.e31 = e31;
 			this.e32 = e32;
 			this.e33 = e33;
+
+			matrix3d = new Matrix3D ();
+			rawData = new Vector.<Number> (16);
 		}
 		
 		/**
@@ -922,6 +937,84 @@ package com.element.oimo.math {
 				e30, e31, e32, e33
 			);
 		}
+
+
+		public function getMatrix3dRawData():Vector.<Number>
+		{
+			/*e00:Number = 1, e01:Number = 0, e02:Number = 0, e03:Number = 0,
+				e10:Number = 0, e11:Number = 1, e12:Number = 0, e13:Number = 0,
+				e20:Number = 0, e21:Number = 0, e22:Number = 1, e23:Number = 0,
+				e30:Number = 0, e31:Number = 0, e32:Number = 0, e33:Number = 1*/
+
+			rawData[0] = e00;
+			rawData[1] = e10;
+			rawData[2] = e20;
+			rawData[3] = e30;
+			rawData[4] = e01;
+			rawData[5] = e11;
+			rawData[6] = e21;
+			rawData[7] = e31;
+			rawData[8] = e02;
+			rawData[9] = e12;
+			rawData[10] = e22;
+			rawData[11] = e32;
+			rawData[12] = e03;
+			rawData[13] = e13;
+			rawData[14] = e23;
+			rawData[15] = e33;
+
+			return rawData;
+			//return new <Number>[e00, e10, e20, e30, e01, e11, e21, e31, e02, e12, e22, e32, e03, e13, e23, e33];
+		}
+
+		public function getMatrix3d():Matrix3D
+		{
+			rawData[0] = e00;
+			rawData[1] = e10;
+			rawData[2] = e20;
+			rawData[3] = e30;
+			rawData[4] = e01;
+			rawData[5] = e11;
+			rawData[6] = e21;
+			rawData[7] = e31;
+			rawData[8] = e02;
+			rawData[9] = e12;
+			rawData[10] = e22;
+			rawData[11] = e32;
+			rawData[12] = e03;
+			rawData[13] = e13;
+			rawData[14] = e23;
+			rawData[15] = e33;
+			matrix3d.copyRawDataFrom (rawData);
+
+			//matrix3d.rawData = rawData;
+
+			//matrix3d.rawData = new <Number>[e00, e10, e20, e30, e01, e11, e21, e31, e02, e12, e22, e32, e03, e13, e23, e33];
+
+			/*
+			Isaac:
+			Setting the array indexes directly doesn't update the raw data, it must have to go through the rawData setter
+
+			matrix3d.rawData[0] = e00;
+			matrix3d.rawData[1] = e10;
+			matrix3d.rawData[2] = e20;
+			matrix3d.rawData[3] = e30;
+			matrix3d.rawData[4] = e01;
+			matrix3d.rawData[5] = e11;
+			matrix3d.rawData[6] = e21;
+			matrix3d.rawData[7] = e31;
+			matrix3d.rawData[8] = e02;
+			matrix3d.rawData[9] = e12;
+			matrix3d.rawData[10] = e22;
+			matrix3d.rawData[11] = e32;
+			matrix3d.rawData[12] = e03;
+			matrix3d.rawData[13] = e13;
+			matrix3d.rawData[14] = e23;
+			matrix3d.rawData[15] = e33;*/
+
+			return matrix3d;
+		}
+
 		
 		/**
 		 * この行列の文字列表現を返します。

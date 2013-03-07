@@ -18,63 +18,64 @@
  */
 package com.element.oimo.math {
 	/**
-	 * 3行3列の要素を持つ行列を扱うクラスです。
-	 * この行列は、ある三次元座標系から別の三次元座標系への、平行移動を除く変換をサポートします。
-	 * 行列は右手系の行列として扱われます。
-	 * オブジェクトの不要な作成を避けるため、
-	 * 関数ではほとんどの演算結果は自身のオブジェクトに格納されます。
+	 * It is a class for handling matrices with elements of three rows and three columns.
+	 * This matrix, except to support the conversion to three-dimensional coordinate system to another, the translation from a certain three-dimensional coordinate system.
+	 * Matrix is treated as a matrix of right-handed.
+	 * In order to avoid creating unnecessary objects,
+	 * The result of the operation of most functions is stored in the object itself.
 	 * @author saharan
 	 */
 	public class Mat33 {
+
 		/**
-		 * 1行1列目の要素です。
+		 * It is an element in the first row and first column.
 		 */
 		public var e00:Number;
 		/**
-		 * 1行2列目の要素です。
+		 * It is an element of the first row and second column.
 		 */
 		public var e01:Number;
 		/**
-		 * 1行3列目の要素です。
+		 * It is an element of one row and third column.
 		 */
 		public var e02:Number;
 		/**
-		 * 2行1列目の要素です。
+		 * It is an element of the second row and first column.
 		 */
 		public var e10:Number;
 		/**
-		 * 2行2列目の要素です。
+		 * It is an element in the second row and second column.
 		 */
 		public var e11:Number;
 		/**
-		 * 2行3列目の要素です。
+		 * It is an element of the second two rows and three columns.
 		 */
 		public var e12:Number;
 		/**
-		 * 3行1列目の要素です。
+		 * It is an element of the first column line 3.
 		 */
 		public var e20:Number;
 		/**
-		 * 3行2列目の要素です。
+		 * It is an element of the second three rows and two columns.
 		 */
 		public var e21:Number;
 		/**
-		 * 3行3列目の要素です。
+		 * It is an element of the second three rows and three columns.
 		 */
 		public var e22:Number;
 		
 		/**
-		 * 新しく Mat33 オブジェクトを作成します。
-		 * 引数を指定しない場合は、単位行列で初期化されます。
-		 * @param	e00 設定する1行1列目の要素
-		 * @param	e01 設定する1行2列目の要素
-		 * @param	e02 設定する1行3列目の要素
-		 * @param	e10 設定する2行1列目の要素
-		 * @param	e11 設定する2行2列目の要素
-		 * @param	e12 設定する2行3列目の要素
-		 * @param	e20 設定する3行1列目の要素
-		 * @param	e21 設定する3行2列目の要素
-		 * @param	e22 設定する3行3列目の要素
+		 * I want to create a new object Mat33.
+		 * If you do not specify an argument, is initialized with the identity matrix.
+		 * @param	e00 Element in the first row and first column to be set
+		 * @param	e01 Element in the first row and second column to be set
+		 * @param	e02 The second element of one row and three columns to set
+		 * @param	e10 Element in the second row and first column to be set
+		 * @param	e11 Element in the second row and second column to be set
+		 * @param	e12 The second element of the two rows and three columns to set
+		 * @param	e20 Elements in the first column three rows set
+		 * @param	e21 The second element of the three rows and two columns to set
+		 * @param	e22 The second element of three rows and three columns to set
 		 */
 		public function Mat33(
 			e00:Number = 1, e01:Number = 0, e02:Number = 0,
@@ -93,18 +94,18 @@ package com.element.oimo.math {
 		}
 		
 		/**
-		 * この行列を指定された値で初期化します。
-		 * 引数を指定しない場合は、単位行列で初期化されます。
-		 * @param	e00 設定する1行1列目の要素
-		 * @param	e01 設定する1行2列目の要素
-		 * @param	e02 設定する1行3列目の要素
-		 * @param	e10 設定する2行1列目の要素
-		 * @param	e11 設定する2行2列目の要素
-		 * @param	e12 設定する2行3列目の要素
-		 * @param	e20 設定する3行1列目の要素
-		 * @param	e21 設定する3行2列目の要素
-		 * @param	e22 設定する3行3列目の要素
-		 * @return このオブジェクト
+		 * I initialized with the value specified in this matrix.
+		 * If you do not specify an argument, is initialized with the identity matrix.
+		 * @param	e00 Element in the first row and first column to be set
+		 * @param	e01 Element in the first row and second column to be set
+		 * @param	e02 The second element of one row and three columns to set
+		 * @param	e10 Element in the second row and first column to be set
+		 * @param	e11 Element in the second row and second column to be set
+		 * @param	e12 The second element of the two rows and three columns to set
+		 * @param	e20 Elements in the first column three rows set
+		 * @param	e21 The second element of the three rows and two columns to set
+		 * @param	e22 The second element of three rows and three columns to set
+		 * @return This object
 		 */
 		public function init(
 			e00:Number = 1, e01:Number = 0, e02:Number = 0,
@@ -270,9 +271,9 @@ package com.element.oimo.math {
 		}
 		
 		/**
-		 * この行列を m と回転行列を合成したものに設定します。
-		 * @param	m 行列
-		 * @param	rad ラジアンでの回転角度
+		 * I set those obtained by combining the rotation matrix and this matrix m.
+		 * @param	m Row
+		 * @param	rad Rotation angle in radians
 		 * @param	ax 回転軸の x 成分
 		 * @param	ay 回転軸の y 成分
 		 * @param	az 回転軸の z 成分
@@ -368,8 +369,8 @@ package com.element.oimo.math {
 		}
 		
 		/**
-		 * この行列を q で表される回転行列に設定します。
-		 * @param	q クォータニオン
+		 * We set the rotation matrix represented by this matrix q.
+		 * @param	q Quaternion
 		 * @return このオブジェクト
 		 */
 		public function setQuat(q:Quat):Mat33 {

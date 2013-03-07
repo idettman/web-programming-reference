@@ -70,9 +70,10 @@ package com.element.oimo.physics.test {
 		private function init(e:Event = null):void {
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			
-			var debug:Stats = new Stats();
+			/*var debug:Stats = new Stats();
 			debug.x = 570;
-			addChild(debug);
+			addChild(debug);*/
+
 			tf = new TextField();
 			tf.selectable = false;
 			tf.defaultTextFormat = new TextFormat("_monospace", 12, 0xffffff);

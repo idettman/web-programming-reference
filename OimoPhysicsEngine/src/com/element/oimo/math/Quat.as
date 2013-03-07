@@ -18,15 +18,15 @@
  */
 package com.element.oimo.math {
 	/**
-	 * クォータニオンを扱うクラスです。
-	 * クォータニオンは右手系のクォータニオンとして扱われます。
-	 * オブジェクトの不要な作成を避けるため、
-	 * 関数ではほとんどの演算結果は自身のオブジェクトに格納されます。
+	 * It is a class that handles the quaternion.
+	 * Quaternion quaternion is treated as right-handed.
+	 * In order to avoid creating unnecessary objects,
+	 * The result of the operation of most functions is stored in the object itself.
 	 * @author saharan
 	 */
 	public class Quat {
 		/**
-		 * スカラー成分です。
+		 * s Is a scalar component.
 		 */
 		public var s:Number;
 		/**
@@ -43,8 +43,8 @@ package com.element.oimo.math {
 		public var z:Number;
 		
 		/**
-		 * 新しく Quat オブジェクトを作成します。
-		 * 引数を指定しない場合は、単位クォータニオンで初期化されます。
+		 * I want to create a new object Quat.
+		 * If you do not specify an argument, is initialized with the unit quaternion.
 		 * @param	s スカラー成分
 		 * @param	x x 成分
 		 * @param	y y 成分
@@ -58,8 +58,8 @@ package com.element.oimo.math {
 		}
 		
 		/**
-		 * このクォータニオンを指定された値で初期化します。
-		 * 引数を指定しない場合は、単位クォータニオンで初期化されます。
+		 I want to create a new object Quat.
+		 * If you do not specify an argument, is initialized with the unit quaternion.
 		 * @param	s スカラー成分
 		 * @param	x x 成分
 		 * @param	y y 成分

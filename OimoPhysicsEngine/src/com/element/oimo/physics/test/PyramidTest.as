@@ -29,8 +29,10 @@ package com.element.oimo.physics.test {
 	import flash.display.Sprite;
 	import flash.display.Stage3D;
 	import flash.events.Event;
+	import flash.events.KeyboardEvent;
 	import flash.text.TextField;
 	import flash.text.TextFormat;
+	import flash.ui.Keyboard;
 
 
 	/**
@@ -38,7 +40,7 @@ package com.element.oimo.physics.test {
 	 * @author saharan
 	 */
 	[SWF(width = "640", height = "480", frameRate = "60")]
-	public class SphereStackTest extends Sprite {
+	public class PyramidTest extends Sprite {
 		private var s3d:Stage3D;
 		private var world:World;
 		private var renderer:DebugDraw;
@@ -46,8 +48,13 @@ package com.element.oimo.physics.test {
 		private var count:uint;
 		private var tf:TextField;
 		private var fps:Number;
+		private var l:Boolean;
+		private var r:Boolean;
+		private var u:Boolean;
+		private var d:Boolean;
+		private var ctr:RigidBody;
 		
-		public function SphereStackTest() {
+		public function PyramidTest() {
 			if (stage) init();
 			else addEventListener(Event.ADDED_TO_STAGE, init);
 		}
@@ -55,9 +62,10 @@ package com.element.oimo.physics.test {
 		private function init(e:Event = null):void {
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			
-			var debug:Stats = new Stats();
+			/*var debug:Stats = new Stats();
 			debug.x = 570;
-			addChild(debug);
+			addChild(debug);*/
+
 			tf = new TextField();
 			tf.selectable = false;
 			tf.defaultTextFormat = new TextFormat("_monospace", 12, 0xffffff);
@@ -67,79 +75,130 @@ package com.element.oimo.physics.test {
 			tf.height = 400;
 			addChild(tf);
 			trace(OimoPhysics.DESCRIPTION);
-			world = new World();
-			renderer = new DebugDraw(640, 480);
-			renderer.setWorld(world);
-			var r:RigidBody;
-			var s:Shape;
-			var c:ShapeConfig = new ShapeConfig();
-			c.position.init(0, 0, -6);
-			s = new BoxShape(24, 1, 15, c);
-			r = new RigidBody(35 * Math.PI / 180, 1, 0, 0);
-			r.addShape(s);
-			r.setupMass(RigidBody.BODY_STATIC);
-			world.addRigidBody(r);
-			c.position.init(0, -10, 6);
-			s = new BoxShape(24, 1, 15, c);
-			r = new RigidBody(-35 * Math.PI / 180, 1, 0, 0);
-			r.addShape(s);
-			r.setupMass(RigidBody.BODY_STATIC);
-			world.addRigidBody(r);
-			c.position.init(-12, -5, 0);
-			s = new BoxShape(1, 20, 25, c);
-			r = new RigidBody();
-			r.addShape(s);
-			r.setupMass(RigidBody.BODY_STATIC);
-			world.addRigidBody(r);
-			c.position.init(12, -5, 0);
-			s = new BoxShape(1, 20, 25, c);
-			r = new RigidBody();
-			r.addShape(s);
-			r.setupMass(RigidBody.BODY_STATIC);
-			world.addRigidBody(r);
-			for (var k:int = 0; k < 512; k++) {
-				makeRigid(Math.random() * 8 - 4, 2 + k * 0.5, Math.random() * 8 - 4);
-			}
+			initWorld();
 			fps = 0;
 			
 			s3d = stage.stage3Ds[0];
 			s3d.addEventListener(Event.CONTEXT3D_CREATE, onContext3DCreated);
 			s3d.requestContext3D();
+			stage.addEventListener(KeyboardEvent.KEY_DOWN, function(e:KeyboardEvent):void {
+				var code:uint = e.keyCode;
+				if (code == Keyboard.W) {
+					u = true;
+				}
+				if (code == Keyboard.S) {
+					d = true;
+				}
+				if (code == Keyboard.A) {
+					l = true;
+				}
+				if (code == Keyboard.D) {
+					r = true;
+				}
+				if (code == Keyboard.SPACE) {
+					initWorld();
+				}
+			});
+			stage.addEventListener(KeyboardEvent.KEY_UP, function(e:KeyboardEvent):void {
+				var code:uint = e.keyCode;
+				if (code == Keyboard.W) {
+					u = false;
+				}
+				if (code == Keyboard.S) {
+					d = false;
+				}
+				if (code == Keyboard.A) {
+					l = false;
+				}
+				if (code == Keyboard.D) {
+					r = false;
+				}
+			});
 			addEventListener(Event.ENTER_FRAME, frame);
 		}
 		
-		private function makeRigid(x:Number, y:Number, z:Number):void {
-			var r1:Number = 0.3 + Math.random() * 0.5;
-			var r2:Number = 0.3 + Math.random() * 0.5;
-			var cfg:ShapeConfig = new ShapeConfig();
-			cfg.position.x = x - r1;
-			cfg.position.y = y;
-			cfg.position.z = z;
-			var shape1:Shape = new SphereShape(r1, cfg);
-			cfg.position.x = x + r2;
-			var shape2:Shape = new SphereShape(r2, cfg);
-			rigid = new RigidBody();
-			rigid.angularVelocity.x = Math.random() * 2 - 1;
-			rigid.angularVelocity.y = Math.random() * 2 - 1;
-			rigid.angularVelocity.z = Math.random() * 2 - 1;
-			rigid.addShape(shape1);
-			rigid.addShape(shape2);
-			rigid.setupMass();
-			world.addRigidBody(rigid);
+		private function initWorld():void {
+			world = new World();
+			if (!renderer) renderer = new DebugDraw(640, 480);
+			renderer.setWorld(world);
+			var rb:RigidBody;
+			var s:Shape;
+			var c:ShapeConfig = new ShapeConfig();
+			c.restitution = 0;
+			rb = new RigidBody();
+			c.position.init(0, -0.5, 0);
+			c.rotation.init();
+			s = new BoxShape(32, 1, 50, c);
+			rb.addShape(s);
+			rb.setupMass(RigidBody.BODY_STATIC);
+			world.addRigidBody(rb);
+			
+			c.rotation.init();
+			var width:uint = 15;
+			var height:uint = 5;
+			var depth:uint = 3;
+			var bw:Number = 0.75;
+			var bh:Number = 0.5;
+			var bd:Number = 0.6;
+			for (var i:int = 0; i < width; i++) {
+				for (var j:int = i; j < width; j++) {
+					for (var k:int = 0; k < depth; k++) {
+						rb = new RigidBody();
+						c.position.init(
+							(j - i * 0.5 - (width - 1) * 0.5) * (bw * 1.05),
+							i * (bh + 0.1) + bh * 0.6,
+							(k - (depth - 1) * 0.5) * 5
+						);
+						s = new BoxShape(bw, bh, bd, c);
+						rb.addShape(s);
+						rb.setupMass(RigidBody.BODY_DYNAMIC);
+						world.addRigidBody(rb);
+					}
+				}
+			}
+			
+			c.friction = 2;
+			c.position.init(0, 1.5, 20);
+			c.density = 10;
+			c.rotation.init();
+			s = new SphereShape(1.5, c);
+			ctr = new RigidBody();
+			ctr.linearVelocity.z = -20;
+			ctr.addShape(s);
+			ctr.setupMass(RigidBody.BODY_DYNAMIC);
+			world.addRigidBody(ctr);
 		}
 		
 		private function onContext3DCreated(e:Event = null):void {
 			renderer.setContext3D(s3d.context3D);
-			renderer.camera(0, 0, 10);
+			renderer.camera(0, 2, 4);
 		}
 		
 		private function frame(e:Event = null):void {
 			count++;
+			var ang:Number = (320 - mouseX) * 0.01 + Math.PI * 0.5;
 			renderer.camera(
-				Math.cos((320 - mouseX) * 0.01) * 18,
-				(240 - mouseY) * 0.2,
-				Math.sin((320 - mouseX) * 0.01) * 18
+				ctr.position.x + Math.cos(ang) * 8,
+				ctr.position.y + (240 - mouseY) * 0.1,
+				ctr.position.z + Math.sin(ang) * 8,
+				ctr.position.x, ctr.position.y, ctr.position.z
 			);
+			if (l) {
+				ctr.linearVelocity.x -= Math.cos(ang - Math.PI * 0.5) * 0.8;
+				ctr.linearVelocity.z -= Math.sin(ang - Math.PI * 0.5) * 0.8;
+			}
+			if (r) {
+				ctr.linearVelocity.x -= Math.cos(ang + Math.PI * 0.5) * 0.8;
+				ctr.linearVelocity.z -= Math.sin(ang + Math.PI * 0.5) * 0.8;
+			}
+			if (u) {
+				ctr.linearVelocity.x -= Math.cos(ang) * 0.8;
+				ctr.linearVelocity.z -= Math.sin(ang) * 0.8;
+			}
+			if (d) {
+				ctr.linearVelocity.x += Math.cos(ang) * 0.8;
+				ctr.linearVelocity.z += Math.sin(ang) * 0.8;
+			}
 			world.step();
 			fps += (1000 / world.performance.totalTime - fps) * 0.5;
 			if (fps > 1000 || fps != fps) {
@@ -161,8 +220,10 @@ package com.element.oimo.physics.test {
 			var rbs:Vector.<RigidBody> = world.rigidBodies;
 			for (var i:int = 0; i < len; i++) {
 				var r:RigidBody = rbs[i];
-				if (r.position.y < -24) {
-					r.position.init(Math.random() * 8 - 4, Math.random() * 8 + 8, Math.random() * 8 - 4);
+				if (r.position.y < -12) {
+					r.position.init(Math.random() * 8 - 4, Math.random() * 4 + 8, Math.random() * 8 - 4);
+					r.linearVelocity.x *= 0.8;
+					r.linearVelocity.z *= 0.8;
 				}
 			}
 		}

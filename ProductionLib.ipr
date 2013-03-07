@@ -85,6 +85,7 @@
       <module fileurl="file://$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" filepath="$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" filepath="$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" />
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" filepath="$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductionLib.iml" filepath="$PROJECT_DIR$/ProductionLib.iml" />
     </modules>
   </component>
