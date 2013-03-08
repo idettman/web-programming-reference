@@ -36,8 +36,8 @@ package com.element.oimo.physics.dynamics {
 
 
 	/**
-	 * 物理演算ワールドのクラスです。
-	 * 全ての物理演算オブジェクトはワールドに追加する必要があります。
+	 * This is the class of the physics world.
+	 * All the physical math objects must be added to the world.
 	 * @author saharan
 	 */
 	public class World {
@@ -122,8 +122,8 @@ package com.element.oimo.physics.dynamics {
 		public var joints:Vector.<Joint>;
 		
 		/**
-		 * ジョイントの数です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
+		 * It is the number of joints.
+		 <strong> This variable * Please do not change from the outside. </ strong>
 		 */
 		public var numJoints:uint;
 		
@@ -131,24 +131,24 @@ package com.element.oimo.physics.dynamics {
 		private var numConstraints:uint;
 		
 		/**
-		 * 1回のステップで進む時間の長さです。
+		 * It is the length of time that advance in a single step.
 		 */
 		public var timeStep:Number;
 		
 		/**
-		 * ワールドにかかる重力です。
+		 * It is the force of gravity according to the World.
 		 */
 		public var gravity:Vec3;
 		
 		/**
-		 * 衝突応答の反復処理回数です。
-		 * 値が大きいほど、より正確な動きになります。
+		 * The number of iterations of the collision response.
+		 * The higher the value, I would be more accurate motion.
 		 */
 		public var iteration:uint;
 		
 		/**
-		 * パフォーマンスの詳細情報です。
-		 * 計算に要した時間などが記録されています。
+		 * It is the detailed information for performance.
+		 * The time required for the calculation, such as has been recorded.
 		 */
 		public var performance:Performance;
 		
@@ -164,9 +164,9 @@ package com.element.oimo.physics.dynamics {
 		private var randB:uint;
 		
 		/**
-		 * 新しく World オブジェクトを作成します。
-		 * ワールドのタイムステップは、1秒間でのステップの実行回数から算出されます。
-		 * @param stepPerSecond 1秒間でのステップの実行回数
+		 * I want to create a new World object.
+		 * World time step is calculated from the number of executions of steps per second.
+		 * Number of Steps in the second run 1 @ param stepPerSecond
 		 */
 		public function World(stepPerSecond:Number = 60) {
 			timeStep = 1 / stepPerSecond;
@@ -252,10 +252,10 @@ package com.element.oimo.physics.dynamics {
 		}
 		
 		/**
-		 * ワールドに形状を追加します。
-		 * <strong>剛体をワールドに追加、およびワールドに追加されている剛体に形状を追加すると、
-		 * 自動で形状もワールドに追加されるので、このメソッドは外部から呼ばないでください。</strong>
-		 * @param	shape 追加する形状
+		 * I want to add a shape to the world.
+		 * Added to the world a rigid <strong>, when you add a shape to a rigid body that has been added to the world, and
+		 * Because the shape is automatically added to the world, please do not call this method from the outside. </ strong>
+		 * @ Param shape the shape you want to add
 		 */
 		public function addShape(shape:Shape):void {
 			if (numShapes == MAX_SHAPES) {
@@ -377,7 +377,7 @@ package com.element.oimo.physics.dynamics {
 		}
 		
 		/**
-		 * ワールドの時間をタイムステップ秒だけ進めます。
+		 * I promote only the second time step of world time.
 		 */
 		public function step():void {
 			var start1:int = getTimer();
@@ -416,8 +416,13 @@ package com.element.oimo.physics.dynamics {
 				var s1:Shape = pair.shape1;
 				var s2:Shape = pair.shape2;
 				var detector:CollisionDetector = detectors[s1.type][s2.type];
+
 				if (detector) {
 					numContactInfos = detector.detectCollision(s1, s2, contactInfos, numContactInfos);
+
+					s1.parent.onCollision (s1,s2);
+					s2.parent.onCollision (s2,s1);
+
 					if (numContactInfos == MAX_CONTACTS) {
 						return;
 					}

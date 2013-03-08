@@ -25,143 +25,148 @@ package com.element.oimo.physics.dynamics {
 
 
 	/**
-	 * 剛体のクラスです。
-	 * 剛体は衝突処理用に単数あるいは複数の形状を持ち、
-	 * それぞれ個別にパラメーターを設定できます。
+	 *It is the class of the rigid body.
+	 * Rigid body has the shape of a singular or plural for processing the collision,
+	 * You can set the parameters individually.
 	 * @author saharan
 	 */
 	public class RigidBody {
 		/**
-		 * 動的な剛体を表す剛体の種類です。
+		 * It is a kind of rigid body that represents the rigid body dynamic。
 		 */
 		public static const BODY_DYNAMIC:uint = 0x0;
 		
 		/**
-		 * 静的な剛体を表す剛体の種類です。
+		 * It is a kind of rigid body that represents the rigid body static。
 		 */
 		public static const BODY_STATIC:uint = 0x1;
 		
 		/**
-		 * 一つの剛体に追加できる形状の最大数です。
+		 * The maximum number of shapes that can be added to a single rigid body.
 		 */
 		public static const MAX_SHAPES:uint = 64;
 		
 		/**
-		 * 一つの剛体に接続できるジョイントの最大数です。
+		 * The maximum number of joints that can be connected to a single rigid body.
 		 */
 		public static const MAX_JOINTS:uint = 512;
 		
 		/**
-		 * 剛体の種類を表します。
-		 * <strong>この変数は外部から変更しないでください。</strong>
-		 * 
-		 * 剛体の種類を変更する場合は、必ず
-		 * setupMass メソッドの引数に設定したい種類を指定してください。
+		 * I represent the kind of rigid.
+		 <strong> This variable * Please do not change from the outside. </ strong>
+		 *
+		 * If you want to change the type of a rigid body, be sure to
+		 * Please specify the type you want to set the argument of setupMass method.
 		 */
 		public var type:uint;
 		
 		/**
-		 * 重心のワールド座標です。
+		 * It is the world coordinate of the center of gravity。
 		 */
 		public var position:Vec3;
 		
 		/**
-		 * 並進速度です。
+		 * This translational velocity.
 		 */
 		public var linearVelocity:Vec3;
 		
 		/**
-		 * 姿勢を表すクォータニオンです。
+		 * It is a quaternion representing the attitude.
 		 */
 		public var orientation:Quat;
 		
 		/**
-		 * 姿勢を表す回転行列です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
-		 * 
-		 * 回転行列は、ステップ毎にクォータニオンから再計算されます。
+		 * The rotation matrix representing the orientation.
+		 <strong> This variable * Please do not change from the outside. </ strong>
+		 *
+		 * Rotation matrix is recalculated from the quaternion at each step.
 		 */
 		public var rotation:Mat33;
 		
 		/**
-		 * 角速度です。
+		 * Angular velocity
 		 */
 		public var angularVelocity:Vec3;
 		
 		/**
-		 * 質量です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
-		 * 
-		 * 質量は setupMass メソッドを呼び出すと、
-		 * 含まれている形状から自動で再計算されます。
+		 * It is the mass.
+		 <strong> This variable * Please do not change from the outside. </ strong>
+		 *
+		 * Mass Calling setupMass method,
+		 * Recalculated automatically from the shape that is included.
 		 */
 		public var mass:Number;
 		
 		/**
-		 * 質量の逆数です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
-		 * 
-		 * 質量は setupMass メソッドを呼び出すと、
-		 * 含まれている形状から自動で再計算されます。
+		 * It is the reciprocal of the mass.
+		 <strong> This variable * Please do not change from the outside. </ strong>
+		 *
+		 * Mass Calling setupMass method,
+		 * Recalculated automatically from the shape that is included.
 		 */
 		public var invertMass:Number;
 		
 		/**
-		 * ワールド系での慣性テンソルの逆行列です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
-		 * 
-		 * ワールド系での慣性テンソルの逆行列は、ステップ毎に
-		 * 姿勢と初期状態の慣性テンソルの逆数から再計算されます。
+		 * This is the inverse matrix of the inertia tensor in the world system.
+		 <strong> This variable * Please do not change from the outside. </ strong>
+		 *
+		 * Inverse of the inertia tensor in world system, for each step
+		 * Is recalculated from the reciprocal of the inertia tensor of the initial state and the attitude.
 		 */
 		public var invertInertia:Mat33;
 		
 		/**
-		 * 初期状態での慣性テンソルです。
-		 * <strong>この変数は外部から変更しないでください。</strong>
-		 * 
-		 * 慣性テンソルは setupMass メソッドを呼び出すと、
-		 * 含まれている形状から自動で再計算されます。
+		 * It is the inertia tensor of the initial state.
+		 <strong> This variable * Please do not change from the outside. </ strong>
+		 *
+		 * If you call the inertia tensor setupMass method,
+		 * Recalculated automatically from the shape that is included.
 		 */
 		public var localInertia:Mat33;
 		
 		/**
-		 * 初期状態での慣性テンソルの逆行列です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
-		 * 
-		 * 慣性テンソルは setupMass メソッドを呼び出すと、
-		 * 含まれている形状から自動で再計算されます。
+		 * This is the inverse matrix of the inertia tensor in the initial state.
+		 <strong> This variable * Please do not change from the outside. </ strong>
+		 *
+		 * If you call the inertia tensor setupMass method,
+		 * Recalculated automatically from the shape that is included.
 		 */
 		public var invertLocalInertia:Mat33;
 		
 		/**
-		 * 剛体に含まれている形状の配列です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
+		 * An array of shapes that are included in the body.
+		 <strong> This variable * Please do not change from the outside. </ strong>
 		 */
 		public var shapes:Vector.<Shape>;
 		
 		/**
-		 * 剛体に含まれている形状の数です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
+		 * It is the number of shapes that are included in the rigid body.
+		 <strong> This variable * Please do not change from the outside. </ strong>
 		 */
 		public var numShapes:uint;
 		
 		/**
-		 * 剛体に繋がれているジョイントの配列です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
+		 * An array of joints that are connected to the rigid body.
+		 <strong> This variable * Please do not change from the outside. </ strong>
 		 */
 		public var joints:Vector.<Joint>;
 		
 		/**
-		 * 剛体に繋がれているジョイントの数です。
-		 * <strong>この変数は外部から変更しないでください。</strong>
+		 * It is the number of joints that are connected to the rigid body.
+		 <strong> This variable * Please do not change from the outside. </ strong>
 		 */
 		public var numJoints:uint;
 		
 		/**
-		 * この剛体が追加されているワールドです。
-		 * <strong>この変数は外部から変更しないでください。</strong>
+		 * It is this rigid world that has been added.
+		 <strong> This variable * Please do not change from the outside. </ strong>
 		 */
 		public var parent:World;
+
+
+
+		public var id:String = "";
+
 		
 		/**
 		 * I want to create a new object RigidBody.
@@ -194,16 +199,16 @@ package com.element.oimo.physics.dynamics {
 		}
 		
 		/**
-		 * 剛体に形状を追加します。
-		 * 形状を追加した場合、次のステップ開始までに setupMass メソッドを呼び出してください。
-		 * @param	shape 追加する形状
+		 * I want to add a shape to the body.
+		 * If you add a shape, please call the setupMass method before the start of the next step.
+		 * @ Param shape the shape you want to add
 		 */
 		public function addShape(shape:Shape):void {
 			if (numShapes == MAX_SHAPES) {
-				throw new Error("これ以上剛体に形状を追加することはできません");
+				throw new Error("Maximum shape limit, more shapes cannot be added");
 			}
 			if (shape.parent) {
-				throw new Error("一つの形状を複数剛体に追加することはできません");
+				throw new Error("I can not add more than one shape to rigid");
 			}
 			shapes[numShapes++] = shape;
 			shape.parent = this;
@@ -213,11 +218,11 @@ package com.element.oimo.physics.dynamics {
 		}
 		
 		/**
-		 * 剛体から形状を削除します。
-		 * 削除する形状のインデックスを指定した場合は、インデックスのみを使用して削除します。
-		 * 形状を削除した場合、次のステップ開始までに setupMass メソッドを呼び出してください。
-		 * @param	shape 削除する形状
-		 * @param	index 削除する形状のインデックス
+		 * I remove the shape from the rigid body.
+		 * If you specify the index of the shape to be removed, we remove it using only the index.
+		 * If you delete a form, please call the setupMass method before the start of the next step.
+		 * @ Param shape the shape that you want to delete
+		 * @ param index The index of the shape that you want to remove
 		 */
 		public function removeShape(shape:Shape, index:int = -1):void {
 			if (index < 0) {
@@ -246,9 +251,9 @@ package com.element.oimo.physics.dynamics {
 		}
 		
 		/**
-		 * 重心座標・質量・慣性テンソルなどを算出します。
-		 * type に BODY_STATIC を指定すると、この剛体は空間に対して固定されます。
-		 * @param	type 剛体の種類
+		 * I calculate the coordinates of the center of gravity, mass, inertia tensor, etc..
+		 * If you specify * BODY_STATIC to type, this rigid body is fixed to the space.
+		 * @ Param type the type of rigid body
 		 */
 		public function setupMass(type:uint = BODY_DYNAMIC):void {
 			this.type = type;
@@ -338,11 +343,12 @@ package com.element.oimo.physics.dynamics {
 		}
 		
 		/**
-		 * 剛体の外力による速度変化を計算します。
-		 * このメソッドはワールドのステップを呼ぶと自動で呼び出されるので、
-		 * 通常は外部から呼ぶ必要はありません。
-		 * @param	timeStep 時間刻み幅
-		 * @param	gravity 重力
+		 * We calculate the change in velocity of the rigid body by an external force.
+		 * This method is called automatically when the step of the world called,
+		 * You do not need to be called from the outside usually.
+		 *
+		 * @ param timeStep Time step size
+		 * @ Param gravity gravity
 		 */
 		public function updateVelocity(timeStep:Number, gravity:Vec3):void {
 			if (type == BODY_DYNAMIC) {
@@ -353,10 +359,10 @@ package com.element.oimo.physics.dynamics {
 		}
 		
 		/**
-		 * 剛体の運動を時間積分し、形状などの情報を更新します。
-		 * このメソッドはワールドのステップを呼ぶと自動で呼び出されるので、
-		 * 通常は外部から呼ぶ必要はありません。
-		 * @param	timeStep 時間刻み幅
+		 * The time integral of the rigid body motion, such as the shape information is updated.
+		 * This method is called automatically when the step of the world called,
+		 * You do not need to be called from the outside usually.
+		 * @ param timeStep Time step size
 		 */
 		public function updatePosition(timeStep:Number):void {
 			var s:Number;
@@ -409,7 +415,7 @@ package com.element.oimo.physics.dynamics {
 				orientation.y = oy * s;
 				orientation.z = oz * s;
 			} else {
-				throw new Error("未定義の剛体の種類です");
+				throw new Error("The rigid body type is undefined");
 			}
 			s = orientation.s;
 			x = orientation.x;
@@ -508,7 +514,19 @@ package com.element.oimo.physics.dynamics {
 				shape.updateProxy();
 			}
 		}
-		
+
+
+		public var collisionCallback:Function;
+		public function onCollision(childCollision:Shape, otherCollision:Shape):void
+		{
+			if (collisionCallback)
+			{
+				collisionCallback (childCollision, otherCollision);
+			}
+			//trace ("detector: numContactInfos:", s1.parent.id, s2.parent.id);
+		}
+
+
 		public function applyImpulse(position:Vec3, force:Vec3):void {
 			linearVelocity.x += force.x * invertMass;
 			linearVelocity.y += force.y * invertMass;
