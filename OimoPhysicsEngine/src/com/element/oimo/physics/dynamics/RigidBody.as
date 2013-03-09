@@ -18,6 +18,7 @@
  */
 package com.element.oimo.physics.dynamics {
 	import com.element.oimo.math.Mat33;
+	import com.element.oimo.math.Mat44;
 	import com.element.oimo.math.Quat;
 	import com.element.oimo.math.Vec3;
 	import com.element.oimo.physics.collision.shape.Shape;
@@ -87,7 +88,13 @@ package com.element.oimo.physics.dynamics {
 		 * Angular velocity
 		 */
 		public var angularVelocity:Vec3;
-		
+
+
+		/**
+		 * Isaac: Addition for easy integration with Away3d
+		 */
+		public var matrix3d:Mat44;
+
 		/**
 		 * It is the mass.
 		 <strong> This variable * Please do not change from the outside. </ strong>
@@ -179,6 +186,8 @@ package com.element.oimo.physics.dynamics {
 		public function RigidBody(rad:Number = 0, ax:Number = 0, ay:Number = 0, az:Number = 0) {
 			position = new Vec3();
 			linearVelocity = new Vec3();
+			// Isaac addition
+			matrix3d = new Mat44 ();
 			var len:Number = ax * ax + ay * ay + az * az;
 			if (len > 0) {
 				len = 1 / Math.sqrt(len);
@@ -513,6 +522,12 @@ package com.element.oimo.physics.dynamics {
 				rot.e22 = r20 * e02 + r21 * e12 + r22 * e22;
 				shape.updateProxy();
 			}
+
+			// Isaac: Addition for integration with away3d
+			matrix3d.copyMat33 (rotation);
+			matrix3d.e03 = position.x;
+			matrix3d.e13 = position.y;
+			matrix3d.e23 = position.z;
 		}
 
 

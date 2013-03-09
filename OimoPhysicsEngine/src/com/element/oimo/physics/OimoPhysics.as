@@ -33,10 +33,10 @@ package com.element.oimo.physics {
 		public static const DESCRIPTION:String = "OimoPhysics " + VERSION + " (c) 2012 EL-EMENT saharan";
 		
 		/**
-		 * OimoPhysics オブジェクトを作成することはできません。
+		 * OimoPhysics I can not create an object
 		 */
 		public function OimoPhysics() {
-			throw new Error("OimoPhysics オブジェクトを作成することはできません");
+			throw new Error("OimoPhysics I can not create an object");
 		}
 		
 	}

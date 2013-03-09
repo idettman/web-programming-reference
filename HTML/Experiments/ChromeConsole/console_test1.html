@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+
+			// Time code execution
+			console.time("Array initialize");
+			var array= new Array(1000000);
+			for (var i = array.length - 1; i >= 0; i--) {
+				array[i] = new Object();
+			}
+			console.timeEnd("Array initialize");
+
+			/*
+			Marking the Timeline
+
+			Note: The console.timeStamp() method only functions while a Timeline recording is in progress.
+
+			A yellow vertical line in the Timeline's summary and detail views.
+			A record is added to the list of recorded events.
+			*/
+			function AddResult(name, result) {
+				console.timeStamp("Adding result");
+				var text = name + ': ' + result;
+				var results = document.getElementById("results");
+				results.innerHTML += (text + "<br>");
+			}
+
+			// Set a debug breakpoint
+			//debugger;
+
+
+
+
+			console.log ('foobar');
+
+			/*
+			String substitution
+
+			%s	Formats the value as a string.
+			%d or %i	Formats the value as an integer.
+			%f	Formats the object as a floating point value.
+			%o	Formats the value as an expandable DOM element (as in the Elements panel).
+			%O	Formats the value as an expandable JavaScript object.
+			%c	Applies CSS style rules to output string specified by the second parameter.
+			*/
+			console.log("%s has %d points", "Sam", "100");
+
+			// CSS styling
+			console.log("%cThis will be formatted with large, blue text", "color: blue; font-size: x-large");
+
+			// Assertions: only displays if first parameter evaluates as false
+			console.assert(document.body.childNodes.length > 500, "Node count is < 500");
+
+			// Log elements javascript representation
+			console.dir(document.body.firstElementChild);
+			// Equivalently, you can use the format specifier
+			console.log("%O", document.body.firstElementChild);
+
+
+
+			// Error: Displays red icon and red text
+			function connectToServer() {
+				console.error("Error: %s (%i)", "Server is  not responding",500);
+			}
+			connectToServer();
+
+			// Warn: Displays yellow icon
+			if(true) {
+				console.warn('Warning! Too few nodes (%d)', document.body.childNodes.length);
+			}
+
+
+
+
+			// Grouping output
+			var user = "jsmith", authenticated = false;
+			console.group("Authentication phase");
+			console.log("Authenticating user '%s'", user);
+			// authentication code here...
+			if (!authenticated) {
+				console.log("User '%s' not authenticated.", user)
+			}
+			console.groupEnd();
+
+			// Grouping output nested
+			// Top-level group
+			console.group("Authenticating user '%s'", user);
+			if (authenticated) {
+				console.log("User '%s' was authenticated", user);
+				// Start nested group
+				console.group("Authorizing user '%s'", user);
+				if (authorized) {
+					console.log("User '%s' was authorized.", user);
+				}
+				// End nested group
+				console.groupEnd();
+			}
+			// End top-level group
+			console.groupEnd();
+			console.log("A group-less log trace.");
+
+			// Group collapsed
+			//console.groupCollapsed("Authenticating user '%s'", user);
+
+
+		</script>
+	</body>
+</html>

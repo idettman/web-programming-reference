@@ -79,6 +79,7 @@
       <module fileurl="file://$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" filepath="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" />
       <module fileurl="file://$PROJECT_DIR$/Away3dLite_Experiment/Away3dLite_Experiment.iml" filepath="$PROJECT_DIR$/Away3dLite_Experiment/Away3dLite_Experiment.iml" />
       <module fileurl="file://$PROJECT_DIR$/Away3dLite_Lib/Away3dLite_Lib.iml" filepath="$PROJECT_DIR$/Away3dLite_Lib/Away3dLite_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Away3dOimoPhysicsEngine/Away3dOimoPhysicsEngine.iml" filepath="$PROJECT_DIR$/Away3dOimoPhysicsEngine/Away3dOimoPhysicsEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" filepath="$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" filepath="$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" />
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />

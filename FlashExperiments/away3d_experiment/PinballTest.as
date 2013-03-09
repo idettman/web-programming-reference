@@ -82,7 +82,8 @@ package
 			var groundConfig:ShapeConfig = new ShapeConfig ();
 			groundConfig.position.init (0, 0, 0);
 			groundConfig.rotation.init ();
-			groundConfig.restitution = 0;
+			groundConfig.restitution = 0.75;
+			groundConfig.friction = 1;
 
 			/*var rotationAngle:Number = 7;
 			groundConfig.rotation.init (
@@ -144,15 +145,13 @@ package
 			world.addJoint (flipperHingeLeft);
 
 
-
-
 			var ballShapeConfig:ShapeConfig = new ShapeConfig ();
 			//c.position.init (0, 0.5, 0);
 			ballShapeConfig.position.init (0, 0, 0);
 			ballShapeConfig.rotation.init ();
-			ballShapeConfig.friction = 0.001;
-			ballShapeConfig.density = 0.001;
-			ballShapeConfig.restitution = 0.7;
+			ballShapeConfig.friction = 0.1;
+			ballShapeConfig.density = 10;
+			ballShapeConfig.restitution = 0.6;
 
 
 			ballRigidBody = new RigidBody ();
@@ -161,10 +160,10 @@ package
 			ballRigidBody.setupMass ();
 			//ballRigidBody.collisionCallback = ballCollisionHandler;
 			//ballRigidBody.angularVelocity.x = 110;
-			ballRigidBody.position.z = 4;
+			ballRigidBody.position.z = 5;
 			ballRigidBody.position.x = 3;
-			ballRigidBody.position.y = 4;
-			ballRigidBody.linearVelocity = new Vec3 (1, 0, 30);
+			ballRigidBody.position.y = 40;
+			ballRigidBody.linearVelocity = new Vec3 (0, 0, 0);
 			world.addRigidBody (ballRigidBody);
 		}
 
@@ -187,7 +186,7 @@ package
 			_view.camera.y = 36;
 			_view.camera.z = -30;
 			_view.camera.lens = new PerspectiveLens (40);
-			_view.camera.lens.far = 1000;
+			_view.camera.lens.far = 400;
 			_view.camera.lens.near = 0.5;
 
 
@@ -298,21 +297,10 @@ package
 		{
 			world.step();
 
-			mat44.copyMat33 (ballRigidBody.rotation);
-			mat44.e03 = ballRigidBody.position.x;
-			mat44.e13 = ballRigidBody.position.y;
-			mat44.e23 = ballRigidBody.position.z;
-
-			ballMesh.transform.rawData = mat44.getMatrix3dRawData ();
+			ballMesh.transform.rawData = ballRigidBody.matrix3d.getMatrix3dRawData ();
 			ballMesh.transform = ballMesh.transform;
 
-
-
-			mat44.copyMat33 (flipperLeft.rotation);
-			mat44.e03 = flipperLeft.position.x;
-			mat44.e13 = flipperLeft.position.y;
-			mat44.e23 = flipperLeft.position.z;
-			flipperMeshLeft.transform.rawData = mat44.getMatrix3dRawData ();
+			flipperMeshLeft.transform.rawData = flipperLeft.matrix3d.getMatrix3dRawData ();
 			flipperMeshLeft.transform = flipperMeshLeft.transform;
 
 			_view.render ();
