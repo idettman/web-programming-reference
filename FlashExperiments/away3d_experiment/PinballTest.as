@@ -183,10 +183,10 @@ package
 			_view = new View3D ();
 			addChild (_view);
 			_view.antiAlias = 4;
-			_view.camera.y = 36;
-			_view.camera.z = -30;
+			_view.camera.y = 80;
+			_view.camera.z = -40;
 			_view.camera.lens = new PerspectiveLens (40);
-			_view.camera.lens.far = 400;
+			_view.camera.lens.far = 160;
 			_view.camera.lens.near = 0.5;
 
 
@@ -278,7 +278,7 @@ package
 
 
 
-			ballMesh = new Mesh (new SphereGeometry (1,30,20));
+			ballMesh = new Mesh (new SphereGeometry (1,30,30));
 			ballMesh.castsShadows = true;
 			ballMesh.material = new ColorMaterial (0xFF0000);
 			ColorMaterial (ballMesh.material).lightPicker = _lightPicker;

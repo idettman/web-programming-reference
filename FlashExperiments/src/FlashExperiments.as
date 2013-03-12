@@ -19,7 +19,8 @@ package
 
 			//addChild (new AbstractAway3D ());
 			//addChild (new OimoPhysicsAway3dIntegrationTest());
-			addChild (new PinballTest ());
+			//addChild (new PinballTest ());
+			addChild (new PinballFieldBlocking ());
 			//addChild (new JointTest ());
 		}
 	}
