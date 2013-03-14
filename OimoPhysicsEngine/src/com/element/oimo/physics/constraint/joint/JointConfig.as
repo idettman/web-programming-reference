@@ -21,30 +21,30 @@ package com.element.oimo.physics.constraint.joint {
 
 
 	/**
-	 * ジョイントの初期化時に使われる共通設定のクラスです。
-	 * このクラスの変数はコピーして使われ、直接参照を持たれることはありません。
+	 * The class of common settings that are used during the initialization of the joint.
+	 * Variable of this class can be used to copy, it is not with a direct reference.
 	 * @author saharan
 	 */
 	public class JointConfig {
 		/**
-		 * 剛体1に対する初期状態での相対接続位置です。
+		 * Position relative to the initial state is connected to the rigid one.
 		 */
 		public var localRelativeAnchorPosition1:Vec3;
 		
 		/**
-		 * 剛体2に対する初期状態での相対接続位置です。
+		 * Position relative to the initial state is connected to the two rigid bodies.
 		 */
 		public var localRelativeAnchorPosition2:Vec3;
 		
 		/**
-		 * 剛体1に対する初期状態での回転軸です。
-		 * このオプションは一部のジョイントにおいてのみ有効です。
+		 * The axis of rotation of the rigid body in the initial state for one.
+		 * This option is only available in some joints.
 		 */
 		public var localAxis1:Vec3;
 		
 		/**
-		 * 剛体2に対する初期状態での回転軸です。
-		 * このオプションは一部のジョイントにおいてのみ有効です。
+		 * The axis of rotation of the initial state for the two rigid bodies.
+		 * This option is only available in some joints.
 		 */
 		public var localAxis2:Vec3;
 		

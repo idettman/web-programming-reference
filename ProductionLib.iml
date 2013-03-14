@@ -8,12 +8,6 @@
             <entry library-name="greensock" library-level="application">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-name="hype (modified with gc fixes from Hooks Toyota Brand FunVii proj) " library-level="application">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-name="away3d-core-fp11_4_1_0_Alpha" library-level="application">
-              <dependency linkage="Merged" />
-            </entry>
           </entries>
           <sdk name="AIRSDK_Compiler" />
         </dependencies>

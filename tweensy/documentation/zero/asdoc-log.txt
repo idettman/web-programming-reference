@@ -1,0 +1,14 @@
+
+create-docs:
+     [exec] Loading configuration file /Applications/Flex SDK 4/frameworks/flex-config.xml
+     [exec] 
+     [exec] 
+     [exec] 
+     [exec] 
+     [exec] 
+     [exec] Documentation was created in /Users/shanem/Documents/workspace/TweensyPublic/ant/../documentation/zero/
+
+main:
+BUILD SUCCESSFUL
+
+BUILD SUCCESSFUL

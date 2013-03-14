@@ -1,0 +1,1432 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf430
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red230\green236\blue248;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19680\viewh13420\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs48 \cf0 Getting Started With Tweensy\
+\
+Which type of Tweensy is for me ?\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweensy offers 2 versions of it's tween engine :\
+
+\i TweensyZero
+\i0  and 
+\i TweensyOriginal
+\i0 \
+and a beta expansion package 
+\i TweensyFX
+\i0 \
+\
+
+\i TweensyOriginal\
+
+\i0 TweensyOriginal is a fully featured Object property tweener it is extremely efficient and is intended for everyday use.\
+\
+
+\i TweensyZero (2.9KB compiled)\
+
+\i0 Tweensy Zero is a light weight version of TweensyOriginal this product is intended for users who are file size conscious.\
+\
+
+\i TweensyFX (beta)\
+
+\i0 Is a beta expansion to TweensyOriginal allowing for motion effects to be applied to animations.\
+This includes directional motion blurring, pixelation, xray, bulge/dent displacements, reflection, rgb channel splitting and bump mapping.\
+\
+
+\fs30 ______________________________________________________________________________________________________________________\
+
+\fs26 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs48 \cf0 Why use Tweensy?\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 TweensyOriginal is the most efficient open source animation package available.
+\fs48 \
+\
+
+\fs30 ______________________________________________________________________________________________________________________
+\fs48 \
+\
+How to get Tweensy\
+
+\fs28 The latest version of Tweensy can be retrieved from it's code.google address.\
+Project Home : 
+\f1 \cb2 http://code.google.com/p/tweensy/
+\f0 \cb1 \
+SVN : 
+\f1 \cb2 http://tweensy.googlecode.com/svn/trunk/
+\f0 \cb1 \
+\
+Once Tweensy is downloaded the 
+\i releases
+\i0  folder will contain the various Tweensy products these are :\
+zero\
+original\
+fx\
+\
+Tweensy can be used in either as either a pre-compiled SWC or Actionscript source code which is contained in each of these product folders.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Using the Tweensy SWC for CS4:
+\fs26 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 If you have Flash CS4 installed a SWC can be referenced from your FLA. \
+Go to File > Publish settings > Flash > Settings\
+Then choose the tab 'External library path' and click the plus icon and select the Tweensy.swc file.
+\fs26 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Using the Tweensy Actionscript source code for CS3/CS4:
+\fs28 \
+Go to File > Publish settings > Flash > Settings\
+If you're using CS4 select the 'Source Path' tab or ignore this is using CS3\
+Click the plus icon and select the folder containing the source code.
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs30 \cf0 ______________________________________________________________________________________________________________________
+\fs48 \
+\
+TweensyZero\
+
+\fs30 Below are some simple steps to help you get started with creating your first animations with TweensyZero. TweensyZero is a light weight version of Tweensy most core features found in Tweensy are available to TweensyZero. Documentation for TweensyZero can be found under the folder '
+\i documentation/zero'\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\i0\fs48 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs30 \cf0 ___________________________________________________________________________________________________________________
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Doing a tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Animations can be done using one of the following methods :
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 A 'to' tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Is an animation which goes from the instances current position to the destination defined in the 'to' Object.\
+
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.TweensyZero;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 TweensyZero.to(myInstance, \{x:500\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from it's current x to the x position of 500.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 A 'from' tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Is the opposite of a to based tween. It is an animation which goes from the destination defined in the 'from' Object to the instances current position.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.TweensyZero;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 TweensyZero.from(myInstance, \{x:500\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from the x position 500 to it's current x position.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 A 'fromTo' tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Is using the features of both to and from based tweens. It is an animation which goes from the destination defined in the 'from' Object and to the destination defined in the 'to' Object.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.TweensyZero;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 TweensyZero.fromTo(myInstance, \{x:0\}, \{x:500\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from the x position of 0 to the x position of 500.
+\fs30 \
+\
+______________________________________________________________________________________________________________________\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Controlling tweens\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweensy provides methods which allow for the controlling of tweens whilst they are in animation.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Stopping a tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Allows for stopping a tween in motion via an Object instance or property names.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.TweensyZero;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 TweensyZero.to(myInstance1, \{x:500, y:500\});\
+TweensyZero.to(myInstance2, \{x:500, y:500\});\
+\
+TweensyZero.stop(myInstance1);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops all tweens for myInstance1 though tweens will continue for myInstance2\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.stop(myInstance1, "x");\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops tweens for the x property for myInstance1\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.stop(null, "x");\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops all tweens for the x property animating in TweensyZero\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.stop([myInstance1, myInstance2]);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops all tweens for myInstance1 and myInstance2\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.stop([myInstance1, myInstance2], "x");\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops tweens for the x property for myInstance1 and myInstance2\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Pausing and resuming a tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Allows for pausing and resuming all tweens executed by TweensyZero.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.pause();\
+TweensyZero.resume();\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 Time based vs Frame based.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 By default TweensyZero uses time based animations, this ensures that tweens end precisely in the time you define. Movieclip animations created in the Flash IDE are frame based and TweensyZero offers an option to use this mode also. When using frame based animations you can define how many seconds per frame are applied on each ENTER_FRAME. So if you wanted to match the FLA frame rate of 30FPS the SPF would be 1/30. Or if you wanted to double the frame rate this would be (1/30)*2.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.refreshType = TweensyZero.FRAME;\
+TweensyZero.secondsPerFrame = 1/30;
+\f0\fs28 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs30 \cf0 \
+______________________________________________________________________________________________________________________\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Other things to know about tweens
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 When a to, from or fromTo tween is defined it returns an instance of TweensyTimelineZero this contains the parameters of this tween which you may modify during the tweens animation for further control over the tween.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Using timelines\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 When a to, from or fromTo tween is defined it will return an instance of TweensyTImelineZero. Using TweensyTImelineZero allows for defining parameters which are not in the to, from and fromTo method as well as updating properties during the tweens animation. 
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimelineZero = TweensyZero.to(myInstance, \{x:500\}, 2.0);\
+timeline.duration = 3.5;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs30 \cf0 \
+
+\fs28 This will animate 'myInstance' from it's current x to the x position of 500 in 3.5 seconds rather than the initially defined 2 seconds.
+\fs30 \
+\
+
+\i\fs28 Timelines offer a lot more functionality which will be described in further detail below.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\i0\fs34 \cf0 Relative and random range positions\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 The properties in the to and from Objects allow for you to define a relative position or random range positions.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs32 \cf0 \{x:"500"\} 
+\f0\fs28 will offset the x by +500.\
+
+\f1\fs32 \{x:"-500"\} 
+\f0\fs28 will offset the x by -500.\
+
+\f1\fs32 \{x:"250,500"\} 
+\f0\fs28 will offset the x by a random number between +250 and +500.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Using ease equations\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Ease equations change the style of movement from point A to point B.\
+TweensyZero supports all the ease equations provided via Adobe in the
+\f1  fl.motion.easing
+\f0  package and these have been provided as a part of the TweensyZero library. By default TweensyZero will use the ease equation Quintic.easeOut if null or no parameter is provided.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.TweensyZero;\
+import fl.motion.easing.Sine.easeOut;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 TweensyZero.to(myInstance, \{x:500\}, 2.0, 
+\fs30 Sine.easeOut
+\fs34 );\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from its current x to the x position of 500 in 2 seconds using the 
+\f1 Sine.easeOut 
+\f0 equation.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Additional parameters for ease equations
+\fs32 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 The ease equations Back and Elastic are considered special ease equations because they allow additional parameters to be defined to modify the easing equation. TweensyTimelineZero allows you to define parameters to control this.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+import fl.motion.easing.Back.easeOut;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimelineZero = TweensyZero.to(myInstance, \{x:500\}, 2.0, 
+\fs30 Back.easeOut
+\fs34 );\
+timeline.easeParams = [0.7];\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from it's current x to the x position of 500 in 2 seconds using the 
+\f1 Back.easeOut 
+\f0 equation and dampen the overshoot of the equation by a factor of 0.7.
+\fs34 \
+\
+Delaying a tween\
+
+\fs28 All tweens can have a start and end delay by default they will do not have any.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimelineZero = TweensyZero.to(myInstance, \{x:500\}, 2.0, null, 1.0);\
+timeline.delayEnd = 1.5;
+\f0\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 This will animate 'myInstance' to the x position of 500 after a starting delay of 1 second with another 1.5 second ending delay before the animation is considered complete.
+\fs30 \
+\
+______________________________________________________________________________________________________________________
+\fs34 \
+\
+Adding and removing tween events\
+
+\fs28 TweensyZero and Timelines have 2 events update and complete. Update fires every time the tween is updated and complete fires when the animation is finished. Predefined parameters may be applied to each of these functions as they are fired if none are defined, no parameters are applied.\
+
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Events for TweensyZero\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 onUpdate will fire each render of an 
+\f1 Event.ENTER_FRAME
+\f0 .\
+onComplete will fire after all animations are finished.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.to(myInstance, \{x:500\}, 2.0);\
+TweensyZero.onComplete = allAnimationsComplete;
+\f0\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Events for TweensyTimelineZero
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 onUpdate will fire each time the timeline animation updates.\
+onComplete will fire when the timeline animation is finished.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 \
+import com.flashdynamix.motion.*;
+\f0\fs34 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimelineZero = TweensyZero.to(myInstance, \{x:500\}, 2.0);\
+timeline.onComplete = animationComplete;\
+timeline.onCompleteParams = [myInstance];\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 To remove a onComplete or onUpdate event simply set it back to null.
+\fs48 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 timeline.onComplete = null;\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweensy uses this method of applying event listeners rather than the Adobe Event Dispatcher this is because it allows for predefined parameters. This easily allows for self removing tweens without all the fussiness of using the EventDispatcher first  i.e.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var timeline:TweensyTimelineZero = TweensyZero.to(myInstance, \{x:500\}, 2.0);\
+timeline.onComplete = myInstance.parent.removeChild;\
+timeline.onCompleteParams = [myInstance];\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs30 \cf0 ______________________________________________________________________________________________________________________
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Doing an advanced tween
+\fs48 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweening the properties of certain Objects in Actionscript can be more complicated these Objects include BitmapFilters, ColorTransforms, Matrices and SoundTransforms to name a few. This is because tweening the property's of these Objects need to be applied onto another for them to have a visual effect. Though TweensyZero can do this, it requires you to define an extra parameter to define which Object to update onto.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs48 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.to(new DropShadowFilter(), \{blurX:10, blurY:10\}, 2.0, null, 0, myInstance);
+\f0\fs48 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweens the blurX and blurY properties for the DropShadowFilter and applies the drop shadow onto myInstance.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.to(myInstance.transform.matrix, \{tx:80, ty: 80\}, 2.0, null, 0, myInstance);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweens the tx and ty properties for the Matrix of myInstance and applies the matrix transformation onto myInstance.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.to(myInstance.transform.colorTransform, \{redOffset:80\}, 2.0, null, 0, myInstance);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweens the redOffset property for the ColorTransform of myInstance and applies the color transform onto myInstance.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 TweensyZero.to(myChannel.soundTransform, \{volume:0\}, 2.0, null, 0, myChannel);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweens the volume property for the SoundTransform of a SoundChannel and applies the sound transform onto myChannel.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs48 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs30 \cf0 ______________________________________________________________________________________________________________________
+\fs48 \
+\
+Tweensy\
+
+\fs28 The Tweensy class contains static methods (for coding convenience) to create and control tween animations. Below are some simple steps to help you get started with creating your first animations with Tweensy. Documentation for Tweensy can be found under the folder '
+\i documentation/original'
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\i0\fs48 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs30 \cf0 ______________________________________________________________________________________________________________________
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Doing a tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Animations can be done using one of the following methods :
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 A 'to' tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Is an animation which goes from the instances current position to the destination defined in the 'to' Object.\
+
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.Tweensy;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 Tweensy.to(myInstance, \{x:500\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from it's current x to the x position of 500.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 A 'from' tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Is essentially the opposite of a to based tween. It is an animation which goes from the destination defined in the 'from' Object to the instances current position.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.Tweensy;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 Tweensy.from(myInstance, \{x:500\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from the x position 500 to it's current x position.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 A 'fromTo' tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Is using both the features of a from and to tween. It is an animation which goes from the destination defined in the 'from' Object and to the destination defined in the 'to' Object.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.Tweensy;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 Tweensy.fromTo(myInstance, \{x:0\}, \{x:500\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from the x position of 0 to the x position of 500.
+\fs30 \
+\
+______________________________________________________________________________________________________________________\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Controlling tweens\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweensy provides methods which allow for the controlling of tweens whilst they are in animation.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Stopping a tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Allows for stopping a tween in motion via an Object instance or property names.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.Tweensy;
+\f0\fs34 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 Tweensy.to(myInstance1, \{x:500, y:500\});\
+Tweensy.to(myInstance2, \{x:500, y:500\});\
+\
+Tweensy.stop(myInstance1);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops all tweens for myInstance1 though tweens will continue for myInstance2\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.stop(myInstance1, "x");\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops tweens for the x property for myInstance1\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.stop(null, "x");\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops all tweens for the x property animating in Tweensy\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.stop([myInstance1, myInstance2]);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops all tweens for myInstance1 and myInstance2\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.stop([myInstance1, myInstance2], "x");\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Stops tweens for the x property for myInstance1 and myInstance2\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Pausing and resuming a tween\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Allows for pausing and resuming all tweens executed by Tweensy.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.pause();\
+Tweensy.resume();\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 Time based vs Frame based\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 By default Tweensy uses time based animations, this ensures that tweens end precisely in the time you define. Movieclip animations created in the Flash IDE are frame based and Tweensy offers an option to use this mode also. When using frame based animations you can define how many seconds per frame are applied on each ENTER_FRAME. So if you wanted to match the FLA frame rate of 30FPS the SPF would be 1/30. Or if you wanted to double the frame rate this would be (1/30)*2.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.refreshType = Tweensy.FRAME;\
+Tweensy.secondsPerFrame = 1/30;\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 Updating a tween in motion
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweens in motion can have there positions seamlessly updated within the animation time remaining.\
+\
+ 
+\f1\fs34 Tweensy.updateTo(myInstance, \{x:250\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 Repeating tweens\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweens can be set to be repeating with the following types yoyo, loop and replay in either an endless or for a finite loop count.More information regarding repeating animations can be found in the documentation.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimeline = Tweensy.to(myInstance, \{x:500\});\
+timeline.repeatType = Tweensy.YOYO;\
+timeline.repeats = 3;\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from its current x position to an x position of 500 to and fro 3 times.\
+
+\fs30 \
+______________________________________________________________________________________________________________________\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Other things to know about tweens
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 When a to, from or fromTo tween is defined it returns an instance of TweensyTimeline this contains the parameters of this tween which you may modify during the tweens animation.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Using timelines\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 When a to, from or fromTo tween is defined it will return an instance of TweensyTImeline. Using TweensyTImeline allows for defining parameters which are not in the to, from and fromTo method as well as updating properties during the tweens animation. 
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimeline = Tweensy.to(myInstance, \{x:500\}, 2.0);\
+timeline.duration = 3.5;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs30 \cf0 \
+
+\fs28 This will animate 'myInstance' from it's current x to the x position of 500 in 3.5 seconds rather than the initially defined 2 seconds.\
+\
+
+\i Timelines offer a lot more functionality which will be described in further detail below.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\i0\fs34 \cf0 Relative and random range positions\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 The properties in the to and from Objects allow for you to define a relative position or random range positions.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs32 \cf0 \{x:"500"\} 
+\f0\fs28 will offset the x by +500.\
+
+\f1\fs32 \{x:"-500"\} 
+\f0\fs28 will offset the x by -500.\
+
+\f1\fs32 \{x:"250,500"\} 
+\f0\fs28 will offset the x by a random number between +250 and +500.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Using ease equations\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Ease equations change the style of movement from point A to point B.\
+Tweensy supports all the ease equations provided via Adobe in the
+\f1  fl.motion.easing
+\f0  package and these have been provided as a part of the Tweensy library. By default Tweensy will use the ease equation Quintic.easeOut if null or no parameter is provided.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.Tweensy;\
+import fl.motion.easing.Sine.easeOut;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 Tweensy.to(myInstance, \{x:500\}, 2.0, 
+\fs30 Sine.easeOut
+\fs34 );\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from its current x to the x position of 500 in 2 seconds using the 
+\f1 Sine.easeOut 
+\f0 equation.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Additional parameters for ease equations
+\fs32 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 The ease equations Back and Elastic are considered special ease equations because they allow additional parameters to be defined to modify the easing equation. TweensyTimeline allows you to define parameters to control this by the classes BackEaseParams and ElasticEaseParams.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+import fl.motion.easing.Back.easeOut;\
+import com.flashdynamix.motion.easing.BackEaseParams;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimeline = Tweensy.to(myInstance, \{x:500\}, 2.0, 
+\fs30 Back.easeOut
+\fs34 );\
+timeline.easeParams = new BackEaseParams
+\fs30 (
+\fs34 0.7);\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' from it's current x to the x position of 500 in 2 seconds using the 
+\f1 Back.easeOut 
+\f0 equation and dampen the overshoot of the equation by a factor of 0.7.
+\fs34 \
+\
+Delaying a tween\
+
+\fs28 All tweens can have a start and end delay by default they will do not have any.\
+
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimeline = Tweensy.to(myInstance, \{x:500\}, 2.0, null, 1.0);\
+timeline.delayEnd = 1.5;
+\f0\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 This will animate 'myInstance' to the x position of 500 after a starting delay of 1 second with another 1.5 second ending delay before the animation is considered complete.
+\fs30 \
+\
+______________________________________________________________________________________________________________________
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Doing an advanced tween
+\fs48 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweening the properties of certain Objects in Actionscript can be more complicated these Objects include BitmapFilters, ColorTransforms, Matrices and SoundTransforms to name a few. This is because tweening the property's of these Objects need to be applied onto another for them to have a visual effect. Though Tweensy can do this, it requires you to define an extra parameter to define which Object to update onto.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs48 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.to(new DropShadowFilter(), \{blurX:10, blurY:10\}, 2.0, null, 0, myInstance);
+\f0\fs48 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweens the blurX and blurY properties for the DropShadowFilter and applies the drop shadow onto myInstance.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var mtx:Matrix = myInstance.transform.matrix;\
+mtx.tx = 200;\
+mtx.ty = 200;
+\f0\fs30 \
+
+\f1\fs34 Tweensy.to(myInstance.transform.matrix, mtx, 2.0, null, 0, myInstance);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweens the tx and ty properties for the Matrix of myInstance and applies the matrix transformation onto myInstance.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var ct:ColorTransform = myInstance.transform.colorTransform;\
+ct.redOffset = 80;\
+Tweensy.to(myInstance.transform.colorTransform, ct, 2.0, null, 0, myInstance);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweens the redOffset property for the ColorTransform of myInstance and applies the color transform onto myInstance.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var st:SoundTransform = myChannel.soundTransform;\
+st.volume = 0;\
+Tweensy.to(myChannel.soundTransform, st, 2.0, null, 0, myChannel);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweens the volume property for the SoundTransform of a SoundChannel and applies the sound transform onto myChannel.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs48 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs30 \cf0 ______________________________________________________________________________________________________________________\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 \
+Adding and removing tween events\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweensy and Timelines have 2 events update and complete. Update fires every time the tween is updated and complete fires when the animation is finished. Predefined parameters may be applied to each of these functions as they are fired if none are defined, no parameters are applied.\
+
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Events for Tweensy\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 onUpdate will fire each render of an 
+\f1 Event.ENTER_FRAME
+\f0 .\
+onComplete will fire after all animations are finished.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 Tweensy.to(myInstance, \{x:500\}, 2.0);\
+Tweensy.onComplete = allAnimationsComplete;
+\f0\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Events for TweensyTimeline
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 onUpdate will fire each time the timeline animation updates.\
+onComplete will fire when the timeline animation is finished.\
+onRepeat will fire when the timeline animation repeats.
+\fs30 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 \
+import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var timeline:TweensyTimeline = Tweensy.to(myInstance, \{x:500\}, 2.0);\
+timeline.onComplete = animationComplete;\
+timeline.onCompleteParams = [myInstance];\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 To remove a onComplete or onUpdate event simply set it back to null.
+\fs48 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 timeline.onComplete = null;\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweensy uses this method of applying event listeners rather than the Adobe Event Dispatcher as it allows for predefined parameters allowing for self removing tweens without all the fussiness of using the EventDispatcher first  i.e.
+\fs30 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var timeline:TweensyTimeline = Tweensy.to(myInstance, \{x:500\}, 2.0);\
+timeline.onComplete = myInstance.parent.removeChild;\
+timeline.onCompleteParams = [myInstance];\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs30 \cf0 ______________________________________________________________________________________________________________________
+\fs34 \
+\
+Using TweensyGroup\
+
+\fs28 TweensyGroup is the recommended implementation of tweening and offers all the functionality of Tweensy (and more) but doesn't provide it's functionality by static methods and properties. As the animations contained within the TweensyGroup instance are only the ones defined by this instance it provides a greater level of control over animations. This means TweensyGroup allows for stopping, pausing and setting specific refreshTypes which only effect this TweensyGroup instance. \
+\
+It's also important to remember as TweensyGroup is weakly referenced it is important you maintain an instance and dispose it when its no longer used.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1 \cf0 var tween:TweensyGroup = new TweensyGroup();\
+tween.to(myInstance, \{x:500\});
+\f0 \
+\
+Other benefits of using TweensyGroup\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 TweensyGroup contains a collection of functions which shortcut otherwise advanced concepts of the Tweensy engine. Some of these include :\
+matrixTo\
+colorTransformTo\
+soundTransformTo\
+filterTo\
+functionTo\
+slideTo\
+scaleTo\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Disposing TweensyGroup\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 As the TweensyGroup class is constructed it's important that you dispose the class when you are done with it.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup();\
+tween.dispose();\
+tween = null;\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 Lazy mode with TweensyGroup
+\f1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Tweensy by default automatically resolves tweening conflicts though this comes at a performance cost. If this feature is turned off it can improve the overall performance of Tweensy. This mode is considered lazy tween conflict resolution because when its off it's up to the developer to stop tweens for a particular instance by the stop method.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup(false);\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Will disable automatic resolution of tweening conflicts.
+\f1\fs34 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 Object pooling with TweensyGroup
+\f1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Part of the reason why Tweensy is so memory efficient is it has the option to use Object pooling by default this option is off. This is because using Object pooling is a rather advanced feature not suited to novice developers. For more experienced developers it is recommended to use this feature. But it's important to note that TweensyGroup pools instances of TweensyTimeline and the implications this may have. If constant references are made to an instance of TweensyTimeline this could create logical problems in your code. This is because after the TweensyTImeline instance is initially used for your animation it may be used again for another.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup(false, true);\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will enable Tweensy to use Object pooling.\
+\
+
+\fs30 ______________________________________________________________________________________________________________________\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Motion guided tweens\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweensy has a package called guides which allow for defining a direction, orbit or bezier path to be used on a motion tween.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Direction guided tweens
+\fs28 \
+A direction guide has a direction and a distance. Tweening the position on the Direction2D class defines where on the path the item is placed initially the path  is at position 0 and ends at position 1.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+import com.flashdynamix.motion.guides.Direction2D;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup();\
+tween.to(new Direction2D(myInstance, 45, 100), \{position:1\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' a distance of 100 pixels at 45 degree from it's current position.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Orbit guided tweens
+\fs28 \
+An orbit guide has a radius x, radius y, center x and a center y. Tweening the angle in degrees on the Orbit2D class defines where on the path the item is placed initially the path is at the angle 0.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+import com.flashdynamix.motion.guides.Orbit2D;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup();\
+tween.to(new Orbit2D(myInstance, 100, 100, 250, 250), \{degree:360\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will orbit 'myInstance' 360 degrees on a x/y radius of 100 from the x/y center point of 250.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Bezier guided tweens
+\fs28 \
+A bezier guide has a collection of points defining a bezier path. Tweening the position on the Bezier2D class defines where on the path the item is placed initially the path is at position 0 and ends at position 1.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+import com.flashdynamix.motion.guides.Bezier2D;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup();\
+var bezier:Bezier2D = new Bezier2D(myInstance, true, false, false);\
+bezier.push(new Point(100, 100);\
+bezier.push(new Point(200, 150);\
+bezier.push(new Point(300, 100);\
+bezier.push(new Point(400, 300);\
+tween.to(bezier, \{position:1\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will animate 'myInstance' along the bezier path defined from it's start position.\
+
+\fs30 \
+\
+______________________________________________________________________________________________________________________\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Advanced Matrix and ColorMatrixFilter tweens\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Tweensy has a package called extras which contains classes which help you to do complicated animations in a very easy manner. These tweens include Matrix transformations around a registration point. As well ColorMatrixFilter effects such as brightness, contrast, colorize and threshold.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 Advanced Matrix tweens
+\fs28 \
+An advanced Matrix tween allows for applying Matrix transformations around a defined registration point. These transformations include rotation, skewX, skewY, scaleX, scaleY, translationX and translationY.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.*;\
+import com.flashdynamix.motion.extras.MatrixTransform;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup();\
+var mtx:MatrixTransform = new MatrixTransform(myInstance);\
+mtx.registrationX = myInstance.x + myInstance.width/2;\
+mtx.registrationY = myInstance.y + myInstance.height/2;\
+tween.to(mtx, \{degree:45\});\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will tween 'myInstance' rotation to 45 degrees around the middle of 'myInstance'.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs32 \cf0 ColorMatrixFilter tweens
+\fs28 \
+The ColorMatrixFilter allows for applying complex color alterations like brightness, contrast, saturation, colorize and threshold. The ColorMatrix class helps to create the 4x5 Array matrix to then be tweened onto a ColorMatrixFilter.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import flash.filters.ColorMatrixFilter;\
+import com.flashdynamix.motion.*;\
+import com.flashdynamix.motion.extras.ColorMatrix;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var tween:TweensyGroup = new TweensyGroup();\
+tween.to(new ColorMatrixFilter(), new ColorMatrix(0, 0, 3), 2, null, 0, myInstance);\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will tween the ColorMatrixFilter from the identity matrix to the Array matrix defined by ColorMatrix and apply the ColorMatrixFilter to 'myInstance'
+\f1\fs34 \
+
+\f0\fs30 \
+______________________________________________________________________________________________________________________\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 \
+\
+Using TweensySequence\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 TweensySequence allows for a chain of tweens to occur one after another. Like TweensyGroup, TweensySequence must be constructed in order to be used. Once a sequence has been created you can then start, stop, pause or resume the sequence at any time. As well repeat via the modes replay and yoyo.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs30 \cf0 import com.flashdynamix.motion.TweensySequence;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var sequence:TweensySequence = new TweensySequence();\
+sequence.push(myInstance1, \{x:200, y:200\}, 1);\
+sequence.push(myInstance1, \{x:500, y:250\}, 1);\
+sequence.push(myInstance1, \{x:0, y:0\}, 1);\
+sequence.start();\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Creates a tween sequence for 'myInstance' taking 1 second to move between each of the positions pushed into the sequence.
+\fs34 \
+\
+
+\fs30 ______________________________________________________________________________________________________________________
+\fs34 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs48 \cf0 TweensyFX (beta)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 TweensyFX provides you with a effect library to apply Bitmap effects onto DisplayObjects in an optimized manner. These effects include directional motion blur, pixelation, xray, bulge/dent displacements, reflection, emitters, rgb channel splitting and bump mapping. TweensyFX is an expansion package to Tweensy as it allows for you to use these effects with the highly optimized tweening engine. Documentation for Tweensy can be found under the folder '
+\i documentation/fx'
+\i0 \
+\
+
+\fs30 ___________________________________________________________________________________________________________________
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Creating a Render layer\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Effects in TweensyFX are rendered to a layer. TweensyFX offers it render layers in either vector or bitmap format.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Bitmap layers
+\fs28 \
+These layers are resolution dependent and in most cases offer better efficiency over Flash's built-in Display List and applying effects. Bitmap layers have a render area anything outside this area will be ignored. They also have a smoothing, transparency mode and a background color to be used when transparency is off.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var layer:BitmapLayer = new BitmapLayer(500, 450, 1, 0x00FFFFFF, true, true);
+\f0\fs28 \
+\
+Creates a BitmapLayer of the render area of 500x450 of 100% scale supporting transparency and smoothing with a transparent background color. \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Vector layers
+\fs28 \
+These layers are resolution independent and provides a practical library of vector drawings not provided via the Flash Drawing API onto a single Graphics layer. Vector layers also have a render area any outside this area will be ignored.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var layer:VectorLayer = new VectorLayer(500, 450, null, false);\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Creates a VectorLayer of the render area of 500x450 with a transparent background and caching as Bitmap is turned off.\
+\
+Vector layers can easily be drawn to BitmapLayers and have effects applied via the draw method\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var bmpLayer:BitmapLayer = new BitmapLayer();\
+var vecLayer:VectorLayer = new VectorLayer();\
+bmpLayer.draw(vecLayer);
+\f0\fs28 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs30 \cf0 ___________________________________________________________________________________________________________________
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Applying effects to a Bitmap layer\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Bitmap layers can have effects added and then have the effect parameters tweened for the specific effect to change the effects style during an animation.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var bmpLayer:BitmapLayer = new BitmapLayer();\
+bmpLayer.add(new FilterEffect(new BlurFilter(5, 5)));\
+bmpLayer.add(new ColorEffect(new ColorTransform(1, 1, 1, 0.9)));\
+bmpLayer.draw(myInstance);\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 This will apply a directional motion blur effect onto the BitmapLayer.\
+\
+
+\fs30 ___________________________________________________________________________________________________________________
+\fs48 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs34 \cf0 Using emitters\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 Emitters allow for you to create simple particle effects. An emitter will constantly create a particle DisplayObject and is intended to be then rendered by a BitmapLayer. An emitter will emit particles between a defined angle to a defined minimum and maximum distance. Over the course of a particles lifespan other display properties such as ColorTransform (alpha, colour etc.) and Matrix transformations (x,y, scale etc.) can be applied to the particle to get a desired effect.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 var bmpLayer:BitmapLayer = new BitmapLayer();\
+bmpLayer.add(new FilterEffect(new BlurFilter(5, 5)));\
+bmpLayer.add(new ColorEffect(new ColorTransform(1, 1, 1, 0.9)));\
+\
+var emitter:Emitter = new Emitter(Particle, \{scaleX:2, scaleY:2\}, 5, 0.5, "-180, 180", "50, 100");\
+bmpLayer.draw(bmpLayer.holder);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\fs28 \cf0 This will emit the DisplayObject Particle 5 times every other frame. The particle has an angle range of -180 to 180 degrees to a distance between 50 to 100 pixels. During the lifespan of the Particle it will scale to double its initial size.\
+\
+Another important aspect about emitters is that it's Transform is applied onto the Particles it creates. So if you were to change the x,y, blendMode or alpha of the emitter this will be applied onto the Particles also.
+\fs34 \
+
+\fs28 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 emitter.blendMode = BlendMode.ADD;\
+emitter.alpha = 0.8;\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Will apply the ADD BlendMode, alpha of 0.8 onto all Particles created by the emitter.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f1\fs34 \cf0 function draw(event:Event):void\{\
+	emitter.x += (stage.mouseX-emitter.x)/4;\
+	emitter.y += (stage.mouseY-emitter.y)/4;\
+\}
+\f0\fs28 \
+
+\f1\fs34 stage.addEventListener(Event.ENTER_FRAME, draw);
+\f0\fs28 \
+\
+So a mouse following emitter would be created like the above. Updating the emitters x/y will alter the position of the Particles it creates.\
+\
+\
+\
+\
+\
+\
+}

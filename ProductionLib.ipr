@@ -76,15 +76,18 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/actuate/Actuate_Lib.iml" filepath="$PROJECT_DIR$/actuate/Actuate_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" filepath="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Away3dLite_Experiment/Away3dLite_Experiment.iml" filepath="$PROJECT_DIR$/Away3dLite_Experiment/Away3dLite_Experiment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Away3dLite_Lib/Away3dLite_Lib.iml" filepath="$PROJECT_DIR$/Away3dLite_Lib/Away3dLite_Lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Away3dOimoPhysicsEngine/Away3dOimoPhysicsEngine.iml" filepath="$PROJECT_DIR$/Away3dOimoPhysicsEngine/Away3dOimoPhysicsEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" filepath="$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eaze-tween/Eaze-Tween_Lib.iml" filepath="$PROJECT_DIR$/eaze-tween/Eaze-Tween_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flare-master/Flare_Lib.iml" filepath="$PROJECT_DIR$/Flare-master/Flare_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" filepath="$PROJECT_DIR$/FlashExperiments/FlashExperiments.iml" />
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hype-master/Hype_Lib.iml" filepath="$PROJECT_DIR$/hype-master/Hype_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" filepath="$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductionLib.iml" filepath="$PROJECT_DIR$/ProductionLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" filepath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" filepath="$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false" project-jdk-name="AIRSDK_Compiler" project-jdk-type="Flex SDK Type (new)">

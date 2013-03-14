@@ -1,0 +1,1344 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../print.css" type="text/css" media="print">
+<meta content="TweensyTimeline,com.flashdynamix.motion.TweensyTimeline,LOOP,NONE,REPLAY,YOYO,defaultTween,delayEnd,delayStart,ease,onComplete,onCompleteParams,onRepeat,onRepeatParams,onUpdate,onUpdateParams,repeatCount,repeatEase,repeatType,repeats,snapToClosest,smartRotate,canRepeat,duration,finished,hasTweens,paused,playing,position,time,totalDuration,tweens,easeParams,add,clear,dispose,from,fromTo,gc,loop,pause,removeOverlap,replay,resume,stop,stopAll,to,toString,update,updateTo,yoyo" name="keywords">
+<title>com.flashdynamix.motion.TweensyTimeline</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'TweensyTimeline - Tweensy FX';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">Tweensy FX</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../index-list.html')" href="../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../index.html?com/flashdynamix/motion/TweensyTimeline.html&amp;com/flashdynamix/motion/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;TweensyTimeline</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class TweensyTimeline"); titleBar_setSubNav(true,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">com.flashdynamix.motion</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class TweensyTimeline</td>
+</tr>
+</table>
+<p></p>
+  TweensyTimeline groups instances of tweens which are animating for the same duration. It's important
+  to know that these Tweens can be animating their own unique properties and from to targets
+  
+  TweensyTimelines are especially efficient for bulk tweening (1000+ Objects) because of their
+  capability of grouping instances with a common timeline. 
+  
+  The TweensyTimeline Class has events for:
+  <ul>
+  <li>onComplete - When all tweens in the TweensyTimeline Class are done</li>
+  <li>onUpdate - When all animations in the TweensyTimeline Class have been updated.</li>
+  <li>onRepeat - When the animation REPLAYs in the TweensyTimeline Class.</li>
+  </ul>
+  These events allow for predefined params to be applied when they are executed.
+  Tweensy favours this method as it allows for predefining the event and the params it requires
+  without all the fussiness of Event listeners.
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#canRepeat">canRepeat</a> : Boolean<div class="summaryTableDescription">[read-only]
+   Defines whether the TweensyTimeline repeats.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#defaultTween">defaultTween</a> : Function<div class="summaryTableDescription">[static]
+   The default tween which will be used when none is provided using a to, from and fromTo method.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#delayEnd">delayEnd</a> : Number = 0<div class="summaryTableDescription">
+   Defines the delay in seconds at the end of the animation.<BR>
+   By default this value is 0 seconds.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#delayStart">delayStart</a> : Number = 0<div class="summaryTableDescription">
+   Defines the delay in seconds at the start of the animation.<BR>
+   By default this value is 0 seconds.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#duration">duration</a> : Number<div class="summaryTableDescription">
+   Sets and gets the current tween duration for the TweensyTimeline in seconds.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#ease">ease</a> : Function<div class="summaryTableDescription">
+   Defines the ease equation you would like to use.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#easeParams">easeParams</a> : Array<div class="summaryTableDescription">[write-only]
+   Sets the ease params.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#finished">finished</a> : Boolean<div class="summaryTableDescription">[read-only]
+   Determines whether or not the TweensyTimeline animation has finished.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#hasTweens">hasTweens</a> : Boolean<div class="summaryTableDescription">[read-only]
+   Whether the TweensyTimeline has any animations.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#onComplete">onComplete</a> : Function<div class="summaryTableDescription">
+   Executed when the TweensyTimeline animation is complete.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#onCompleteParams">onCompleteParams</a> : Array<div class="summaryTableDescription">
+   Parameters applied to the onComplete Function.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#onRepeat">onRepeat</a> : Function<div class="summaryTableDescription">
+   Executed when the TweensyTimeline animation repeats.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#onRepeatParams">onRepeatParams</a> : Array<div class="summaryTableDescription">
+   Parameters applied to the onRepeat Function.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#onUpdate">onUpdate</a> : Function<div class="summaryTableDescription">
+   Executed on each update to the TweensyTimeline animation.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#onUpdateParams">onUpdateParams</a> : Array<div class="summaryTableDescription">
+   Parameters applied to the onUpdate Function.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#paused">paused</a> : Boolean<div class="summaryTableDescription">[read-only]
+   Whether the TweensyTimeline is paused.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#playing">playing</a> : Boolean<div class="summaryTableDescription">[read-only]
+   This is when the animation is after the delay start and before its delay end.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#position">position</a> : Number<div class="summaryTableDescription">
+   Seeks and returns the animation to a position from 0 to 1, start to end.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#repeatCount">repeatCount</a> : int = 0<div class="summaryTableDescription">
+   The count of the number of repeats which have occured.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#repeatEase">repeatEase</a> : Array<div class="summaryTableDescription">
+   This contains a list of ease Functions to use on each repeat for the tween animation.<BR>
+   i.e.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#repeats">repeats</a> : int = -1<div class="summaryTableDescription">
+   The number of repeats to use.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#repeatType">repeatType</a> : String<div class="summaryTableDescription">
+   Defines the repeat type for the animation.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#snapToClosest">snapToClosest</a> : Boolean = false<div class="summaryTableDescription">
+   Whether the tweens contained within the TweensyTimeline class will snap tweened properties to the closest whole number.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#time">time</a> : Number<div class="summaryTableDescription">
+   The time in seconds the TweensyTimeline has been running for
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#totalDuration">totalDuration</a> : Number<div class="summaryTableDescription">[read-only]
+   The total duration of the TweensyTimeline animation in seconds.<BR>
+   This is the sum of delayStart, duration and delayEnd.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#tweens">tweens</a> : int<div class="summaryTableDescription">[read-only]
+   Number of tweens added to the TweensyTimeline Class.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#smartRotate">smartRotate</a> : Boolean = true<div class="summaryTableDescription">
+   Whether the timelines contained within the TweensyTimeline class will use smart rotation or not.<BR>
+   Smart rotation will make the rotation turn in the direction which is the shortest in degrees 
+   fixing what may otherwise appear as a visual glitch even though mathimatically it is correct.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#TweensyTimeline()">TweensyTimeline</a>()</div>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#add()">add</a>(instance:Object, update:Object = null):<a href="plugins/AbstractTween.html">AbstractTween</a>
+</div>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#clear()">clear</a>():void</div>
+<div class="summaryTableDescription">
+   Cleans the TweensyTimeline Class ready for check in to the Object Pool for reuse.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#dispose()">dispose</a>():void</div>
+<div class="summaryTableDescription">
+   Disposes the TweensyTimeline Class instance ready for garbage collection.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#from()">from</a>(instance:Object, from:Object, update:Object = null):void</div>
+<div class="summaryTableDescription">
+   Adds a from based tween to the properties defined in the target Object.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#fromTo()">fromTo</a>(instance:Object, from:Object, to:Object, update:Object = null):void</div>
+<div class="summaryTableDescription">
+   Adds a from to based tween to the properties defined in the target Object.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#gc()">gc</a>():void</div>
+<div class="summaryTableDescription">[static]
+   Prepares the TweensyTimeline class for garbage collection by disposing its Object Pools and making it 
+   no longer usable in the Flash application.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#loop()">loop</a>():void</div>
+<div class="summaryTableDescription">
+   Forces a timeline tween to loop the animation.<BR>
+   A looped animation will swap the delays (delayStart & delayEnd) so that the to and from animations have the same delays.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#pause()">pause</a>():void</div>
+<div class="summaryTableDescription">
+   Pauses a playing TweensyTimeline
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#removeOverlap()">removeOverlap</a>(timeline:<a href="TweensyTimeline.html">TweensyTimeline</a>):void</div>
+<div class="summaryTableDescription">
+   Removes tweening property tween overlaps.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#replay()">replay</a>():void</div>
+<div class="summaryTableDescription">
+   Plays a timeline animation at its start position on each repeat.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#resume()">resume</a>():void</div>
+<div class="summaryTableDescription">
+   Resumes a paused TweensyTimeline
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#stop()">stop</a>(instance:* = null, ... props):void</div>
+<div class="summaryTableDescription">
+   Allows for removing tweens via an instance or tween props by the following methods :
+   <ul>
+   <li><code>timeline.stop(instance);</code> - stops all property tweens for this instance.</li>
+   <li><code>timeline.stop(instance, "x", "y");</code> - stops all x,y property tweens for this instance.</li>
+   <li><code>timeline.stop([instance1, instance2]);</code> - stops all property tweens for these instances.</li>
+   <li><code>timeline.stop([instance1, instance2], "x", "y");</code> - stops all x,y property tweens for these instances.</li>
+   <li><code>timeline.stop(null, "x", "y");</code> - stops all x,y property tweens.</li>
+   <li><code>timeline.stop();</code> - stops all tweens though it is recommended to use the stopAll method as this is more efficient.</li>
+   </ul>
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#stopAll()">stopAll</a>():void</div>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#to()">to</a>(instance:Object, to:Object, update:Object = null):void</div>
+<div class="summaryTableDescription">
+   Adds a to based tween to the properties defined in the target Object.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#toString()">toString</a>():String</div>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#update()">update</a>(secs:Number):Boolean</div>
+<div class="summaryTableDescription">
+   Updates the TweensyTimeline by the specified amout of time in seconds.<BR>
+   This function is intended for use by the Tweensy class which is controlling this timeline animation.<BR>
+   Though calling this function will update the timeline independtly of the mananger allowing for custom control
+   over timelines.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#updateTo()">updateTo</a>(instance:Object, to:Object):void</div>
+<div class="summaryTableDescription">
+   Updates a tween for the instance Object to the new target properties defined in the to Object.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#yoyo()">yoyo</a>():void</div>
+<div class="summaryTableDescription">
+   Forces a timeline tween to do a yoyo animation.<BR>
+   A yoyo will use the same delayStart and delayEnd on the to and fro animation.</div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+</table>
+</div>
+<a name="constantSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Constants</div>
+<table id="summaryTableConstant" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#LOOP">LOOP</a> : String = "loop"<div class="summaryTableDescription">[static]
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#NONE">NONE</a> : String = "null"<div class="summaryTableDescription">[static]
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#REPLAY">REPLAY</a> : String = "replay"<div class="summaryTableDescription">[static]
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#YOYO">YOYO</a> : String = "yoyo"<div class="summaryTableDescription">[static]
+   </div>
+</td><td class="summaryTableOwnerCol">TweensyTimeline</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="canRepeat"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">canRepeat</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>canRepeat:Boolean</code>&nbsp;&nbsp;[read-only]<p>
+   Defines whether the TweensyTimeline repeats.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get canRepeat():Boolean</code>
+<br>
+</div>
+<a name="defaultTween"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">defaultTween</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static var defaultTween:Function</code><p>
+   The default tween which will be used when none is provided using a to, from and fromTo method.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#ease" target="">TweensyTimeline.ease</a>
+</div>
+</div>
+<a name="delayEnd"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">delayEnd</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var delayEnd:Number = 0</code><p>
+   Defines the delay in seconds at the end of the animation.<BR>
+   By default this value is 0 seconds.
+   </p></div>
+<a name="delayStart"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">delayStart</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var delayStart:Number = 0</code><p>
+   Defines the delay in seconds at the start of the animation.<BR>
+   By default this value is 0 seconds.
+   </p></div>
+<a name="duration"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">duration</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>duration:Number</code>&nbsp;&nbsp;[read-write]<p>
+   Sets and gets the current tween duration for the TweensyTimeline in seconds.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get duration():Number</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set duration(value:Number):void</code>
+<br>
+</div>
+<a name="ease"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ease</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var ease:Function</code><p>
+   Defines the ease equation you would like to use. By default this is Quintic.easeOut or the defaultTween.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#defaultTween" target="">com.flashdynamix.motion.TweensyTimeline.defaultTween</a>
+</div>
+</div>
+<a name="easeParams"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">easeParams</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>easeParams:Array</code>&nbsp;&nbsp;[write-only]<p>
+   Sets the ease params. These params are used on Back, Bounce and Elastic ease functions.<BR>
+   These parameters lessen or exaggerate the effect of these particular ease functions.<BR>
+   i.e. [0.7] will lessen the effect of a Back equation
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set easeParams(value:Array):void</code>
+<br>
+</div>
+<a name="finished"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">finished</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>finished:Boolean</code>&nbsp;&nbsp;[read-only]<p>
+   Determines whether or not the TweensyTimeline animation has finished.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get finished():Boolean</code>
+<br>
+</div>
+<a name="hasTweens"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">hasTweens</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>hasTweens:Boolean</code>&nbsp;&nbsp;[read-only]<p>
+   Whether the TweensyTimeline has any animations.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get hasTweens():Boolean</code>
+<br>
+</div>
+<a name="onComplete"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">onComplete</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var onComplete:Function</code><p>
+   Executed when the TweensyTimeline animation is complete.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#onCompleteParams" target="">com.flashdynamix.motion.TweensyTimeline.onCompleteParams</a>
+</div>
+</div>
+<a name="onCompleteParams"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">onCompleteParams</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var onCompleteParams:Array</code><p>
+   Parameters applied to the onComplete Function.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#onComplete" target="">com.flashdynamix.motion.TweensyTimeline.onComplete</a>
+</div>
+</div>
+<a name="onRepeat"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">onRepeat</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var onRepeat:Function</code><p>
+   Executed when the TweensyTimeline animation repeats.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#onRepeatParams" target="">com.flashdynamix.motion.TweensyTimeline.onRepeatParams</a>
+</div>
+</div>
+<a name="onRepeatParams"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">onRepeatParams</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var onRepeatParams:Array</code><p>
+   Parameters applied to the onRepeat Function.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#onRepeat" target="">com.flashdynamix.motion.TweensyTimeline.onRepeat</a>
+</div>
+</div>
+<a name="onUpdate"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">onUpdate</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var onUpdate:Function</code><p>
+   Executed on each update to the TweensyTimeline animation.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#onUpdateParams" target="">com.flashdynamix.motion.TweensyTimeline.onUpdateParams</a>
+</div>
+</div>
+<a name="onUpdateParams"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">onUpdateParams</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var onUpdateParams:Array</code><p>
+   Parameters applied to the onUpdate Function.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#onUpdate" target="">com.flashdynamix.motion.TweensyTimeline.onUpdate</a>
+</div>
+</div>
+<a name="paused"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">paused</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>paused:Boolean</code>&nbsp;&nbsp;[read-only]<p>
+   Whether the TweensyTimeline is paused.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get paused():Boolean</code>
+<br>
+</div>
+<a name="playing"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">playing</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>playing:Boolean</code>&nbsp;&nbsp;[read-only]<p>
+   This is when the animation is after the delay start and before its delay end.
+   
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get playing():Boolean</code>
+<br>
+</div>
+<a name="position"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">position</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>position:Number</code>&nbsp;&nbsp;[read-write]<p>
+   Seeks and returns the animation to a position from 0 to 1, start to end.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get position():Number</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set position(value:Number):void</code>
+<br>
+</div>
+<a name="repeatCount"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">repeatCount</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var repeatCount:int = 0</code><p>
+   The count of the number of repeats which have occured.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeats" target="">com.flashdynamix.motion.TweensyTimeline.repeats</a>
+<br>
+<a href="../motion/TweensyTimeline.html#repeatType" target="">com.flashdynamix.motion.TweensyTimeline.repeatType</a>
+</div>
+</div>
+<a name="repeatEase"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">repeatEase</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var repeatEase:Array</code><p>
+   This contains a list of ease Functions to use on each repeat for the tween animation.<BR>
+   i.e. [Quintic.easeIn, Quintic.easeOut]<BR>
+   This will then use each of these ease Functions on each repeat.<BR>
+   By default this is null when this property is null this functionality is ignored.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeats" target="">com.flashdynamix.motion.TweensyTimeline.repeats</a>
+<br>
+<a href="../motion/TweensyTimeline.html#repeatType" target="">com.flashdynamix.motion.TweensyTimeline.repeatType</a>
+</div>
+</div>
+<a name="repeats"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">repeats</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var repeats:int = -1</code><p>
+   The number of repeats to use. If -1 is used then the animation will repeat indefinitely.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeats" target="">com.flashdynamix.motion.TweensyTimeline.repeats</a>
+<br>
+<a href="../motion/TweensyTimeline.html#repeatType" target="">com.flashdynamix.motion.TweensyTimeline.repeatType</a>
+</div>
+</div>
+<a name="repeatType"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">repeatType</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var repeatType:String</code><p>
+   Defines the repeat type for the animation. By default this is TweensyTimeline.NONE<BR><BR>
+   Options include :
+   <ul>
+   <li>TweensyTimeline.NONE</li>
+   <li>TweensyTimeline.YOYO</li>
+   <li>TweensyTimeline.REPLAY</li>
+   <li>TweensyTimeline.LOOP</li>
+   </ul>
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeats" target="">com.flashdynamix.motion.TweensyTimeline.repeats</a>
+<br>
+<a href="../motion/TweensyTimeline.html#repeatCount" target="">com.flashdynamix.motion.TweensyTimeline.repeatCount</a>
+<br>
+<a href="../motion/TweensyTimeline.html#NONE" target="">com.flashdynamix.motion.TweensyTimeline.NONE</a>
+<br>
+<a href="../motion/TweensyTimeline.html#YOYO" target="">com.flashdynamix.motion.TweensyTimeline.YOYO</a>
+<br>
+<a href="../motion/TweensyTimeline.html#REPLAY" target="">com.flashdynamix.motion.TweensyTimeline.REPLAY</a>
+<br>
+<a href="../motion/TweensyTimeline.html#LOOP" target="">com.flashdynamix.motion.TweensyTimeline.LOOP</a>
+</div>
+</div>
+<a name="snapToClosest"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">snapToClosest</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var snapToClosest:Boolean = false</code><p>
+   Whether the tweens contained within the TweensyTimeline class will snap tweened properties to the closest whole number.
+   </p></div>
+<a name="time"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">time</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>time:Number</code>&nbsp;&nbsp;[read-write]<p>
+   The time in seconds the TweensyTimeline has been running for
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get time():Number</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set time(value:Number):void</code>
+<br>
+</div>
+<a name="totalDuration"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">totalDuration</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>totalDuration:Number</code>&nbsp;&nbsp;[read-only]<p>
+   The total duration of the TweensyTimeline animation in seconds.<BR>
+   This is the sum of delayStart, duration and delayEnd.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get totalDuration():Number</code>
+<br>
+</div>
+<a name="tweens"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">tweens</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>tweens:int</code>&nbsp;&nbsp;[read-only]<p>
+   Number of tweens added to the TweensyTimeline Class.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get tweens():int</code>
+<br>
+</div>
+<a name="smartRotate"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">smartRotate</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var smartRotate:Boolean = true</code><p>
+   Whether the timelines contained within the TweensyTimeline class will use smart rotation or not.<BR>
+   Smart rotation will make the rotation turn in the direction which is the shortest in degrees 
+   fixing what may otherwise appear as a visual glitch even though mathimatically it is correct.
+   </p></div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="TweensyTimeline()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">TweensyTimeline</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function TweensyTimeline()</code>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="add()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">add</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function add(instance:Object, update:Object = null):<a href="plugins/AbstractTween.html">AbstractTween</a></code><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">instance</span>:Object</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">update</span>:Object</code> (default = <code>null</code>)<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="plugins/AbstractTween.html">AbstractTween</a></code></td>
+</tr>
+</table>
+</div>
+<a name="clear()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">clear</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function clear():void</code><p>
+   Cleans the TweensyTimeline Class ready for check in to the Object Pool for reuse.
+   </p></div>
+<a name="dispose()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">dispose</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function dispose():void</code><p>
+   Disposes the TweensyTimeline Class instance ready for garbage collection.
+   </p></div>
+<a name="from()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">from</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function from(instance:Object, from:Object, update:Object = null):void</code><p>
+   Adds a from based tween to the properties defined in the target Object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">instance</span>:Object</code> &mdash; The instance Object to be tweened or multiple instances if using the type Array e.g. <code>timeline.from([item1, item2], {x:50, y:50})</code>;
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">from</span>:Object</code> &mdash; An Object containing the properties you would like to tween from e.g. <code>{x:50, y:25}</code>
+   or this can be relative e.g. {x:'50', y:'-25'} or can be a random position e.g. <code>{x:'-50, 50', y:'-25, 25'}</code>
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">update</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; This param is used when tweening a property in a Object which needs to be applied onto another Object each time
+   the tween occurs.<BR>
+   For example <code>timeline.from(new DropShadowFilter(), {alpha:0}, myDisplayItem);</code><BR>
+   Will apply the tweening DropShadowFilter onto the DisplayObject <code>'myDisplayItem'</code>.
+   </td>
+</tr>
+</table>
+</div>
+<a name="fromTo()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">fromTo</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function fromTo(instance:Object, from:Object, to:Object, update:Object = null):void</code><p>
+   Adds a from to based tween to the properties defined in the target Object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">instance</span>:Object</code> &mdash; The instance Object to be tweened or multiple instances if using the type Array e.g. <code>timeline.fromTo([item1, item2], {x:50, y:50});</code>
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">from</span>:Object</code> &mdash; An Object containing the properties you would like to tween from e.g. <code>{x:50, y:25}</code>
+   or this can be relative e.g. {x:'50', y:'-25'} or can be a random position e.g. <code>{x:'-50, 50', y:'-25, 25'}</code>
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">to</span>:Object</code> &mdash; An Object containing the properties you would like to tween to e.g. <code>{x:50, y:25}</code>
+   or this can be relative e.g. {x:'50', y:'-25'} or can be a random position e.g. <code>{x:'-50, 50', y:'-25, 25'}</code>
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">update</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; This param is used when tweening a property in a Object which needs to be applied onto another Object each time
+   the tween occurs.<BR>
+   For example <code>timeline.fromTo(new DropShadowFilter(), {alpha:0}, {alpha:1}, myDisplayItem)</code><BR>
+   Will apply the tweening DropShadowFilter onto the DisplayObject <code>'myDisplayItem'</code>
+   </td>
+</tr>
+</table>
+</div>
+<a name="gc()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">gc</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function gc():void</code><p>
+   Prepares the TweensyTimeline class for garbage collection by disposing its Object Pools and making it 
+   no longer usable in the Flash application.
+   </p></div>
+<a name="loop()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">loop</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function loop():void</code><p>
+   Forces a timeline tween to loop the animation.<BR>
+   A looped animation will swap the delays (delayStart & delayEnd) so that the to and from animations have the same delays.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeats" target="">com.flashdynamix.motion.TweensyTimeline.repeats</a>
+<br>
+<a href="../motion/TweensyTimeline.html#repeatCount" target="">com.flashdynamix.motion.TweensyTimeline.repeatCount</a>
+<br>
+<a href="../motion/TweensyTimeline.html#NONE" target="">com.flashdynamix.motion.TweensyTimeline.NONE</a>
+<br>
+<a href="../motion/TweensyTimeline.html#YOYO" target="">com.flashdynamix.motion.TweensyTimeline.YOYO</a>
+<br>
+<a href="../motion/TweensyTimeline.html#REPLAY" target="">com.flashdynamix.motion.TweensyTimeline.REPLAY</a>
+<br>
+<a href="../motion/TweensyTimeline.html#LOOP" target="">com.flashdynamix.motion.TweensyTimeline.LOOP</a>
+</div>
+</div>
+<a name="pause()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">pause</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function pause():void</code><p>
+   Pauses a playing TweensyTimeline
+   </p></div>
+<a name="removeOverlap()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">removeOverlap</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function removeOverlap(timeline:<a href="TweensyTimeline.html">TweensyTimeline</a>):void</code><p>
+   Removes tweening property tween overlaps.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">timeline</span>:<a href="TweensyTimeline.html">TweensyTimeline</a></code></td>
+</tr>
+</table>
+</div>
+<a name="replay()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">replay</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function replay():void</code><p>
+   Plays a timeline animation at its start position on each repeat.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeats" target="">com.flashdynamix.motion.TweensyTimeline.repeats</a>
+<br>
+<a href="../motion/TweensyTimeline.html#repeatCount" target="">com.flashdynamix.motion.TweensyTimeline.repeatCount</a>
+<br>
+<a href="../motion/TweensyTimeline.html#NONE" target="">com.flashdynamix.motion.TweensyTimeline.NONE</a>
+<br>
+<a href="../motion/TweensyTimeline.html#YOYO" target="">com.flashdynamix.motion.TweensyTimeline.YOYO</a>
+<br>
+<a href="../motion/TweensyTimeline.html#REPLAY" target="">com.flashdynamix.motion.TweensyTimeline.REPLAY</a>
+<br>
+<a href="../motion/TweensyTimeline.html#LOOP" target="">com.flashdynamix.motion.TweensyTimeline.LOOP</a>
+</div>
+</div>
+<a name="resume()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">resume</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function resume():void</code><p>
+   Resumes a paused TweensyTimeline
+   </p></div>
+<a name="stop()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">stop</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function stop(instance:* = null, ... props):void</code><p>
+   Allows for removing tweens via an instance or tween props by the following methods :
+   <ul>
+   <li><code>timeline.stop(instance);</code> - stops all property tweens for this instance.</li>
+   <li><code>timeline.stop(instance, "x", "y");</code> - stops all x,y property tweens for this instance.</li>
+   <li><code>timeline.stop([instance1, instance2]);</code> - stops all property tweens for these instances.</li>
+   <li><code>timeline.stop([instance1, instance2], "x", "y");</code> - stops all x,y property tweens for these instances.</li>
+   <li><code>timeline.stop(null, "x", "y");</code> - stops all x,y property tweens.</li>
+   <li><code>timeline.stop();</code> - stops all tweens though it is recommended to use the stopAll method as this is more efficient.</li>
+   </ul>
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">instance</span>:*</code> (default = <code>null</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code>... <span class="label">props</span></code></td>
+</tr>
+</table>
+</div>
+<a name="stopAll()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">stopAll</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function stopAll():void</code>
+</div>
+<a name="to()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">to</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function to(instance:Object, to:Object, update:Object = null):void</code><p>
+   Adds a to based tween to the properties defined in the target Object.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">instance</span>:Object</code> &mdash; The instance Object to be tweened or multiple instances if using the type Array e.g. <code>timeline.to([item1, item2], {x:50, y:50});</code>
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">to</span>:Object</code> &mdash; An Object containing the properties you would like to tween to e.g. <code>{x:50, y:25}</code>
+   or this can be relative e.g. {x:'50', y:'-25'} or can be a random position e.g. <code>{x:'-50, 50', y:'-25, 25'}</code>
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">update</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; This param is used when tweening a property in a Object which needs to be applied onto another Object each time
+   the tween occurs.<BR>
+   For example <code>timeline.to(new DropShadowFilter(), {alpha:0}, myDisplayItem);</code><BR>
+   Will apply the tweening DropShadowFilter onto the DisplayObject <code>'myDisplayItem'</code>.
+   </td>
+</tr>
+</table>
+</div>
+<a name="toString()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">toString</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function toString():String</code>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+</div>
+<a name="update()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">update</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function update(secs:Number):Boolean</code><p>
+   Updates the TweensyTimeline by the specified amout of time in seconds.<BR>
+   This function is intended for use by the Tweensy class which is controlling this timeline animation.<BR>
+   Though calling this function will update the timeline independtly of the mananger allowing for custom control
+   over timelines.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">secs</span>:Number</code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Boolean</code> &mdash; Whether the TweensyTimeline animation has finished playing.
+   </td>
+</tr>
+</table>
+</div>
+<a name="updateTo()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">updateTo</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function updateTo(instance:Object, to:Object):void</code><p>
+   Updates a tween for the instance Object to the new target properties defined in the to Object.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">instance</span>:Object</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">to</span>:Object</code></td>
+</tr>
+</table>
+</div>
+<a name="yoyo()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">yoyo</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function yoyo():void</code><p>
+   Forces a timeline tween to do a yoyo animation.<BR>
+   A yoyo will use the same delayStart and delayEnd on the to and fro animation.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeats" target="">com.flashdynamix.motion.TweensyTimeline.repeats</a>
+<br>
+<a href="../motion/TweensyTimeline.html#repeatCount" target="">com.flashdynamix.motion.TweensyTimeline.repeatCount</a>
+<br>
+<a href="../motion/TweensyTimeline.html#NONE" target="">com.flashdynamix.motion.TweensyTimeline.NONE</a>
+<br>
+<a href="../motion/TweensyTimeline.html#YOYO" target="">com.flashdynamix.motion.TweensyTimeline.YOYO</a>
+<br>
+<a href="../motion/TweensyTimeline.html#REPLAY" target="">com.flashdynamix.motion.TweensyTimeline.REPLAY</a>
+<br>
+<a href="../motion/TweensyTimeline.html#LOOP" target="">com.flashdynamix.motion.TweensyTimeline.LOOP</a>
+</div>
+</div>
+<a name="constantDetail"></a>
+<div class="detailSectionHeader">Constant detail</div>
+<a name="LOOP"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">LOOP</td><td class="detailHeaderType">constant</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const LOOP:String = "loop"</code><p>
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeatType" target="">com.flashdynamix.motion.TweensyTimeline.repeatType</a>
+</div>
+</div>
+<a name="NONE"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">NONE</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const NONE:String = "null"</code><p>
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeatType" target="">com.flashdynamix.motion.TweensyTimeline.repeatType</a>
+</div>
+</div>
+<a name="REPLAY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">REPLAY</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const REPLAY:String = "replay"</code><p>
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeatType" target="">com.flashdynamix.motion.TweensyTimeline.repeatType</a>
+</div>
+</div>
+<a name="YOYO"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">YOYO</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const YOYO:String = "yoyo"</code><p>
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../motion/TweensyTimeline.html#repeatType" target="">com.flashdynamix.motion.TweensyTimeline.repeatType</a>
+</div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->

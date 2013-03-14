@@ -1,0 +1,498 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../print.css" type="text/css" media="print">
+<meta content="PerlinDisplacementEffect,com.flashdynamix.motion.effects.PerlinDisplacementEffect,DIRECTION,ORBIT,baseX,baseY,channelOptions,fractalNoise,grayScale,radiusX,radiusY,seed,speedX,speedY,stitch,movement,render" name="keywords">
+<title>com.flashdynamix.motion.effects.PerlinDisplacementEffect</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'PerlinDisplacementEffect - Tweensy FX';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">Tweensy FX</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../index-list.html')" href="../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../index.html?com/flashdynamix/motion/effects/PerlinDisplacementEffect.html&amp;com/flashdynamix/motion/effects/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;PerlinDisplacementEffect</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class PerlinDisplacementEffect"); titleBar_setSubNav(true,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">com.flashdynamix.motion.effects</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public dynamic  class PerlinDisplacementEffect</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">PerlinDisplacementEffect <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../../images/inherit-arrow.gif"> <a href="core/DisplacementEffect.html">DisplacementEffect</a> <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../../images/inherit-arrow.gif"> <a href="core/FilterEffect.html">FilterEffect</a> <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../../images/inherit-arrow.gif"> flash.utils.Proxy</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Implements</td><td><a href="IEffect.html">IEffect</a></td>
+</tr>
+</table>
+<p></p>
+  Applies a DisplacementMapFilter using Perlin noise to a BitmapData
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<div class="showHideLinks">
+<div class="hideInheritedProperty" id="hideInheritedProperty">
+<a onclick="javascript:setInheritedVisible(false,'Property');" href="#propertySummary" class="showHideLink"><img src="../../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Public Properties</a>
+</div>
+<div class="showInheritedProperty" id="showInheritedProperty">
+<a onclick="javascript:setInheritedVisible(true,'Property');" href="#propertySummary" class="showHideLink"><img src="../../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Public Properties</a>
+</div>
+</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#baseX">baseX</a> : int = 30<div class="summaryTableDescription">
+    Frequency to use in the x direction.<BR>
+    For example, to generate a noise that is sized for a 64 x 128 image, pass the pixel width of 64 for the baseX value.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#baseY">baseY</a> : int = 40<div class="summaryTableDescription">
+   Frequency to use in the y direction.<BR>
+   For example, to generate a noise that is sized for a 64 x 128 image, pass the pixel height of 128 for the baseY value.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#channelOptions">channelOptions</a> : uint = 1.0<div class="summaryTableDescription">
+   The Channels which are rendered with the perlin noise : 
+   <ul>
+   <li>BitmapDataChannel.ALPHA</li>
+   <li>BitmapDataChannel.BLUE</li>
+   <li>BitmapDataChannel.GREEN</li>
+   <li>BitmapDataChannel.RED</li>
+   </ul>
+   </div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="core/FilterEffect.html#filter">filter</a> : BitmapFilter<div class="summaryTableDescription">
+   The BitmapFilter to apply onto the BitmapData.</div>
+</td><td class="summaryTableOwnerCol"><a href="core/FilterEffect.html">FilterEffect</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#fractalNoise">fractalNoise</a> : Boolean = false<div class="summaryTableDescription">
+   If the value is true, the method generates fractal noise; otherwise, it generates turbulence.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#grayScale">grayScale</a> : Boolean = false<div class="summaryTableDescription">
+   Sets the perlin noise to render in grayscale.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="core/DisplacementEffect.html#mapBmd">mapBmd</a> : BitmapData<div class="summaryTableDescription">
+   The displacement BitmapData to be used.</div>
+</td><td class="summaryTableOwnerCol"><a href="core/DisplacementEffect.html">DisplacementEffect</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="core/DisplacementEffect.html#mapPoint">mapPoint</a> : Point<div class="summaryTableDescription">
+   The position of the displacement mapBmd.</div>
+</td><td class="summaryTableOwnerCol"><a href="core/DisplacementEffect.html">DisplacementEffect</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#movement">movement</a> : String<div class="summaryTableDescription">[write-only]
+   Sets the movement type which will be applied on the displacement<BR>
+   These options include :
+   <ul>
+   <li>DIRECTION</li>
+   <li>ORBIT</li>
+   </ul>
+   </div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="core/FilterEffect.html#pt">pt</a> : Point<div class="summaryTableDescription">
+   The Point from which to apply the BitmapFilter
+   </div>
+</td><td class="summaryTableOwnerCol"><a href="core/FilterEffect.html">FilterEffect</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#radiusX">radiusX</a> : Number = 3<div class="summaryTableDescription">
+   The radiusX in pixels to be applied on to the displacement when the movement type is ORBIT.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#radiusY">radiusY</a> : Number = 3<div class="summaryTableDescription">
+   The radiusY in pixels to be applied on to the displacement when the movement type is ORBIT.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#seed">seed</a> : int = 1<div class="summaryTableDescription">
+   The random seed number to generate the perlin noise.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#speedX">speedX</a> : Number = 0.01<div class="summaryTableDescription">
+   The x speed direction the displacement is offsetted by on each render.<BR>
+   The direction depends on the movement type.<BR>
+   When the movement type is ORBIT it effects the speed of rotation in the x direction.<BR>
+   When the movement type is DIRECTION it effects the offset speed in the x direction.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#speedY">speedY</a> : Number = 0.01<div class="summaryTableDescription">
+   The y speed direction the displacement is offsetted by on each render.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#stitch">stitch</a> : Boolean = true<div class="summaryTableDescription">
+    If the value is true, the method attempts to smooth the transition edges of the image to create seamless textures for tiling as a bitmap fill.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#PerlinDisplacementEffect()">PerlinDisplacementEffect</a>(width:int = 500, height:int = 500, scaleX:Number = 3, scaleY:Number = 3, octives:int = 2)</div>
+<div class="summaryTableDescription">
+   </div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#render()">render</a>(bmd:BitmapData):void</div>
+<div class="summaryTableDescription">
+   Renders the PerlinDisplacementEffect on to the specified BitmapData.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+</table>
+</div>
+<a name="protectedMethodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Protected Methods</div>
+<div class="showHideLinks">
+<div class="hideInheritedProtectedMethod" id="hideInheritedProtectedMethod">
+<a onclick="javascript:setInheritedVisible(false,'ProtectedMethod');" href="#protectedMethodSummary" class="showHideLink"><img src="../../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Protected Methods</a>
+</div>
+<div class="showInheritedProtectedMethod" id="showInheritedProtectedMethod">
+<a onclick="javascript:setInheritedVisible(true,'ProtectedMethod');" href="#protectedMethodSummary" class="showHideLink"><img src="../../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Protected Methods</a>
+</div>
+</div>
+<table id="summaryTableProtectedMethod" class="summaryTable hideInheritedProtectedMethod" cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="hideInheritedProtectedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="core/FilterEffect.html#getProperty()">getProperty</a>(name:*):*</div>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol"><a href="core/FilterEffect.html">FilterEffect</a></td>
+</tr>
+<tr class="hideInheritedProtectedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="core/FilterEffect.html#setProperty()">setProperty</a>(name:*, value:*):void</div>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol"><a href="core/FilterEffect.html">FilterEffect</a></td>
+</tr>
+</table>
+</div>
+<a name="constantSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Constants</div>
+<table id="summaryTableConstant" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#DIRECTION">DIRECTION</a> : String = "direction"<div class="summaryTableDescription">[static]
+   An option for the movement option on the displacement<BR>
+   This will move the displacement in the x,y direction specified by the speedX and speedY.</div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#ORBIT">ORBIT</a> : String = "orbit"<div class="summaryTableDescription">[static]
+   An option for the movement option on the displacement.<BR>
+   This will move the displacement in an orbit path along the radiusX and radiusY.<BR> 
+   Rotating in an x direction and y direction specified by the speedX and speedY.<BR>
+   </div>
+</td><td class="summaryTableOwnerCol">PerlinDisplacementEffect</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="baseX"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">baseX</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var baseX:int = 30</code><p>
+    Frequency to use in the x direction.<BR>
+    For example, to generate a noise that is sized for a 64 x 128 image, pass the pixel width of 64 for the baseX value.
+   </p></div>
+<a name="baseY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">baseY</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var baseY:int = 40</code><p>
+   Frequency to use in the y direction.<BR>
+   For example, to generate a noise that is sized for a 64 x 128 image, pass the pixel height of 128 for the baseY value.
+   </p></div>
+<a name="channelOptions"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">channelOptions</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var channelOptions:uint = 1.0</code><p>
+   The Channels which are rendered with the perlin noise : 
+   <ul>
+   <li>BitmapDataChannel.ALPHA</li>
+   <li>BitmapDataChannel.BLUE</li>
+   <li>BitmapDataChannel.GREEN</li>
+   <li>BitmapDataChannel.RED</li>
+   </ul>
+   </p></div>
+<a name="fractalNoise"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">fractalNoise</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var fractalNoise:Boolean = false</code><p>
+   If the value is true, the method generates fractal noise; otherwise, it generates turbulence. 
+   An image with turbulence has visible discontinuities in the gradient that can make it better approximate sharper visual effects like flames and ocean waves.
+   </p></div>
+<a name="grayScale"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">grayScale</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var grayScale:Boolean = false</code><p>
+   Sets the perlin noise to render in grayscale.
+   </p></div>
+<a name="movement"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">movement</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>movement:String</code>&nbsp;&nbsp;[write-only]<p>
+   Sets the movement type which will be applied on the displacement<BR>
+   These options include :
+   <ul>
+   <li>DIRECTION</li>
+   <li>ORBIT</li>
+   </ul>
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set movement(value:String):void</code>
+<br>
+</div>
+<a name="radiusX"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">radiusX</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var radiusX:Number = 3</code><p>
+   The radiusX in pixels to be applied on to the displacement when the movement type is ORBIT.
+   </p></div>
+<a name="radiusY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">radiusY</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var radiusY:Number = 3</code><p>
+   The radiusY in pixels to be applied on to the displacement when the movement type is ORBIT.
+   </p></div>
+<a name="seed"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">seed</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var seed:int = 1</code><p>
+   The random seed number to generate the perlin noise.
+   </p></div>
+<a name="speedX"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">speedX</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var speedX:Number = 0.01</code><p>
+   The x speed direction the displacement is offsetted by on each render.<BR>
+   The direction depends on the movement type.<BR>
+   When the movement type is ORBIT it effects the speed of rotation in the x direction.<BR>
+   When the movement type is DIRECTION it effects the offset speed in the x direction.
+   </p></div>
+<a name="speedY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">speedY</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var speedY:Number = 0.01</code><p>
+   The y speed direction the displacement is offsetted by on each render.
+   The direction depends on the movement type.<BR>
+   When the movement type is ORBIT it effects the speed of rotation in the y direction.<BR>
+   When the movement type is DIRECTION it effects the offset speed in the y direction.
+   </p></div>
+<a name="stitch"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">stitch</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var stitch:Boolean = true</code><p>
+    If the value is true, the method attempts to smooth the transition edges of the image to create seamless textures for tiling as a bitmap fill.
+   </p></div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="PerlinDisplacementEffect()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">PerlinDisplacementEffect</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function PerlinDisplacementEffect(width:int = 500, height:int = 500, scaleX:Number = 3, scaleY:Number = 3, octives:int = 2)</code><p>
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">width</span>:int</code> (default = <code>500</code>)<code></code> &mdash; The width in pixels to render the perlin noise.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">height</span>:int</code> (default = <code>500</code>)<code></code> &mdash; The height in pixels to render the perlin noise.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">scaleX</span>:Number</code> (default = <code>3</code>)<code></code> &mdash; The multiplier to use to scale the x displacement result from the map calculation.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">scaleY</span>:Number</code> (default = <code>3</code>)<code></code> &mdash; The multiplier to use to scale the y displacement result from the map calculation.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">octives</span>:int</code> (default = <code>2</code>)<code></code> &mdash; Number of octaves or individual noise functions to combine to create this noise.
+   </td>
+</tr>
+</table>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="render()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">render</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public override function render(bmd:BitmapData):void</code><p>
+   Renders the PerlinDisplacementEffect on to the specified BitmapData.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">bmd</span>:BitmapData</code></td>
+</tr>
+</table>
+</div>
+<a name="constantDetail"></a>
+<div class="detailSectionHeader">Constant detail</div>
+<a name="DIRECTION"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">DIRECTION</td><td class="detailHeaderType">constant</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const DIRECTION:String = "direction"</code><p>
+   An option for the movement option on the displacement<BR>
+   This will move the displacement in the x,y direction specified by the speedX and speedY.
+   </p></div>
+<a name="ORBIT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ORBIT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const ORBIT:String = "orbit"</code><p>
+   An option for the movement option on the displacement.<BR>
+   This will move the displacement in an orbit path along the radiusX and radiusY.<BR> 
+   Rotating in an x direction and y direction specified by the speedX and speedY.<BR>
+   </p></div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->
