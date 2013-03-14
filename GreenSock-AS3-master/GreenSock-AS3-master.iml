@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="Flex" version="4">
-  <component name="FlexBuildConfigurationManager" active="AnimationScrubber">
+  <component name="FlexBuildConfigurationManager" active="GreenSock-AS3-master">
     <configurations>
-      <configuration name="AnimationScrubber" pure-as="true" main-class="AnimationScrubber" output-file="AnimationScrubber.swf" output-folder="$MODULE_DIR$/../HPTO_Yahoo/bin">
+      <configuration name="GreenSock-AS3-master" pure-as="true" output-type="Library" output-file="GreenSock_Lib.swc" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="11.6">
-          <entries>
-            <entry module-name="GreenSock-AS3-master" build-configuration-name="GreenSock-AS3-master">
-              <dependency linkage="Merged" />
-            </entry>
-          </entries>
           <sdk name="AIRSDK_Compiler" />
         </dependencies>
-        <compiler-options />
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swc" value="true" />
+          </map>
+        </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
@@ -26,7 +25,6 @@
     </content>
     <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="GreenSock-AS3-master" exported="" />
   </component>
 </module>
 
