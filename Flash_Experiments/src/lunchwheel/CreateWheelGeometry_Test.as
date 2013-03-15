@@ -60,9 +60,9 @@ package lunchwheel
 		private function updateLayout ():void
 		{
 			var angle:Number = 0;
-			var sum:uint = _data.length;
+			var sum:uint = _data.length -1;
 			var radius:Number = _circleRadius;
-			var count:uint = sum-1;
+			var count:uint = sum;
 
 			var step:Number, start:Number, n:uint, dx:Number, dy:Number;
 
@@ -77,8 +77,8 @@ package lunchwheel
 
 			//wheelShape.graphics.moveTo (_circleCenter.x + (Math.cos (start) * radius), _circleCenter.y - (Math.sin (start) * radius));
 
-			point1.x = x + (Math.cos (start) * radius);
-			point1.y = y + (Math.sin (start) * radius);
+			point1.x = _circleCenter.x + (Math.cos (start) * radius);
+			point1.y = _circleCenter.y + (Math.sin (start) * radius);
 
 			var legDistance:Number;
 			var hypotenuse:Number;
@@ -114,6 +114,7 @@ package lunchwheel
 				var pointVert2:Point = new Point (point2.x - pVectorX, point2.y + pVectorY);
 				var pointVert3:Point = new Point (point2.x + pVectorX, point2.y - pVectorY);
 				var pointVert4:Point = new Point (point1.x + pVectorX, point1.y - pVectorY);*/
+
 				var pointVert1:Point = new Point (point1.x - pVectorX, point1.y + pVectorY);
 				var pointVert2:Point = new Point (point2.x - pVectorX, point2.y + pVectorY);
 				var pointVert3:Point = new Point (point2.x + pVectorX, point2.y - pVectorY);
@@ -153,9 +154,13 @@ package lunchwheel
 
 				wheelShape.graphics.lineStyle (2, 0xFF0000);
 				wheelShape.graphics.moveTo (pointVert1.x, pointVert1.y);
+				wheelShape.graphics.lineStyle (2, 0xCC66FF);
 				wheelShape.graphics.lineTo (pointVert2.x, pointVert2.y);
+				wheelShape.graphics.lineStyle (2, 0xFF6600);
 				wheelShape.graphics.lineTo (pointVert3.x, pointVert3.y);
+				wheelShape.graphics.lineStyle (2, 0x00FF00);
 				wheelShape.graphics.lineTo (pointVert4.x, pointVert4.y);
+				wheelShape.graphics.lineStyle (2, 0x0000FF);
 				wheelShape.graphics.lineTo (pointVert1.x, pointVert1.y);
 			}
 		}
