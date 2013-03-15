@@ -1,4 +1,4 @@
-package
+package oimophysics
 {
 	import base.display.AbstractSprite;
 

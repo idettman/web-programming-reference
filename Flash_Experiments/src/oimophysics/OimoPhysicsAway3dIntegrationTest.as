@@ -1,4 +1,4 @@
-package
+package oimophysics
 {
 	import away3d.cameras.lenses.PerspectiveLens;
 	import away3d.containers.View3D;

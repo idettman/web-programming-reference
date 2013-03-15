@@ -3,9 +3,7 @@ package
 
 	import base.display.AbstractSprite;
 
-	import com.element.oimo.physics.test.JointTest;
-
-	import tweenengines.TestGreenSock;
+	import lunchwheel.CreateWheelGeometry_Test;
 
 
 	[SWF(width="1024", height="760", frameRate="60")]
@@ -29,8 +27,10 @@ package
 			//addChild (new JointTest ());
 			//addChild (new FlareTest ());
 			//addChild (new Tween24_Test ());
-			
-			addChild(new TestGreenSock());
+			//addChild(new TestGreenSock());
+			//addChild(new DrawArcsAndPolys_Test());
+
+			addChild (new CreateWheelGeometry_Test ());
 		}
 	}
 }

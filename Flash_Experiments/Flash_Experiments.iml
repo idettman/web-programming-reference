@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="Flash_Experiments">
     <configurations>
-      <configuration name="Flash_Experiments" pure-as="true" main-class="Flash_Experiments" output-file="Flash_Experiments.swf" output-folder="$MODULE_DIR$/bin" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
+      <configuration name="Flash_Experiments" pure-as="true" main-class="Flash_Experiments" output-file="Flash_Experiments.swf" output-folder="$MODULE_DIR$/bin" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="11.6">
           <entries>
             <entry module-name="ProductionLib" build-configuration-name="ProductionLib">

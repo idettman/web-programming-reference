@@ -9,21 +9,18 @@ package tweenengines
 
 	import com.greensock.TweenLite;
 	import com.greensock.TweenMax;
-	import com.greensock.TweenMax;
-	import com.greensock.easing.BackInOut;
-	import com.greensock.easing.Elastic;
 	import com.greensock.easing.Elastic;
 	import com.greensock.easing.Quart;
 
 	import flash.display.Shape;
 
 
-	public class TestGreenSock extends AbstractSprite
+	public class GreenSock_Test extends AbstractSprite
 	{
 		public var redCircle:Shape;
 		public var circles:Vector.<Shape>;
 		
-		public function TestGreenSock ()
+		public function GreenSock_Test ()
 		{
 			super ();
 		}
