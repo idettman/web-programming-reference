@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Experiments/StrategyPattern/greeting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreatePolygonWithRectangles_Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash/classes/utils/GeometryUtils.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actuate/bin/Actuate_Lib.swc" afterPath="$PROJECT_DIR$/actuate/bin/Actuate_Lib.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flare-master/bin/Flare_Lib.swc" afterPath="$PROJECT_DIR$/Flare-master/bin/Flare_Lib.swc" />
@@ -17,8 +19,8 @@
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363367022260" ignored="false" />
-    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363304582488" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363391332593" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363391727781" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
@@ -75,15 +77,17 @@
     <file path="/GraphMLConverter.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363215606392" ignored="false" />
     <file path="/FlareTest.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363216382238" ignored="false" />
     <file path="/Tween24_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363226018668" ignored="false" />
-    <file path="/Flash_Experiments.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363299887890" ignored="false" />
+    <file path="/Flash_Experiments.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363384921681" ignored="false" />
     <file path="/TestGreenSock.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363238732563" ignored="false" />
     <file path="/a.dummy" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363236438669" ignored="false" />
-    <file path="/LunchWheel_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363297673984" ignored="false" />
+    <file path="/LunchWheel_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363399805114" ignored="false" />
     <file path="/clockhands_as2_rav4clockgirl.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363289966125" ignored="false" />
     <file path="/Wedge.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363298803890" ignored="false" />
     <file path="/CreateWheelGeometry_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363372856212" ignored="false" />
     <file path="/DrawArcsAndPolys_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363304568597" ignored="false" />
     <file path="/greeting.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363371397011" ignored="false" />
+    <file path="/CreatePolygonWithRectangles_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363384567628" ignored="false" />
+    <file path="/GeometryUtils.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363387338930" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +107,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -119,8 +122,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -136,10 +139,11 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -149,28 +153,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateWheelGeometry_Test.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreateWheelGeometry_Test.as">
+      <file leaf-file-name="LunchWheel_Test.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="0" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.28936172">
-              <folding />
+            <state line="363" column="0" selection-start="10473" selection-end="10473" vertical-scroll-proportion="0.4212766">
+              <folding>
+                <element signature="e#22#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawArcsAndPolys_Test.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/DrawArcsAndPolys_Test.as">
+      <file leaf-file-name="Tween24_Test.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Test.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="0" selection-start="3194" selection-end="3194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flash_Experiments.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="36" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
+            <state line="77" column="29" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,22 +201,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/FlareTest.as" />
-        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/clockhands_as2_rav4clockgirl.as" />
-        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/draw_arc_method.as" />
-        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/draw_arc_as2_perfect.as" />
         <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/draw_poly.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Wedge.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/LunchWheel_Test.as" />
         <option value="$PROJECT_DIR$/Flash/classes/graphics/Wedge.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/Spin.as" />
         <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/find_unknown_triangle_point.java" />
         <option value="$PROJECT_DIR$/HTML/Experiments/ChromeConsole/console_test1.html" />
         <option value="$PROJECT_DIR$/HTML/Experiments/StrategyPattern/greeting.html" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/DrawArcsAndPolys_Test.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreateWheelGeometry_Test.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreatePolygonWithRectangles_Test.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/AbstractAway3D.as" />
+        <option value="$PROJECT_DIR$/Flash/classes/utils/GeometryUtils.as" />
+        <option value="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/tools/utils/Projector.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/Spin.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as" />
       </list>
     </option>
   </component>
@@ -256,6 +253,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -291,7 +289,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,34 +303,34 @@
     <property name="options.lastSelected" value="project.propCompiler" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
     <property name="last_opened_file_path" value="$FLEX_HOME$/runtimes/flashplayer/11.6/flashplayer_11_sa_debug.exe" />
-    <property name="project.structure.side.proportion" value="0.26882967" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.side.proportion" value="0.26882967" />
     <property name="JavaScriptPreferStrict" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="utils" />
+      <recent name="lunchwheel" />
+      <recent name="" />
+      <recent name="tweenengines" />
+      <recent name="base.display" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash_Experiments\src\lunchwheel" />
       <recent name="D:\Isaac\dev\flash\ProductionLib\Flash_Experiments\bin" />
       <recent name="D:\Isaac\dev\flash\ProductionLib\Flash_Experiments\src" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\FlashExperiments\away3d_experiment" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\OimoPhysicsEngine\src\com" />
-    </key>
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="lunchwheel" />
-      <recent name="" />
-      <recent name="tweenengines" />
-      <recent name="base.display" />
-      <recent name="utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\classes\graphics" />
@@ -525,23 +522,23 @@
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28960156" sideWeight="0.49973643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15761729" sideWeight="0.71039844" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941692" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28903976" sideWeight="0.5002636" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28862974" sideWeight="0.5002636" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28960156" sideWeight="0.49973643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15761729" sideWeight="0.71039844" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -590,7 +587,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added procedural shape generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the dynamic polygon generation for the lunchwheel wheel items" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -604,7 +601,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Added remaining libs for game dev" />
     <MESSAGE value="Added Paul Irish's Request Animation Frame Shim Implementation" />
     <MESSAGE value="Updated with Opera engineer Erik Möller's Request Animation Frame Polyfill" />
     <MESSAGE value="Modfiied Player to inherit from AbstractCharacter" />
@@ -629,9 +625,13 @@
     <MESSAGE value="Started class for blocking in the pinball field" />
     <MESSAGE value="Updated flexsdk and missing tweenlite library for Animation Scrubber. Created Greensock intelliJ module for Tweenmax availability" />
     <MESSAGE value="Added procedural shape generation" />
+    <MESSAGE value="Fixed the dynamic polygon generation for the lunchwheel wheel items" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
@@ -640,95 +640,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/FlareTest.as">
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreateWheelGeometry_Test.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="12" selection-start="986" selection-end="986" vertical-scroll-proportion="0.5591216">
-          <folding />
+        <state line="152" column="72" selection-start="4270" selection-end="4270" vertical-scroll-proportion="0.73475176">
+          <folding>
+            <element signature="e#22#57#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flare-master/flare/src/flare/animate/Transitioner.as">
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreatePolygonWithRectangles_Test.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="320" column="11" selection-start="12774" selection-end="12774" vertical-scroll-proportion="0.16949153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flare-master/flare/src/flare/vis/operator/layout/Layout.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="35" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.333001" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flare-master/flare/src/flare/vis/operator/layout/PieLayout.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="24" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.964539" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/clockhands_as2_rav4clockgirl.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="956" selection-end="956" vertical-scroll-proportion="0.7716312" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/draw_arc_method.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="21" selection-start="1472" selection-end="1472" vertical-scroll-proportion="1.1205673" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/draw_arc_as2_perfect.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2692" selection-end="2692" vertical-scroll-proportion="1.3744681" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/draw_poly.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="679" selection-end="679" vertical-scroll-proportion="0.3134752" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash/classes/graphics/Wedge.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="952" selection-end="952" vertical-scroll-proportion="0.69929075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/Spin.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="53" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.63829786" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/find_unknown_triangle_point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="856" selection-end="856" vertical-scroll-proportion="0.37288135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/ChromeConsole/console_test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="2387" selection-end="2387" vertical-scroll-proportion="0.71428573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Experiments/StrategyPattern/greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.3122449">
-          <folding />
+        <state line="48" column="12" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.6269504">
+          <folding>
+            <element signature="e#22#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="13" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.3134752">
+          <folding>
+            <element signature="e#12#47#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/DrawArcsAndPolys_Test.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="3194" selection-end="3194" vertical-scroll-proportion="0.0">
+        <state line="158" column="28" selection-start="4195" selection-end="4195" vertical-scroll-proportion="0.4212766">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreateWheelGeometry_Test.as">
+    <entry file="file://$PROJECT_DIR$/Flash/classes/utils/GeometryUtils.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.28936172">
+        <state line="19" column="8" selection-start="549" selection-end="549" vertical-scroll-proportion="0.45815602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/tools/utils/TextureUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="29" selection-start="694" selection-end="694" vertical-scroll-proportion="0.5118243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/core/base/CompactSubGeometry.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="38" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.7627119">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/AbstractAway3D.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="75" selection-start="4609" selection-end="4672" vertical-scroll-proportion="0.017171716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/textures/BitmapTexture.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="80" selection-start="882" selection-end="882" vertical-scroll-proportion="0.06779661">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/entities/TextureProjector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="10" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.40677965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/tools/utils/Projector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="12" selection-start="4187" selection-end="4187" vertical-scroll-proportion="0.941844">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/core/base/SubGeometry.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="746" selection-end="746" vertical-scroll-proportion="0.14468086">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/Spin.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="16" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tween24-master/src/a24/tween/Tween24.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="378" column="24" selection-start="12876" selection-end="12876" vertical-scroll-proportion="-2.9943264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Test.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="29" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="363" column="0" selection-start="10473" selection-end="10473" vertical-scroll-proportion="0.4212766">
+          <folding>
+            <element signature="e#22#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
