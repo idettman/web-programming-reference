@@ -29,12 +29,18 @@ package lunchwheel
 
 			wheelShape = new Shape ();
 			addChild (wheelShape);
-
-
+			
+			
 			var lunchData:Vector.<LunchVo> = new <LunchVo>[
 				createLunchData ("Hots Kitchen"),
 				createLunchData ("Britts BBQ"),
 				createLunchData ("The Golf Course"),
+				createLunchData ("Applebees"),
+				createLunchData ("TGI Fridays"),
+				createLunchData ("Corner Bakery"),
+				createLunchData ("Jacks"),
+				createLunchData ("Subway"),
+				createLunchData ("Noahs Bagels"),
 				createLunchData ("Chipotle"),
 				createLunchData ("Panda Express"),
 				createLunchData ("Pickup Sticks"),

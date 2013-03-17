@@ -3,7 +3,7 @@ package
 
 	import base.display.AbstractSprite;
 
-	import lunchwheel.LunchWheel_Test;
+	import lunchwheel.LunchWheelAltLabelRotation;
 
 
 	[SWF(width="1024", height="760", frameRate="60")]
@@ -11,7 +11,7 @@ package
 	{
 		[Embed(source="./../assets/fonts/RobotoCondensed-Regular.ttf", embedAsCFF="false", fontFamily="RobotoCondensed Regular", fontWeight="regular", mimeType="application/x-font-truetype")]
 		public static var Font_RobotoCondensed_Regular:Class;
-
+		
 
 		public function Flash_Experiments ()
 		{
@@ -30,12 +30,12 @@ package
 			//addChild (new JointTest ());
 			//addChild (new FlareTest ());
 			//addChild (new Tween24_Test ());
-			//addChild(new TestGreenSock());
+			//addChild(new GreenSock_Test());
 			//addChild(new DrawArcsAndPolys_Test());
 			//addChild (new CreateWheelGeometry_Test ());
 			//addChild (new CreatePolygonWithRectangles_Test ());
-
-			addChild (new LunchWheel_Test ());
+			//addChild (new LunchWheel_Test ());
+			addChild (new LunchWheelAltLabelRotation ());
 		}
 	}
 }
