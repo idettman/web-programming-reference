@@ -22,7 +22,9 @@
 		protected static var actuators:Array = new Array ();
 		protected static var actuatorsLength:uint = 0;
 		protected static var shape:Shape;
-		
+		public static var updateManually:Boolean = false;
+
+
 		protected var active:Boolean = true;
 		protected var cacheVisible:Boolean;
 		protected var detailsLength:uint;
@@ -40,7 +42,7 @@
 			
 			super (target, duration, properties);
 			
-			if (!shape) {
+			if (!updateManually && !shape) {
 				
 				shape = new Shape ();
 				shape.addEventListener (Event.ENTER_FRAME, shape_onEnterFrame);
@@ -335,7 +337,35 @@
 			
 		}
 		
-		
+		// Allows tween update to be called from single enterframe loop
+		public static function manualUpdate():void
+		{
+			var currentTime:Number = getTimer () / 1000;
+
+			var actuator:SimpleActuator;
+
+			for (var i:uint = 0; i < actuatorsLength; i++) {
+
+				actuator = actuators[i];
+
+				if (actuator.active) {
+
+					if (currentTime > actuator.timeOffset) {
+
+						actuator.MotionInternal::update (currentTime);
+
+					}
+
+				} else {
+
+					actuators.splice (i, 1);
+					--actuatorsLength;
+					i --;
+
+				}
+
+			}
+		}
 		
 		
 		// Event Handlers

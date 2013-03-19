@@ -15,6 +15,7 @@ package lunchwheel
 	import base.display.AbstractSprite;
 
 	import com.eclecticdesignstudio.motion.Actuate;
+	import com.eclecticdesignstudio.motion.actuators.SimpleActuator;
 	import com.eclecticdesignstudio.motion.easing.Cubic;
 
 	import flash.display.Bitmap;
@@ -59,6 +60,9 @@ package lunchwheel
 		
 		override protected function init ():void
 		{
+			SimpleActuator.updateManually = true;
+
+
 			_accr = 0;
 			_startingIndex = 0;
 			_circleRadius = 200;
@@ -284,6 +288,8 @@ package lunchwheel
 
 		private function enterFrameHandler (e:Event):void
 		{
+			SimpleActuator.manualUpdate ();
+
 			if (_dragging)
 			{
 				_a = stage.mouseY - stage.stageHeight/2;

@@ -3,7 +3,7 @@ package
 
 	import base.display.AbstractSprite;
 
-	import lunchwheel.LunchWheelAltLabelRotation;
+	import oimophysics.PhysicsWheel;
 
 
 	[SWF(width="1024", height="760", frameRate="60")]
@@ -31,11 +31,16 @@ package
 			//addChild (new FlareTest ());
 			//addChild (new Tween24_Test ());
 			//addChild(new GreenSock_Test());
+			//addChild(new GreensockAway3d_Test());
+			//addChild (new Tween24_Away3d_Test ());
 			//addChild(new DrawArcsAndPolys_Test());
 			//addChild (new CreateWheelGeometry_Test ());
 			//addChild (new CreatePolygonWithRectangles_Test ());
 			//addChild (new LunchWheel_Test ());
-			addChild (new LunchWheelAltLabelRotation ());
+			//addChild (new LunchWheelAltLabelRotation ());
+
+			addChild (new PhysicsWheel ());
+
 		}
 	}
 }

@@ -135,7 +135,7 @@ package com.element.oimo.physics.util {
 			var drawContacts:Boolean = false;
 			var drawNormals:Boolean = true;
 			var drawForces:Boolean = true;
-			var drawJoints:Boolean = false;
+			var drawJoints:Boolean = true;
 			var cs:Vector.<Contact> = wld.contacts;
 			var num:uint = wld.numContacts;
 			if (drawContacts) {

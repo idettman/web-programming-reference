@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash_Experiments/src/StructureSynth_Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Away3dTemplates/src/Away3dBase.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Away3dTemplates/Away3dTemplates.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash_Experiments/src/tweenengines/GreensockAway3d_Test.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash_Experiments/src/oimophysics/PhysicsWheel.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Away3d_Test.as" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\Eaze-Tween_Lib.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\lib\EazeTween.swc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\EazeDemo.as3proj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\bin\expressInstall.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\bin\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\bin\js\swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\lib\assets.swc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\Test.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestAlphaTint.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestBezier.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestChain.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestColorMatrix.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestEasings.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestFilters.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestFrame.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestOverwrite.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestRect.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestScale.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\TestShortRotation.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\WeightCheck.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\assets.fla" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\sample\src\net\hires\debug\Stats.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\EazeTween.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Back.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Bounce.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Cubic.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Elastic.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Expo.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Linear.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Quadratic.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Quart.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\easing\Quint.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\eaze.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\EazeSpecial.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyBezier.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyColorMatrix.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyFilter.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyFrame.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyRect.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyShortRotation.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyTint.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\as3\src\aze\motion\specials\PropertyVolume.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\eaze-tween\bin\Eaze-Tween_Lib.swc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actuate/bin/Actuate_Lib.swc" afterPath="$PROJECT_DIR$/actuate/bin/Actuate_Lib.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flare-master/bin/Flare_Lib.swc" afterPath="$PROJECT_DIR$/Flare-master/bin/Flare_Lib.swc" />
@@ -12,16 +59,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OimoPhysicsEngine/bin/OimoPhysicsEngine.swc" afterPath="$PROJECT_DIR$/OimoPhysicsEngine/bin/OimoPhysicsEngine.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tween24-master/bin/Tween24_Lib.swc" afterPath="$PROJECT_DIR$/Tween24-master/bin/Tween24_Lib.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash/bin/iad_production_lib.swc" afterPath="$PROJECT_DIR$/Flash/bin/iad_production_lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreatePolygonWithRectangles_Test.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreatePolygonWithRectangles_Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actuate/Actuate_Lib.iml" afterPath="$PROJECT_DIR$/actuate/Actuate_Lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OimoPhysicsEngine/src/com/element/oimo/physics/util/DebugDraw.as" afterPath="$PROJECT_DIR$/OimoPhysicsEngine/src/com/element/oimo/physics/util/DebugDraw.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.ipr" afterPath="$PROJECT_DIR$/ProductionLib.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/actuators/SimpleActuator.as" afterPath="$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/actuators/SimpleActuator.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" afterPath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363552609764" ignored="false" />
-    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363556888969" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363639816699" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363647610937" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
@@ -45,7 +95,7 @@
     <file path="/inheritance.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360117836730" ignored="false" />
     <file path="/scope.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360104355962" ignored="false" />
     <file path="/inheritance02.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360119609233" ignored="false" />
-    <file path="/fragment.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360181244747" ignored="false" />
+    <file path="/fragment.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363635484812" ignored="false" />
     <file path="/requestanimationframe.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360620310032" ignored="false" />
     <file path="/a.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363200410104" ignored="false" />
     <file path="/main.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360623540115" ignored="false" />
@@ -73,12 +123,12 @@
     <file path="/PinballFieldBlocking.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363045925977" ignored="false" />
     <file path="/a.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363200413326" ignored="false" />
     <file path="/a.xml" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363200414643" ignored="false" />
-    <file path="/DebugDraw.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363212203253" ignored="false" />
+    <file path="/DebugDraw.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363651252755" ignored="false" />
     <file path="/JSONConverter.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363214993218" ignored="false" />
     <file path="/GraphMLConverter.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363215606392" ignored="false" />
     <file path="/FlareTest.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363216382238" ignored="false" />
     <file path="/Tween24_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363226018668" ignored="false" />
-    <file path="/Flash_Experiments.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363462542513" ignored="false" />
+    <file path="/Flash_Experiments.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363642553513" ignored="false" />
     <file path="/TestGreenSock.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363238732563" ignored="false" />
     <file path="/a.dummy" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363236438669" ignored="false" />
     <file path="/LunchWheel_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363416550776" ignored="false" />
@@ -90,7 +140,14 @@
     <file path="/CreatePolygonWithRectangles_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363384567628" ignored="false" />
     <file path="/GeometryUtils.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363387338930" ignored="false" />
     <file path="/StructureSynth_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363413829065" ignored="false" />
-    <file path="/LunchWheelAltLabelRotation.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363557551010" ignored="false" />
+    <file path="/LunchWheelAltLabelRotation.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363642382224" ignored="false" />
+    <file path="/Away3dTemplate.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363624665611" ignored="false" />
+    <file path="/Away3dBase.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363625461681" ignored="false" />
+    <file path="/Tween24_Away3d_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363641763411" ignored="false" />
+    <file path="/SimpleActuator.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363642360186" ignored="false" />
+    <file path="/ManualUpdateActuator.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363637985833" ignored="false" />
+    <file path="/GreensockAway3d_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363641634799" ignored="false" />
+    <file path="/PhysicsWheel.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363650907683" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,30 +213,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LunchWheelAltLabelRotation.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="8" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#22#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LunchWheel_Test.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="0" selection-start="5738" selection-end="5738" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Flash_Experiments.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="12" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.546875">
+            <state line="46" column="0" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.79458797">
               <folding />
             </state>
           </provider>
@@ -213,33 +250,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/draw_poly.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/Wedge.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/LunchWheel_Test.as" />
-        <option value="$PROJECT_DIR$/Flash/classes/graphics/Wedge.as" />
-        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/find_unknown_triangle_point.java" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/ChromeConsole/console_test1.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/StrategyPattern/greeting.html" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/DrawArcsAndPolys_Test.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreateWheelGeometry_Test.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/AbstractAway3D.as" />
-        <option value="$PROJECT_DIR$/Flash/classes/utils/GeometryUtils.as" />
-        <option value="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/tools/utils/Projector.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/Spin.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreatePolygonWithRectangles_Test.as" />
-        <option value="$PROJECT_DIR$/Flash/classes/base/display/StructureSynth_Test.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/StructureSynth_Test.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as" />
+        <option value="$PROJECT_DIR$/Away3dTemplates/src/Away3dBase.as" />
+        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/Tween24-master/src/a24/tween/Tween24.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/Tween24_Away3d_Test.as" />
+        <option value="$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/actuators/ManualUpdateActuator.as" />
+        <option value="$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/Actuate.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/GreensockAway3d_Test.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/tweenengines/GreensockAway3d_Test.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Away3d_Test.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as" />
+        <option value="$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/actuators/SimpleActuator.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/PhysicsWheel.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/oimophysics/PinballTest.as" />
+        <option value="$PROJECT_DIR$/OimoPhysicsEngine/src/com/element/oimo/physics/util/DebugDraw.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/oimophysics/PhysicsWheel.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
-    <option name="width" value="1991" />
-    <option name="height" value="1400" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -267,6 +302,101 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tweenengines">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lunchwheel">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flash_Experiments">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,100 +405,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="display" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,9 +418,9 @@
     <property name="options.splitter.main.proportions" value="0.19400954" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.pathVariables" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
-    <property name="last_opened_file_path" value="$FLASH_PLAYER_DEBUGGER$/flashplayer_11_sa_debug.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Away3dTemplates/bin" />
     <property name="project.structure.side.proportion" value="0.26882967" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -398,26 +436,26 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="base.display" />
-      <recent name="utils" />
-      <recent name="lunchwheel" />
-      <recent name="" />
-      <recent name="tweenengines" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\actuate\Source\AS3\com\eclecticdesignstudio\motion\actuators" />
       <recent name="D:\Isaac\dev\flash\ProductionLib\Flash_Experiments\src\lunchwheel" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash_Experiments\src\lunchwheel" />
       <recent name="D:\Isaac\dev\flash\ProductionLib\Flash_Experiments\bin" />
       <recent name="D:\Isaac\dev\flash\ProductionLib\Flash_Experiments\src" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\FlashExperiments\away3d_experiment" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="" />
+      <recent name="lib_templates" />
+      <recent name="base.display" />
+      <recent name="utils" />
+      <recent name="lunchwheel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash_Experiments\src\oimophysics" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash_Experiments\src\tweenengines" />
       <recent name="D:\Isaac\dev\flash\ProductionLib\Flash_Experiments\src" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\classes\graphics" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash_Experiments\src\lunchwheel" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash_Experiments\src\oimophysics" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash_Experiments\src" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.Flash_Experiments">
@@ -604,17 +642,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="569" y="0" width="1991" height="1400" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28985506" sideWeight="0.49973643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18464528" sideWeight="0.49973643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1465164" sideWeight="0.6006441" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1718503" sideWeight="0.8153547" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28903976" sideWeight="0.5002636" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -624,7 +663,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -725,129 +763,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Test.as">
+    <entry file="file://$PROJECT_DIR$/GreenSock-AS3-master/src/com/greensock/core/Animation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="29" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="363" column="0" selection-start="10473" selection-end="10473" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#22#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Test.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="29" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreateWheelGeometry_Test.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="72" selection-start="4270" selection-end="4270" vertical-scroll-proportion="0.73475176">
-          <folding>
-            <element signature="e#22#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/DrawArcsAndPolys_Test.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="28" selection-start="4195" selection-end="4195" vertical-scroll-proportion="0.4212766">
+        <state line="208" column="26" selection-start="14915" selection-end="14915" vertical-scroll-proportion="-4.0875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash/classes/utils/GeometryUtils.as">
+    <entry file="file://$PROJECT_DIR$/GreenSock-AS3-master/src/com/greensock/TweenLite.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="549" selection-end="549" vertical-scroll-proportion="0.45815602" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/tools/utils/TextureUtils.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="29" selection-start="694" selection-end="694" vertical-scroll-proportion="0.5118243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/core/base/CompactSubGeometry.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="38" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.7627119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/AbstractAway3D.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="75" selection-start="4609" selection-end="4672" vertical-scroll-proportion="0.017171716" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/textures/BitmapTexture.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="80" selection-start="882" selection-end="882" vertical-scroll-proportion="0.06779661" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/entities/TextureProjector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.40677965" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/tools/utils/Projector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="12" selection-start="4187" selection-end="4187" vertical-scroll-proportion="0.941844" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/core/base/SubGeometry.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="746" selection-end="746" vertical-scroll-proportion="0.14468086" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/Spin.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="16" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0" />
+        <state line="922" column="31" selection-start="50380" selection-end="50380" vertical-scroll-proportion="0.33290324">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tween24-master/src/a24/tween/Tween24.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="24" selection-start="12876" selection-end="12876" vertical-scroll-proportion="-2.9943264" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Test.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="29" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/CreatePolygonWithRectangles_Test.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="49" selection-start="856" selection-end="1063" vertical-scroll-proportion="0.015625">
+        <state line="2728" column="84" selection-start="86462" selection-end="86462" vertical-scroll-proportion="-1.1722018">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/StructureSynth_Test.as">
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/tweenengines/Tween24_Away3d_Test.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="98" selection-end="98" vertical-scroll-proportion="0.109375">
+        <state line="59" column="12" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.8782288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/tweenengines/GreensockAway3d_Test.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.7908979">
+          <folding>
+            <element signature="e#177#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/actuators/SimpleActuator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="349" column="16" selection-start="6762" selection-end="6762" vertical-scroll-proportion="0.4675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/Actuate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="679" selection-end="679" vertical-scroll-proportion="0.31875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="8" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0">
+        <state line="334" column="0" selection-start="10632" selection-end="10632" vertical-scroll-proportion="0.2890529">
           <folding>
             <element signature="e#22#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheel_Test.as">
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/oimophysics/OimoPhysicsAway3dIntegrationTest.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="0" selection-start="5738" selection-end="5738" vertical-scroll-proportion="0.0">
+        <state line="195" column="28" selection-start="4972" selection-end="4972" vertical-scroll-proportion="1.1045511">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OimoPhysicsEngine/src/com/element/oimo/physics/constraint/joint/JointConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.2091021">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OimoPhysicsEngine/src/com/element/oimo/physics/constraint/joint/HingeJoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="598" column="36" selection-start="18957" selection-end="18957" vertical-scroll-proportion="-1.1918819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OimoPhysicsEngine/src/com/element/oimo/physics/test/BoxTest.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="12" selection-start="4995" selection-end="4995" vertical-scroll-proportion="0.4961929">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/oimophysics/PinballTest.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="12" selection-start="4010" selection-end="4010" vertical-scroll-proportion="0.7281673">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OimoPhysicsEngine/src/com/element/oimo/physics/util/DebugDraw.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="48" selection-start="7436" selection-end="7436" vertical-scroll-proportion="0.7281673">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/oimophysics/PhysicsWheel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="12" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.6863469">
+          <folding>
+            <element signature="e#23#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="12" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.546875">
+        <state line="46" column="0" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.79458797">
           <folding />
         </state>
       </provider>
@@ -893,11 +924,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Flash_Experiments|Flash_Experiments</last-edited>
+          <last-edited>Flare_Lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.26882967" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
