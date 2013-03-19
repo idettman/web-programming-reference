@@ -99,6 +99,7 @@
       <module fileurl="file://$PROJECT_DIR$/ProductionLib.iml" filepath="$PROJECT_DIR$/ProductionLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" filepath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" filepath="$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Python/youtube-v3/youtube-v3.iml" filepath="$PROJECT_DIR$/Python/youtube-v3/youtube-v3.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false" project-jdk-name="AIRSDK_Compiler" project-jdk-type="Flex SDK Type (new)">
