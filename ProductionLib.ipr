@@ -99,11 +99,14 @@
       <module fileurl="file://$PROJECT_DIR$/ProductionLib.iml" filepath="$PROJECT_DIR$/ProductionLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" filepath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" filepath="$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Python/youtube-v3/youtube-v3.iml" filepath="$PROJECT_DIR$/Python/youtube-v3/youtube-v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Python/References/youtube-v3.iml" filepath="$PROJECT_DIR$/Python/References/youtube-v3.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false" project-jdk-name="AIRSDK_Compiler" project-jdk-type="Flex SDK Type (new)">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="myDocStringFormat" value="Plain" />
   </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
@@ -124,6 +127,10 @@
     <configuration useDefault="false">C:\Users\Faygo\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="Unittests" />
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>
@@ -131,11 +138,13 @@
     <option name="settings">
       <list>
         <BrowsePattern>
+          <option name="enabled" value="false" />
           <option name="icon" value="GOOGLE" />
           <option name="label" value="Search with Google" />
           <option name="pattern" value="http://www.google.com/search?q={selection}" />
         </BrowsePattern>
         <BrowsePattern>
+          <option name="enabled" value="false" />
           <option name="icon" value="SEARCH CODE" />
           <option name="label" value="Search code" />
           <option name="pattern" value="http://code.google.com/codesearch#search/&amp;q={selection}" />

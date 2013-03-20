@@ -1,17 +1,18 @@
 #!/usr/bin/python2.6
 
-import gflags
-import httplib2
 import os
 import sys
 import time
 
+import gflags
+import httplib2
 from apiclient.discovery import build
 from apiclient.errors import HttpError
 from apiclient.http import MediaFileUpload
 from oauth2client.file import Storage
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.tools import run
+
 
 FLAGS = gflags.FLAGS
 gflags.DEFINE_string('file', None, 'Video file to upload')
@@ -20,6 +21,7 @@ gflags.DEFINE_string('description', 'Test description', 'Video description')
 gflags.DEFINE_string('category', 'VIDEO_CATEGORY_PEOPLE', 'Video category')
 gflags.DEFINE_string('keywords', '', 'Video keywords, comma separated')
 gflags.DEFINE_string('privacyStatus', 'PRIVACY_UNLISTED', 'Video privacy status')
+
 
 def main(argv):
     # Let the gflags module process the command-line arguments
@@ -46,18 +48,18 @@ def main(argv):
                     http=credentials.authorize(httplib2.Http()))
 
     insert_request = youtube.videos().insert(
-        body = dict(
-            snippet = dict(
+        body=dict(
+            snippet=dict(
                 title=FLAGS.title,
                 description=FLAGS.description,
                 tags=FLAGS.keywords.split(','),
                 categoryId=FLAGS.category
             ),
-            status = dict(
+            status=dict(
                 privacyStatus=FLAGS.privacyStatus
             )
         ),
-        media_body = MediaFileUpload(FLAGS.file, chunksize=-1, resumable=True)
+        media_body=MediaFileUpload(FLAGS.file, chunksize=-1, resumable=True)
     )
 
     insert_request.headers['Slug'] = 'test_file'

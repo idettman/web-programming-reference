@@ -3,8 +3,6 @@ package
 
 	import base.display.AbstractSprite;
 
-	import oimophysics.PhysicsWheel;
-
 
 	[SWF(width="1024", height="760", frameRate="60")]
 	public class Flash_Experiments extends AbstractSprite
@@ -39,7 +37,7 @@ package
 			//addChild (new LunchWheel_Test ());
 			//addChild (new LunchWheelAltLabelRotation ());
 
-			addChild (new PhysicsWheel ());
+			//addChild (new PhysicsWheel ());
 
 		}
 	}

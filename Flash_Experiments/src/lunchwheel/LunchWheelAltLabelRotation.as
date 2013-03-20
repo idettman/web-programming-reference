@@ -72,19 +72,9 @@ package lunchwheel
 			initAway3d();
 			
 			data = new <LunchVo>[
-				createLunchData ("Hots Kitchen"),
-				createLunchData ("Britts BBQ"),
 				createLunchData ("The Golf Course"),
 				createLunchData ("Chipotle"),
-				createLunchData ("Panda Express"),
-				createLunchData ("Pickup Sticks"),
-				createLunchData ("Mc Donalds"),
-				createLunchData ("Silvios"),
-				createLunchData ("The Sizzler"),
-				createLunchData ("Chilies"),
-				createLunchData ("Carls JR"),
 				createLunchData ("The Habbit"),
-				createLunchData ("Applebees"),
 				createLunchData ("TGI Fridays"),
 				createLunchData ("Corner Bakery"),
 				createLunchData ("Jacks"),
@@ -262,7 +252,7 @@ package lunchwheel
 				point1.y = point2.y;
 			}
 			
-			Actuate.tween (_cameraController, 2.5, {distance: 1500, tiltAngle: 88}).ease(Cubic.easeInOut);
+			Actuate.tween (_cameraController, 2.5, {distance: 2500, tiltAngle: 88}).ease(Cubic.easeInOut);
 		}
 
 
