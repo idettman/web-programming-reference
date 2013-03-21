@@ -1,69 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/DEPENDENCIES" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/apiclient/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/httplib2/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/uritemplate/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/anyjson.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/appengine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/barcode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/httplib2/cacerts.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/client.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/client_secrets.json" />
+    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="Created a save file python script, and committed progress for googles youtube python api">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_return.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_upload.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/client_secrets.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/clientsecrets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/crypt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/apiclient/discovery.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/django_orm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/apiclient/errors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/gce.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/gflags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/gflags_validators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/apiclient/http.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/httplib2/iri2uri.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/keyring_storage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/locked_file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/main_backup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/apiclient/mimeparse.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/apiclient/model.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/multistore_file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/PyAMF/pyamf_server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/sample.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/save_file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/apiclient/schema.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/httplib2/socks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/tools.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_file.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/xsrfutil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3.iml" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Python\youtube-v3-python-cmd-line\samples\youtube\README" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Python\youtube-v3-python-cmd-line\youtube-v3.iml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Python\youtube-v3\hello_world.py" afterPath="$PROJECT_DIR$/Python/References/hello_world.py" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Python\youtube-v3\samples\youtube\simple_upload.py" afterPath="$PROJECT_DIR$/Python/References/samples/youtube/simple_upload.py" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Python\youtube-v3\samples\youtube\upload_video.py" afterPath="$PROJECT_DIR$/Python/References/samples/youtube/upload_video.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actuate/bin/Actuate_Lib.swc" afterPath="$PROJECT_DIR$/actuate/bin/Actuate_Lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flare-master/bin/Flare_Lib.swc" afterPath="$PROJECT_DIR$/Flare-master/bin/Flare_Lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GreenSock-AS3-master/bin/GreenSock_Lib.swc" afterPath="$PROJECT_DIR$/GreenSock-AS3-master/bin/GreenSock_Lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OimoPhysicsEngine/bin/OimoPhysicsEngine.swc" afterPath="$PROJECT_DIR$/OimoPhysicsEngine/bin/OimoPhysicsEngine.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tween24-master/bin/Tween24_Lib.swc" afterPath="$PROJECT_DIR$/Tween24-master/bin/Tween24_Lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash/bin/iad_production_lib.swc" afterPath="$PROJECT_DIR$/Flash/bin/iad_production_lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.ipr" afterPath="$PROJECT_DIR$/ProductionLib.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363740426692" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830750123" ignored="false" />
     <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363740470665" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
@@ -143,11 +94,18 @@
     <file path="/PhysicsWheel.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363650907683" ignored="false" />
     <file path="/sample.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363657243027" ignored="false" />
     <file path="/hello_world.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363658855733" ignored="false" />
-    <file path="/upload_video.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363658970461" ignored="false" />
+    <file path="/upload_video.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363826986851" ignored="false" />
     <file path="/youtube_upload.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363713512459" ignored="false" />
     <file path="/save_file.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363734682895" ignored="false" />
     <file path="/a.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363717490723" ignored="false" />
     <file path="/scratch.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363728262026" ignored="false" />
+    <file path="/getauth.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363802901048" ignored="false" />
+    <file path="/auth_return.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830168871" ignored="false" />
+    <file path="/auth.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830272635" ignored="false" />
+    <file path="C:/Python27/Lib/cgitb.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363816994759" ignored="false" />
+    <file path="/upload_video.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363825263277" ignored="false" />
+    <file path="/auth_data.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830243913" ignored="false" />
+    <file path="/auth_upload.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830195137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,31 +198,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Python/youtube-v3-python-cmd-line/hello_world.py" />
-        <option value="$PROJECT_DIR$/Python/youtube-v3-python-cmd-line/idettman.com" />
-        <option value="$PROJECT_DIR$/Python/youtube-v3-python-cmd-line/samples/simple_upload.py" />
-        <option value="$PROJECT_DIR$/Python/youtube-v3-python-cmd-line/upload_video.py" />
-        <option value="$PROJECT_DIR$/Python/youtube-v3-python-cmd-line/client_secrets.json" />
-        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/youtube_upload.html" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/lunchwheel/LunchWheelAltLabelRotation.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
-        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/.htaccess" />
-        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_file.html" />
-        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_video.py" />
-        <option value="$PROJECT_DIR$/Python/youtube-v3/samples/youtube/simple_upload.py" />
-        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/client_secrets.json" />
         <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/save_file.py" />
-        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/Python/PyAMF/pyamf_server.py" />
+        <option value="$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/oauth2client/client.py" />
+        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/getauth.py" />
+        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/Python/References/samples/youtube/simple_upload.py" />
+        <option value="$PROJECT_DIR$/Python/References/samples/youtube/upload_video.py" />
+        <option value="C:/Python27/Lib/cgitb.py" />
+        <option value="C:/Python27/Lib/mimetypes.py" />
+        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_video.html" />
+        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_video.py" />
+        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_data.py" />
+        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth.py" />
+        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_return.py" />
+        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_upload.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="x" value="565" />
+    <option name="width" value="1355" />
+    <option name="height" value="1170" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -292,6 +249,40 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Default">
@@ -387,26 +378,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,19 +392,19 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Python" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
     <property name="last_opened_file_path" value="C:/Python27/Lib/site-packages/PyAMF-0.6.1-py2.7.egg-info" />
-    <property name="project.structure.side.proportion" value="0.26882967" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.side.proportion" value="0.26882967" />
     <property name="JavaScriptPreferStrict" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -444,19 +415,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\References" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\Youtube_VideoUploadTest" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\actuate\Source\AS3\com\eclecticdesignstudio\motion\actuators" />
-      <recent name="D:\Isaac\dev\flash\ProductionLib\Flash_Experiments\src\lunchwheel" />
-    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="" />
       <recent name="lib_templates" />
       <recent name="base.display" />
       <recent name="utils" />
       <recent name="lunchwheel" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\Youtube_VideoUploadTest" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\References\working_youtube_upload_webapp" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\References" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\actuate\Source\AS3\com\eclecticdesignstudio\motion\actuators" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\youtube-v3" />
@@ -467,6 +438,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Flash App.Flash_Experiments">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -480,14 +459,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -705,7 +676,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="0" />
+    <frame x="565" y="0" width="1355" height="1170" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -719,13 +690,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18249734" sideWeight="0.8153547" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26759475" sideWeight="0.8153547" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18464528" sideWeight="0.49973643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18464528" sideWeight="0.49973643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -773,7 +744,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Youtube API Python examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a save file python script, and committed progress for googles youtube python api" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -787,7 +758,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Modfiied Player to inherit from AbstractCharacter" />
     <MESSAGE value="Added base classes for items and weapons, also created helper classes for element positioning" />
     <MESSAGE value="Changed commenting on start game" />
     <MESSAGE value="Cleaned up formatting" />
@@ -812,6 +782,7 @@
     <MESSAGE value="Fixed the dynamic polygon generation for the lunchwheel wheel items" />
     <MESSAGE value="Added Oimo Physics Engine spin wheel created with hinge and ball joint constraints" />
     <MESSAGE value="Added Youtube API Python examples" />
+    <MESSAGE value="Created a save file python script, and committed progress for googles youtube python api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,84 +797,126 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/cgi.py">
+    <entry file="file://C:/Python27/Lib/cgitb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="141" column="3" selection-start="5071" selection-end="5071" vertical-scroll-proportion="0.86119556">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_file.html">
+    <entry file="file://C:/Python27/Lib/site-packages/google_api_python_client-1.1-py2.7.egg/apiclient/http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="299" selection-end="299" vertical-scroll-proportion="0.23730965" />
+        <state line="1010" column="26" selection-start="32498" selection-end="32498" vertical-scroll-proportion="0.22661123">
+          <folding>
+            <element signature="e#815#830#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/References/hello_world.py">
+    <entry file="file://$PROJECT_DIR$/Python/References/samples/youtube/upload_video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="95" selection-end="169" vertical-scroll-proportion="0.2091021" />
+        <state line="156" column="41" selection-start="5818" selection-end="5818" vertical-scroll-proportion="1.8267478">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/google_api_python_client-1.1-py2.7.egg/oauth2client/file.py">
+    <entry file="file://C:/Python27/Lib/site-packages/google_api_python_client-1.1-py2.7.egg/apiclient/discovery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="982" selection-end="982" vertical-scroll-proportion="-1.0282903" />
+        <state line="152" column="51" selection-start="4287" selection-end="4287" vertical-scroll-proportion="0.35055724">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/client_secrets.json">
+    <entry file="file://C:/Python27/Lib/mimetypes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.043147206" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/client_secrets (1).json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="678" selection-start="0" selection-end="678" vertical-scroll-proportion="-0.0" />
+        <state line="276" column="0" selection-start="9783" selection-end="9783" vertical-scroll-proportion="0.017223911">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/References/samples/youtube/simple_upload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.4098985" />
+        <state line="36" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.41438702">
+          <folding>
+            <element signature="e#22#31#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://S:/Dev_Archive/_Prototypes_and_Unfinished_Projects/Goodby_TDUPC2/Source/python/barcode.py">
+    <entry file="file://$PROJECT_DIR$/Python/References/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.12546125" />
+        <state line="9" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="0.15708418">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://S:/Dev_Archive/_Prototypes_and_Unfinished_Projects/Goodby_TDUPC2/Source/python/main.py">
+    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/upload_video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="31" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.8118081" />
+        <state line="9" column="4" selection-start="271" selection-end="271" vertical-scroll-proportion="0.15904365">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/save_file.py">
+    <entry file="file://$PROJECT_DIR$/Python/References/working_youtube_upload_webapp/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5227552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/References/youtube-v3-python-cmd-line/sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.6482165" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="358" selection-end="358" vertical-scroll-proportion="0.4809348" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/References/barcode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.31365314" />
-      </provider>
-    </entry>
-    <entry file="file://S:/Python/create_adv_telemetry_swf/add-opt-in.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="20" selection-start="4011" selection-end="4011" vertical-scroll-proportion="-1.1291513" />
-      </provider>
-    </entry>
-    <entry file="file://S:/SkyDrive/Public/GoogleAppEngineDev/SocialZombie/zombie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="34" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.8305085" />
+        <state line="109" column="0" selection-start="2897" selection-end="2897" vertical-scroll-proportion="1.7051672">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/PyAMF/pyamf_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.37288135">
+        <state line="111" column="5" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.3627153">
+          <folding>
+            <element signature="e#202#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="326" selection-end="326" vertical-scroll-proportion="0.13779129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="705" selection-end="705" vertical-scroll-proportion="0.17913593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="548" selection-end="548" vertical-scroll-proportion="0.34549138">
+          <folding>
+            <element signature="e#29#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_return.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="517" selection-end="517" vertical-scroll-proportion="0.43059778">
+          <folding>
+            <element signature="e#29#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1550152">
+          <folding>
+            <element signature="e#29#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
