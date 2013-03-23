@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<explorer>
+	<settings
+		server="http://eyes.nasa.gov/server"
+		animation="http://eyes.nasa.gov/server"
+		scene="$SERVERURL/content/scenes/default.xml"
+		interface="$SERVERURL/content/interface/default/default.xml">
+	</settings>
+</explorer>
+

@@ -1,10 +1,13 @@
 #!/home/idettman/bin/python
 
+
+import os
 import cgitb
 from string import Template
+import httplib2
 
 from oauth2client.file import Storage
-from oauth2client.client import OAuth2WebServerFlow
+from oauth2client.client import OAuth2WebServerFlow, AccessTokenCredentials
 
 from auth_data import AuthData
 
@@ -15,9 +18,13 @@ print 'Content-Type: text/html'
 
 
 def redirect_authorize():
-	auth_uri = flow.step1_get_authorize_url()
+	flow = OAuth2WebServerFlow(client_id=AuthData.ClientId,
+							   client_secret=AuthData.ClientSecret,
+							   scope=AuthData.Scope,
+							   redirect_uri=AuthData.RedirectUri)
+
 	print "Status: 302 Moved"
-	print "Location: %s" % auth_uri
+	print "Location: %s" % flow.step1_get_authorize_url()
 	print
 	print """\
 	<html><body>
@@ -35,15 +42,15 @@ def show_fileupload():
 	print temp.substitute(values)
 
 
-flow = OAuth2WebServerFlow(client_id=AuthData.ClientId,
-						   client_secret=AuthData.ClientSecret,
-						   scope=AuthData.Scope,
-						   redirect_uri=AuthData.RedirectUri)
-
 storage = Storage(AuthData.StorageFileName)
-credentials = storage.get()
+stored_credentials = storage.get()
+access_token_credentials = AccessTokenCredentials(stored_credentials, os.environ.get("HTTP_USER_AGENT", "unknown"))
 
-if credentials is None or credentials.invalid:
+http = httplib2.Http()
+http = access_token_credentials.authorize(http)
+
+
+if access_token_credentials is None or access_token_credentials.invalid:
 	redirect_authorize()
 else:
 	show_fileupload()

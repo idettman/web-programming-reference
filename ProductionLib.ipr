@@ -105,6 +105,7 @@
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/hype-master/Hype_Lib.iml" filepath="$PROJECT_DIR$/hype-master/Hype_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" filepath="$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" filepath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductionLib.iml" filepath="$PROJECT_DIR$/ProductionLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" filepath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" filepath="$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" />

@@ -1,0 +1,51 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.697]
+    Renderer: NVIDIA GeForce GTX 560 
+    Vendor:   NVIDIA
+    VRAM:     978 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1200 59Hz; virtual: 3120x1920 at 0,-587
+Initialize engine version: 3.5.6f4
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Faygo\Downloads\eyes\explorer-win_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Faygo\Downloads\eyes\explorer-win_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Faygo\Downloads\eyes\explorer-win_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Faygo\Downloads\eyes\explorer-win_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.030 seconds
+ApplicationAgent Constructed
+Application Constructed (5005)
+Platform assembly: C:\Users\Faygo\Downloads\eyes\explorer-win_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Faygo\Downloads\eyes\explorer-win_Data\Managed\System.Xml.dll (this message is harmless)
+Listening on tcp://localhost:44555
+External call: InitializeExplorer 
+Explorer version 5005(rev 14-gc8bef89 built at Mon, Mar 18, 2013  5:44:10 PM) started at Friday, March 22, 2013 at 6:11:44 PM
+Downloading scene definition 'http://eyes.nasa.gov/server/content/scenes/default.xml'...
+Downloading interface 'http://eyes.nasa.gov/server/content/interface/default/default.xml'...
+Scene definition 'http://eyes.nasa.gov/server/content/scenes/default.xml' downloaded.
+Interface 'http://eyes.nasa.gov/server/content/interface/default/default.xml' downloaded.
+Scene definition successfully parsed.
+UriReplace:
+$RANGERURI -> $EXPLORER.SERVERURL/content/ranger -> http://eyes.nasa.gov/server/content/ranger
+UriReplace:
+$OLDMODELURI -> $EXPLORER.SERVERURL/content/common/prefabs -> http://eyes.nasa.gov/server/content/common/prefabs
+UriReplace:
+$ANIMATIONURI -> $RANGERURI/animation/msl -> http://eyes.nasa.gov/server/content/ranger/animation/msl
+UriReplace:
+$TERRAINURI -> $RANGERURI/terrain/mars/forexplorer-jul-19 -> http://eyes.nasa.gov/server/content/ranger/terrain/mars/forexplorer-jul-19
+UriReplace:
+$MODELURI -> $RANGERURI/models/msl -> http://eyes.nasa.gov/server/content/ranger/models/msl
+Not cached: 32 False False
+Shader 'Atmosphere/GroundFromSpace': fallback shader 'None' not found
+Shader 'Atmosphere/SkyFromSpace': fallback shader 'None' not found
+Shader 'Atmosphere/SkyFromGround': fallback shader 'None' not found
+Building interface...
+default: Unknown null added
+Added document default
+Point 0
+External call: SendAnalytics interface_loaded
+<127:48> Warning: Obsolete property: Settings.labelFontName is obsolete
+<127:9Warning: Obsolete property: Settings.labelFontName is obsolete
+Platform assembly: C:\Users\Faygo\Downloads\eyes\explorer-win_Data\Managed\System.Core.dll (this message is harmless)
