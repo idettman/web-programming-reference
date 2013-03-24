@@ -2,8 +2,8 @@ package
 {
 	public class Eye
 	{
-		public var centerx:int;  // place 0.0,0.0 at (centerx, centery) on screen
-		public var centery:int;  // place 0.0,0.0 at (centerx, centery) on screen
+		public var centerx:Number;  // place 0.0,0.0 at (centerx, centery) on screen
+		public var centery:Number;  // place 0.0,0.0 at (centerx, centery) on screen
 		public var magnification:Number;   // magnification of image
 		public var m:Vector.<Point>;    // matrix describing angle & position
 		public var d:Vector.<Point>;           // matrix used to add rotations
@@ -12,7 +12,7 @@ package
 
 		// distance-from-center, left up clockwise magnification
 		// example, "10.0 0.0 0.0 0.0 10.0"
-		public function Eye (s:String, centerx:int, centery:int)
+		public function Eye (s:String, centerx:Number, centery:Number)
 		{
 			var st:StringTokenizer = new StringTokenizer (s);
 			this.p = new Point (0.0, 0.0, 0.0);
@@ -24,7 +24,7 @@ package
 			var up:Number = Point.s2d (st.nextToken (), 0.0);
 			var clockwise:Number = Point.s2d (st.nextToken (), 0.0);
 			var magnification:Number = Point.s2d (st.nextToken (), 1.0);
-
+			
 			setEye (this.p, left, up, clockwise, centerx, centery, magnification);
 		}
 
@@ -37,8 +37,8 @@ package
 				left:Number,             	// radians to rotate left (done second)
 				up:Number,               	// radians to rotate up   (third)
 				clockwise:Number,        	// radians to rotate clockwise (fourth)
-				centerx:int,             	// center of panel, x coord
-				centery:int,             	// center of panel, y coord
+				centerx:Number,             	// center of panel, x coord
+				centery:Number,             	// center of panel, y coord
 				magnification:Number):void  // controls size of image within panel
 		{
 			this.centerx = centerx;
@@ -151,13 +151,13 @@ package
 		}
 
 		// get the x pixel for this (already-translated) point
-		public function mapx (p:Point):int
+		public function mapx (p:Point):Number
 		{
 			return centerx + (magnification * p.x / p.z);
 		}
 
 		// get the y pixel for this (already-translated) point
-		public function mapy (p:Point):int
+		public function mapy (p:Point):Number
 		{
 			return centery + (magnification * p.y / p.z);
 		}

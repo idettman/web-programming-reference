@@ -393,12 +393,13 @@ package
 		}*/
 
 		// draw new moons
+		private var _count:uint = 0;
 		public function draw (bg:Shape, camera:Eye):void
 		{
-
-
-
-			++display_count;
+			//camera.magnification+=1;
+			
+			
+			//++display_count;
 
 			// Find new positions in screen coordinates
 			for (var i:int = 0; i < showluna.length; ++i)
@@ -409,7 +410,7 @@ package
 				if (this.no_perspective) e.z = -camera.m[3].z;
 				if (e.z > moon.r)
 				{
-					var r:int = (camera.magnification * moon.r / e.z);
+					var r:Number = (camera.magnification * moon.r / e.z);
 					if (r < 1) r = 1;
 					moon.screenr = r;
 					moon.screenx = camera.mapx (e) - r / 2;
@@ -439,7 +440,7 @@ package
 					showluna[j - 1] = moon2;
 				}
 			}
-
+			
 			// draw the moons
 			if (display_energy)
 			{
@@ -454,18 +455,18 @@ package
 			}
 			for (var i:int = 0; i < showluna.length; ++i)
 			{
-				var q:int = showluna[i].screenr;
+				var q:Number = showluna[i].screenr;
 				if (q > 2)
 				{
-					bg.graphics.beginFill (0xFFFFFF);
-//					bg.graphics.beginFill (showluna[i].c.value);
+					//bg.graphics.beginFill (0xFFFFFF);
+					bg.graphics.beginFill (showluna[i].c.value);
 					bg.graphics.drawCircle (showluna[i].screenx, showluna[i].screeny, q);
-					trace ("draw moon:", showluna[i].screenx, showluna[i].screeny, q);
+					//trace ("draw moon:", showluna[i].screenx, showluna[i].screeny, q);
 				}
 				else if (q > 0)
 				{
-					bg.graphics.beginFill (0xFFFFFF);
-					//bg.graphics.beginFill (showluna[i].c.value);
+//					bg.graphics.beginFill (0xFFFFFF);
+					bg.graphics.beginFill (showluna[i].c.value);
 					bg.graphics.drawRect (showluna[i].screenx, showluna[i].screeny, q, q);
 				}
 			}

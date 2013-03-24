@@ -30,18 +30,18 @@ package
 		// number of points used by step()
 		public static var POINTS:int = 9;       // number of points in step method
 		public static var PERIOD:int = POINTS - 1;// same error at ov[i] and ov[i+PERIOD]
-
+		
 		// size of queues
 		public static var history:int = 2 * POINTS + 2;
-
+		
 		// method to build polynomials to dejitter and rescale
 		public static var dejit:BInterpolate = new BInterpolate (POINTS);
-
+		
 		public var r:Number;     // radius
 		public var id:int;    // identifier
-		public var screenx:int;  // x coordinate on screen
-		public var screeny:int;  // y coordinate on screen
-		public var screenr:int;  // radius on screen
+		public var screenx:Number;  // x coordinate on screen
+		public var screeny:Number;  // y coordinate on screen
+		public var screenr:Number;  // radius on screen
 		public var peye:Point;   // point as translated by the eye
 
 		// p(x,y,z) v(x,y,z) mass color size

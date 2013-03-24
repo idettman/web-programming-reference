@@ -40,6 +40,7 @@ package
 	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.filters.GlowFilter;
 
 
 	public class Orbit extends Sprite
@@ -77,8 +78,8 @@ package
 
 			bg = new Shape ();
 			addChild (bg);
-
-
+			bg.filters = [new GlowFilter (0xFFFFFF, 1, 8, 8, 2)];
+			
 			// set up infrastructure
 			var param:String;
 			this.t = -1.0;
@@ -144,13 +145,13 @@ package
 
 			param = getParameter ("energy");
 			energy = (param != null);
-
+			
 			var scalemass:Number = Point.s2d (getParameter ("scalemass"), 1.0);
 			for (var i:int = 0; i < luna.length; ++i)
 			{
 				luna[i].m *= scalemass;
 			}
-
+			
 			// the eye watching this world
 			param = getParameter ("eye");
 			if (param == null)
@@ -186,15 +187,18 @@ package
 		private function createData ():void
 		{
 			params = {};
-			params["increment"] = "140";
+			params["increment"] = "10.25";
 			params["work"] = "7";
 			params["follow"] = "3";
 			params["scalemass"] = "0.0000000012944";
 			params["background"] = "000000";
 			params["trail"] = "yes";
 			params["energy"] = "yes";
-			params["eye"] = "50 0 0.41487 0 500";
+			//COOL:params["eye"] = "0.1 10 0.41487 0 500";
+			//params["eye"] = "10.4 0 10.41487 100 500";
+			params["eye"] = "1.25 0.0 10.0 1.0 500.0";
 			params["moons"] = "11";
+			//params["moon2"] = "-4.108349066 1.200689290 0.001623565 0.000202048 0.000200348 -0.000000250 0.39 ff0000 0.0001289";
 			params["moon3"] = "-0.008349066 0.000189290 0.000323565 0.000000048 -0.000000348 -0.000000150 396.89 ffff00 0.0093289";
 			params["moon4"] = "-0.366950735 -0.233017122 -0.087053104 0.000427802 -0.000791151 -0.000466931 0.0000658 ffdddd 0.0000329";
 			params["moon5"] = "0.517925495 -0.445522365 -0.233499924 0.000576233 0.000566230 0.000218276 0.00097029 ddffdd 0.0000817";
@@ -225,6 +229,7 @@ package
 
 		public function clear ():void
 		{
+			bg.graphics.clear ();
 			/*bg.graphics.beginFill (bgcolor.value);
 			bg.graphics.drawRect (0, 0, stage.stageWidth, stage.stageHeight);*/
 
@@ -322,21 +327,16 @@ package
 
 		public function paint ():void
 		{
-			if (bg == null) return;     // there seem to be some race conditions
-
-
-			trace ("paint");
-
-			bg.graphics.beginFill (0x000000);
+			/*bg.graphics.beginFill (0x000000);
 			bg.graphics.drawRect (0, 0, stage.stageWidth, stage.stageHeight);
-			bg.graphics.endFill ();
-
+			bg.graphics.endFill ();*/
+			//clear ();
 			// find time increment
 			if (t < 0.0)
 			{
 				clear ();
 			}
-
+			
 			// erase old image
 			/*if (!trail)
 			{
@@ -352,13 +352,13 @@ package
 			if (deltamousex != 0 || deltamousey != 0)
 			{
 				drag = true;
-
+				
 				if (xymode)
 				{          // xymode, roll simulation around the center
 					var myrot:Number = Math.atan2 (deltamousex, deltamousey);
 					var mynorm:Number = (deltamousex * deltamousex + deltamousey * deltamousey);
 					camera.clockwise (-myrot);
-
+					
 					if (mynorm <= 10)
 					{ // slow mouse can drag distant objects
 						camera.up (Math.sqrt (mynorm) * (this.rotatescale / camera.magnification));
@@ -396,7 +396,7 @@ package
 
 			// draw the moons in their new positions
 			sim.draw (bg, camera);
-
+			
 			// actually display the new image
 			//this.getGraphics ().drawImage (buffered, 0, 0, null);
 
