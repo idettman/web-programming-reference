@@ -61,7 +61,7 @@ package com.iad.orbitsim
 			_pointlight_sun.z = 0;
 			_pointlight_sun.x = 0;
 			_pointlight_sun.y = 0;
-			_pointlight_sun.fallOff = 60000;
+			_pointlight_sun.fallOff = 1200000;
 			_pointlight_sun.radius = 6000;
 			_pointlight_sun.zOffset = 0;
 			_pointlight_sun.shaderPickingDetails = false;
@@ -165,7 +165,7 @@ package com.iad.orbitsim
 				planet = planetaryBodyList[i];
 				planet.mass *= scaleMass;
 
-				sphereMesh = new Mesh (new SphereGeometry (400+planet.radius * SCALE_MULTIPLIER * 20, 64,54), new ColorMaterial(planet.color));
+				sphereMesh = new Mesh (new SphereGeometry (1000+planet.radius * SCALE_MULTIPLIER * 20, 64,54), new ColorMaterial(planet.color));
 				
 				if (i != 0)
 				{
@@ -236,7 +236,7 @@ package com.iad.orbitsim
 			}
 			else
 			{
-
+				camera.moveForward (150);
 				/*planet = orbitSimulation.planetaryBodies[3];
 				camera.position = planet.sphereMesh.position.clone ();
 				camera.moveUp (2000);

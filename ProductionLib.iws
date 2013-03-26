@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="Created a save file python script, and committed progress for googles youtube python api">
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\optimized_conversion_src\com.iad.orbitsim\TestOrbitSimulationBestBugEver.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\optimized_conversion_src\com.iad.orbitsim\TestOrbitSimulationBestBugEver2.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\optimized_conversion_src\com.iad.orbitsim\TestOrbitSimulationBestBugEver3.as" afterPath="" />
+    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
       <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\BInterpolate.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/BInterpolate.as" />
       <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\BMatrix.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/BMatrix.as" />
       <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\BVector.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/BVector.as" />
@@ -15,14 +12,12 @@
       <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Point.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Point.as" />
       <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Simulate.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Simulate.as" />
       <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\StringTokenizer.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/StringTokenizer.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364317980620" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364324112443" ignored="false" />
     <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364322603858" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
@@ -125,7 +120,7 @@
     <file path="/Color.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363994102456" ignored="false" />
     <file path="/StringTokenizer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364001296592" ignored="false" />
     <file path="/PlanetaryOrbitEngine.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364318028078" ignored="false" />
-    <file path="/TestOrbitSimulation.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364323696359" ignored="false" />
+    <file path="/TestOrbitSimulation.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364324310897" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,8 +200,10 @@
       <file leaf-file-name="TestOrbitSimulation.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="27" selection-start="6532" selection-end="6532" vertical-scroll-proportion="0.28716645">
-              <folding />
+            <state line="239" column="16" selection-start="6858" selection-end="6858" vertical-scroll-proportion="0.7128335">
+              <folding>
+                <element signature="e#28#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -860,7 +857,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added missing file for last commit. Removed all personal info from auth_data.py so the example code is complete for the youtube video upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added debug lines connecting orbiting bodies, also changed camera to overhead pointing directly down" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -874,7 +871,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Cleaned up formatting" />
     <MESSAGE value="Changed IntelliJ project settings" />
     <MESSAGE value="Commented out the user initiated swf file path" />
     <MESSAGE value="Changed the braces placement for the css styles" />
@@ -899,6 +895,7 @@
     <MESSAGE value="Created a save file python script, and committed progress for googles youtube python api" />
     <MESSAGE value="Completed example using Google Youtube Data api to upload a video from a web app. Did not commit auth_data.py because it contains my google api data" />
     <MESSAGE value="Added missing file for last commit. Removed all personal info from auth_data.py so the example code is complete for the youtube video upload" />
+    <MESSAGE value="Added debug lines connecting orbiting bodies, also changed camera to overhead pointing directly down" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -986,8 +983,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="27" selection-start="6532" selection-end="6532" vertical-scroll-proportion="0.28716645">
-          <folding />
+        <state line="239" column="16" selection-start="6858" selection-end="6858" vertical-scroll-proportion="0.7128335">
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
