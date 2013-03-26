@@ -5,9 +5,6 @@
       <configuration name="Flash_Experiments" pure-as="true" main-class="Flash_Experiments" output-file="Flash_Experiments.swf" output-folder="$MODULE_DIR$/bin" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="11.6">
           <entries>
-            <entry module-name="ProductionLib" build-configuration-name="ProductionLib">
-              <dependency linkage="Merged" />
-            </entry>
             <entry module-name="Away3d_Lib" build-configuration-name="Away3d_Lib">
               <dependency linkage="Merged" />
             </entry>
@@ -24,6 +21,9 @@
               <dependency linkage="Merged" />
             </entry>
             <entry module-name="GreenSock-AS3-master" build-configuration-name="GreenSock-AS3-master">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="AbstractBase_Lib" build-configuration-name="AbstractBase_Lib">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -49,8 +49,8 @@
     <orderEntry type="module" module-name="Away3d_Lib" exported="" />
     <orderEntry type="module" module-name="Flare_Lib" exported="" />
     <orderEntry type="module" module-name="Actuate_Lib" exported="" />
-    <orderEntry type="module" module-name="ProductionLib" exported="" />
     <orderEntry type="module" module-name="GreenSock-AS3-master" exported="" />
+    <orderEntry type="module" module-name="AbstractBase_Lib" exported="" />
   </component>
 </module>
 

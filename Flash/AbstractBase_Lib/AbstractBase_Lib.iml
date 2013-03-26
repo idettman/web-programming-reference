@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="Flex" version="4">
-  <component name="FlexBuildConfigurationManager" active="Away3dTemplates">
+  <component name="FlexBuildConfigurationManager" active="AbstractBase_Lib">
     <configurations>
-      <configuration name="Away3dTemplates" pure-as="true" output-type="Library" output-file="Away3dTemplates.swc" output-folder="$MODULE_DIR$/bin">
+      <configuration name="AbstractBase_Lib" pure-as="true" output-type="Library" output-file="AbstractBase_Lib.swc" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="11.6">
           <entries>
             <entry module-name="Away3d_Lib" build-configuration-name="Away3d_Lib">

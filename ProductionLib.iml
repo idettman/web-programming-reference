@@ -2,16 +2,15 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="ProductionLib">
     <configurations>
-      <configuration name="ProductionLib" pure-as="true" output-type="Library" output-file="iad_production_lib.swc" output-folder="$MODULE_DIR$/Flash/bin">
+      <configuration name="ProductionLib" pure-as="true" output-type="Library" output-file="iad_production_lib.swc" output-folder="$MODULE_DIR$/Flash/bin" skip-build="true">
         <dependencies target-player="11.6">
-          <entries>
-            <entry library-name="greensock" library-level="application">
-              <dependency linkage="Merged" />
-            </entry>
-          </entries>
           <sdk name="AIRSDK_Compiler" />
         </dependencies>
-        <compiler-options />
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swc" value="false" />
+          </map>
+        </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
@@ -21,16 +20,7 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Flash/classes" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/Flash/HPTO_TestHarness_Yahoo" />
-      <excludeFolder url="file://$MODULE_DIR$/Flash/classes/base/display/away3d" />
-      <excludeFolder url="file://$MODULE_DIR$/Flash/classes/base/display/starling" />
-      <excludeFolder url="file://$MODULE_DIR$/Flash/classes/components" />
-      <excludeFolder url="file://$MODULE_DIR$/Flash/classes/experiments" />
-      <excludeFolder url="file://$MODULE_DIR$/Flash/classes/reference_fla" />
-      <excludeFolder url="file://$MODULE_DIR$/Flash/dependencies" />
-    </content>
+    <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="greensock" level="application" />

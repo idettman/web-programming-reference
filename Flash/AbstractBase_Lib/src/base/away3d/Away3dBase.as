@@ -1,4 +1,4 @@
-package
+package base.away3d
 {
 	import away3d.cameras.Camera3D;
 	import away3d.containers.View3D;
