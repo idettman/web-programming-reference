@@ -4,10 +4,12 @@ package com.iad.orbitsim
 	import away3d.cameras.lenses.PerspectiveLens;
 	import away3d.containers.View3D;
 	import away3d.entities.Mesh;
+	import away3d.materials.ColorMaterial;
 	import away3d.primitives.SphereGeometry;
 
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.geom.Vector3D;
 
 
 	public class TestOrbitSimulation extends Sprite
@@ -16,9 +18,9 @@ package com.iad.orbitsim
 		public var view:View3D;
 		public var camera:Camera3D;
 		public var orbitSimulation:OrbitSimulation;
-
-		private const SCALE_MULTIPLIER:Number = 100000;
-
+		
+		private const SCALE_MULTIPLIER:Number = 8000;
+		
 
 
 
@@ -27,7 +29,7 @@ package com.iad.orbitsim
 		{
 			initAway3D();
 			initOrbitSimulation ();
-
+			
 			addEventListener (Event.ENTER_FRAME, enterFrameHandler);
 		}
 
@@ -37,18 +39,22 @@ package com.iad.orbitsim
 			addChild (view);
 
 			camera = view.camera;
-			camera.lens = new PerspectiveLens (50);
-			camera.lens.far = 100000;
-			camera.lens.near = 100;
+			camera.lens = new PerspectiveLens (40);
+			camera.lens.far = 10 * SCALE_MULTIPLIER;
+			camera.lens.near = 0.1;
+			/*camera.moveLeft (4);
+			camera.moveBackward (0.5*SCALE_MULTIPLIER);
+			camera.moveUp (0.5*SCALE_MULTIPLIER + 30000);*/
+			//camera.lookAt (new Vector3D());
 		}
 
 
 		private function initOrbitSimulation ():void
 		{
 			var substepsPerIteration:int = 7;
-			var timestepIncrement:Number = 10.25;
+			var timestepIncrement:Number = 2;
 			var scaleMass:Number = 0.0000000012944;
-
+			
 
 			var planetaryBodyList:Vector.<PlanetaryBody> = new Vector.<PlanetaryBody> (10);
 			planetaryBodyList[0] = new PlanetaryBody (
@@ -112,18 +118,19 @@ package com.iad.orbitsim
 					0.0000155, 9);
 
 			var sphereMesh:Mesh;
-
+			
 			// scale masses
 			for (var i:int = 0; i < planetaryBodyList.length; ++i)
 			{
 				planetaryBodyList[i].mass *= scaleMass;
-
-				sphereMesh = new Mesh (new SphereGeometry (planetaryBodyList[i].radius * SCALE_MULTIPLIER));
+				
+				//sphereMesh = new Mesh (new SphereGeometry (planetaryBodyList[i].radius * SCALE_MULTIPLIER));
+				sphereMesh = new Mesh (new SphereGeometry (20+planetaryBodyList[i].radius * SCALE_MULTIPLIER * 2, 32,24), new ColorMaterial(planetaryBodyList[i].color));
 				view.scene.addChild (sphereMesh);
-
+				
 				planetaryBodyList[i].sphereMesh = sphereMesh;
 			}
-
+			
 			orbitSimulation = new OrbitSimulation (planetaryBodyList, timestepIncrement, substepsPerIteration);
 		}
 
@@ -132,21 +139,43 @@ package com.iad.orbitsim
 		{
 			//SCALE_MULTIPLIER
 
+			
+			
+			
 			var planet:PlanetaryBody;
 			for (var i:int = 0; i < orbitSimulation.planetaryBodies.length; i++)
 			{
 				planet = orbitSimulation.planetaryBodies[i];
-
+				
 				planet.sphereMesh.x = planet.position.x * SCALE_MULTIPLIER;
 				planet.sphereMesh.y = planet.position.y * SCALE_MULTIPLIER;
 				planet.sphereMesh.z = planet.position.z * SCALE_MULTIPLIER;
-
+				
 				//canvas.graphics.drawCircle (OFFSET_X + (planet.position.x * SCALER), OFFSET_Y + (planet.position.y * SCALER), planet.radius * SCALER);
 				//trace ("scaled radius:", (planet.radius * SCALER), "   scaled x position:", (planet.position.x * SCALER));
 			}
+			
+			camera.x = orbitSimulation.planetaryBodies[4].position.x + 6000;
+			camera.y = orbitSimulation.planetaryBodies[4].position.y - 10000;
+			camera.z = orbitSimulation.planetaryBodies[4].position.z - 10000;
+			
+			
+			//planet = orbitSimulation.planetaryBodies[3];
+			//camera.lookAt (new Vector3D (planet.position.x * SCALE_MULTIPLIER, planet.position.y * SCALE_MULTIPLIER, planet.position.z * SCALE_MULTIPLIER));
+			
+			camera.lookAt (_globalPivot);
+			//camera.moveForward (18);
+			//camera.moveForward (50);
+			//camera.moveLeft (1);
+			//camera.moveDown (0.5);
+			//camera.lookAt (_globalPivot);
+			
 			view.render ();
 			orbitSimulation.step ();
 		}
+
+		private var _globalPivot:Vector3D = new Vector3D ();
+		
 
 
 
