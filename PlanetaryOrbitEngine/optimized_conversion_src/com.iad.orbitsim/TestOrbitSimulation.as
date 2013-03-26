@@ -2,9 +2,12 @@ package com.iad.orbitsim
 {
 	import away3d.cameras.Camera3D;
 	import away3d.cameras.lenses.PerspectiveLens;
+	import away3d.containers.ObjectContainer3D;
 	import away3d.containers.View3D;
 	import away3d.entities.Mesh;
+	import away3d.lights.PointLight;
 	import away3d.materials.ColorMaterial;
+	import away3d.materials.lightpickers.StaticLightPicker;
 	import away3d.primitives.SphereGeometry;
 
 	import flash.display.Sprite;
@@ -19,7 +22,12 @@ package com.iad.orbitsim
 		public var camera:Camera3D;
 		public var orbitSimulation:OrbitSimulation;
 		
-		private const SCALE_MULTIPLIER:Number = 8000;
+		private var _lightPicker:StaticLightPicker;
+		private var _cameraTarget:ObjectContainer3D;
+		private var _pointlight_sun:PointLight;
+		
+		
+		private const SCALE_MULTIPLIER:Number = 20000;
 		
 
 
@@ -37,25 +45,42 @@ package com.iad.orbitsim
 		{
 			view = new View3D ();
 			addChild (view);
-
+			
 			camera = view.camera;
 			camera.lens = new PerspectiveLens (40);
 			camera.lens.far = 10 * SCALE_MULTIPLIER;
 			camera.lens.near = 0.1;
-			/*camera.moveLeft (4);
-			camera.moveBackward (0.5*SCALE_MULTIPLIER);
-			camera.moveUp (0.5*SCALE_MULTIPLIER + 30000);*/
-			//camera.lookAt (new Vector3D());
+			
+			
+			_pointlight_sun = new PointLight();
+			_pointlight_sun.castsShadows = true;
+			_pointlight_sun.shadowMapper.depthMapSize = 512;
+			_pointlight_sun.z = 0;
+			_pointlight_sun.x = 0;
+			_pointlight_sun.y = 0;
+			_pointlight_sun.fallOff = 60000;
+			_pointlight_sun.radius = 10000;
+			_pointlight_sun.zOffset = 0;
+			_pointlight_sun.shaderPickingDetails = false;
+			_pointlight_sun.ambient = 0.05;
+			_pointlight_sun.color = 0xFFCCFF;
+			_pointlight_sun.ambientColor = 0xFFCCFF;
+			_pointlight_sun.specular = 0.5;
+			_pointlight_sun.diffuse = 0.6;
+			_pointlight_sun.name = "_pointlight_sun";
+			view.scene.addChild (_pointlight_sun);
+			
+			_lightPicker = new StaticLightPicker ([_pointlight_sun]);
 		}
 
 
 		private function initOrbitSimulation ():void
 		{
-			var substepsPerIteration:int = 7;
-			var timestepIncrement:Number = 2;
+			var substepsPerIteration:int = 8;
+			var timestepIncrement:Number = 4;
 			var scaleMass:Number = 0.0000000012944;
 			
-
+			
 			var planetaryBodyList:Vector.<PlanetaryBody> = new Vector.<PlanetaryBody> (10);
 			planetaryBodyList[0] = new PlanetaryBody (
 					new Point3D (-0.008349066, 0.000189290, 0.000323565),
@@ -125,7 +150,13 @@ package com.iad.orbitsim
 				planetaryBodyList[i].mass *= scaleMass;
 				
 				//sphereMesh = new Mesh (new SphereGeometry (planetaryBodyList[i].radius * SCALE_MULTIPLIER));
-				sphereMesh = new Mesh (new SphereGeometry (20+planetaryBodyList[i].radius * SCALE_MULTIPLIER * 2, 32,24), new ColorMaterial(planetaryBodyList[i].color));
+				sphereMesh = new Mesh (new SphereGeometry (80+planetaryBodyList[i].radius * SCALE_MULTIPLIER * 10, 64,54), new ColorMaterial(planetaryBodyList[i].color));
+				
+				if (i != 0)
+				{
+					ColorMaterial (sphereMesh.material).lightPicker = _lightPicker;
+				}
+				
 				view.scene.addChild (sphereMesh);
 				
 				planetaryBodyList[i].sphereMesh = sphereMesh;
@@ -137,12 +168,8 @@ package com.iad.orbitsim
 
 		private function enterFrameHandler (e:Event):void
 		{
-			//SCALE_MULTIPLIER
-
-			
-			
-			
 			var planet:PlanetaryBody;
+			
 			for (var i:int = 0; i < orbitSimulation.planetaryBodies.length; i++)
 			{
 				planet = orbitSimulation.planetaryBodies[i];
@@ -150,52 +177,21 @@ package com.iad.orbitsim
 				planet.sphereMesh.x = planet.position.x * SCALE_MULTIPLIER;
 				planet.sphereMesh.y = planet.position.y * SCALE_MULTIPLIER;
 				planet.sphereMesh.z = planet.position.z * SCALE_MULTIPLIER;
-				
-				//canvas.graphics.drawCircle (OFFSET_X + (planet.position.x * SCALER), OFFSET_Y + (planet.position.y * SCALER), planet.radius * SCALER);
-				//trace ("scaled radius:", (planet.radius * SCALER), "   scaled x position:", (planet.position.x * SCALER));
 			}
 			
-			camera.x = orbitSimulation.planetaryBodies[4].position.x + 6000;
-			camera.y = orbitSimulation.planetaryBodies[4].position.y - 10000;
-			camera.z = orbitSimulation.planetaryBodies[4].position.z - 10000;
+			camera.x = orbitSimulation.planetaryBodies[3].position.x + 12000;
+			camera.y = orbitSimulation.planetaryBodies[3].position.y - 6000;
+			camera.z = orbitSimulation.planetaryBodies[3].position.z - 4000;
+			camera.rotate (Vector3D.Z_AXIS, -180);
 			
 			
-			//planet = orbitSimulation.planetaryBodies[3];
-			//camera.lookAt (new Vector3D (planet.position.x * SCALE_MULTIPLIER, planet.position.y * SCALE_MULTIPLIER, planet.position.z * SCALE_MULTIPLIER));
-			
-			camera.lookAt (_globalPivot);
-			//camera.moveForward (18);
-			//camera.moveForward (50);
-			//camera.moveLeft (1);
-			//camera.moveDown (0.5);
+			planet = orbitSimulation.planetaryBodies[4];
+			camera.lookAt (new Vector3D (planet.position.x * SCALE_MULTIPLIER, planet.position.y * SCALE_MULTIPLIER, planet.position.z * SCALE_MULTIPLIER));
 			//camera.lookAt (_globalPivot);
-			
 			view.render ();
 			orbitSimulation.step ();
 		}
-
-		private var _globalPivot:Vector3D = new Vector3D ();
 		
-
-
-
-		/*
-				private function enterFrameHandler (e:Event):void
-				{
-					const SCALER:Number = 40000;
-					const OFFSET_X:Number = 1024/2;
-					const OFFSET_Y:Number = 720/2;
-					var planet:PlanetaryBody;
-					for (var i:int = 0; i < orbitSimulation.planetaryBodies.length; i++)
-					{
-						planet = orbitSimulation.planetaryBodies[i];
-						canvas.graphics.beginFill (planet.color);
-						canvas.graphics.drawCircle (OFFSET_X + (planet.position.x * SCALER), OFFSET_Y + (planet.position.y * SCALER), planet.radius * SCALER);
-						canvas.graphics.endFill ();
-						//trace ("scaled radius:", (planet.radius * SCALER), "   scaled x position:", (planet.position.x * SCALER));
-					}
-					orbitSimulation.step ();
-				}
-		*/
+		private var _globalPivot:Vector3D = new Vector3D ();
 	}
 }
