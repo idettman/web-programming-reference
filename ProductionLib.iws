@@ -2,529 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="Created a save file python script, and committed progress for googles youtube python api">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/2.5D_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/2.5D_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/2D_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/2D_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/3D_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/3D_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/3D_BG_Left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/3D_BG_Right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/ArcGis_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/ArcGis_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Managed/Assembly-CSharp.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Banner_rule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Bing_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Bing_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/Bing_Logo_51x19_White.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Widgets/Images/Bing_Logo_51x19_White.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/Cesium_Logo_Color.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/Cesium_Logo_Medium.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/Cesium_Logo_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Widgets/Images/Cesium_Logo_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Chrome_Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Control_Panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG8.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG8.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Expand_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Expand_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Expand_2b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/Foam_Oribit/FOAM_AS3_alpha_0.1.01.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Firefox_Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Global_Panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Global_Panel_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Global_Panel_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/IE_Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/ISS-16x16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Info_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Info_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/LocalTime.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Map_Displays.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/Miura Project Paper - FINAL.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/Miura Project Paper.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Managed/Mono.Security.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/science-sats/NASA-Satellites-for-SkyWatch.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/NASA_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/NE2_50M_SR_W_2048.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/NE2_50M_SR_W_4096.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/NE2_LR_LC_SR_W_DR_2048.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Offline_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Offline_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/OpenStreet_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/OpenStreet_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Orbit_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Orbit_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/PREDICT/PREDICT.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_ColorCube.fla" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_ColorCube.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_Orbits.fla" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_Orbits.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_SphereSeparation.fla" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_SphereSeparation.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_Waves.fla" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_Waves.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Pause_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Pause_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Perspective.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Play_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Play_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Radio_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Radio_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Refresh_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Refresh_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/SGP4EXT.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Safari_Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/SatTitle_workshop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Sat_Panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Sat_Panel_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Sat_Panel_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/Satellite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Satellite_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Satellite_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Size_ScrollButton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Managed/System.Core.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Managed/System.Xml.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Managed/System.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Widgets/Images/TimelineIcons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Managed/UnityEngine.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/ZoomBar_Minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/ZoomBar_Plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/ZoomIn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/ZoomOut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Zoom_Minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Zoom_in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Zoom_out.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/Zoom_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Widgets/Images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Widgets/Images/animationBar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/browser-version-support.numbers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/bumpmap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/checkerboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/close-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/close-green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/cross_yellow_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/earthbump1k.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/earthcloudmaptrans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/earthspec1k.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/facility.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/icon_beer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/icon_geolocation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/land_ocean_ice_lights_2048.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/land_ocean_ice_lights_512.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/mainData" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/mao-openstreet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/map-arcgis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/map-bing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/map-static.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/matlabdot.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/mono.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Managed/mscorlib.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/normalmap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/off-display-options.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/off-fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/off-instructions.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/off-live-data.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/off-reset.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/off-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/off-select-satellite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/on-display-options.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/on-fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/on-instructions.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/on-live-data.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/on-reset.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/on-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/on-select-satellite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/resources.assets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/sgp4_CodeReadme.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/sgp4_CodeReadme.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/sharedassets0.assets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/sot-banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/tcppver.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/testcpp.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/testfor.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/testpas.EXE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/SkyBox/tycho8_mx_80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/SkyBox/tycho8_my_80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/SkyBox/tycho8_mz_80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/SkyBox/tycho8_px_80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/SkyBox/tycho8_py_80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/SkyBox/tycho8_pz_80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Resources/unity default resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Widgets/Images/viewControlBar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Assets/Textures/waterNormals.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/Images/whiteShapes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/images/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/~$ura Project Paper - FINAL.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/1999-025.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/AC_RunActiveContent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/ASTMATH.CMN" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/MODIFIED CODE/ASTMATH.CMN" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/PREDICT/ASTMATH.CMN" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/BInterpolate.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/BInterpolate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/BInterpolate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/BMatrix.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/BMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/BMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/BVector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/BVector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/BVector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/COMBINED.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Cesium.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Color.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/2.0/Browsers/Compat.browser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG1.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG1.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG2.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG2.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG3.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG3.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG4.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG4.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG5.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG5.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG6.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG6.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/DEBUG7.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/DEBUG7.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/DeepSpaceType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/ElsetRec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Eye.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/Eye.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/Eye.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Moon.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/Moon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/Moon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/NearEarthType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/com/dangries/bitmapUtilities/NoiseParticleMaker.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/ONE.TLE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/ObjectDecayed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Orbit.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/Orbit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/Orbit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/PREDICT/PREDICT.for" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/PROBLEMS.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/com/dangries/objects/Particle3D.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_ColorCube.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_Orbits.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_SphereSeparation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/ParticlesExample_Waves.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/PlanetaryOrbitEngine.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Point.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/com/dangries/geom3D/Point3D.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/com/dangries/geom3D/Quaternion.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/README.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/README_CALLSTACK.dot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/README_CALLSTACK.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/README_TRANSLATION.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/fourparticles/com/dangries/display/RotatingParticleBoard.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/SGP4-VER.TLE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/SGP4-VER.TLE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/SGP4-VER.TLE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/SGP4-VER.TLE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/SGP4-VER.TLE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/SGP4.CMN" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/MODIFIED CODE/SGP4.CMN" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/PREDICT/SGP4.CMN" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/SGP4EXT.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/SGP4IO.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/SGP4IO.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/SGP4UNIT.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/SGP4UNIT.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/MODIFIED CODE/SGP4_Classic Subroutine.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/SMD.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/SatElset.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/SatElsetException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/Sgp4Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/Sgp4Unit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/Foam_Oribit/SimpleOrbit.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Simulate.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/Simulate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/symetrical_step_method/Simulate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/src/StringTokenizer.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/TEME.TLE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/TESTFOR.FOR" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/TESTPAS.PAS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/TODO.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/pas/TPASVER.OUT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Widgets/Timeline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/tests/VERIFICATION-RESULTS-DATA.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/java/ValueOutOfRangeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/amateur.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/angl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/angl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/angl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/angl_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/angl_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/angl_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/applet_nine_planets_config.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/barcode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/browscap.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/browser-version-support.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/building-cesium.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Workers/cesiumWorkerBootstrapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/compat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/compat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/compat_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/compat_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/mconfig/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/constastro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/constastro.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/constastro.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/constastro_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/constastro_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/constastro_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/constmath.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/constmath.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/constmath.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/constmath_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/constmath_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/constmath_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/cosmos-2251-debris.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/cesium/Workers/createVerticesFromExtent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/cubesat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/days2mdh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/days2mdh.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/days2mdh.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/days2mdh_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/days2mdh_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/days2mdh_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/debug1.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/debug1.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/debug2.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/debug2.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/debug3.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/debug3.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/debug4.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/debug4.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/debug5.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/debug5.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/debug6.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/debug6.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/debug7.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/debug7.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/dmc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/doxygen.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/doxygen.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dpper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/dpper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dpper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dpper_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dpper_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dpper_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dscom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/dscom.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dscom.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dscom_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dscom_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dscom_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dsinit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/dsinit.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dsinit.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dsinit_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dsinit_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dsinit_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dspace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/dspace.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dspace.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dspace_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/dspace_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/dspace_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/earth-resource.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/education.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/engineering.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/science-sats/find_science_ids.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/galileo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/geo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/geodetic.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/science-sats/get_celestrak_files.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/science-sats/get_science_sats.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/getgravc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/getgravc.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/getgravc.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/getgravc_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/getgravc_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/getgravc_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/glo-ops.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/globalstar.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/goes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/gorizont.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/gps-ops.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/group-sats.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/gstime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/gstime.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/gstime.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/gstime_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/gstime_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/gstime_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/hello_world.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/index_crippled.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/initl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/initl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/initl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/initl_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/initl_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/initl_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/intelsat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/invjday.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/invjday.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/invjday.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/invjday_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/invjday_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/invjday_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/iridium-33-debris.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/iridium.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/isequalRel.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/iss.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/jday.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/jday.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/jday.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/jday_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/jday_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/jday_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/1.0/machine.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/2.0/machine.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/mag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/mag.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/mag.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/mag_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/mag_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/mag_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/main_backup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/math_utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/math_utils_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/math_utils_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/matlab.dot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/mcallgraph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/migrate.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/military.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/science-sats/missions_mission_titles_phases.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/js/modernizr-2.6.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/js/modernizr_load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/molniya.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/musson.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/newtonm.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/newtonnu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/newtonnu.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/newtonnu.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/newtonnu_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/newtonnu_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/newtonnu_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/nnss.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/js/redirects/no_webgl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/noaa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/js/nope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/css/not_supported.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/not_supported.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/orbcomm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/other-comm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/other.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/output_log.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/PREDICT/pos20080660002.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/PREDICT/pos20080732709.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/qunit-git.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/radar.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/raduga.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/static/js/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/resource.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/running-and-verification.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/running-with-apache.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/rv2coe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/rv2coe.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/rv2coe.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/rv2coe_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/rv2coe_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/rv2coe_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/sarsat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/sats.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/sbas.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/science.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/2.0/settings.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/sgp4-satellite-calculation.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/sgp4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/sgp4.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/sgp4.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/sgp4_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/sgp4_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/sgp4_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/sgp4ext.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/sgp4ext.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/sgp4init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/sgp4init.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/sgp4init.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/sgp4init_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/sgp4init_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/sgp4init_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/sgp4io.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/sgp4io.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/sgp4unit.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/sgp4unit.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/science-sats/skywatch-picklist.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/space-stations.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/sprintf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/stations.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/tdrss.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/test_utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/cpp/testcpp.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/testmat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/testmat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/testmat.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/testmat.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/testmat_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/testmat_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/for/tforver.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/tle-new.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/tmatver.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/toler.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/twoline2rv.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/twoline2rv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/AIAA-2006-6753/mat/twoline2rv.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/twoline2rv.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/twoline2rv_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/js/twoline2rv_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/Miura_Thesis_CD/SGP4 MATLAB/twoline2rv_test.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/tests/verify_results.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/visual.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/doc/visualization-using-cesium.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/weather.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/caltech_orbit_unity_application/explorer-win_Data/Mono/etc/mono/2.0/web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OrbitReference_Flash/isat-earth_satelite_github_master/viz/tle/x-comm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python/References/youtube-v3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.ipr" afterPath="$PROJECT_DIR$/ProductionLib.ipr" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\optimized_conversion_src\com.iad.orbitsim\TestOrbitSimulationBestBugEver.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\optimized_conversion_src\com.iad.orbitsim\TestOrbitSimulationBestBugEver2.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\optimized_conversion_src\com.iad.orbitsim\TestOrbitSimulationBestBugEver3.as" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\BInterpolate.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/BInterpolate.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\BMatrix.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/BMatrix.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\BVector.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/BVector.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Color.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Color.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Eye.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Eye.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Moon.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Moon.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Orbit.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Orbit.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Point.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Point.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\Simulate.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/Simulate.as" />
+      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\src\StringTokenizer.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/initial_conversion_src/com/iad/orbitconversion/StringTokenizer.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth.py" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_data.py" afterPath="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363995947651" ignored="false" />
-    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364002028018" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364317980620" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364322603858" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
@@ -564,7 +63,6 @@
     <file path="/Away3dLite_Experiment.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362447603152" ignored="false" />
     <file path="/OimoPhysicsAway3dIntegrationTest.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362624385349" ignored="false" />
     <file path="/Mat44.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362621352605" ignored="false" />
-    <file path="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/lights/PointLight.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362624220069" ignored="false" />
     <file path="S:/Libs_Global/Flash_IDE_JSFL/FlashExtensions/jsfl/set_component_property_on_selected_frames.jsfl" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362684145708" ignored="false" />
     <file path="S:/Libs_Global/Flash_IDE_JSFL/FlashExtensions/jsfl/set_component_props.mxi.xml" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362685926843" ignored="false" />
     <file path="/set_component_props.mxi.xml" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362685926843" ignored="false" />
@@ -626,7 +124,8 @@
     <file path="/Simulate.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364004377269" ignored="false" />
     <file path="/Color.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363994102456" ignored="false" />
     <file path="/StringTokenizer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364001296592" ignored="false" />
-    <file path="/PlanetaryOrbitEngine.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364002897148" ignored="false" />
+    <file path="/PlanetaryOrbitEngine.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364318028078" ignored="false" />
+    <file path="/TestOrbitSimulation.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364323696359" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -646,6 +145,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -682,7 +182,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -691,7 +190,28 @@
     <favorites_list name="ProductionLib" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="PlanetaryOrbitEngine.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/document_class_src/PlanetaryOrbitEngine.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="30" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#12#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestOrbitSimulation.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="223" column="27" selection-start="6532" selection-end="6532" vertical-scroll-proportion="0.28716645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -719,8 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth.py" />
-        <option value="$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_return.py" />
         <option value="$PROJECT_DIR$/OrbitReference_Flash/delta.js-master/delta.js-master/examples/solar.html" />
         <option value="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/applet_nine_planets_config.html" />
         <option value="$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/Orbit.java" />
@@ -735,6 +253,8 @@
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/src/PlanetaryOrbitEngine.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Orbit.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/src/Simulate.as" />
+        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/document_class_src/PlanetaryOrbitEngine.as" />
+        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as" />
       </list>
     </option>
   </component>
@@ -770,7 +290,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
@@ -893,43 +412,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Youtube_VideoUploadTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="References" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
+              <option name="myItemId" value="PlanetaryOrbitEngine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -946,18 +429,8 @@
               <option name="myItemId" value="PlanetaryOrbitEngine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
+              <option name="myItemId" value="optimized_conversion_src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -971,396 +444,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
+              <option name="myItemId" value="PlanetaryOrbitEngine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="science-sats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Miura_Thesis_CD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Miura_Thesis_CD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SGP4 MATLAB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Miura_Thesis_CD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PREDICT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Miura_Thesis_CD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODIFIED CODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIAA-2006-6753" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIAA-2006-6753" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIAA-2006-6753" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIAA-2006-6753" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIAA-2006-6753" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="for" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isat-earth_satelite_github_master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AIAA-2006-6753" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caltech_orbit_unity_application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbitReference_Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caltech_orbit_unity_application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="explorer-win_Data" />
+              <option name="myItemId" value="document_class_src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1374,20 +468,20 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
-    <property name="last_opened_file_path" value="$FLASH_PLAYER_DEBUGGER$/flashplayer_11_sa_debug.exe" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PlanetaryOrbitEngine/bin" />
     <property name="project.structure.side.proportion" value="0.26882967" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="JavaScriptPreferStrict" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -1421,14 +515,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Flash App.PlanetaryOrbitEngine">
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1442,6 +528,14 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -1703,22 +797,22 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32675222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.4996772" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.50032276" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1846002" sideWeight="0.4996772" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21626855" sideWeight="0.6021718" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21885087" sideWeight="0.8153998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32675222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1824,67 +918,9 @@
         <state line="0" column="0" selection-start="0" selection-end="1274" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/Color.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.27558258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/StringTokenizer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="178" selection-end="178" vertical-scroll-proportion="0.1550152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/Orbit_References/symetrical_step_method/applet_nine_planets_config.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="156" selection-start="167" selection-end="2042" vertical-scroll-proportion="0.8128898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/Moon.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="12" selection-start="4143" selection-end="4143" vertical-scroll-proportion="0.5025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/Eye.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="12" selection-start="3693" selection-end="3693" vertical-scroll-proportion="0.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/BInterpolate.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1069" selection-end="1071" vertical-scroll-proportion="0.82064515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/BVector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="31" selection-start="1770" selection-end="1772" vertical-scroll-proportion="0.33290324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/BMatrix.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="13" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.80875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/PlanetaryOrbitEngine.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="245" selection-end="245" vertical-scroll-proportion="0.255">
-          <folding />
-        </state>
+        <state line="46" column="156" selection-start="167" selection-end="2042" vertical-scroll-proportion="0.8128898" />
       </provider>
     </entry>
     <entry file="jar://$FLEX_HOME$/frameworks/libs/player/11.6/playerglobal.swc!/library.swf">
@@ -1894,42 +930,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/Point.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="399" selection-end="399" vertical-scroll-proportion="-0.4650456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/Simulate.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="443" column="29" selection-start="12201" selection-end="12201" vertical-scroll-proportion="0.39614996">
-          <folding>
-            <element signature="e#11#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/src/Orbit.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="12" selection-start="6631" selection-end="6631" vertical-scroll-proportion="0.53900707">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#1333#1360#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python/References/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="923" selection-end="923" vertical-scroll-proportion="0.68895644">
-          <folding />
-        </state>
+        <state line="40" column="8" selection-start="923" selection-end="923" vertical-scroll-proportion="0.68895644" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Youtube_VideoUploadTest/auth_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="157" selection-end="157" vertical-scroll-proportion="0.086119555">
+        <state line="5" column="27" selection-start="157" selection-end="157" vertical-scroll-proportion="0.086119555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/BVectorMatrix.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="244" selection-end="244" vertical-scroll-proportion="0.23375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/InterpolateBVector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="29" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.91375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/debug/Trident.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="19" selection-start="3932" selection-end="3932" vertical-scroll-proportion="1.9125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/document_class_src/PlanetaryOrbitEngine.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#12#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/materials/SegmentMaterial.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="334" selection-end="334" vertical-scroll-proportion="0.27625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/textures/VideoTexture.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="40" selection-start="824" selection-end="824" vertical-scroll-proportion="0.30241424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="27" selection-start="6532" selection-end="6532" vertical-scroll-proportion="0.28716645">
           <folding />
         </state>
       </provider>

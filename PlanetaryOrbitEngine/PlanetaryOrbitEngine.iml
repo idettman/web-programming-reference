@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="PlanetaryOrbitEngine">
     <configurations>
-      <configuration name="PlanetaryOrbitEngine" pure-as="true" main-class="PlanetaryOrbitEngine" output-file="PlanetaryOrbitEngine.swf" output-folder="$MODULE_DIR$/../out/production/PlanetaryOrbitEngine">
+      <configuration name="PlanetaryOrbitEngine" pure-as="true" main-class="PlanetaryOrbitEngine" output-file="PlanetaryOrbitEngine.swf" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="11.6">
           <entries>
             <entry module-name="Away3d_Lib" build-configuration-name="Away3d_Lib">

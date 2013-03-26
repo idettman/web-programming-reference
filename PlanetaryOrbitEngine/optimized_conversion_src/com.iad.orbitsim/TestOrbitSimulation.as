@@ -5,10 +5,13 @@ package com.iad.orbitsim
 	import away3d.containers.ObjectContainer3D;
 	import away3d.containers.View3D;
 	import away3d.entities.Mesh;
+	import away3d.entities.SegmentSet;
 	import away3d.lights.PointLight;
 	import away3d.materials.ColorMaterial;
 	import away3d.materials.lightpickers.StaticLightPicker;
+	import away3d.primitives.LineSegment;
 	import away3d.primitives.SphereGeometry;
+	import away3d.primitives.data.Segment;
 
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -47,19 +50,19 @@ package com.iad.orbitsim
 			addChild (view);
 			
 			camera = view.camera;
-			camera.lens = new PerspectiveLens (40);
-			camera.lens.far = 10 * SCALE_MULTIPLIER;
+			camera.lens = new PerspectiveLens (30);
+			camera.lens.far = 40 * SCALE_MULTIPLIER;
 			camera.lens.near = 0.1;
 			
 			
 			_pointlight_sun = new PointLight();
-			_pointlight_sun.castsShadows = true;
-			_pointlight_sun.shadowMapper.depthMapSize = 512;
+			//_pointlight_sun.castsShadows = true;
+			//_pointlight_sun.shadowMapper.depthMapSize = 512;
 			_pointlight_sun.z = 0;
 			_pointlight_sun.x = 0;
 			_pointlight_sun.y = 0;
 			_pointlight_sun.fallOff = 60000;
-			_pointlight_sun.radius = 10000;
+			_pointlight_sun.radius = 6000;
 			_pointlight_sun.zOffset = 0;
 			_pointlight_sun.shaderPickingDetails = false;
 			_pointlight_sun.ambient = 0.05;
@@ -69,15 +72,18 @@ package com.iad.orbitsim
 			_pointlight_sun.diffuse = 0.6;
 			_pointlight_sun.name = "_pointlight_sun";
 			view.scene.addChild (_pointlight_sun);
+
 			
 			_lightPicker = new StaticLightPicker ([_pointlight_sun]);
 		}
 
 
+		private var _segmentSet:SegmentSet;
+
 		private function initOrbitSimulation ():void
 		{
 			var substepsPerIteration:int = 8;
-			var timestepIncrement:Number = 4;
+			var timestepIncrement:Number = 100;
 			var scaleMass:Number = 0.0000000012944;
 			
 			
@@ -143,32 +149,60 @@ package com.iad.orbitsim
 					0.0000155, 9);
 
 			var sphereMesh:Mesh;
-			
+
+			_segmentSet = new SegmentSet ();
+			view.scene.addChild (_segmentSet);
+
+
+			var lastPosition:Vector3D = new Vector3D ();
+
+			var i:int;
+			var planet:PlanetaryBody;
+
 			// scale masses
-			for (var i:int = 0; i < planetaryBodyList.length; ++i)
+			for (i = 0; i < planetaryBodyList.length; ++i)
 			{
-				planetaryBodyList[i].mass *= scaleMass;
-				
-				//sphereMesh = new Mesh (new SphereGeometry (planetaryBodyList[i].radius * SCALE_MULTIPLIER));
-				sphereMesh = new Mesh (new SphereGeometry (80+planetaryBodyList[i].radius * SCALE_MULTIPLIER * 10, 64,54), new ColorMaterial(planetaryBodyList[i].color));
+				planet = planetaryBodyList[i];
+				planet.mass *= scaleMass;
+
+				sphereMesh = new Mesh (new SphereGeometry (400+planet.radius * SCALE_MULTIPLIER * 20, 64,54), new ColorMaterial(planet.color));
 				
 				if (i != 0)
 				{
 					ColorMaterial (sphereMesh.material).lightPicker = _lightPicker;
 				}
-				
 				view.scene.addChild (sphereMesh);
-				
-				planetaryBodyList[i].sphereMesh = sphereMesh;
+				planet.sphereMesh = sphereMesh;
 			}
-			
+
 			orbitSimulation = new OrbitSimulation (planetaryBodyList, timestepIncrement, substepsPerIteration);
+
+
+			// Create position debug lines
+			for (i = 0; i < planetaryBodyList.length; ++i)
+			{
+				planet = planetaryBodyList[i];
+				sphereMesh = planet.sphereMesh;
+
+				sphereMesh.x = planet.position.x * SCALE_MULTIPLIER;
+				sphereMesh.y = planet.position.y * SCALE_MULTIPLIER;
+				sphereMesh.z = planet.position.z * SCALE_MULTIPLIER;
+
+				_segmentSet.addSegment (new LineSegment (lastPosition.clone(), sphereMesh.position.clone(), 0xFF0000, 0x0000FF, 0.5));
+				lastPosition = sphereMesh.position.clone ();
+			}
 		}
 
+		private var _isFirstFrame:Boolean = true;
 
 		private function enterFrameHandler (e:Event):void
 		{
 			var planet:PlanetaryBody;
+
+
+			planet = orbitSimulation.planetaryBodies[9];
+			var lastPosition:Vector3D = planet.sphereMesh.position.clone();
+			var segment:Segment;
 			
 			for (var i:int = 0; i < orbitSimulation.planetaryBodies.length; i++)
 			{
@@ -177,19 +211,50 @@ package com.iad.orbitsim
 				planet.sphereMesh.x = planet.position.x * SCALE_MULTIPLIER;
 				planet.sphereMesh.y = planet.position.y * SCALE_MULTIPLIER;
 				planet.sphereMesh.z = planet.position.z * SCALE_MULTIPLIER;
+
+				segment = _segmentSet.getSegment (i);
+				segment.start = lastPosition.clone ();
+				lastPosition = planet.sphereMesh.position.clone ();
+				segment.end = lastPosition.clone ();
 			}
-			
-			camera.x = orbitSimulation.planetaryBodies[3].position.x + 12000;
-			camera.y = orbitSimulation.planetaryBodies[3].position.y - 6000;
-			camera.z = orbitSimulation.planetaryBodies[3].position.z - 4000;
-			camera.rotate (Vector3D.Z_AXIS, -180);
-			
-			
-			planet = orbitSimulation.planetaryBodies[4];
-			camera.lookAt (new Vector3D (planet.position.x * SCALE_MULTIPLIER, planet.position.y * SCALE_MULTIPLIER, planet.position.z * SCALE_MULTIPLIER));
-			//camera.lookAt (_globalPivot);
+
+
+
+
 			view.render ();
 			orbitSimulation.step ();
+
+			if (_isFirstFrame)
+			{
+				_isFirstFrame = false;
+
+				planet = orbitSimulation.planetaryBodies[9];
+
+				camera.position = planet.sphereMesh.position.clone ();
+				camera.moveUp (1100000);
+				camera.lookAt (planet.sphereMesh.position);
+			}
+			else
+			{
+
+				/*planet = orbitSimulation.planetaryBodies[3];
+				camera.position = planet.sphereMesh.position.clone ();
+				camera.moveUp (2000);
+
+				planet = orbitSimulation.planetaryBodies[9];
+				camera.lookAt (planet.sphereMesh.position);*/
+
+
+				/*camera.x = orbitSimulation.planetaryBodies[3].position.x + 12000;
+				 camera.y = orbitSimulation.planetaryBodies[3].position.y - 6000;
+				 camera.z = orbitSimulation.planetaryBodies[3].position.z - 4000;*/
+				//camera.rotate (Vector3D.Z_AXIS, -180);
+				/*planet = orbitSimulation.planetaryBodies[4];
+				 camera.lookAt (new Vector3D (planet.position.x * SCALE_MULTIPLIER, planet.position.y * SCALE_MULTIPLIER, planet.position.z * SCALE_MULTIPLIER));*/
+				//camera.lookAt (_globalPivot);
+
+			}
+
 		}
 		
 		private var _globalPivot:Vector3D = new Vector3D ();
