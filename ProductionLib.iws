@@ -17,8 +17,8 @@
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364324112443" ignored="false" />
-    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364322603858" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364324833838" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364324988782" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
@@ -185,30 +185,7 @@
     <favorites_list name="ProductionLib" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PlanetaryOrbitEngine.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/document_class_src/PlanetaryOrbitEngine.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#12#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestOrbitSimulation.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="16" selection-start="6858" selection-end="6858" vertical-scroll-proportion="0.7128335">
-              <folding>
-                <element signature="e#28#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -423,29 +400,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PlanetaryOrbitEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optimized_conversion_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanetaryOrbitEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="document_class_src" />
+              <option name="myItemId" value="OrbitReference_Flash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,19 +444,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\PlanetaryOrbitEngine\Reference" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\OrbitReference_Flash" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\References\working_youtube_upload_webapp" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\Youtube_VideoUploadTest" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\References" />
+    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="" />
       <recent name="lib_templates" />
       <recent name="base.display" />
       <recent name="utils" />
       <recent name="lunchwheel" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\OrbitReference_Flash" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\References\working_youtube_upload_webapp" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\Youtube_VideoUploadTest" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\References" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Python\youtube-v3" />
@@ -857,7 +812,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added debug lines connecting orbiting bodies, also changed camera to overhead pointing directly down" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera animated to move toward sun" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -871,7 +826,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Changed IntelliJ project settings" />
     <MESSAGE value="Commented out the user initiated swf file path" />
     <MESSAGE value="Changed the braces placement for the css styles" />
     <MESSAGE value="Re-ordered z-index with display attributes in css" />
@@ -896,6 +850,7 @@
     <MESSAGE value="Completed example using Google Youtube Data api to upload a video from a web app. Did not commit auth_data.py because it contains my google api data" />
     <MESSAGE value="Added missing file for last commit. Removed all personal info from auth_data.py so the example code is complete for the youtube video upload" />
     <MESSAGE value="Added debug lines connecting orbiting bodies, also changed camera to overhead pointing directly down" />
+    <MESSAGE value="Camera animated to move toward sun" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -958,15 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/document_class_src/PlanetaryOrbitEngine.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#12#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/materials/SegmentMaterial.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="42" selection-start="334" selection-end="334" vertical-scroll-proportion="0.27625">
@@ -983,9 +929,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/TestOrbitSimulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="16" selection-start="6858" selection-end="6858" vertical-scroll-proportion="0.7128335">
+        <state line="233" column="16" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.67598474">
           <folding>
             <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/document_class_src/PlanetaryOrbitEngine.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="284" selection-end="284" vertical-scroll-proportion="0.27625">
+          <folding>
+            <element signature="e#12#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1043,11 +998,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>PlanetaryOrbitEngine|PlanetaryOrbitEngine</last-edited>
+          <last-edited>GreenSock-AS3-master</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.26882967" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -229,7 +229,6 @@ package com.iad.orbitsim
 				_isFirstFrame = false;
 
 				planet = orbitSimulation.planetaryBodies[9];
-
 				camera.position = planet.sphereMesh.position.clone ();
 				camera.moveUp (1100000);
 				camera.lookAt (planet.sphereMesh.position);
