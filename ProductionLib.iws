@@ -6,7 +6,7 @@
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364435687079" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364435750641" ignored="false" />
     <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364406005821" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
@@ -714,7 +714,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated away3d to latest in github dev branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update root intellij project file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -728,7 +728,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Changed the braces placement for the css styles" />
     <MESSAGE value="Re-ordered z-index with display attributes in css" />
     <MESSAGE value="Missed adding semi-colon to end of swfobject param" />
     <MESSAGE value="fixed formatting" />
@@ -753,6 +752,7 @@
     <MESSAGE value="Added debug lines connecting orbiting bodies, also changed camera to overhead pointing directly down" />
     <MESSAGE value="Camera animated to move toward sun" />
     <MESSAGE value="Updated away3d to latest in github dev branch" />
+    <MESSAGE value="Update root intellij project file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="test" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+<defs>
+	<symbol id="testSymbol" viewBox="0 0 20 20">
+		<rect x="1" y="1" width="8" height="8"/>
+		<rect x="11" y="1" width="8" height="8"/>
+		<rect x="1" y="11" width="8" height="8"/>
+		<rect x="11" y="11" width="8" height="8"/>
+		<rect x="0" y="0" width="20" height="20" fill="none" stroke="blue"/>
+	</symbol>
+</defs>
+
+<rect x="36.5" y="18.5" fill="#2B67B2" width="92.409" height="77.663"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="283.8918" y1="38.27" x2="354.6738" y2="83.4918">
+	<stop  offset="0" style="stop-color:#2353A4"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect x="267.522" y="18.5" fill="url(#SVGID_1_)" width="92.41" height="77.663"/>
+<rect x="152.011" y="18.5" fill="#F3ED50" stroke="#D1281A" stroke-width="5" width="92.409" height="77.663"/>
+<rect x="36.5" y="18.5" fill="#2B67B2" width="92.409" height="77.663" rx="15" ry="15" transform="translate(350,0)" />
+
+<circle fill="#2B67B2" cx="83.688" cy="166.944" r="43.255"/>
+<circle fill="#F3ED50" stroke="#D1281A" stroke-width="5" cx="199.69" cy="166.944" r="43.255"/>
+<radialGradient id="SVGID_2_" cx="331.3889" cy="187.5889" r="58.4077" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#2353A4"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</radialGradient>
+<circle fill="url(#SVGID_2_)" cx="314.677" cy="166.944" r="43.255"/>
+
+<radialGradient id="SVGID_3_" cx="0.5" cy="0.5" r="0.5" fx="0.75" fy="0.75">
+	<stop  offset="0.2086" style="stop-color:#FF45BB"/>
+	<stop  offset="0.6135" style="stop-color:#FFA62E"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</radialGradient>
+<ellipse fill="url(#SVGID_3_)" cx="432.052" cy="166.944" rx="57.51" ry="43.255"/>
+
+<line fill="#0F53A4" stroke="#231815" stroke-width="0.25" x1="43.5" y1="257.5" x2="124.5" y2="257.5"/>
+<line fill="#0F53A4" stroke="#231815" stroke-width="2" x1="43.5" y1="275.5" x2="124.5" y2="275.5"/>
+<line fill="#0F53A4" stroke="#231815" stroke-width="3" x1="43.5" y1="293.5" x2="124.5" y2="293.5"/>
+<line fill="#0F53A4" stroke="#231815" stroke-width="4" x1="43.5" y1="311.5" x2="124.5" y2="311.5"/>
+
+<polygon fill="#0F53A4" stroke="#231815" stroke-width="0.25" points="163.5,256.5 163.5,315.5 233.5,315.5 233.5,281.5 190.5,281.5 "/>
+
+<g>
+	<circle fill="#2B67B2" cx="295.688" cy="263.944" r="23.255"/>
+	<circle fill="#A5BFDD" cx="342.688" cy="263.944" r="23.255"/>
+	<circle fill="#4B7EBB" cx="318.755" cy="303.944" r="23.255"/>
+</g>
+
+<use x="400" y="250" width="80" height="80" xlink:href="#testSymbol" />
+
+</svg>
