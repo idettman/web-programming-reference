@@ -25,7 +25,11 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="ProjectCodeStyleSettingsManager">
     <option name="PER_PROJECT_SETTINGS">
-      <value />
+      <value>
+        <XML>
+          <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+        </XML>
+      </value>
     </option>
   </component>
   <component name="ProjectDictionaryState">
@@ -40,6 +44,7 @@
       <module fileurl="file://$PROJECT_DIR$/AbstractBase_Lib/AbstractBase_Lib.iml" filepath="$PROJECT_DIR$/AbstractBase_Lib/AbstractBase_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/actuate/Actuate_Lib.iml" filepath="$PROJECT_DIR$/actuate/Actuate_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" filepath="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ash-master/Ash_Lib.iml" filepath="$PROJECT_DIR$/Ash-master/Ash_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" filepath="$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" filepath="$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Flare-master/Flare_Lib.iml" filepath="$PROJECT_DIR$/Flare-master/Flare_Lib.iml" />
@@ -54,7 +59,7 @@
       <module fileurl="file://$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" filepath="$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="AIRSDK_Compiler" project-jdk-type="Flex SDK Type (new)">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
