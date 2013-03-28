@@ -1,6 +1,7 @@
 package away3d.materials.passes {
-	import away3d.animators.IAnimationSet;
 	import away3d.animators.data.AnimationRegisterCache;
+	import flash.display3D.Context3DTextureFormat;
+	import away3d.animators.IAnimationSet;
 	import away3d.arcane;
 	import away3d.cameras.Camera3D;
 	import away3d.core.base.IRenderable;
@@ -16,13 +17,13 @@ package away3d.materials.passes {
 	import flash.display3D.Context3DBlendFactor;
 	import flash.display3D.Context3DCompareMode;
 	import flash.display3D.Context3DProgramType;
+	import flash.display3D.Context3DTextureFormat;
 	import flash.display3D.Context3DTriangleFace;
 	import flash.display3D.Program3D;
 	import flash.display3D.textures.TextureBase;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.geom.Rectangle;
-
 
 	use namespace arcane;
 

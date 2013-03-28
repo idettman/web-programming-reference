@@ -2,7 +2,6 @@ package away3d.paths
 {
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * Holds information about a single Path definition.
 	 * DEBUG OPTION OUT AT THIS TIME OF DEV

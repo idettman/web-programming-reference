@@ -7,7 +7,6 @@ package away3d.textures
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 
-
 	public class SplatBlendBitmapTexture extends BitmapTexture
 	{
 		[Embed(source="/../pb/NormalizeSplats.pbj", mimeType="application/octet-stream")]

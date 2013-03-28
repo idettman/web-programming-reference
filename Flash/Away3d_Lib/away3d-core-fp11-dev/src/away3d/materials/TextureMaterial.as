@@ -2,8 +2,8 @@
 	import away3d.arcane;
 	import away3d.textures.Texture2DBase;
 
+	import flash.display3D.Context3DTextureFormat;
 	import flash.geom.ColorTransform;
-
 
 	use namespace arcane;
 

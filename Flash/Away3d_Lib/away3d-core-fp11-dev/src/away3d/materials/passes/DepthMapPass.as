@@ -4,11 +4,12 @@
 	import away3d.cameras.Camera3D;
 	import away3d.core.base.IRenderable;
 	import away3d.core.managers.Stage3DProxy;
+	import away3d.materials.lightpickers.LightPickerBase;
 	import away3d.textures.Texture2DBase;
 
 	import flash.display3D.Context3DProgramType;
 	import flash.display3D.Context3DTextureFormat;
-
+	import flash.display3D.Context3DVertexBufferFormat;
 
 	use namespace arcane;
 
@@ -96,7 +97,7 @@
 			if (_smooth) filter = _mipmap ? "linear,miplinear" : "linear";
 			else filter = _mipmap ? "nearest,mipnearest" : "nearest";
 
-			var code : String =
+			var codeF : String =
 					"div ft2, v0, v0.w		\n" +
 					"mul ft0, fc0, ft2.z	\n" +
 					"frc ft0, ft0			\n" +
@@ -114,14 +115,14 @@
 					default:
 						format = "";
 				}
-				code += "tex ft3, v1, fs0 <2d,"+filter+","+format+wrap+">\n" +
+				codeF += "tex ft3, v1, fs0 <2d,"+filter+","+format+wrap+">\n" +
 						"sub ft3.w, ft3.w, fc2.x\n" +
 						"kil ft3.w\n";
 			}
 
-			code += "sub oc, ft0, ft1		\n";
+			codeF += "sub oc, ft0, ft1		\n";
 
-			return code;
+			return codeF;
 		}
 
 		/**

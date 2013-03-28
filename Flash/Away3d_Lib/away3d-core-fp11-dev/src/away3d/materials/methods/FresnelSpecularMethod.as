@@ -6,6 +6,7 @@ package away3d.materials.methods
 	import away3d.materials.compilation.ShaderRegisterData;
 	import away3d.materials.compilation.ShaderRegisterElement;
 
+	import flash.display3D.Context3DProgramType;
 
 	use namespace arcane;
 

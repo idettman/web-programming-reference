@@ -2,7 +2,6 @@ package away3d.loaders.parsers
 {
 	import away3d.loaders.misc.SingleFileLoader;
 
-
 	public class Parsers
 	{
 		/**

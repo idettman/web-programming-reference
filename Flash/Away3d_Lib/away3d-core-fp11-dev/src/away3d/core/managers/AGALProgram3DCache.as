@@ -11,7 +11,6 @@ package away3d.core.managers
 	import flash.display3D.Program3D;
 	import flash.utils.ByteArray;
 
-
 	use namespace arcane;
 
 	public class AGALProgram3DCache

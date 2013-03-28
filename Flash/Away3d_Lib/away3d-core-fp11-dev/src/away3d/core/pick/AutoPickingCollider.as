@@ -1,10 +1,9 @@
 package away3d.core.pick
 {
 	import away3d.core.base.*;
-
+	
 	import flash.geom.*;
-
-
+	
 	/**
 	 * Auto-selecting picking collider for entity objects. Used with the <code>RaycastPicker</code> picking object.
 	 * Chooses between pure AS3 picking and PixelBender picking based on a threshold property representing

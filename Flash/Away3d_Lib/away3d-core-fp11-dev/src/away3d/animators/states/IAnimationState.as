@@ -1,8 +1,7 @@
 package away3d.animators.states
 {
 	import flash.geom.*;
-
-
+	
 	public interface IAnimationState
 	{
 		function get positionDelta() : Vector3D;

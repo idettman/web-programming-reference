@@ -1,15 +1,17 @@
 package away3d.tools.commands
 {
 	import away3d.arcane;
+	import away3d.bounds.AxisAlignedBoundingBox;
 	import away3d.bounds.BoundingVolumeBase;
 	import away3d.containers.ObjectContainer3D;
+	import away3d.core.base.CompactSubGeometry;
 	import away3d.core.base.Geometry;
 	import away3d.core.base.ISubGeometry;
 	import away3d.entities.Mesh;
 	import away3d.tools.utils.GeomUtil;
-
+	
 	import flash.geom.Matrix3D;
-
+	import flash.geom.Vector3D;
 
 	use namespace arcane;
 	

@@ -6,7 +6,6 @@ package away3d.filters
 
 	import flash.display3D.textures.Texture;
 
-
 	public class BlurFilter3D extends Filter3DBase
 	{
 		private var _hBlurTask : Filter3DHBlurTask;

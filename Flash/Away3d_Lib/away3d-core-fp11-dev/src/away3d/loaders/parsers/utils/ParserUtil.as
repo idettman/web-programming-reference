@@ -2,7 +2,6 @@ package away3d.loaders.parsers.utils
 {
 	import flash.utils.ByteArray;
 
-
 	public class ParserUtil
 	{
 		public static function toByteArray(data : *) : ByteArray

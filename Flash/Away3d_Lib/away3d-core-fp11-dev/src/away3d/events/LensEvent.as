@@ -7,7 +7,6 @@ package away3d.events
 
 	import flash.events.Event;
 
-
 	public class LensEvent extends Event
 	{
 		public static const MATRIX_CHANGED : String = "matrixChanged";

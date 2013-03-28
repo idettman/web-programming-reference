@@ -2,8 +2,7 @@ package away3d.animators.nodes
 {
 	import away3d.animators.*;
 	import away3d.animators.states.*;
-
-
+	
 	/**
 	 * A skeleton animation node that uses four directional input poses with an input direction to blend a linearly interpolated output of a skeleton pose.
 	 */

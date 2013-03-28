@@ -7,7 +7,6 @@ package away3d.textures
 	import flash.display.BitmapData;
 	import flash.display3D.textures.TextureBase;
 
-
 	use namespace arcane;
 
 	public class BitmapCubeTexture extends CubeTextureBase

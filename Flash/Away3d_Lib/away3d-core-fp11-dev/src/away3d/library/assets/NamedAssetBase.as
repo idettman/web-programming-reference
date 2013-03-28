@@ -5,7 +5,6 @@ package away3d.library.assets
 
 	import flash.events.EventDispatcher;
 
-
 	use namespace arcane;
 	
 	public class NamedAssetBase extends EventDispatcher

@@ -9,7 +9,6 @@
 
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * Creates a new <code>Trident</code> object.
 	 *

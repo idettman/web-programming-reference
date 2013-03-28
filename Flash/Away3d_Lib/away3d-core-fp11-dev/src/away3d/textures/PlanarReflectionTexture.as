@@ -18,7 +18,6 @@ package away3d.textures
 	import flash.geom.Rectangle;
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	/**

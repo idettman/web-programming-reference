@@ -4,7 +4,7 @@ package away3d.materials.methods
 	import away3d.events.ShadingMethodEvent;
 
 	import flash.events.EventDispatcher;
-
+	import flash.events.ShaderEvent;
 
 	use namespace arcane;
 

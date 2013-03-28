@@ -2,7 +2,6 @@ package away3d.tools.utils
 {
 	import flash.display.BitmapData;
 
-
 	public class TextureUtils
 	{
 		private static const MAX_SIZE : uint = 2048;

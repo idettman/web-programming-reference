@@ -2,7 +2,6 @@
 {
 	import flash.events.Event;
 
-
 	/**
 	 * LoaderEvent is an Event dispatched to notify changes in loading state.
 	 */

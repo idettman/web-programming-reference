@@ -6,6 +6,7 @@ package away3d.materials.methods {
 	import away3d.textures.Texture2DBase;
 	import away3d.textures.TextureProxyBase;
 
+	import flash.display3D.Context3DTextureFormat;
 
 	use namespace arcane;
 

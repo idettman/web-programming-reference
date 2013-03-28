@@ -1,18 +1,15 @@
 package away3d.tools.helpers
 {
+	import away3d.core.base.ParticleGeometry;
 	import away3d.core.base.CompactSubGeometry;
+	import away3d.core.base.data.ParticleData;
 	import away3d.core.base.Geometry;
 	import away3d.core.base.ISubGeometry;
-	import away3d.core.base.ParticleGeometry;
-	import away3d.core.base.data.ParticleData;
 	import away3d.tools.helpers.data.ParticleGeometryTransform;
-
 	import flash.geom.Matrix;
 	import flash.geom.Matrix3D;
 	import flash.geom.Point;
 	import flash.geom.Vector3D;
-
-
 	/**
 	 * ...
 	 */

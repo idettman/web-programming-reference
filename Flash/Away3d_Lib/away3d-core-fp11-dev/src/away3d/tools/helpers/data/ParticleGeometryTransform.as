@@ -2,8 +2,7 @@ package away3d.tools.helpers.data
 {
 	import flash.geom.Matrix;
 	import flash.geom.Matrix3D;
-
-
+	
 	/**
 	 * ...
 	 */
@@ -12,6 +11,9 @@ package away3d.tools.helpers.data
 		private var _defaultVertexTransform:Matrix3D;
 		private var _defaultInvVertexTransform:Matrix3D;
 		private var _defaultUVTransform:Matrix;
+		
+		public function ParticleGeometryTransform() {
+		}
 		
 		public function set vertexTransform(value:Matrix3D):void
 		{

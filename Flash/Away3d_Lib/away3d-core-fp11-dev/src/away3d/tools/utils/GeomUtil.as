@@ -4,8 +4,7 @@ package away3d.tools.utils
 	import away3d.core.base.CompactSubGeometry;
 	import away3d.core.base.ISubGeometry;
 	import away3d.core.base.SkinnedSubGeometry;
-
-
+	
 	use namespace arcane;
 
 	public class GeomUtil

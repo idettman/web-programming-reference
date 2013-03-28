@@ -6,8 +6,7 @@ package away3d.animators.nodes
 	import away3d.animators.states.*;
 	import away3d.materials.compilation.*;
 	import away3d.materials.passes.*;
-
-
+	
 	use namespace arcane;
 	
 	/**

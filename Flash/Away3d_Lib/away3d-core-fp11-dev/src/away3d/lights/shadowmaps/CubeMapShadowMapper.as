@@ -10,8 +10,8 @@ package away3d.lights.shadowmaps
 	import away3d.textures.TextureProxyBase;
 
 	import flash.display3D.textures.TextureBase;
-	import flash.geom.Vector3D;
 
+	import flash.geom.Vector3D;
 
 	use namespace arcane;
 

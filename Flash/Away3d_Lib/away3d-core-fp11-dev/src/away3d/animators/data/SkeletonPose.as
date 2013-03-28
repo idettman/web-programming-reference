@@ -1,8 +1,7 @@
 package away3d.animators.data
 {
 	import away3d.library.assets.*;
-
-
+	
 	/**
 	 * A collection of pose objects, determining the pose for an entire skeleton.
 	 * The <code>jointPoses</code> vector object corresponds to a skeleton's <code>joints</code> vector object, however, there is no

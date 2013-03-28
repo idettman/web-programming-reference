@@ -13,7 +13,6 @@ package away3d.lights
 	import flash.geom.Matrix3D;
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	/**

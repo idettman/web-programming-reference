@@ -6,8 +6,8 @@ package away3d.animators
 	import away3d.materials.passes.MaterialPassBase;
 
 	import flash.display3D.Context3D;
-	import flash.utils.Dictionary;
 
+	import flash.utils.Dictionary;
 
 	use namespace arcane;
 

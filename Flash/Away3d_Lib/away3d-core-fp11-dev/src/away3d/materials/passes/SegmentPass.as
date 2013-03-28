@@ -1,5 +1,6 @@
 ﻿package away3d.materials.passes
 {
+	import away3d.animators.IAnimator;
 	import away3d.arcane;
 	import away3d.cameras.Camera3D;
 	import away3d.core.base.IRenderable;
@@ -7,8 +8,9 @@
 
 	import flash.display3D.Context3D;
 	import flash.display3D.Context3DProgramType;
+	import flash.display3D.Context3DVertexBufferFormat;
+	import flash.display3D.VertexBuffer3D;
 	import flash.geom.Matrix3D;
-
 
 	use namespace arcane;
 

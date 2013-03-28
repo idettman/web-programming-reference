@@ -7,7 +7,6 @@ package away3d.tools.helpers
 	import away3d.lights.LightBase;
 	import away3d.materials.lightpickers.StaticLightPicker;
 
-
 	/**
 	* Helper Class for the LightBase objects <code>LightsHelper</code>
 	* A series of methods to ease work with LightBase objects 

@@ -4,7 +4,6 @@
 
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * A Line Segment primitive.
 	 */

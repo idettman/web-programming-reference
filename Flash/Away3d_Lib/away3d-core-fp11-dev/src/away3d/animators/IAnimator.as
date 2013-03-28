@@ -7,8 +7,7 @@ package away3d.animators
 	import away3d.core.managers.*;
 	import away3d.entities.*;
 	import away3d.materials.passes.*;
-
-
+	
 	/**
 	 * Provides an interface for animator classes that control animation output from a data set subtype of <code>AnimationSetBase</code>.
 	 *

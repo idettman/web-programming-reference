@@ -4,7 +4,6 @@ package away3d.materials
 	import away3d.materials.passes.SkyBoxPass;
 	import away3d.textures.CubeTextureBase;
 
-
 	use namespace arcane;
 
 	/**

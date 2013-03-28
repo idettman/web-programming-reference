@@ -1,9 +1,10 @@
 package away3d.core.partition
 {
 	import away3d.arcane;
+	import away3d.core.traverse.EntityCollector;
 	import away3d.core.traverse.PartitionTraverser;
+	import away3d.core.traverse.ShadowCasterCollector;
 	import away3d.entities.Entity;
-
 
 	use namespace arcane;
 
@@ -137,7 +138,7 @@ package away3d.core.partition
 				//call an internal update on the entity to fire any attached logic
 				node.entity.internalUpdate();
 				
-			} while (node = t);
+			} while ((node = t) != null);
 		}
 	}
 }

@@ -2,7 +2,6 @@ package away3d.materials.methods
 {
 	import away3d.arcane;
 
-
 	public class MethodVOSet
 	{
 		use namespace arcane;

@@ -6,7 +6,6 @@ package away3d.filters
 
 	import flash.display3D.textures.Texture;
 
-
 	public class Filter3DBase
 	{
 		private var _tasks : Vector.<Filter3DTaskBase>;

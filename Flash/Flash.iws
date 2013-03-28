@@ -1,10 +1,527 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="" />
+    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/CCDPool_2D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/CCDPool_3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/ClothSimulation.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/CollidablePath.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/CurveMotion.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/DelaunayTriangulation.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/DynamicLightingTechnique_2D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Dynamic_SpinningActivityIndicator.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/EffectExplorer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/ElementAutoPanning.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/EquationDisplayer.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/FindTriangleInCircle.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/FireworkEffect_3DLighting.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/FlashTip_NaturalMotions.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/FlashTip_PerlinNoise.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/FlashTip_VerletIntroduction.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Frocessing_Lib/Frocessing_Lib.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/GamePhysics_JumpAndFall.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Game_2D_Shooter.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Game_EatCircles.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Game_TankFiresBlock.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Game_TypingCommand.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Gear.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/HitTest_Arc_vs_Point.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/animators/nodes/IAnimationNode.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/LiquidSimulation.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/MilkRipple.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinimalComps_Lib/MinimalComps_Lib.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Octophobia.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/OimoPhysics_WonderflTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/OptimizedMinecraft.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/ParticleProperties_SandWaterWall.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/PixelateEffectsByShape.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/PolygonEdgeRemove.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/PrismColorDrawing.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/RandomParticleMotion_Stage3D.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/ReallyPrivateNamespaceTest.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/Sand.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/ScreenspaceAmbientOcclusion.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/SimpleProjectilePrediction.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/SmokeyFluid.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/ThrowBall.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/TreFoilKnot.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/UndulatingWave_DisplacementFilter.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Effects_Lib/src/VeryStableCollisionResolver.as" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\AnimationSetBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\AnimatorBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\IAnimationSet.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\IAnimator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\ParticleAnimationSet.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\ParticleAnimator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\PathAnimator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\SkeletonAnimationSet.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\SkeletonAnimator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\UVAnimationSet.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\UVAnimator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\VertexAnimationSet.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\VertexAnimator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\data\AnimationRegisterCache.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\data\AnimationSubGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\data\JointPose.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\data\ParticleAnimationData.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\data\ParticleProperties.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\data\Skeleton.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\data\SkeletonPose.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\AnimationClipNodeBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\AnimationNodeBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleAccelerationNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleBezierCurveNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleBillboardNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleColorNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleFollowNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleNodeBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleOrbitNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleOscillatorNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticlePositionNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleRotateToHeadingNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleRotationalVelocityNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleScaleNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleSpriteSheetNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleTimeNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleUVNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\ParticleVelocityNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\SkeletonBinaryLERPNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\SkeletonClipNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\SkeletonDifferenceNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\SkeletonDirectionalNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\SkeletonNaryLERPNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\UVClipNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\nodes\VertexClipNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\AnimationClipState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\AnimationStateBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\IAnimationState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ISkeletonAnimationState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\IUVAnimationState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\IVertexAnimationState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleAccelerationState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleBezierCurveState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleBillboardState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleColorState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleFollowState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleOrbitState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleOscillatorState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticlePositionState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleRotateToHeadingState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleRotationalVelocityState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleScaleState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleSpriteSheetState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleStateBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleTimeState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleUVState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\ParticleVelocityState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\SkeletonBinaryLERPState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\SkeletonClipState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\SkeletonDifferenceState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\SkeletonDirectionalState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\SkeletonNaryLERPState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\UVClipState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\states\VertexClipState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\transitions\CrossfadeTransition.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\transitions\CrossfadeTransitionNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\transitions\CrossfadeTransitionState.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\transitions\IAnimationTransition.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\animators\utils\SkeletonUtils.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\audio\Sound3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\audio\SoundTransform3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\audio\drivers\AbstractSound3DDriver.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\audio\drivers\ISound3DDriver.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\audio\drivers\SimplePanVolumeDriver.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\bounds\AxisAlignedBoundingBox.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\bounds\BoundingSphere.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\bounds\BoundingVolumeBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\bounds\NullBounds.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\cameras\Camera3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\cameras\lenses\FreeMatrixLens.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\cameras\lenses\LensBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\cameras\lenses\ObliqueNearPlaneLens.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\cameras\lenses\OrthographicLens.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\cameras\lenses\OrthographicOffCenterLens.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\cameras\lenses\PerspectiveLens.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\containers\ObjectContainer3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\containers\Scene3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\containers\View3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\controllers\ControllerBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\controllers\FirstPersonController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\controllers\FollowController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\controllers\HoverController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\controllers\LookAtController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\controllers\SpringController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\CompactSubGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\Geometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\IMaterialOwner.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\IRenderable.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\ISubGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\Object3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\ParticleGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\SkinnedSubGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\SubGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\SubGeometryBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\SubMesh.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\data\Face.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\data\ParticleData.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\base\data\Vertex.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\data\EntityListItem.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\data\RenderableListItem.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\managers\AGALProgram3DCache.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\managers\Mouse3DManager.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\managers\RTTBufferManager.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\managers\Stage3DManager.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\managers\Stage3DProxy.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\math\Matrix3DUtils.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\math\Plane3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\math\Quaternion.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\math\Vector3DUtils.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\CameraNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\DirectionalLightNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\DynamicGrid.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\EntityNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\InvertedOctreeNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\LightNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\LightProbeNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\MeshNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\NodeBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\Octree.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\OctreeNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\Partition3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\PointLightNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\QuadTree.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\QuadTreeNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\RenderableNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\SkyBoxNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\ViewVolume.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\ViewVolumePartition.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\partition\ViewVolumeRootNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\AS3PickingCollider.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\AutoPickingCollider.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\IPicker.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\IPickingCollider.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\PBPickingCollider.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\PickingColliderBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\PickingCollisionVO.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\RaycastPicker.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\pick\ShaderPicker.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\render\BackgroundImageRenderer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\render\DefaultRenderer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\render\DepthRenderer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\render\Filter3DRenderer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\render\PositionRenderer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\render\RendererBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\sort\IEntitySorter.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\sort\RenderableMergeSort.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\traverse\EntityCollector.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\traverse\PartitionTraverser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\traverse\RaycastCollector.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\traverse\SceneIterator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\core\traverse\ShadowCasterCollector.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\debug\AwayStats.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\debug\Trident.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\debug\WireframeAxesGrid.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\debug\data\TridentLines.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\entities\Entity.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\entities\Mesh.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\entities\SegmentSet.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\entities\Sprite3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\entities\TextureProjector.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\AnimationStateEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\AnimatorEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\AssetEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\CameraEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\GeometryEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\LensEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\LightEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\LoaderEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\MouseEvent3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\Object3DEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\ParserEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\PathEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\Scene3DEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\ShadingMethodEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\events\Stage3DEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\extrusions\DelaunayMesh.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\extrusions\Elevation.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\extrusions\LatheExtrude.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\extrusions\LinearExtrude.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\extrusions\PathDuplicator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\extrusions\PathExtrude.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\extrusions\SkinExtrude.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\BloomFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\BlurFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\DepthOfFieldFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\Filter3DBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\HBlurFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\HDepthOfFieldFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\HueSaturationFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\MotionBlurFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\RadialBlurFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\VBlurFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\VDepthOfFieldFilter3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DBrightPassTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DCompositeTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DDoubleBufferCopyTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DHBlurTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DHDepthOfFFieldTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DHueSaturationTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DRadialBlurTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DTaskBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DVBlurTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DVDepthOfFFieldTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\filters\tasks\Filter3DXFadeCompositeTask.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\AssetLibrary.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\AssetLibraryBundle.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\assets\BitmapDataAsset.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\assets\IAsset.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\assets\NamedAssetBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\naming\ConflictStrategyBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\naming\ErrorConflictStrategy.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\naming\IgnoreConflictStrategy.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\naming\NumSuffixConflictStrategy.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\library\utils\AssetLibraryIterator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\DirectionalLight.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\LightBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\LightProbe.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\PointLight.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\shadowmaps\CascadeShadowMapper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\shadowmaps\CubeMapShadowMapper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\shadowmaps\DirectionalShadowMapper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\shadowmaps\NearDirectionalShadowMapper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\lights\shadowmaps\ShadowMapperBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\AssetLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\Loader3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\misc\AssetLoaderContext.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\misc\AssetLoaderToken.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\misc\ResourceDependency.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\misc\SingleFileLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\AC3DParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\AWD1Parser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\AWD2Parser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\AWDParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\DAEParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\DXFParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\ImageParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\MD2Parser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\MD5AnimParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\MD5MeshParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\Max3DSParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\OBJParser.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\ParserBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\Parsers.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\loaders\parsers\utils\ParserUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\ColorMaterial.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\ColorMultiPassMaterial.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\MaterialBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\MultiPassMaterialBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\SegmentMaterial.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\SinglePassMaterialBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\SkyBoxMaterial.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\TextureMaterial.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\TextureMultiPassMaterial.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\compilation\LightingShaderCompiler.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\compilation\MethodDependencyCounter.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\compilation\ShaderCompiler.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\compilation\ShaderRegisterCache.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\compilation\ShaderRegisterData.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\compilation\SuperShaderCompiler.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\lightpickers\LightPickerBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\lightpickers\StaticLightPicker.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\AlphaMaskMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\AnisotropicSpecularMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\BasicAmbientMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\BasicDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\BasicNormalMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\BasicSpecularMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\CascadeShadowMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\CelDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\CelSpecularMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\ColorMatrixMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\ColorTransformMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\CompositeDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\CompositeSpecularMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\DepthDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\DitheredShadowMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\EffectMethodBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\EnvMapAmbientMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\EnvMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\FilteredShadowMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\FogMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\FresnelEnvMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\FresnelPlanarReflectionMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\FresnelSpecularMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\GradientDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\HardShadowMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\HeightMapNormalMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\LightMapDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\LightMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\LightingMethodBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\MethodVO.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\MethodVOSet.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\NearShadowMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\OutlineMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\PlanarReflectionMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\ProjectiveTextureMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\RefractionEnvMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\RimLightMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\ShaderMethodSetup.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\ShadingMethodBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\ShadowMapMethodBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\SimpleShadowMapMethodBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\SimpleWaterNormalMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\SoftShadowMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\SubsurfaceScatteringDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\TerrainDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\TripleFilteredShadowMapMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\methods\WrapDiffuseMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\CompiledPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\DepthMapPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\DistanceMapPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\LightingPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\MaterialPassBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\OutlinePass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\SegmentPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\ShadowCasterPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\SingleObjectDepthPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\SkyBoxPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\passes\SuperShaderPass.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\utils\DefaultMaterialManager.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\utils\IVideoPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\utils\MipmapGenerator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\utils\MultipleMaterials.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\utils\SimpleVideoPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\materials\utils\WireframeMapGenerator.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\paths\CubicPath.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\paths\CubicPathSegment.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\paths\IPath.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\paths\IPathSegment.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\paths\QuadraticPath.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\paths\QuadraticPathSegment.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\paths\SegmentedPathBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\CapsuleGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\CubeGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\CylinderGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\LineSegment.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\NURBSGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\PlaneGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\PrimitiveBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\SkyBox.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\SphereGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\TorusGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\WireframeCube.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\WireframeCylinder.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\WireframePlane.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\WireframePrimitiveBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\WireframeSphere.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\WireframeTetrahedron.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\data\NURBSVertex.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\primitives\data\Segment.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\stereo\StereoCamera3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\stereo\StereoRenderer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\stereo\StereoView3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\stereo\methods\AnaglyphStereoRenderMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\stereo\methods\InterleavedStereoRenderMethod.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\stereo\methods\StereoRenderMethodBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\ATFCubeTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\ATFData.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\ATFTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\BitmapCubeTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\BitmapTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\BitmapTextureCache.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\CubeReflectionTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\CubeTextureBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\PlanarReflectionTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\RenderCubeTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\RenderTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\SpecularBitmapTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\SplatBlendBitmapTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\Texture2DBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\TextureProxyBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\VideoTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\textures\WebcamTexture.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\commands\Align.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\commands\Explode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\commands\Merge.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\commands\Mirror.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\commands\Weld.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\helpers\FaceHelper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\helpers\LightsHelper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\helpers\MeshDebugger.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\helpers\MeshHelper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\helpers\ParticleGeometryHelper.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\helpers\data\MeshDebug.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\helpers\data\ParticleGeometryTransform.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\serialize\Serialize.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\serialize\SerializerBase.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\serialize\TraceSerializer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\Bounds.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\ColorHitMap.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\Drag3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\GeomUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\Grid.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\Projector.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\Ray.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\tools\utils\TextureUtils.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\away3d\utils\Cast.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\Away3D.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\animators\data\ParticlePropertiesMode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\animators\data\SkeletonJoint.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\animators\data\UVAnimationFrame.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\animators\data\VertexAnimationMode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\arcane.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\away3d-license.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\base\data\UV.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\data\EntityListItemPool.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\data\RenderableListItemPool.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\math\MathConsts.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\math\PlaneClassification.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\partition\NullNode.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\pick\PickingColliderType.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\core\pick\PickingType.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\debug\Debug.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\errors\AbstractMethodError.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\errors\AnimationSetError.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\errors\CastError.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\errors\DeprecationError.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\errors\InvalidTextureError.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\library\assets\AssetType.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\library\naming\ConflictPrecedence.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\library\naming\ConflictStrategy.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\loaders\parsers\ParserDataFormat.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\materials\LightSources.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\materials\compilation\RegisterPool.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\materials\compilation\ShaderRegisterElement.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\materials\methods\SpecularShadingModel.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\primitives\ConeGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\primitives\RegularPolygonGeometry.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Away3d_Lib\away3d-core-fp11-dev\src\wonderfl\away3d\utils\GeometryUtil.as" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swf" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/com/adobe/utils/AGALMiniAssembler.as" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/com/adobe/utils/AGALMiniAssembler.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.ipr" afterPath="$PROJECT_DIR$/Flash.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProductionLib.ipr" afterPath="$PROJECT_DIR$/../ProductionLib.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProductionLib.iws" afterPath="$PROJECT_DIR$/../ProductionLib.iws" />
+    </list>
     <ignored path="Flash.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364326834434" ignored="false" />
+    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364431815768" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364408459699" ignored="false" />
+    <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
+    <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
+    <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
+    <file path="/a.dummy" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420644298" ignored="false" />
+    <file path="/Game_2D_Shooter.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364421678071" ignored="false" />
+    <file path="/SimpleProjectilePrediction.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364422069211" ignored="false" />
+    <file path="$PROJECT_DIR$/Effects_Lib/src/GearImpl.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364422504689" ignored="false" />
+    <file path="/Gear.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364422662001" ignored="false" />
+    <file path="/Component.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364423841598" ignored="false" />
+    <file path="/a.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364425630619" ignored="false" />
+    <file path="/VoronoiDiagrams.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364426321029" ignored="false" />
+    <file path="/FlashTest.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364426995593" ignored="false" />
+    <file path="/FindTriangleInCircle.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364429408117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +536,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -56,6 +572,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -63,22 +580,60 @@
   <component name="FavoritesManager">
     <favorites_list name="Flash" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
   <component name="FlexIdeProjectLevelCompilerOptionsHolder">
     <compiler-options />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Effects_Lib/src/FlashTest.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/ReallyPrivateNamespaceTest.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/FindTriangleInCircle.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/EffectExplorer.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/UndulatingWave_DisplacementFilter.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/CurveMotion.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/FlashTip_PerlinNoise.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/ParticleProperties_SandWaterWall.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/PixelateEffectsByShape.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/CollisionResolver.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/VeryStableCollisionResolver.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/FlashTip_VerletIntroduction.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/Main.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/FlashTip_NaturalMotions.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/Firework.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/FireworkEffect_3DLighting.as" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="309" />
-    <option name="width" value="1611" />
+    <option name="x" value="217" />
+    <option name="width" value="1703" />
     <option name="height" value="1170" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -90,15 +645,13 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -109,29 +662,249 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.sourceCode.ActionScript" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProductionLib.ipr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MinimalComps_Lib/bin" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="" />
+      <recent name="away3d.animators.nodes" />
+      <recent name="away3d" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\Effects_Lib\src" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\Effects_Lib\src\wonderfl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flash App.FireworkEffect_3DLighting">
+    <configuration default="false" name="CurveMotion" type="FlashRunConfigurationType" factoryName="Flash App" temporary="true">
+      <option name="BCName" value="Effects_Lib" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="Effects_Lib" />
+      <option name="overriddenMainClass" value="CurveMotion" />
+      <option name="overriddenOutputFileName" value="CurveMotion.swf" />
+      <option name="overrideMainClass" value="true" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="VeryStableCollisionResolver" type="FlashRunConfigurationType" factoryName="Flash App" temporary="true">
+      <option name="BCName" value="Effects_Lib" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="Effects_Lib" />
+      <option name="overriddenMainClass" value="VeryStableCollisionResolver" />
+      <option name="overriddenOutputFileName" value="CollisionResolver.swf" />
+      <option name="overrideMainClass" value="true" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FlashTip_VerletIntroduction" type="FlashRunConfigurationType" factoryName="Flash App" temporary="true">
+      <option name="BCName" value="Effects_Lib" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="Effects_Lib" />
+      <option name="overriddenMainClass" value="FlashTip_VerletIntroduction" />
+      <option name="overriddenOutputFileName" value="FlashTip_VerletIntroduction.swf" />
+      <option name="overrideMainClass" value="true" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FlashTip_NaturalMotions" type="FlashRunConfigurationType" factoryName="Flash App" temporary="true">
+      <option name="BCName" value="Effects_Lib" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="Effects_Lib" />
+      <option name="overriddenMainClass" value="FlashTip_NaturalMotions" />
+      <option name="overriddenOutputFileName" value="FlashTip_NaturalMotions.swf" />
+      <option name="overrideMainClass" value="true" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FireworkEffect_3DLighting" type="FlashRunConfigurationType" factoryName="Flash App" temporary="true">
+      <option name="BCName" value="Effects_Lib" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="Effects_Lib" />
+      <option name="overriddenMainClass" value="FireworkEffect_3DLighting" />
+      <option name="overriddenOutputFileName" value="FireworkEffect_3DLighting.swf" />
+      <option name="overrideMainClass" value="true" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -162,7 +935,130 @@
       <envs />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlanetaryOrbitEngine" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="PlanetaryOrbitEngine" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="Player" />
+          <option name="playerPath" value="$FLASH_PLAYER_DEBUGGER$/flashplayer_11_sa_debug.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="PlanetaryOrbitEngine" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CCDPool_3D" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="Effects_Lib" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="Player" />
+          <option name="playerPath" value="$FLASH_PLAYER_DEBUGGER$/flashplayer_11_sa_debug.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="Effects_Lib" />
+      <option name="overriddenMainClass" value="CCDPool_3D" />
+      <option name="overriddenOutputFileName" value="CCDPool.swf" />
+      <option name="overrideMainClass" value="true" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Flash App.PlanetaryOrbitEngine" />
+      <item index="1" class="java.lang.String" itemvalue="Flash App.CCDPool_3D" />
+      <item index="2" class="java.lang.String" itemvalue="Flash App.CurveMotion" />
+      <item index="3" class="java.lang.String" itemvalue="Flash App.VeryStableCollisionResolver" />
+      <item index="4" class="java.lang.String" itemvalue="Flash App.FlashTip_VerletIntroduction" />
+      <item index="5" class="java.lang.String" itemvalue="Flash App.FlashTip_NaturalMotions" />
+      <item index="6" class="java.lang.String" itemvalue="Flash App.FireworkEffect_3DLighting" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Flash App.FireworkEffect_3DLighting" />
+        <item index="1" class="java.lang.String" itemvalue="Flash App.FlashTip_NaturalMotions" />
+        <item index="2" class="java.lang.String" itemvalue="Flash App.FlashTip_VerletIntroduction" />
+        <item index="3" class="java.lang.String" itemvalue="Flash App.VeryStableCollisionResolver" />
+        <item index="4" class="java.lang.String" itemvalue="Flash App.CurveMotion" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -184,26 +1080,44 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="0" width="1611" height="1170" extended-state="0" />
+    <frame x="217" y="0" width="1703" height="1170" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32971373" sideWeight="0.99938875" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25306648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24192566" sideWeight="0.6702863" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -269,6 +1183,186 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/Game_TypingCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="356" selection-end="356" vertical-scroll-proportion="0.53125">
+          <folding>
+            <element signature="e#6721#6744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/MilkRipple.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="23" selection-start="674" selection-end="674" vertical-scroll-proportion="0.65084225">
+          <folding>
+            <element signature="e#187#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/Game_EatCircles.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="150" selection-end="150" vertical-scroll-proportion="0.18223584">
+          <folding>
+            <element signature="e#11#31#0" expanded="true" />
+            <element signature="e#582#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/EquationDisplayer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="5" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.39050537">
+          <folding>
+            <element signature="e#11#34#0" expanded="true" />
+            <element signature="e#1093#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/ReallyPrivateNamespaceTest.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="185" selection-end="185" vertical-scroll-proportion="0.15620214">
+          <folding>
+            <element signature="e#63#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/FindTriangleInCircle.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.39050537">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#724#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/EffectExplorer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="578" selection-end="578" vertical-scroll-proportion="0.46860644">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#131#154#0" expanded="true" />
+            <element signature="e#4827#4850#0" expanded="true" />
+            <element signature="e#5360#5383#0" expanded="true" />
+            <element signature="e#13695#13718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/UndulatingWave_DisplacementFilter.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="286" selection-end="286" vertical-scroll-proportion="0.2603369">
+          <folding>
+            <element signature="e#55#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/CurveMotion.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="517" selection-end="517" vertical-scroll-proportion="0.44257274">
+          <folding>
+            <element signature="e#299#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/FlashTip_PerlinNoise.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="722" selection-end="722" vertical-scroll-proportion="0.65084225">
+          <folding>
+            <element signature="e#89#116#0" expanded="true" />
+            <element signature="e#3235#3263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/ParticleProperties_SandWaterWall.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="8" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.3453125">
+          <folding>
+            <element signature="e#11#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/PixelateEffectsByShape.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="520" column="0" selection-start="13255" selection-end="13255" vertical-scroll-proportion="0.67687595">
+          <folding>
+            <element signature="e#63#103#0" expanded="true" />
+            <element signature="e#8768#8800#0" expanded="true" />
+            <element signature="e#10311#10343#0" expanded="true" />
+            <element signature="e#12186#12216#0" expanded="true" />
+            <element signature="e#12643#12673#0" expanded="true" />
+            <element signature="e#13194#13224#0" expanded="true" />
+            <element signature="e#13837#13867#0" expanded="true" />
+            <element signature="e#14541#14571#0" expanded="true" />
+            <element signature="e#15151#15181#0" expanded="true" />
+            <element signature="e#15756#15786#0" expanded="true" />
+            <element signature="e#16446#16476#0" expanded="true" />
+            <element signature="e#17103#17133#0" expanded="true" />
+            <element signature="e#17857#17887#0" expanded="true" />
+            <element signature="e#18390#18420#0" expanded="true" />
+            <element signature="e#19015#19045#0" expanded="true" />
+            <element signature="e#19615#19645#0" expanded="true" />
+            <element signature="e#20664#20696#0" expanded="true" />
+            <element signature="e#21689#21721#0" expanded="true" />
+            <element signature="e#23339#23371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/VeryStableCollisionResolver.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="282" selection-end="282" vertical-scroll-proportion="0.2863706">
+          <folding>
+            <element signature="e#67#91#0" expanded="true" />
+            <element signature="e#1407#1435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/FlashTip_VerletIntroduction.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="390" selection-end="390" vertical-scroll-proportion="0.4946401">
+          <folding>
+            <element signature="e#12#35#0" expanded="true" />
+            <element signature="e#3330#3353#0" expanded="true" />
+            <element signature="e#5330#5367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/FlashTip_NaturalMotions.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="9" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.75497705">
+          <folding>
+            <element signature="e#11#38#0" expanded="true" />
+            <element signature="e#3676#3703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/FireworkEffect_3DLighting.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="291" selection-end="291" vertical-scroll-proportion="0.2603369">
+          <folding>
+            <element signature="e#75#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -321,7 +1415,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Tweensy_Lib|Tweensy_Lib</last-edited>
+          <last-edited>MinimalComps_Lib|MinimalComps_Lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,7 +7,6 @@ package away3d.tools.utils
 	import away3d.core.base.SubGeometry;
 	import away3d.entities.Mesh;
 
-
 	use namespace arcane;
 	/**
 	 * Class Grid snaps vertexes or meshes according to a given grid unit.<code>Grid</code>

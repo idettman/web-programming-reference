@@ -2,7 +2,6 @@ package away3d.core.pick
 {
 	import flash.geom.*;
 
-
 	/**
 	 * An abstract base class for all picking collider classes. It should not be instantiated directly.
 	 */

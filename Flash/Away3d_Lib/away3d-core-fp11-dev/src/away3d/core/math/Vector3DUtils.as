@@ -2,7 +2,6 @@ package away3d.core.math
 {
 	import flash.geom.*;
 
-
 	/**
 	 * Vector3DUtils provides additional Vector3D math functions.
 	 */

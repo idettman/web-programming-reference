@@ -7,14 +7,13 @@ package away3d.loaders.misc
 	import away3d.loaders.parsers.ImageParser;
 	import away3d.loaders.parsers.ParserBase;
 	import away3d.loaders.parsers.ParserDataFormat;
-
+	
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.events.IOErrorEvent;
 	import flash.net.URLLoader;
 	import flash.net.URLLoaderDataFormat;
 	import flash.net.URLRequest;
-
 
 	use namespace arcane;
 	

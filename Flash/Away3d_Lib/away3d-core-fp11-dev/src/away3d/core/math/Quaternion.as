@@ -4,7 +4,6 @@ package away3d.core.math
 	import flash.geom.Orientation3D;
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * A Quaternion object which can be used to represent rotations.
 	 */

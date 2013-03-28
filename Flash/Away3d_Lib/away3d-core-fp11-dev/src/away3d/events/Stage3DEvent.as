@@ -5,7 +5,6 @@ package away3d.events
 {
 	import flash.events.Event;
 
-
 	public class Stage3DEvent extends Event
 	{
 		public static const CONTEXT3D_CREATED : String = "Context3DCreated";

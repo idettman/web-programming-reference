@@ -20,8 +20,8 @@ package away3d.materials.passes
 
 	import flash.display3D.Context3D;
 	import flash.display3D.Context3DProgramType;
+	import flash.display3D.Context3DVertexBufferFormat;
 	import flash.geom.Matrix;
-
 
 	use namespace arcane;
 

@@ -6,7 +6,6 @@ package away3d.materials.methods
 	import away3d.materials.compilation.ShaderRegisterElement;
 	import away3d.textures.Texture2DBase;
 
-
 	use namespace arcane;
 
 	public class LightMapMethod extends EffectMethodBase

@@ -6,7 +6,6 @@ package away3d.core.partition
 
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	public class ViewVolumeRootNode extends NodeBase

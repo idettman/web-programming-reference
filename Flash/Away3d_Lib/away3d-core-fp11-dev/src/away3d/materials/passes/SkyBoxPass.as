@@ -1,5 +1,6 @@
 package away3d.materials.passes
 {
+	import away3d.animators.IAnimator;
 	import away3d.arcane;
 	import away3d.cameras.Camera3D;
 	import away3d.core.managers.Stage3DProxy;
@@ -7,7 +8,6 @@ package away3d.materials.passes
 
 	import flash.display3D.Context3DCompareMode;
 	import flash.display3D.Context3DTextureFormat;
-
 
 	use namespace arcane;
 

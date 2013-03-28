@@ -1,8 +1,8 @@
 package away3d.animators
 {
-	import away3d.core.managers.Stage3DProxy;
+	import away3d.animators.IAnimationSet;
 	import away3d.materials.passes.MaterialPassBase;
-
+	import away3d.core.managers.Stage3DProxy;
 
 	/**
 	 * The animation data set used by uv-based animators, containing uv animation state data.

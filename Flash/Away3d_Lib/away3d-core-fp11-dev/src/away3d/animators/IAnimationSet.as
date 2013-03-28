@@ -3,8 +3,7 @@ package away3d.animators
 	import away3d.animators.nodes.*;
 	import away3d.core.managers.*;
 	import away3d.materials.passes.*;
-
-
+	
 	/**
 	 * Provides an interface for data set classes that hold animation data for use in animator classes.
 	 *

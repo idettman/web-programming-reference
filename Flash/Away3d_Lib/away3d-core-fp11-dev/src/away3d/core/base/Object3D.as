@@ -5,11 +5,10 @@ package away3d.core.base
 	import away3d.core.math.*;
 	import away3d.events.*;
 	import away3d.library.assets.*;
-
+	
 	import flash.geom.Matrix3D;
 	import flash.geom.Vector3D;
-
-
+	
 	use namespace arcane;
 	
 	

@@ -17,7 +17,6 @@ package away3d.materials.passes
 	import flash.geom.ColorTransform;
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	/**

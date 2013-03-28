@@ -3,9 +3,8 @@
 	import away3d.arcane;
 	import away3d.library.assets.IAsset;
 	import away3d.loaders.parsers.ParserBase;
-
+	
 	import flash.net.URLRequest;
-
 
 	use namespace arcane;
 	

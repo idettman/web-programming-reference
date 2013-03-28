@@ -1,15 +1,14 @@
 package away3d.utils
 {
+	
+    import away3d.errors.CastError;
+    import away3d.textures.BitmapTexture;
+    
+    import flash.display.*;
+    import flash.geom.Matrix;
+    import flash.utils.*;
 
-	import away3d.errors.CastError;
-	import away3d.textures.BitmapTexture;
-
-	import flash.display.*;
-	import flash.geom.Matrix;
-	import flash.utils.*;
-
-
-	/** Helper class for casting assets to usable objects */
+    /** Helper class for casting assets to usable objects */
     public class Cast
     {
 		private static var _colorNames:Dictionary;

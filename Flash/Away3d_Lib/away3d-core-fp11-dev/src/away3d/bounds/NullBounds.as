@@ -7,7 +7,6 @@ package away3d.bounds
 
 	import flash.geom.*;
 
-
 	/**
 	 * NullBounds represents a debug bounding "volume" that is either considered always in, or always out of the frustum.
 	 * NullBounds is useful for entities that are always considered in the frustum, such as directional lights or skyboxes.

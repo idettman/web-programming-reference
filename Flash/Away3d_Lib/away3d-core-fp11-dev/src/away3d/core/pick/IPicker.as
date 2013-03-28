@@ -1,9 +1,8 @@
 package away3d.core.pick
 {
 	import away3d.containers.*;
-
+	
 	import flash.geom.*;
-
 
 	/**
 	 * Provides an interface for picking objects that can pick 3d objects from a view or scene.

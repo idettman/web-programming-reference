@@ -4,7 +4,6 @@ package away3d.events
 
 	import flash.events.Event;
 
-
 	/**
 	 * Dispatched to notify changes in a geometry object's state.
 	 *

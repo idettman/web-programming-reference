@@ -7,7 +7,6 @@ package away3d.core.base
 	import flash.geom.Matrix;
 	import flash.geom.Matrix3D;
 
-
 	/**
 	 * IRenderable provides an interface for objects that can be rendered in the rendering pipeline.
 	 */

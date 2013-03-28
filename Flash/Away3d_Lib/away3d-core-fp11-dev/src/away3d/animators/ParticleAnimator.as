@@ -1,5 +1,8 @@
 package away3d.animators
 {
+	import flash.display3D.*;
+	import flash.utils.*;
+	
 	import away3d.*;
 	import away3d.animators.data.*;
 	import away3d.animators.nodes.*;
@@ -8,11 +11,7 @@ package away3d.animators
 	import away3d.core.base.*;
 	import away3d.core.managers.*;
 	import away3d.materials.passes.*;
-
-	import flash.display3D.*;
-	import flash.utils.*;
-
-
+	
 	use namespace arcane;
 	
 	/**

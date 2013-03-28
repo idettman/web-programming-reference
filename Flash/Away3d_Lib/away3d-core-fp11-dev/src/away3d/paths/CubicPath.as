@@ -2,7 +2,6 @@ package away3d.paths
 {
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * Defines a cubic path. Each segment of the path has two control points as opposed to <code>CubicPathSegment</code> which being quadratic, has one control point.
 	 * @see away3d.animators.CubicPathAnimator

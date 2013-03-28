@@ -5,9 +5,9 @@ package away3d.stereo
 	import away3d.debug.Debug;
 	import away3d.stereo.methods.InterleavedStereoRenderMethod;
 	import away3d.stereo.methods.StereoRenderMethodBase;
-
+	
 	import com.adobe.utils.AGALMiniAssembler;
-
+	
 	import flash.display3D.Context3D;
 	import flash.display3D.Context3DProgramType;
 	import flash.display3D.Context3DTextureFormat;
@@ -17,7 +17,6 @@ package away3d.stereo
 	import flash.display3D.VertexBuffer3D;
 	import flash.display3D.textures.Texture;
 	import flash.events.Event;
-
 
 	public class StereoRenderer
 	{

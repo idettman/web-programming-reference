@@ -3,7 +3,6 @@ package away3d.core.partition
 	import away3d.core.traverse.PartitionTraverser;
 	import away3d.lights.LightBase;
 
-
 	/**
 	 * LightNode is a space partitioning leaf node that contains a LightBase object. Used for lights that are not of default supported type.
 	 */

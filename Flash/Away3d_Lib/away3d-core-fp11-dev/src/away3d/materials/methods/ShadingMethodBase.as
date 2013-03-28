@@ -11,8 +11,8 @@ package away3d.materials.methods {
 	import away3d.textures.TextureProxyBase;
 
 	import flash.display3D.Context3DTextureFormat;
+	import flash.display3D.textures.TextureBase;
 	import flash.events.EventDispatcher;
-
 
 	use namespace arcane;
 

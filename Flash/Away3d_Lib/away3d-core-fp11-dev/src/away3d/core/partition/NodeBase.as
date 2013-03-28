@@ -1,13 +1,12 @@
 package away3d.core.partition
 {
+	import flash.geom.Vector3D;
+	
 	import away3d.arcane;
 	import away3d.cameras.Camera3D;
 	import away3d.core.traverse.PartitionTraverser;
 	import away3d.entities.Entity;
 	import away3d.primitives.WireframePrimitiveBase;
-
-	import flash.geom.Vector3D;
-
 
 	use namespace arcane;
 
@@ -88,7 +87,7 @@ package away3d.core.partition
 
 			do {
 				node._numEntities += numEntities;
-			} while ((node = node._parent));
+			} while ((node = node._parent) != null);
 		}
 
 		/**
@@ -111,7 +110,7 @@ package away3d.core.partition
 
 			do {
 				node._numEntities -= numEntities;
-			} while ((node = node._parent));
+			} while ((node = node._parent) != null);
 		}
 
 		/**
@@ -196,7 +195,7 @@ package away3d.core.partition
 
 			do {
 				node._numEntities += diff;
-			} while ((node = node._parent));
+			} while ((node = node._parent) != null);
 		}
 	}
 }

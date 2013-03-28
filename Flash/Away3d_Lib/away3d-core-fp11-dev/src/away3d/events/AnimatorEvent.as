@@ -4,7 +4,6 @@ package away3d.events
 
 	import flash.events.*;
 
-
 	/**
 	 * Dispatched to notify changes in an animator's state.
 	 */

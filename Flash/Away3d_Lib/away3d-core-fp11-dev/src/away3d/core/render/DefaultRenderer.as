@@ -17,7 +17,6 @@ package away3d.core.render
 	import flash.display3D.textures.TextureBase;
 	import flash.geom.Rectangle;
 
-
 	use namespace arcane;
 
 	/**

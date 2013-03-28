@@ -1,5 +1,21 @@
 ﻿package away3d.containers
 {
+	import flash.display.Sprite;
+	import flash.display3D.Context3D;
+	import flash.display3D.Context3DTextureFormat;
+	import flash.display3D.textures.Texture;
+	import flash.events.ContextMenuEvent;
+	import flash.events.Event;
+	import flash.geom.Point;
+	import flash.geom.Rectangle;
+	import flash.geom.Transform;
+	import flash.geom.Vector3D;
+	import flash.net.URLRequest;
+	import flash.net.navigateToURL;
+	import flash.ui.ContextMenu;
+	import flash.ui.ContextMenuItem;
+	import flash.utils.getTimer;
+	
 	import away3d.Away3D;
 	import away3d.arcane;
 	import away3d.cameras.Camera3D;
@@ -16,23 +32,7 @@
 	import away3d.events.CameraEvent;
 	import away3d.events.Stage3DEvent;
 	import away3d.textures.Texture2DBase;
-
-	import flash.display.Sprite;
-	import flash.display3D.Context3D;
-	import flash.display3D.Context3DTextureFormat;
-	import flash.display3D.textures.Texture;
-	import flash.events.ContextMenuEvent;
-	import flash.events.Event;
-	import flash.geom.Point;
-	import flash.geom.Rectangle;
-	import flash.geom.Transform;
-	import flash.geom.Vector3D;
-	import flash.net.URLRequest;
-	import flash.net.navigateToURL;
-	import flash.ui.ContextMenu;
-	import flash.ui.ContextMenuItem;
-	import flash.utils.getTimer;
-
+	
 
 	use namespace arcane;
 
@@ -747,7 +747,9 @@
 		 */
 		public function dispose() : void
 		{
-			_stage3DProxy.dispose();
+			if (!shareContext) {
+				_stage3DProxy.dispose();
+			}
 			_renderer.dispose();
 			
 			if (_depthRender)

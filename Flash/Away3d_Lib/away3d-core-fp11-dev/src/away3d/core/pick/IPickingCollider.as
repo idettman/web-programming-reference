@@ -1,9 +1,7 @@
 package away3d.core.pick
 {
 	import away3d.core.base.SubMesh;
-
 	import flash.geom.Vector3D;
-
 
 	/**
 	 * Provides an interface for picking colliders that can be assigned to individual entities in a scene for specific picking behaviour.

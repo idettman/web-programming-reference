@@ -8,12 +8,13 @@
 	import away3d.core.base.data.Vertex;
 	import away3d.entities.Mesh;
 	import away3d.materials.MaterialBase;
+	import away3d.materials.TextureMaterial;
 	import away3d.materials.utils.MultipleMaterials;
+	import away3d.textures.BitmapTexture;
 	import away3d.tools.helpers.MeshHelper;
-
+	
 	import flash.geom.Point;
 	import flash.geom.Vector3D;
-
 
 	public class LinearExtrude extends Mesh
 	{
@@ -1025,7 +1026,6 @@ import away3d.core.base.SubGeometry;
 import away3d.materials.MaterialBase;
 
 import flash.geom.Point;
-
 
 class SubGeometryList {
 	public var id:uint;

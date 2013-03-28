@@ -6,7 +6,6 @@ package away3d.materials.methods
 	import away3d.materials.compilation.ShaderRegisterCache;
 	import away3d.materials.compilation.ShaderRegisterElement;
 
-
 	use namespace arcane;
 
 	public class SoftShadowMapMethod extends SimpleShadowMapMethodBase

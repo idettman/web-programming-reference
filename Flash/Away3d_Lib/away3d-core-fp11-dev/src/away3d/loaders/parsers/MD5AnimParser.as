@@ -1,10 +1,10 @@
 package away3d.loaders.parsers
 {
+	import away3d.arcane;
 	import away3d.animators.data.*;
 	import away3d.animators.nodes.*;
-	import away3d.arcane;
 	import away3d.core.math.*;
-
+	
 	import flash.geom.*;
 
 
@@ -581,7 +581,6 @@ import away3d.core.math.Quaternion;
 
 import flash.geom.Vector3D;
 
-
 // value objects
 
 class HierarchyData
@@ -590,23 +589,27 @@ class HierarchyData
 	public var parentIndex : int;
 	public var flags : int;
 	public var startIndex : int;
+	public function HierarchyData() {} 
 }
 
 class BoundsData
 {
 	public var min : Vector3D;
 	public var max : Vector3D;
+	public function BoundsData() {}
 }
 
 class BaseFrameData
 {
 	public var position : Vector3D;
 	public var orientation : Quaternion;
+	public function BaseFrameData() {}
 }
 
 class FrameData
 {
 	public var index : int;
 	public var components : Vector.<Number>;
+	public function FrameData() {}
 }
 

@@ -1,12 +1,10 @@
-package away3d.animators
-{
+package away3d.animators {
 	import away3d.animators.nodes.*;
 	import away3d.errors.*;
 	import away3d.library.assets.*;
 
 	import flash.utils.*;
-
-
+	
 	/**
 	 * Provides an abstract base class for data set classes that hold animation data for use in animator classes.
 	 *
@@ -18,6 +16,10 @@ package away3d.animators
 		private var _animations:Vector.<AnimationNodeBase> = new Vector.<AnimationNodeBase>();
 		private var _animationNames:Vector.<String> = new Vector.<String>();
 		private var _animationDictionary:Dictionary = new Dictionary(true);
+		
+		public function AnimationSetBase() {
+			
+		}
 		
 		/**
 		 * Retrieves a temporary GPU register that's still free.

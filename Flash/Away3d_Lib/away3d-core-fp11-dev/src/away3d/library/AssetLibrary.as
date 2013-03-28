@@ -8,10 +8,9 @@ package away3d.library
 	import away3d.loaders.misc.AssetLoaderToken;
 	import away3d.loaders.misc.SingleFileLoader;
 	import away3d.loaders.parsers.ParserBase;
-
+	
 	import flash.net.URLRequest;
-
-
+	
 	use namespace arcane;
 	
 	/**

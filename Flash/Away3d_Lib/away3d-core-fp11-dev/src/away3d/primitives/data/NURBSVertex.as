@@ -1,10 +1,9 @@
 package away3d.primitives.data
 {
-	import away3d.arcane;
 	import away3d.core.base.data.Vertex;
-
-
-	use namespace arcane;
+	import away3d.arcane;
+	
+    use namespace arcane;
     
     /**
     * A nurbvertex that simply extends vertex with a w weight property.

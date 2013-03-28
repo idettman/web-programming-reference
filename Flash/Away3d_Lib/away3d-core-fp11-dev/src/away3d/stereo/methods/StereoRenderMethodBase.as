@@ -3,7 +3,6 @@ package away3d.stereo.methods
 	import away3d.core.managers.Stage3DProxy;
 	import away3d.errors.AbstractMethodError;
 
-
 	public class StereoRenderMethodBase
 	{
 		protected var _textureSizeInvalid:Boolean = true;

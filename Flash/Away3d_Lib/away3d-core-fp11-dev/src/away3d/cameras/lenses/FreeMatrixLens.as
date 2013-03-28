@@ -1,7 +1,10 @@
 package away3d.cameras.lenses
 {
 	import away3d.arcane;
+	import away3d.core.math.Matrix3DUtils;
 
+	import flash.geom.Matrix3D;
+	import flash.geom.Vector3D;
 
 	use namespace arcane;
 

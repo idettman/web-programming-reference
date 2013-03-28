@@ -1,5 +1,10 @@
 package away3d.loaders.parsers
 {
+	import flash.display.*;
+	import flash.geom.*;
+	import flash.net.*;
+	import flash.utils.*;
+	
 	import away3d.*;
 	import away3d.animators.data.*;
 	import away3d.animators.nodes.*;
@@ -13,13 +18,8 @@ package away3d.loaders.parsers
 	import away3d.materials.utils.*;
 	import away3d.textures.*;
 	import away3d.tools.utils.*;
-
-	import flash.display.*;
-	import flash.geom.*;
-	import flash.net.*;
-	import flash.utils.*;
-
-
+	
+	
 	use namespace arcane;
 	
 	/**
@@ -1040,6 +1040,7 @@ internal class AWDBlock
 	public var id : uint;
 	public var name : String;
 	public var data : *;
+	public function AWDBlock() {} 
 }
 
 internal dynamic class AWDProperties

@@ -7,7 +7,6 @@ package away3d.materials.compilation {
 	import away3d.materials.methods.ShaderMethodSetup;
 	import away3d.materials.methods.ShadingMethodBase;
 
-
 	public class ShaderCompiler
 	{
 		protected var _sharedRegisters : ShaderRegisterData;

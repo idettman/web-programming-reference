@@ -12,7 +12,6 @@ package away3d.lights.shadowmaps
 	import flash.geom.Matrix3D;
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	public class DirectionalShadowMapper extends ShadowMapperBase
@@ -80,9 +79,9 @@ package away3d.lights.shadowmaps
 
 			dir = DirectionalLight(_light).sceneDirection;
 			_depthCamera.transform = _light.sceneTransform;
-			_depthCamera.x = -dir.x * _lightOffset;
-			_depthCamera.y = -dir.y * _lightOffset;
-			_depthCamera.z = -dir.z * _lightOffset;
+			_depthCamera.x = viewCamera.x -dir.x * _lightOffset;
+			_depthCamera.y = viewCamera.y -dir.y * _lightOffset;
+			_depthCamera.z = viewCamera.z -dir.z * _lightOffset;
 
 			_matrix.copyFrom(_depthCamera.inverseSceneTransform);
 			_matrix.prepend(viewCamera.sceneTransform);

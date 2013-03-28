@@ -1,8 +1,7 @@
 package away3d.filters
 {
 	import away3d.filters.tasks.Filter3DHueSaturationTask;
-
-
+	
 	public class HueSaturationFilter3D extends Filter3DBase
 	{
 		private var _hslTask:Filter3DHueSaturationTask;

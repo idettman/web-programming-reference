@@ -1,8 +1,7 @@
 package away3d.animators.states
 {
 	import away3d.animators.data.*;
-
-
+	
 	public interface ISkeletonAnimationState extends IAnimationState
 	{
 		/**

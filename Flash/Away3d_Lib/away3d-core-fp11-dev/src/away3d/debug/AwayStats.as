@@ -2,7 +2,7 @@ package away3d.debug
 {
 	import away3d.arcane;
 	import away3d.containers.View3D;
-
+	
 	import flash.display.BitmapData;
 	import flash.display.CapsStyle;
 	import flash.display.Graphics;
@@ -17,8 +17,7 @@ package away3d.debug
 	import flash.text.TextFormat;
 	import flash.utils.Timer;
 	import flash.utils.getTimer;
-
-
+	
 	use namespace arcane;
 
 	/**

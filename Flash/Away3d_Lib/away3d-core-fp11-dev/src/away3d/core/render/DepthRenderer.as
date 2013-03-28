@@ -4,7 +4,9 @@ package away3d.core.render
 	import away3d.cameras.Camera3D;
 	import away3d.core.base.IRenderable;
 	import away3d.core.data.RenderableListItem;
+	import away3d.core.math.Matrix3DUtils;
 	import away3d.core.math.Plane3D;
+	import away3d.core.math.PlaneClassification;
 	import away3d.core.traverse.EntityCollector;
 	import away3d.entities.Entity;
 	import away3d.materials.MaterialBase;
@@ -12,8 +14,9 @@ package away3d.core.render
 	import flash.display3D.Context3DBlendFactor;
 	import flash.display3D.Context3DCompareMode;
 	import flash.display3D.textures.TextureBase;
+	import flash.geom.Matrix;
+	import flash.geom.Matrix3D;
 	import flash.geom.Rectangle;
-
 
 	use namespace arcane;
 

@@ -2,7 +2,6 @@ package away3d.loaders.misc
 {
 	import away3d.arcane;
 
-
 	public class AssetLoaderContext
 	{
 		private var _includeDependencies : Boolean;

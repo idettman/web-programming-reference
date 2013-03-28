@@ -13,7 +13,6 @@ package away3d.materials.methods
 
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	public class SimpleShadowMapMethodBase extends ShadowMapMethodBase

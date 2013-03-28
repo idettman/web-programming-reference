@@ -3,13 +3,15 @@ package away3d.core.managers
 	import away3d.tools.utils.TextureUtils;
 
 	import flash.display3D.Context3D;
+
 	import flash.display3D.IndexBuffer3D;
+
 	import flash.display3D.VertexBuffer3D;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.geom.Rectangle;
-	import flash.utils.Dictionary;
 
+	import flash.utils.Dictionary;
 
 	public class RTTBufferManager extends EventDispatcher
 	{

@@ -10,12 +10,12 @@ package away3d.core.render
 	import away3d.textures.Texture2DBase;
 
 	import flash.display.BitmapData;
+	
 	import flash.display3D.Context3D;
 	import flash.display3D.Context3DCompareMode;
 	import flash.display3D.textures.TextureBase;
 	import flash.events.Event;
 	import flash.geom.Rectangle;
-
 
 	use namespace arcane;
 

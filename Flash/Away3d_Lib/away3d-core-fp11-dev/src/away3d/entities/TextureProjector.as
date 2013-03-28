@@ -8,7 +8,6 @@ package away3d.entities
 
 	import flash.geom.Matrix3D;
 
-
 	use namespace arcane;
 
 	/**

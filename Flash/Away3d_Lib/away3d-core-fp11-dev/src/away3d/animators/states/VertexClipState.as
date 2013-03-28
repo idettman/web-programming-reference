@@ -1,10 +1,9 @@
 package away3d.animators.states
 {
+	import away3d.core.base.Geometry;
 	import away3d.animators.*;
 	import away3d.animators.nodes.*;
-	import away3d.core.base.Geometry;
-
-
+	
 	/**
 	 * 
 	 */

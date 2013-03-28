@@ -3,12 +3,11 @@ package away3d.audio
 	import away3d.audio.drivers.*;
 	import away3d.containers.ObjectContainer3D;
 	import away3d.events.Object3DEvent;
-
+	
 	import flash.events.Event;
 	import flash.geom.*;
 	import flash.media.*;
-
-
+	
 	/**
 	 * Dispatched when end of sound stream is reached (bubbled from the internal sound object).
 	 */

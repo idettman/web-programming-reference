@@ -5,7 +5,6 @@ package away3d.core.base
 	import flash.display3D.IndexBuffer3D;
 	import flash.geom.Matrix3D;
 
-
 	public interface ISubGeometry
 	{
 		/**

@@ -6,7 +6,6 @@ package away3d.animators
 
 	import flash.display3D.Context3D;
 
-
 	use namespace arcane;
 
 	/**

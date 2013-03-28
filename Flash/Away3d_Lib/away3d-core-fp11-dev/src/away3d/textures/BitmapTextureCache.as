@@ -3,9 +3,10 @@
  */
 package away3d.textures
 {
+	import away3d.textures.BitmapTexture;
+
 	import flash.display.BitmapData;
 	import flash.utils.Dictionary;
-
 
 	/**
 	 * DEPRECRATED along with BitmapMaterial. Will be removed along with BitmapMaterial

@@ -9,7 +9,6 @@ package away3d.materials.methods
 
 	import flash.display.BitmapData;
 
-
 	use namespace arcane;
 
 	/**

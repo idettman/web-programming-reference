@@ -3,12 +3,12 @@ package away3d.core.traverse
 	import away3d.arcane;
 	import away3d.core.base.IRenderable;
 	import away3d.core.data.RenderableListItem;
+	import away3d.entities.Entity;
 	import away3d.lights.DirectionalLight;
 	import away3d.lights.LightBase;
 	import away3d.lights.LightProbe;
 	import away3d.lights.PointLight;
 	import away3d.materials.MaterialBase;
-
 
 	use namespace arcane;
 

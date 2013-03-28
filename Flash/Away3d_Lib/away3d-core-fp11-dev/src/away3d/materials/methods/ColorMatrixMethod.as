@@ -5,6 +5,9 @@ package away3d.materials.methods
 	import away3d.materials.compilation.ShaderRegisterCache;
 	import away3d.materials.compilation.ShaderRegisterElement;
 
+	import flash.display3D.Context3D;
+	import flash.display3D.Context3DProgramType;
+	import flash.filters.ColorMatrixFilter;
 
 	use namespace arcane;
 

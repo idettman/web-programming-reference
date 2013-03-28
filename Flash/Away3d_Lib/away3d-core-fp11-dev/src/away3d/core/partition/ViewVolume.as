@@ -11,7 +11,6 @@ package away3d.core.partition
 
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	// todo: provide markVisibleVolume to pass in another view volume to find all statics in the scene that intersect with target ViewVolume, for constructing view volumes more easily
@@ -386,7 +385,6 @@ package away3d.core.partition
 
 import away3d.core.partition.EntityNode;
 import away3d.core.partition.InvertedOctreeNode;
-
 
 class ViewCell
 {

@@ -2,7 +2,6 @@ package away3d.paths
 {
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * Defines a single segment of a cubic path
 	 * @see away3d.paths.CubicPath

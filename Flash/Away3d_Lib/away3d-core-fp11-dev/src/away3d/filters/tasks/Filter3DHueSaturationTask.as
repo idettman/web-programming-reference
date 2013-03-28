@@ -2,11 +2,11 @@ package away3d.filters.tasks
 {
 	import away3d.cameras.Camera3D;
 	import away3d.core.managers.Stage3DProxy;
-
+	
 	import flash.display3D.Context3DProgramType;
+	
 	import flash.display3D.textures.Texture;
-
-
+	
 	public class Filter3DHueSaturationTask extends Filter3DTaskBase
 	{
 		private var _rgbData:Vector.<Number>;

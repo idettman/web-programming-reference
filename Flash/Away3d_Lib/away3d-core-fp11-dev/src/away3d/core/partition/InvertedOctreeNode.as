@@ -9,7 +9,6 @@ package away3d.core.partition
 
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * InvertedOctreeNode is an octree data structure not used hierarchically for culling, but for fast dynamic insertion.
 	 * The data structure is essentially a grid, but "overarching" parent container nodes for entities striding across nodes.

@@ -4,7 +4,6 @@ package away3d.audio.drivers
 	import flash.geom.*;
 	import flash.media.*;
 
-
 	public interface ISound3DDriver extends IEventDispatcher
 	{
 		/**

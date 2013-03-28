@@ -1,5 +1,6 @@
 ﻿package away3d.entities
 {
+	import away3d.materials.utils.DefaultMaterialManager;
 	import away3d.animators.IAnimator;
 	import away3d.arcane;
 	import away3d.containers.*;
@@ -8,8 +9,6 @@
 	import away3d.events.*;
 	import away3d.library.assets.*;
 	import away3d.materials.*;
-	import away3d.materials.utils.DefaultMaterialManager;
-
 
 	use namespace arcane;
 
@@ -61,7 +60,7 @@
 		}
 
 		/**
-		 * Indicates whether or not the Mesh can cast shadows
+		 * Indicates whether or not the Mesh can cast shadows. Default value is <code>true</code>.
 		 */
 		public function get castsShadows() : Boolean
 		{
@@ -74,7 +73,7 @@
 		}
 
 		/**
-		 * Defines the animator of the mesh. Act on the mesh's geometry. Defaults to null
+		 * Defines the animator of the mesh. Act on the mesh's geometry.  Default value is <code>null</code>.
 		 */
 		public function get animator() : IAnimator
 		{

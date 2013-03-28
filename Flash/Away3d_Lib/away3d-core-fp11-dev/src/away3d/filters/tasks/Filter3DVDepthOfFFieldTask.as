@@ -8,7 +8,6 @@ package away3d.filters.tasks
 	import flash.display3D.Context3DProgramType;
 	import flash.display3D.textures.Texture;
 
-
 	use namespace arcane;
 
 	public class Filter3DVDepthOfFFieldTask extends Filter3DTaskBase

@@ -1,8 +1,9 @@
 package away3d.primitives {
-	import flash.geom.Vector3D;
+  import flash.geom.Vector3D;
+  import away3d.primitives.WireframePrimitiveBase;
 
 
-	/**
+  /**
    * A WireframeTetrahedron primitive mesh
    */
   public class WireframeTetrahedron extends WireframePrimitiveBase {

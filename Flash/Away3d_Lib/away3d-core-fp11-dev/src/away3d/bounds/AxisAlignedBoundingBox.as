@@ -7,7 +7,6 @@ package away3d.bounds
 
 	import flash.geom.*;
 
-
 	use namespace arcane;
 
 	/**

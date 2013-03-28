@@ -10,7 +10,6 @@ package away3d.primitives
 
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	public class WireframePrimitiveBase extends SegmentSet

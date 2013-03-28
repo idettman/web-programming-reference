@@ -2,7 +2,6 @@ package away3d.library.assets
 {
 	import flash.display.BitmapData;
 
-
 	/**
 	 * BitmapDataResource is a wrapper for loaded BitmapData, allowing it to be used uniformly as a resource when
 	 * loading, parsing, and listing/resolving dependencies.

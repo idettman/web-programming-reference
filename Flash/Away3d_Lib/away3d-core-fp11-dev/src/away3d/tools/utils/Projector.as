@@ -9,7 +9,6 @@ package away3d.tools.utils
 
 	import flash.geom.Vector3D;
 
-
 	public class Projector
 	{
 		public static const FRONT:String = "front";

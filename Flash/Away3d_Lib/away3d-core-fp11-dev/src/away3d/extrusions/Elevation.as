@@ -4,9 +4,12 @@
 	import away3d.core.base.SubGeometry;
 	import away3d.entities.Mesh;
 	import away3d.materials.MaterialBase;
-
+	
 	import flash.display.BitmapData;
 
+	/**
+	* Class Elevation generates (and becomes) a mesh from an heightmap.
+	*/ 
 
 	public class Elevation extends Mesh
     {
@@ -25,8 +28,6 @@
 		private var _subGeometry : SubGeometry;
 		
 		/**
-		* Class Elevation generates (and becomes) a mesh from an heightmap. <code>Elevation</code>
-		* 
 		* @param	material 		MaterialBase. The Mesh (Elevation) material
 		* @param	heightMap		BitmapData. The heightmap to generate the mesh from
 		* @param	width				[optional] Number. The width of the mesh. Default is 1000.

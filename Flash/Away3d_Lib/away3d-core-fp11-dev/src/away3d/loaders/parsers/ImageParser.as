@@ -3,12 +3,10 @@ package away3d.loaders.parsers
 {
 	import away3d.arcane;
 	import away3d.textures.BitmapTexture;
-
 	import flash.display.Bitmap;
 	import flash.display.Loader;
 	import flash.events.Event;
 	import flash.utils.ByteArray;
-
 
 	use namespace arcane;
 

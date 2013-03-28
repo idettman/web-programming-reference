@@ -4,12 +4,12 @@
 	import away3d.cameras.Camera3D;
 	import away3d.core.base.IRenderable;
 	import away3d.core.managers.Stage3DProxy;
+	import away3d.materials.lightpickers.LightPickerBase;
 	import away3d.textures.Texture2DBase;
-
 	import flash.display3D.Context3DProgramType;
 	import flash.display3D.Context3DTextureFormat;
+	import flash.display3D.Context3DVertexBufferFormat;
 	import flash.geom.Vector3D;
-
 
 	use namespace arcane;
 

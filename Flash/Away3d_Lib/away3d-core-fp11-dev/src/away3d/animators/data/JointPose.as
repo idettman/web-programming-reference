@@ -4,7 +4,6 @@ package away3d.animators.data
 
 	import flash.geom.*;
 
-
 	/**
 	 * Contains transformation data for a skeleton joint, used for skeleton animation.
 	 *
@@ -29,6 +28,10 @@ package away3d.animators.data
 		 * The translation of the pose
 		 */
 		public var translation : Vector3D = new Vector3D();
+		
+		public function JointPose() {
+			
+		}
 		
 		/**
 		 * Converts the transformation to a Matrix3D representation.

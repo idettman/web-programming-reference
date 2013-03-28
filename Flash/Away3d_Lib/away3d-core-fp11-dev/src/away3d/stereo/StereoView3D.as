@@ -6,10 +6,9 @@ package away3d.stereo
 	import away3d.containers.View3D;
 	import away3d.core.render.RendererBase;
 	import away3d.stereo.methods.StereoRenderMethodBase;
-
+	
 	import flash.display3D.textures.Texture;
-
-
+	
 	use namespace arcane;
 	
 	public class StereoView3D extends View3D

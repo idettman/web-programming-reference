@@ -3,7 +3,6 @@ package away3d.core.data
 
 	import away3d.core.base.IRenderable;
 
-
 	public final class RenderableListItem
 	{
 		public var next:RenderableListItem;
@@ -13,5 +12,9 @@ package away3d.core.data
 		public var materialId : int;
 		public var renderOrderId : int;
 		public var zIndex : Number;
-	}
+		
+		public function RenderableListItem() {
+		
+		}
+	}	
 }

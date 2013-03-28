@@ -14,7 +14,6 @@ package away3d.lights.shadowmaps
 
 	import flash.display3D.textures.TextureBase;
 
-
 	use namespace arcane;
 
 	public class ShadowMapperBase

@@ -5,7 +5,6 @@ package away3d.core.managers
 	import flash.display.Stage;
 	import flash.utils.Dictionary;
 
-
 	use namespace arcane;
 
 	/**

@@ -1,12 +1,13 @@
 package away3d.core.traverse
 {
+	import flash.geom.Vector3D;
+	
 	import away3d.arcane;
+	import away3d.cameras.Camera3D;
 	import away3d.core.base.IRenderable;
+	import away3d.core.data.RenderableListItem;
 	import away3d.core.partition.NodeBase;
 	import away3d.lights.LightBase;
-
-	import flash.geom.Vector3D;
-
 
 	use namespace arcane;
 

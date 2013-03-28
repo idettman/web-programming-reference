@@ -1,21 +1,20 @@
 package away3d.animators
 {
+	import away3d.arcane;
 	import away3d.animators.data.*;
 	import away3d.animators.states.*;
 	import away3d.animators.transitions.*;
-	import away3d.arcane;
 	import away3d.cameras.Camera3D;
 	import away3d.core.base.*;
 	import away3d.core.managers.*;
 	import away3d.core.math.*;
 	import away3d.events.*;
 	import away3d.materials.passes.*;
-
+	
 	import flash.display3D.*;
 	import flash.geom.*;
 	import flash.utils.*;
-
-
+	
 	use namespace arcane;
 	
 	/**
@@ -508,7 +507,6 @@ package away3d.animators
 }
 
 import away3d.core.base.CompactSubGeometry;
-
 
 class SubGeomAnimationState
 {

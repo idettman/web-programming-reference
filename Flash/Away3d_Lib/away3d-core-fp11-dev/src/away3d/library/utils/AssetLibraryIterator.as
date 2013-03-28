@@ -2,7 +2,6 @@ package away3d.library.utils
 {
 	import away3d.library.assets.IAsset;
 
-
 	public class AssetLibraryIterator
 	{
 		private var _assets : Vector.<IAsset>;

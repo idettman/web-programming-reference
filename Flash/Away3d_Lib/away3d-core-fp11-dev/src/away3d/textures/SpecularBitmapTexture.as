@@ -8,7 +8,6 @@ package away3d.textures
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 
-
 	use namespace arcane;
 
 	/**

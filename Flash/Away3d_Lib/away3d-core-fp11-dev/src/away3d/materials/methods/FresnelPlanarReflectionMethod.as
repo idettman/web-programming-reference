@@ -6,7 +6,6 @@ package away3d.materials.methods
 	import away3d.materials.compilation.ShaderRegisterElement;
 	import away3d.textures.PlanarReflectionTexture;
 
-
 	use namespace arcane;
 
 	/**

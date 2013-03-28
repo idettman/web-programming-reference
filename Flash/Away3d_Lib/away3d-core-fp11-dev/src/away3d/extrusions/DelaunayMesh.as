@@ -15,7 +15,6 @@ package away3d.extrusions
 
 	import flash.geom.Vector3D;
 
-
 	public class DelaunayMesh extends Mesh
 	{
 		public static const PLANE_XZ:String = "xz";

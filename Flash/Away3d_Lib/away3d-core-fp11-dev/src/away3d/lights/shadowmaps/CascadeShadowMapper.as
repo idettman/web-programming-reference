@@ -10,7 +10,6 @@ package away3d.lights.shadowmaps
 	import away3d.core.math.Plane3D;
 	import away3d.core.render.DepthRenderer;
 	import away3d.lights.DirectionalLight;
-
 	import flash.display3D.textures.TextureBase;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
@@ -18,7 +17,6 @@ package away3d.lights.shadowmaps
 	import flash.geom.Matrix3D;
 	import flash.geom.Rectangle;
 	import flash.geom.Vector3D;
-
 
 	use namespace arcane;
 

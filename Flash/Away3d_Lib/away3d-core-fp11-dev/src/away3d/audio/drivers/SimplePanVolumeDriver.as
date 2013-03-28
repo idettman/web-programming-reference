@@ -1,11 +1,10 @@
 package away3d.audio.drivers
 {
 	import away3d.audio.SoundTransform3D;
-
+	
 	import flash.events.Event;
 	import flash.geom.*;
 	import flash.media.*;
-
 
 	/**
 	 * The Simple pan/volume Sound3D driver will alter the pan and volume properties on the

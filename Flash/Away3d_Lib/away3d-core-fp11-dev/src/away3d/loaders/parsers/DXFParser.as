@@ -1,19 +1,22 @@
 package away3d.loaders.parsers
 {
 	import away3d.arcane;
+	import away3d.containers.ObjectContainer3D;
 	import away3d.core.base.CompactSubGeometry;
 	import away3d.core.base.Geometry;
+	import away3d.core.base.SubGeometry;
 	import away3d.entities.Mesh;
 	import away3d.entities.SegmentSet;
+	import away3d.loaders.misc.ResourceDependency;
 	import away3d.loaders.parsers.utils.ParserUtil;
 	import away3d.materials.ColorMaterial;
 	import away3d.primitives.LineSegment;
-
+	
 	import flash.geom.Vector3D;
+	import flash.net.URLRequest;
 	import flash.utils.ByteArray;
 	import flash.utils.Dictionary;
-
-
+	 
 	use namespace arcane;
 	
 	/**

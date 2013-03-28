@@ -1,7 +1,7 @@
 package away3d.cameras.lenses
 {
+	import away3d.containers.View3D;
 	import away3d.core.math.Matrix3DUtils;
-
 
 	/**
 	 * The PerspectiveLens object provides a projection matrix that projects 3D geometry with perspective distortion.

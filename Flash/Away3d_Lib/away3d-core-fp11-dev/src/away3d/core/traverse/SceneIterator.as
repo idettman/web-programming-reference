@@ -4,7 +4,6 @@ package away3d.core.traverse
 	import away3d.containers.ObjectContainer3D;
 	import away3d.containers.Scene3D;
 
-
 	use namespace arcane;
 
 	public class SceneIterator

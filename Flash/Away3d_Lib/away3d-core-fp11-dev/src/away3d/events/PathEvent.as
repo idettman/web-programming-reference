@@ -2,7 +2,6 @@
 {
 	import flash.events.Event;
 
-
 	public class PathEvent extends Event
     {
 		/**

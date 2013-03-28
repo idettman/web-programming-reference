@@ -2,7 +2,6 @@
 {
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * A WirefameCube primitive mesh.
 	 */

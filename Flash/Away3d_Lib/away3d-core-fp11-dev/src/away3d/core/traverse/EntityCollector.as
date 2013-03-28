@@ -15,7 +15,6 @@ package away3d.core.traverse
 	import away3d.lights.PointLight;
 	import away3d.materials.MaterialBase;
 
-
 	use namespace arcane;
 
 	/**

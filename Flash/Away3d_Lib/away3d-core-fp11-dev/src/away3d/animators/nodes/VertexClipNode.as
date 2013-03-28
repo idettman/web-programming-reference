@@ -4,7 +4,7 @@ package away3d.animators.nodes
 	import away3d.core.base.*;
 
 	import flash.geom.*;
-
+	
 
 	/**
 	 * A vertex animation node containing time-based animation data as individual geometry obejcts.

@@ -3,7 +3,6 @@ package away3d.materials.compilation
 	import away3d.materials.LightSources;
 	import away3d.materials.methods.MethodVO;
 
-
 	public class MethodDependencyCounter
 	{
 		private var _projectionDependencies : uint;

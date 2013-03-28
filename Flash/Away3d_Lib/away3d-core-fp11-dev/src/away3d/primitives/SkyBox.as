@@ -20,7 +20,6 @@ package away3d.primitives
 	import flash.geom.Matrix;
 	import flash.geom.Matrix3D;
 
-
 	use namespace arcane;
 
 	/**

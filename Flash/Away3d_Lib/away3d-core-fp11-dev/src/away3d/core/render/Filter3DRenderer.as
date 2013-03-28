@@ -15,7 +15,6 @@ package away3d.core.render
 	import flash.display3D.textures.Texture;
 	import flash.events.Event;
 
-
 	public class Filter3DRenderer
 	{
 		private var _filters : Array;

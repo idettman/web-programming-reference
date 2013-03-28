@@ -1,12 +1,19 @@
 package away3d.materials.methods
 {
+	import away3d.lights.shadowmaps.DirectionalShadowMapper;
 	import away3d.arcane;
+	import away3d.cameras.Camera3D;
+	import away3d.core.base.IRenderable;
+	import away3d.core.managers.Stage3DProxy;
 	import away3d.errors.AbstractMethodError;
 	import away3d.lights.LightBase;
+	import away3d.lights.PointLight;
 	import away3d.lights.shadowmaps.ShadowMapperBase;
 	import away3d.materials.compilation.ShaderRegisterCache;
 	import away3d.materials.compilation.ShaderRegisterElement;
 
+	import flash.geom.Matrix3D;
+	import flash.geom.Vector3D;
 
 	use namespace arcane;
 

@@ -4,7 +4,6 @@ package away3d.events
 
 	import flash.events.Event;
 
-
 	public class AssetEvent extends Event
 	{
 		public static const ASSET_COMPLETE : String = "assetComplete";

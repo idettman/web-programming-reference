@@ -14,7 +14,6 @@ package away3d.core.render
 	import flash.display3D.Program3D;
 	import flash.display3D.VertexBuffer3D;
 
-
 	public class BackgroundImageRenderer
 	{
 		private var _program3d : Program3D;

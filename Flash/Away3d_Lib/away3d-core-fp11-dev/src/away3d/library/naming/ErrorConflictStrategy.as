@@ -2,7 +2,6 @@ package away3d.library.naming
 {
 	import away3d.library.assets.IAsset;
 
-
 	public class ErrorConflictStrategy extends ConflictStrategyBase
 	{
 		public function ErrorConflictStrategy()

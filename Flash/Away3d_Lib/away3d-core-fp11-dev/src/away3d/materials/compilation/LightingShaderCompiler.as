@@ -2,7 +2,6 @@ package away3d.materials.compilation
 {
 	import away3d.arcane;
 
-
 	public class LightingShaderCompiler extends ShaderCompiler
 	{
 		public var _pointLightFragmentConstants : Vector.<ShaderRegisterElement>;

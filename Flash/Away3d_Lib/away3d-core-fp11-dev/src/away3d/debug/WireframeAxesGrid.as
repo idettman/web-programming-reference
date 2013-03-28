@@ -5,7 +5,6 @@
 
 	import flash.geom.Vector3D;
 
-
 	/**
 	* Class WireframeAxesGrid generates a grid of lines on a given plane<code>WireframeAxesGrid</code>
 	* @param	subDivision			[optional] uint . Default is 10;

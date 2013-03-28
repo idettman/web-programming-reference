@@ -14,7 +14,6 @@ package away3d.textures
 	import flash.display3D.textures.TextureBase;
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	/**

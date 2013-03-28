@@ -10,14 +10,13 @@ package away3d.core.pick
 	import away3d.core.traverse.*;
 	import away3d.entities.*;
 
-	import com.adobe.utils.*;
-
 	import flash.display.*;
 	import flash.display3D.*;
 	import flash.display3D.textures.*;
 	import flash.geom.*;
-
-
+	
+	import com.adobe.utils.*;
+	
 	use namespace arcane;
 	
 	/**

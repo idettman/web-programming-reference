@@ -5,7 +5,6 @@ package away3d.tools.serialize
 
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	/**

@@ -5,9 +5,8 @@ package away3d.core.base
 	import away3d.library.assets.AssetType;
 	import away3d.library.assets.IAsset;
 	import away3d.library.assets.NamedAssetBase;
-
+	
 	import flash.geom.Matrix3D;
-
 
 	use namespace arcane;
 	

@@ -5,9 +5,10 @@ package away3d.filters.tasks
 	import away3d.core.managers.Stage3DProxy;
 
 	import flash.display3D.Context3D;
-	import flash.display3D.Context3DProgramType;
-	import flash.display3D.textures.Texture;
 
+	import flash.display3D.Context3DProgramType;
+
+	import flash.display3D.textures.Texture;
 
 	use namespace arcane;
 

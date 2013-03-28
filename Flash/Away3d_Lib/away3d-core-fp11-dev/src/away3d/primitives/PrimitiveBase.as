@@ -4,11 +4,11 @@ package away3d.primitives
 	import away3d.core.base.CompactSubGeometry;
 	import away3d.core.base.Geometry;
 	import away3d.core.base.ISubGeometry;
+	import away3d.core.base.SubGeometry;
 	import away3d.errors.AbstractMethodError;
-
+	
 	import flash.geom.Matrix3D;
-
-
+	
 	use namespace arcane;
 
 	/**

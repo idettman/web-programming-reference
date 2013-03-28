@@ -13,7 +13,6 @@ package away3d.core.traverse
 
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	/**
@@ -34,6 +33,10 @@ package away3d.core.traverse
 		 * A property that can be used to avoid processing a partition more than once.
 		 */
 		arcane static var _collectionMark : uint;
+
+		public function PartitionTraverser() {
+			
+		}
 
 		/**
 		 * Called when the traversers enters a node. At minimum, it notifies the currently visited Partition3DNode whether or not further recursion is necessary.

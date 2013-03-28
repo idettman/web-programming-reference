@@ -1,14 +1,13 @@
 package away3d.cameras.lenses
 {
-	import away3d.arcane;
-	import away3d.errors.AbstractMethodError;
-	import away3d.events.LensEvent;
-
 	import flash.events.EventDispatcher;
 	import flash.geom.Matrix3D;
 	import flash.geom.Rectangle;
 	import flash.geom.Vector3D;
-
+	
+	import away3d.arcane;
+	import away3d.errors.AbstractMethodError;
+	import away3d.events.LensEvent;
 
 	use namespace arcane;
 

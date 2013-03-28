@@ -11,7 +11,6 @@ package away3d.materials.lightpickers
 	import flash.events.EventDispatcher;
 	import flash.geom.Vector3D;
 
-
 	use namespace arcane;
 
 	public class LightPickerBase extends EventDispatcher
@@ -30,6 +29,10 @@ package away3d.materials.lightpickers
 		protected var _lightProbeWeights : Vector.<Number>;
 
 		public var name : String;
+
+		public function LightPickerBase() {
+			
+		}
 
 		/**
 		 * The maximum amount of directional lights that will be provided

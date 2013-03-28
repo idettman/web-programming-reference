@@ -10,7 +10,6 @@ package away3d.lights
 
 	import flash.geom.Matrix3D;
 
-
 	use namespace arcane;
 
 	public class LightProbe extends LightBase

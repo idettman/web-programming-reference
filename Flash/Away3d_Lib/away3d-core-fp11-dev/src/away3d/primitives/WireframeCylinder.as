@@ -2,7 +2,6 @@ package away3d.primitives
 {
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * Generates a wireframd cylinder primitive.
 	 */

@@ -11,9 +11,9 @@ package away3d.core.render
 	import flash.display3D.Context3DBlendFactor;
 	import flash.display3D.Context3DCompareMode;
 	import flash.display3D.Context3DProgramType;
+	import flash.display3D.Context3DVertexBufferFormat;
 	import flash.display3D.Program3D;
 	import flash.display3D.textures.TextureBase;
-
 
 	/**
 	 * The PositionRenderer renders normalized position coordinates.

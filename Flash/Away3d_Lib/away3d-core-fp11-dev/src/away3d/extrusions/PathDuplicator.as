@@ -8,7 +8,6 @@ package away3d.extrusions {
 	import flash.geom.Matrix3D;
 	import flash.geom.Vector3D;
 
-
 	[Deprecated]
 	public class PathDuplicator
 	{

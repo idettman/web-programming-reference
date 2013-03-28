@@ -4,7 +4,6 @@ package away3d.paths
 
 	import flash.geom.Vector3D;
 
-
 	public class SegmentedPathBase implements IPath
 	{
 		private var _pointsPerSegment:uint;

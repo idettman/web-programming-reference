@@ -1,9 +1,8 @@
 package away3d.stereo.methods
 {
 	import away3d.core.managers.Stage3DProxy;
-
+	
 	import flash.display3D.Context3DProgramType;
-
 
 	public class AnaglyphStereoRenderMethod extends StereoRenderMethodBase
 	{

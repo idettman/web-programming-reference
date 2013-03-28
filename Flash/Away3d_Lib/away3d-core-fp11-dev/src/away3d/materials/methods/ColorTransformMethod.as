@@ -5,8 +5,8 @@ package away3d.materials.methods
 	import away3d.materials.compilation.ShaderRegisterCache;
 	import away3d.materials.compilation.ShaderRegisterElement;
 
+	import flash.display3D.Context3DProgramType;
 	import flash.geom.ColorTransform;
-
 
 	use namespace arcane;
 

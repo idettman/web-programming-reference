@@ -18,11 +18,11 @@
 	import away3d.textures.Texture2DBase;
 
 	import flash.display.BlendMode;
+
 	import flash.display3D.Context3D;
 	import flash.display3D.Context3DBlendFactor;
 	import flash.display3D.Context3DCompareMode;
 	import flash.events.Event;
-
 
 	use namespace arcane;
 

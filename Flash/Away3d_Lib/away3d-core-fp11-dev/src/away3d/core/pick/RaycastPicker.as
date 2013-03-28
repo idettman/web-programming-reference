@@ -1,5 +1,7 @@
 package away3d.core.pick
 {
+	import flash.geom.Vector3D;
+	
 	import away3d.arcane;
 	import away3d.containers.Scene3D;
 	import away3d.containers.View3D;
@@ -7,9 +9,6 @@ package away3d.core.pick
 	import away3d.core.traverse.EntityCollector;
 	import away3d.core.traverse.RaycastCollector;
 	import away3d.entities.Entity;
-
-	import flash.geom.Vector3D;
-
 
 	use namespace arcane;
 	

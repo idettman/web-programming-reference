@@ -16,7 +16,6 @@
 	import flash.display3D.Context3D;
 	import flash.geom.ColorTransform;
 
-
 	use namespace arcane;
 
 	/**

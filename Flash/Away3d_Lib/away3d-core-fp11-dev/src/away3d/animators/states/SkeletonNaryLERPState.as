@@ -1,14 +1,13 @@
 package away3d.animators.states
 {
+	import away3d.arcane;
 	import away3d.animators.*;
 	import away3d.animators.data.*;
 	import away3d.animators.nodes.*;
-	import away3d.arcane;
 	import away3d.core.math.*;
-
+	
 	import flash.geom.*;
-
-
+	
 	use namespace arcane;
 	
 	/**

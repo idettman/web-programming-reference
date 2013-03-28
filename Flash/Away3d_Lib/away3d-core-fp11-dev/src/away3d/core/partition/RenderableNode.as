@@ -4,7 +4,6 @@ package away3d.core.partition
 	import away3d.core.traverse.PartitionTraverser;
 	import away3d.entities.Entity;
 
-
 	/**
 	 * RenderableNode is a space partitioning leaf node that contains any Entity that is itself a IRenderable
 	 * object. This excludes Mesh (since the renderable objects are its SubMesh children).

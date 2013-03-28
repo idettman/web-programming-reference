@@ -3,10 +3,9 @@ package away3d.core.pick
 
 	import away3d.core.base.IRenderable;
 	import away3d.entities.*;
-
+	
 	import flash.geom.*;
-
-
+	
 	/**
 	 * Value object for a picking collision returned by a picking collider. Created as unique objects on entities
 	 * 

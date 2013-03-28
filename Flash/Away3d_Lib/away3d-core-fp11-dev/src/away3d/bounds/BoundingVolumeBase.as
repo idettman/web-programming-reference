@@ -4,11 +4,11 @@ package away3d.bounds
 	import away3d.arcane;
 	import away3d.core.base.*;
 	import away3d.core.math.Plane3D;
+	import away3d.core.pick.*;
 	import away3d.errors.*;
 	import away3d.primitives.*;
 
 	import flash.geom.*;
-
 
 	use namespace arcane;
 

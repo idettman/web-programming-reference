@@ -6,7 +6,6 @@ package away3d.textures
 	import flash.display3D.Context3DTextureFormat;
 	import flash.display3D.textures.TextureBase;
 
-
 	use namespace arcane;
 
 	public class CubeTextureBase extends TextureProxyBase

@@ -3,7 +3,6 @@ package away3d.library.naming
 	import away3d.arcane;
 	import away3d.library.assets.IAsset;
 
-
 	use namespace arcane;
 	
 	public class NumSuffixConflictStrategy extends ConflictStrategyBase

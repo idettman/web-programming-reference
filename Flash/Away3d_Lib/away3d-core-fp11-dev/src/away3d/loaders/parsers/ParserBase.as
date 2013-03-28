@@ -1,6 +1,10 @@
 package away3d.loaders.parsers
 {
 	import away3d.arcane;
+	import away3d.core.base.CompactSubGeometry;
+	import away3d.core.base.ISubGeometry;
+	import away3d.core.base.SkinnedSubGeometry;
+	import away3d.core.base.SubGeometry;
 	import away3d.errors.AbstractMethodError;
 	import away3d.events.AssetEvent;
 	import away3d.events.ParserEvent;
@@ -9,7 +13,7 @@ package away3d.loaders.parsers
 	import away3d.loaders.misc.ResourceDependency;
 	import away3d.loaders.parsers.utils.ParserUtil;
 	import away3d.tools.utils.TextureUtils;
-
+	
 	import flash.display.BitmapData;
 	import flash.events.EventDispatcher;
 	import flash.events.TimerEvent;
@@ -17,7 +21,6 @@ package away3d.loaders.parsers
 	import flash.utils.ByteArray;
 	import flash.utils.Timer;
 	import flash.utils.getTimer;
-
 
 	use namespace arcane;
 	

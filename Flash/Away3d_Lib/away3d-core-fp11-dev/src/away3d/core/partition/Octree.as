@@ -2,7 +2,6 @@ package away3d.core.partition
 {
 	import away3d.arcane;
 
-
 	use namespace arcane;
 
 	public class Octree extends Partition3D

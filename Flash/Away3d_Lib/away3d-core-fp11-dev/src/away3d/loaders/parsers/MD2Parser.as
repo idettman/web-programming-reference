@@ -1,5 +1,8 @@
 package away3d.loaders.parsers
 {
+	import flash.net.*;
+	import flash.utils.*;
+	
 	import away3d.*;
 	import away3d.animators.*;
 	import away3d.animators.nodes.*;
@@ -10,10 +13,6 @@ package away3d.loaders.parsers
 	import away3d.materials.*;
 	import away3d.materials.utils.*;
 	import away3d.textures.*;
-
-	import flash.net.*;
-	import flash.utils.*;
-
 
 	use namespace arcane;
 	

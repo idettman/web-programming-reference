@@ -2,7 +2,6 @@ package away3d.materials
 {
 	import away3d.textures.Texture2DBase;
 
-
 	public class TextureMultiPassMaterial extends MultiPassMaterialBase
 	{
 		private var _animateUVs : Boolean;

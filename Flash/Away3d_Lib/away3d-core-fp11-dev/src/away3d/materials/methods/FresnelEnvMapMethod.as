@@ -7,7 +7,6 @@ package away3d.materials.methods
 	import away3d.textures.CubeTextureBase;
 	import away3d.textures.Texture2DBase;
 
-
 	use namespace arcane;
 
 	public class FresnelEnvMapMethod extends EffectMethodBase

@@ -23,16 +23,31 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="ProjectCodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value />
+    </option>
+  </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Faygo">
+      <words>
+        <w>wonderfl</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractBase_Lib/AbstractBase_Lib.iml" filepath="$PROJECT_DIR$/AbstractBase_Lib/AbstractBase_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/actuate/Actuate_Lib.iml" filepath="$PROJECT_DIR$/actuate/Actuate_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" filepath="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" />
       <module fileurl="file://$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" filepath="$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" filepath="$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Flare-master/Flare_Lib.iml" filepath="$PROJECT_DIR$/Flare-master/Flare_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" filepath="$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Frocessing_Lib/Frocessing_Lib.iml" filepath="$PROJECT_DIR$/Frocessing_Lib/Frocessing_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/GreenSock-AS3-master/GreenSock-AS3-master.iml" filepath="$PROJECT_DIR$/GreenSock-AS3-master/GreenSock-AS3-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/hype-master/Hype_Lib.iml" filepath="$PROJECT_DIR$/hype-master/Hype_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinimalComps_Lib/MinimalComps_Lib.iml" filepath="$PROJECT_DIR$/MinimalComps_Lib/MinimalComps_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" filepath="$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" filepath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" filepath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" />
@@ -44,6 +59,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
   </component>
   <component name="deltaUtilsSettings">
     <option name="settings">

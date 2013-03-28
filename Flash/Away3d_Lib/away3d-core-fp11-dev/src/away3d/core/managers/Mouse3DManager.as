@@ -9,8 +9,8 @@ package away3d.core.managers
 	import away3d.events.MouseEvent3D;
 
 	import flash.events.MouseEvent;
-	import flash.geom.Vector3D;
 
+	import flash.geom.Vector3D;
 
 	use namespace arcane;
 

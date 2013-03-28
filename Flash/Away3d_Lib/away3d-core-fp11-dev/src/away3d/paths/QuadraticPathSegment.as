@@ -2,7 +2,6 @@ package away3d.paths
 {
 	import flash.geom.Vector3D;
 
-
 	/**
     * Creates a curved line segment definition required for the Path class.
     */ 

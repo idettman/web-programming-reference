@@ -4,7 +4,6 @@ package away3d.core.partition
 	import away3d.core.traverse.PartitionTraverser;
 	import away3d.entities.Mesh;
 
-
 	/**
 	 * MeshNode is a space partitioning leaf node that contains a Mesh object.
 	 */

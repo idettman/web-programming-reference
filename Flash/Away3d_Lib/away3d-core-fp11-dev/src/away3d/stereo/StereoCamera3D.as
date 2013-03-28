@@ -3,11 +3,10 @@ package away3d.stereo
 	import away3d.arcane;
 	import away3d.cameras.Camera3D;
 	import away3d.cameras.lenses.LensBase;
-
+	
 	import flash.geom.Matrix3D;
 	import flash.geom.Vector3D;
-
-
+	
 	use namespace arcane;
 	
 	public class StereoCamera3D extends Camera3D

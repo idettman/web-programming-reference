@@ -2,7 +2,6 @@
 {
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * A WireframeSphere primitive mesh
 	 */

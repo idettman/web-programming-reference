@@ -10,11 +10,11 @@ package away3d.tools.serialize
 	import away3d.containers.Scene3D;
 	import away3d.core.base.ISubGeometry;
 	import away3d.core.base.SkinnedSubGeometry;
+	import away3d.core.base.SubGeometry;
 	import away3d.core.base.SubMesh;
 	import away3d.entities.Mesh;
 	import away3d.materials.MaterialBase;
 	import away3d.materials.lightpickers.StaticLightPicker;
-
 	import flash.utils.getQualifiedClassName;
 
 

@@ -5,9 +5,8 @@
 	import away3d.events.*;
 
 	import flash.geom.Vector3D;
-
-
-	/**
+	
+    /**
     * Extended camera used to automatically look at a specified target object.
     * 
     * @see away3d.containers.View3D

@@ -9,11 +9,11 @@
 	import away3d.core.managers.Stage3DProxy;
 	import away3d.core.partition.EntityNode;
 	import away3d.core.partition.RenderableNode;
-	import away3d.library.assets.AssetType;
 	import away3d.materials.MaterialBase;
 	import away3d.materials.SegmentMaterial;
 	import away3d.primitives.LineSegment;
 	import away3d.primitives.data.Segment;
+	import away3d.library.assets.AssetType;
 
 	import flash.display3D.Context3D;
 	import flash.display3D.Context3DVertexBufferFormat;
@@ -21,7 +21,6 @@
 	import flash.display3D.VertexBuffer3D;
 	import flash.geom.Matrix;
 	import flash.geom.Vector3D;
-
 
 	use namespace arcane;
 

@@ -13,12 +13,11 @@ package away3d.loaders.parsers
 	import away3d.materials.TextureMaterial;
 	import away3d.materials.utils.DefaultMaterialManager;
 	import away3d.textures.Texture2DBase;
-
+	
 	import flash.geom.Vector3D;
 	import flash.net.URLRequest;
 	import flash.utils.ByteArray;
 	import flash.utils.Dictionary;
-
 
 	use namespace arcane;
 	

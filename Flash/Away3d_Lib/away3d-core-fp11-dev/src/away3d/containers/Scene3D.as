@@ -8,7 +8,6 @@ package away3d.containers
 
 	import flash.events.EventDispatcher;
 
-
 	use namespace arcane;
 
 	/**

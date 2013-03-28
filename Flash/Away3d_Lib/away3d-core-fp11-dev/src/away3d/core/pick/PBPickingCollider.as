@@ -1,12 +1,11 @@
 package away3d.core.pick
 {
 	import away3d.core.base.*;
-
+	
 	import flash.display.*;
 	import flash.geom.*;
 	import flash.utils.*;
-
-
+	
 	/**
 	 * PixelBender-based picking collider for entity objects. Used with the <code>RaycastPicker</code> picking object.
 	 * 

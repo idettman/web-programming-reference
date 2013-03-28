@@ -1,8 +1,6 @@
 package away3d.textures {
 	import flash.display3D.Context3DTextureFormat;
 	import flash.utils.ByteArray;
-
-
 	/**
 	 * @author simo
 	 */

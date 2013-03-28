@@ -1,11 +1,10 @@
 package away3d.events
 {
-	import away3d.core.base.*;
+    import away3d.core.base.*;
 
-	import flash.events.Event;
-
-
-	/**
+    import flash.events.Event;
+    
+    /**
     * Passed as a parameter when a 3d object event occurs
     */
     public class Object3DEvent extends Event

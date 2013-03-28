@@ -11,7 +11,6 @@ package away3d.entities
 
 	import flash.geom.*;
 
-
 	use namespace arcane;
 
 	/**

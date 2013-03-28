@@ -1,9 +1,9 @@
 package away3d.animators.utils
 {
+	import away3d.arcane;
 	import away3d.animators.data.*;
 	import away3d.animators.nodes.*;
-	import away3d.arcane;
-
+	
 	import flash.geom.*;
 
 

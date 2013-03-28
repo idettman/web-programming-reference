@@ -3,7 +3,6 @@ package away3d.core.base
 	import away3d.animators.IAnimator;
 	import away3d.materials.MaterialBase;
 
-
 	/**
 	 * IMaterialOwner provides an interface for objects that can use materials.
 	 */

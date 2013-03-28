@@ -5,7 +5,6 @@ package away3d.tools.serialize
 
 	import flash.geom.Vector3D;
 
-
 	/**
 	 * SerializerBase is the abstract class for all Serializers. It provides an interface for basic data type writing.
 	 * It is not intended for reading.

@@ -2,7 +2,6 @@ package away3d.materials
 {
 	import away3d.arcane;
 
-
 	use namespace arcane;
 
 	/**

@@ -1,8 +1,7 @@
 package away3d.animators.transitions
 {
 	import away3d.animators.nodes.*;
-
-
+	
 	/**
 	 * A skeleton animation node that uses two animation node inputs to blend a lineraly interpolated output of a skeleton pose.
 	 */
