@@ -4,19 +4,20 @@
  * Date: 3/28/13
  * Time: 12:36 PM
  */
-package ashframework.game
+package ashframework
 {
+	import ashframework.game.*;
 	import flash.display.Sprite;
 	import flash.events.Event;
 
 
 	[SWF(width='600', height='450', frameRate='60', backgroundColor='#000000')]
-	public class Main extends Sprite
+	public class AshFramework_Main extends Sprite
 	{
 		private var game:Game;
 
 
-		public function Main ()
+		public function AshFramework_Main ()
 		{
 			addEventListener( Event.ENTER_FRAME, init );
 		}

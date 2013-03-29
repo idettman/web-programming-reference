@@ -3,6 +3,10 @@ package
 
 	import base.display.AbstractSprite;
 
+	import lunchwheel.LunchWheelAltLabelRotation;
+
+	import oimophysics.OimoPhysicsAway3dIntegrationTest;
+
 	import oimophysics.PhysicsWheel;
 
 
@@ -38,7 +42,7 @@ package
 			//addChild (new CreatePolygonWithRectangles_Test ());
 			//addChild (new LunchWheel_Test ());
 			//addChild (new LunchWheelAltLabelRotation ());
-			addChild (new PhysicsWheel ());
+			//addChild (new PhysicsWheel ());
 
 		}
 	}

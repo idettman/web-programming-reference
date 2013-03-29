@@ -46,7 +46,7 @@
       <module fileurl="file://$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" filepath="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" group="Custom Libraries" />
       <module fileurl="file://$PROJECT_DIR$/Ash-master/Ash_Lib.iml" filepath="$PROJECT_DIR$/Ash-master/Ash_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" filepath="$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" group="3rd Party Libraries" />
-      <module fileurl="file://$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" filepath="$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" filepath="$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/Flare-master/Flare_Lib.iml" filepath="$PROJECT_DIR$/Flare-master/Flare_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" filepath="$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Frocessing_Lib/Frocessing_Lib.iml" filepath="$PROJECT_DIR$/Frocessing_Lib/Frocessing_Lib.iml" group="3rd Party Libraries" />
@@ -59,13 +59,6 @@
       <module fileurl="file://$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" filepath="$PROJECT_DIR$/Tween24-master/Tween24_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" filepath="$PROJECT_DIR$/tweensy/Tweensy_Lib.iml" group="3rd Party Libraries" />
     </modules>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/Ash-master/src/ash/integration/robotlegs/AshExtension.as" />
-    <file url="file://$PROJECT_DIR$/Ash-master/src/ash/integration/starling/StarlingFixedTickProvider.as" />
-    <file url="file://$PROJECT_DIR$/Ash-master/src/ash/integration/starling/StarlingFrameTickProvider.as" />
-    <file url="file://$PROJECT_DIR$/Ash-master/src/ash/integration/swiftsuspenders/NodeListProvider.as" />
-    <file url="file://$PROJECT_DIR$/Ash-master/src/ash/integration/swiftsuspenders/SwiftSuspendersEngine.as" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="AIRSDK_Compiler" project-jdk-type="Flex SDK Type (new)">
     <output url="file://$PROJECT_DIR$/out" />

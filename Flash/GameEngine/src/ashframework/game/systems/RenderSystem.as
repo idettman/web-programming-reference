@@ -14,6 +14,8 @@ package ashframework.game.systems
 	import ashframework.game.components.Position;
 	import ashframework.game.nodes.RenderNode;
 
+	import away3d.containers.View3D;
+
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
 
@@ -21,7 +23,9 @@ package ashframework.game.systems
 	public class RenderSystem extends System
 	{
 		public var container:DisplayObjectContainer;
+		public var view:View3D;
 		private var nodes:NodeList;
+
 
 
 		public function RenderSystem (container:DisplayObjectContainer)

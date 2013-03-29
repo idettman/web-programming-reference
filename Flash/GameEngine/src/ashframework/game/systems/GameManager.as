@@ -12,6 +12,7 @@ package ashframework.game.systems
 
 	import ashframework.game.*;
 	import ashframework.game.nodes.GameNode;
+	import ashframework.game.nodes.PlanetNode;
 	import ashframework.game.nodes.SpaceshipNode;
 
 
@@ -20,6 +21,7 @@ package ashframework.game.systems
 		private var config:GameConfig;
 		private var creator:EntityCreator;
 
+		private var planets:NodeList;
 		private var gameNodes:NodeList;
 		private var spaceships:NodeList;
 
@@ -36,15 +38,17 @@ package ashframework.game.systems
 		{
 			trace ("GameManager . addToEngine()");
 			gameNodes = engine.getNodeList (GameNode);
-			spaceships = engine.getNodeList(SpaceshipNode)
+			spaceships = engine.getNodeList (SpaceshipNode);
+			planets = engine.getNodeList (PlanetNode);
 		}
 
 
 		override public function removeFromEngine (engine:Engine):void
 		{
 			trace ("GameManager . removeFromEngine()");
-			gameNodes = null;
+			planets = null;
 			spaceships = null;
+			gameNodes = null;
 		}
 
 
