@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" afterPath="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/bin/Away3d_4_1_Lib.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/bin/GameEngine.swf" afterPath="$PROJECT_DIR$/GameEngine/bin/GameEngine.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364582566419" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364590340216" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364590535735" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -38,7 +35,7 @@
     <file path="/Motion.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364508683557" ignored="false" />
     <file path="/MotionSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364509993061" ignored="false" />
     <file path="/MotionNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364509836099" ignored="false" />
-    <file path="/RenderSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364590488839" ignored="false" />
+    <file path="/RenderSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364596816993" ignored="false" />
     <file path="/RenderNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364510998874" ignored="false" />
     <file path="/Display.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364511026897" ignored="false" />
     <file path="/SpaceshipView.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364583552344" ignored="false" />
@@ -154,7 +151,7 @@
       <file leaf-file-name="RenderSystem.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="12" selection-start="856" selection-end="856" vertical-scroll-proportion="0.44189602">
+            <state line="57" column="0" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.17477204">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -209,8 +206,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="309" />
-    <option name="width" value="1611" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
     <option name="height" value="1170" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1175,7 +1172,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="0" width="1611" height="1170" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1170" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1183,14 +1180,14 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872656" sideWeight="0.99938875" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32851636" sideWeight="0.99938875" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27437055" sideWeight="0.67127347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28283897" sideWeight="0.67148364" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1242,7 +1239,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mouse polling class for adding maya type camera control to gameengine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix: away3d view was not added to display list" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1267,6 +1264,7 @@
     <MESSAGE value="Removed old classes" />
     <MESSAGE value="Started converting display objects to objectcontainer3d" />
     <MESSAGE value="Added mouse polling class for adding maya type camera control to gameengine" />
+    <MESSAGE value="Bug fix: away3d view was not added to display list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1406,7 +1404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="12" selection-start="856" selection-end="856" vertical-scroll-proportion="0.44189602">
+        <state line="57" column="0" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.17477204">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

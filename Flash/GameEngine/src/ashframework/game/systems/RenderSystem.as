@@ -16,6 +16,9 @@ package ashframework.game.systems
 
 	import away3d.containers.ObjectContainer3D;
 	import away3d.containers.View3D;
+	import away3d.entities.Mesh;
+	import away3d.materials.ColorMaterial;
+	import away3d.primitives.SphereGeometry;
 
 	import flash.display.DisplayObjectContainer;
 
@@ -38,6 +41,13 @@ package ashframework.game.systems
 		override public function addToEngine (engine:Engine):void
 		{
 			container.addChild (view);
+
+			var sphere:Mesh = new Mesh (new SphereGeometry (), new ColorMaterial (0xFF0000));
+			view.scene.addChild (sphere);
+
+			view.camera.moveBackward (800);
+			view.camera.moveUp (200);
+			view.camera.lookAt (sphere.position);
 
 			nodes = engine.getNodeList (RenderNode);
 
@@ -71,6 +81,8 @@ package ashframework.game.systems
 
 		override public function update (time:Number):void
 		{
+			view.render ();
+
 			var node:RenderNode;
 			var position:Position;
 			var display:Display;
