@@ -12,11 +12,11 @@ package ashframework.game.components
 		public var down:uint = 0;
 		public var left:uint = 0;
 		public var right:uint = 0;
-
+		
 		public var rotationRate:Number = 0;
 		public var accelerationRate:Number = 0;
-
-
+		
+		
 		public function MotionControls (up:uint, down:uint, left:uint, right:uint, rotationRate:Number, accelerationRate:Number)
 		{
 			this.up = up;

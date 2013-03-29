@@ -12,7 +12,7 @@ package ashframework.game.components
 	public class Display
 	{
 		public var displayObject:DisplayObject;
-
+		
 
 		public function Display (displayObject:DisplayObject)
 		{

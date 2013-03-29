@@ -11,6 +11,7 @@ package ashframework.game
 
 	import ashframework.game.systems.GameManager;
 	import ashframework.game.systems.MotionControlSystem;
+	import ashframework.game.systems.PhysicsSystem;
 	import ashframework.game.systems.RenderSystem;
 	import ashframework.game.systems.SystemPriorities;
 	import ashframework.input.KeyPoll;
@@ -46,8 +47,9 @@ package ashframework.game
 
 			engine.addSystem (new GameManager (creator, config), SystemPriorities.preUpdate);
 			engine.addSystem (new MotionControlSystem (keyPoll), SystemPriorities.update);
+			engine.addSystem (new PhysicsSystem (), SystemPriorities.resolveCollisions);
 			engine.addSystem (new RenderSystem (container), SystemPriorities.render);
-
+			
 
 			creator.createGame();
 		}

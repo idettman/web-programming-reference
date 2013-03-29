@@ -5,13 +5,13 @@
       <configuration name="GameEngine" pure-as="true" main-class="ashframework.game.Main" output-file="GameEngine.swf" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="11.6">
           <entries>
-            <entry module-name="Ash_Lib" build-configuration-name="Ash_Lib_BuildConfig">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry module-name="Away3d_Lib" build-configuration-name="Away3d_Lib">
+            <entry module-name="Ash-master" build-configuration-name="Ash_Lib">
               <dependency linkage="Merged" />
             </entry>
             <entry module-name="PlanetaryOrbitEngine" build-configuration-name="PlanetaryOrbitEngine">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="Away3d_Lib" build-configuration-name="Away3d_Lib">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -32,9 +32,9 @@
     </content>
     <orderEntry type="jdk" jdkName="AIRSDK_Compiler" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Ash_Lib" exported="" />
     <orderEntry type="module" module-name="Away3d_Lib" exported="" />
     <orderEntry type="module" module-name="PlanetaryOrbitEngine" exported="" />
+    <orderEntry type="module" module-name="Ash-master" exported="" />
   </component>
 </module>
 

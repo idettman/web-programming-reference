@@ -18,6 +18,7 @@ package ashframework.game.systems
 
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
+	
 
 
 	public class RenderSystem extends System
@@ -72,7 +73,7 @@ package ashframework.game.systems
 			var position:Position;
 			var display:Display;
 			var displayObject:DisplayObject;
-
+			
 			for (node = RenderNode(nodes.head); node; node = RenderNode(node.next))
 			{
 				display = node.display;

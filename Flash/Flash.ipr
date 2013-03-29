@@ -44,7 +44,7 @@
       <module fileurl="file://$PROJECT_DIR$/AbstractBase_Lib/AbstractBase_Lib.iml" filepath="$PROJECT_DIR$/AbstractBase_Lib/AbstractBase_Lib.iml" group="Custom Libraries" />
       <module fileurl="file://$PROJECT_DIR$/actuate/Actuate_Lib.iml" filepath="$PROJECT_DIR$/actuate/Actuate_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" filepath="$PROJECT_DIR$/AnimationScrubber/AnimationScrubber.iml" group="Custom Libraries" />
-      <module fileurl="file://$PROJECT_DIR$/Ash-master/Ash_Lib.iml" filepath="$PROJECT_DIR$/Ash-master/Ash_Lib.iml" group="3rd Party Libraries" />
+      <module fileurl="file://$PROJECT_DIR$/Ash-master/Ash-master.iml" filepath="$PROJECT_DIR$/Ash-master/Ash-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" filepath="$PROJECT_DIR$/Away3d_Lib/Away3d_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" filepath="$PROJECT_DIR$/Effects_Lib/Effects_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/Flare-master/Flare_Lib.iml" filepath="$PROJECT_DIR$/Flare-master/Flare_Lib.iml" group="3rd Party Libraries" />
