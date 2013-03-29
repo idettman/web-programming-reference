@@ -1,4 +1,4 @@
-package
+package flare
 {
 	import base.display.AbstractSprite;
 

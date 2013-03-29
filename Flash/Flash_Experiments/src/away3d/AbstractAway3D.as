@@ -1,4 +1,4 @@
-package
+package away3d
 {
 	import away3d.cameras.lenses.PerspectiveLens;
 	import away3d.containers.ObjectContainer3D;
