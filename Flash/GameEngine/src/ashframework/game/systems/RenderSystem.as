@@ -14,11 +14,10 @@ package ashframework.game.systems
 	import ashframework.game.components.Position;
 	import ashframework.game.nodes.RenderNode;
 
+	import away3d.containers.ObjectContainer3D;
 	import away3d.containers.View3D;
 
-	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
-	
 
 
 	public class RenderSystem extends System
@@ -57,13 +56,13 @@ package ashframework.game.systems
 
 		private function addToDisplay (node:RenderNode):void
 		{
-			container.addChild (node.display.displayObject);
+			view.scene.addChild (node.display.displayObject);
 		}
 
 
 		private function removeFromDisplay (node:RenderNode):void
 		{
-			container.removeChild (node.display.displayObject);
+			view.scene.removeChild (node.display.displayObject);
 		}
 
 
@@ -72,7 +71,7 @@ package ashframework.game.systems
 			var node:RenderNode;
 			var position:Position;
 			var display:Display;
-			var displayObject:DisplayObject;
+			var displayObject:ObjectContainer3D;
 			
 			for (node = RenderNode(nodes.head); node; node = RenderNode(node.next))
 			{
@@ -82,6 +81,7 @@ package ashframework.game.systems
 
 				displayObject.x = position.position.x;
 				displayObject.y = position.position.y;
+				displayObject.z = position.position.z;
 			}
 		}
 	}

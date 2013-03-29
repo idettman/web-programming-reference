@@ -14,8 +14,11 @@ package ashframework.game
 
 	import ashframework.game.components.GameState;
 	import ashframework.game.components.MotionControls;
+	import ashframework.game.components.NBody;
+	import ashframework.game.components.Planet;
 	import ashframework.game.components.Position;
 	import ashframework.game.components.Spaceship;
+	import ashframework.game.graphics.PlanetView;
 	import ashframework.game.graphics.SpaceshipView;
 
 	import flash.geom.Vector3D;
@@ -43,7 +46,21 @@ package ashframework.game
 		}
 
 
-		public function createSpaceship (positionX:Number, positionY:Number):Entity
+		public function createPlanet (position:Vector3D, velocity:Vector3D, radius:Number, mass:Number):Entity
+		{
+			var planet:Entity = new Entity ()
+					.add(new Planet())
+					.add(new Position(position))
+					.add(new NBody(mass,radius, velocity,0))
+					.add(new PlanetView())
+
+			engine.addEntity (planet);
+
+			return planet;
+		}
+
+
+		public function createSpaceship (position:Vector3D):Entity
 		{
 			var spaceship:Entity = new Entity ();
 			var fsm:EntityStateMachine = new EntityStateMachine (spaceship);
@@ -52,7 +69,7 @@ package ashframework.game
 					.add (MotionControls).withInstance (new MotionControls (Keyboard.UP, Keyboard.DOWN, Keyboard.LEFT, Keyboard.RIGHT, 60, 60))
 					.add (Display).withInstance (new Display (new SpaceshipView ()));
 
-			spaceship.add (new Spaceship (fsm)).add (new Position (new Vector3D (positionX, positionY, 0)));
+			spaceship.add (new Spaceship (fsm)).add (new Position (position));
 			fsm.changeState ("playing");
 
 			engine.addEntity (spaceship);

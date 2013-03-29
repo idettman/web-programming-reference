@@ -13,7 +13,7 @@ package ashframework.game.nodes
 
 	public class RenderNode extends Node
 	{
-		public var position:Position;
 		public var display:Display;
+		public var position:Position;
 	}
 }

@@ -14,7 +14,7 @@ package ashframework.game.nodes
 
 	public class PlanetNode extends Node
 	{
-		public var spaceship:Planet;
+		public var planet:Planet;
 		public var position:Position;
 	}
 }

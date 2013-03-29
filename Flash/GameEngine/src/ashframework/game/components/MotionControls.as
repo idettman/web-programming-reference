@@ -17,7 +17,7 @@ package ashframework.game.components
 		public var accelerationRate:Number = 0;
 		
 		
-		public function MotionControls (up:uint, down:uint, left:uint, right:uint, rotationRate:Number, accelerationRate:Number)
+		public function MotionControls (up:uint, down:uint, left:uint, right:uint, rotationRate:Number = 10, accelerationRate:Number = 10)
 		{
 			this.up = up;
 			this.down = down;

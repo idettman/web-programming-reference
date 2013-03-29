@@ -6,20 +6,21 @@
  */
 package ashframework.game.graphics
 {
-	import flash.display.Shape;
+	import away3d.core.base.Geometry;
+	import away3d.entities.Mesh;
+	import away3d.materials.ColorMaterial;
+	import away3d.primitives.CubeGeometry;
 
 
-	public class SpaceshipView extends Shape
+	public class SpaceshipView extends Mesh
 	{
+
 		public function SpaceshipView ()
 		{
-			graphics.beginFill (0xFF0000);
-			graphics.moveTo( 10, 0 );
-			graphics.lineTo( -7, 7 );
-			graphics.lineTo( -4, 0 );
-			graphics.lineTo( -7, -7 );
-			graphics.lineTo( 10, 0 );
-			graphics.endFill();
+			var geometry:Geometry = new CubeGeometry ();
+			var material:ColorMaterial = new ColorMaterial (0xFF0000);
+
+			super (geometry, material);
 		}
 	}
 }

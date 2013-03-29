@@ -15,6 +15,8 @@ package ashframework.game.systems
 	import ashframework.game.nodes.PlanetNode;
 	import ashframework.game.nodes.SpaceshipNode;
 
+	import flash.geom.Vector3D;
+
 
 	public class GameManager extends System
 	{
@@ -64,7 +66,8 @@ package ashframework.game.systems
 				{
 					if (node.state.lives > 0)
 					{
-						creator.createSpaceship (config.width/2, config.height/2);
+						creator.createSpaceship (new Vector3D(config.width/2, config.height/2, 0));
+
 						node.state.lives--;
 					}
 					else

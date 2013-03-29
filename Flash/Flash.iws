@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\AbstractBase_Lib\src\base\away3d\Away3dBase.as" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.ipr" afterPath="$PROJECT_DIR$/Flash.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Display.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Display.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/MotionControls.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/MotionControls.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/NBody.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/NBody.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlanetNode.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlanetNode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/PlanetView.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/PlanetView.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/RenderNode.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/RenderNode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/SpaceshipView.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/SpaceshipView.as" />
     </list>
-    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364580264895" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364581657277" ignored="false" />
+    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364582566419" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364582482272" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
-    <file path="/a.dummy" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364503851467" ignored="false" />
+    <file path="/a.dummy" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364583273234" ignored="false" />
     <file path="/Game_2D_Shooter.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364421678071" ignored="false" />
     <file path="/SimpleProjectilePrediction.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364422069211" ignored="false" />
     <file path="$PROJECT_DIR$/Effects_Lib/src/GearImpl.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364422504689" ignored="false" />
@@ -24,8 +32,8 @@
     <file path="/AshTest1.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364495017716" ignored="false" />
     <file path="/Main.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364499679392" ignored="false" />
     <file path="/Game.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364543278372" ignored="false" />
-    <file path="/EntityCreator.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364515402660" ignored="false" />
-    <file path="/GameManager.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364520024497" ignored="false" />
+    <file path="/EntityCreator.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364584756761" ignored="false" />
+    <file path="/GameManager.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364583611300" ignored="false" />
     <file path="/GameState.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364504312899" ignored="false" />
     <file path="/GameNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364505019947" ignored="false" />
     <file path="/MotionControlSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364510135079" ignored="false" />
@@ -35,10 +43,10 @@
     <file path="/Motion.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364508683557" ignored="false" />
     <file path="/MotionSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364509993061" ignored="false" />
     <file path="/MotionNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364509836099" ignored="false" />
-    <file path="/RenderSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364521926772" ignored="false" />
+    <file path="/RenderSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364583068904" ignored="false" />
     <file path="/RenderNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364510998874" ignored="false" />
     <file path="/Display.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364511026897" ignored="false" />
-    <file path="/SpaceshipView.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364513132994" ignored="false" />
+    <file path="/SpaceshipView.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364583552344" ignored="false" />
     <file path="/Spaceship.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364513353387" ignored="false" />
     <file path="/SpaceshipNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364513775282" ignored="false" />
     <file path="/BVector.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364517663087" ignored="false" />
@@ -47,6 +55,8 @@
     <file path="/PhysicsNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364542591564" ignored="false" />
     <file path="/NBody.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364542704331" ignored="false" />
     <file path="/LunchWheel.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364580195601" ignored="false" />
+    <file path="/fragment.java" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364582695734" ignored="false" />
+    <file path="/PlanetView.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364584708313" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +125,7 @@
       <file leaf-file-name="PhysicsSystem.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="0" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.0">
+            <state line="108" column="44" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -123,12 +133,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RenderSystem.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as">
+      <file leaf-file-name="MotionControlSystem.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/MotionControlSystem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.103343464">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovementSystem.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/systems/MovementSystem.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="53" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.3272543">
+              <folding>
+                <element signature="e#45#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,22 +193,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Planet.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Spaceship.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/PlanetView.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlanetNode.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" />
-        <option value="$PROJECT_DIR$/Ash-master/src/ash/core/System.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Display.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsNode.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/MotionControls.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PhysicsNode.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/NBody.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/Game.as" />
         <option value="$PROJECT_DIR$/LunchWheel/src/LunchWheel.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Display.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlanetNode.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/RenderNode.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/SpaceshipView.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/NBody.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/PlanetView.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/MotionControls.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" />
       </list>
     </option>
   </component>
@@ -337,10 +369,6 @@
               <option name="myItemId" value="ashframework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -383,10 +411,394 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ashframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="no-dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="no-dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="richardlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="no-dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="richardlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="no-dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="richardlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="systems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="no-dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="richardlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3rd Party Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ash_framework_example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ash-master-multiple-rendering-targets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="no-dependencies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="richardlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asteroids" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -922,21 +1334,21 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35829568" sideWeight="0.6702863" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.99938875" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27437055" sideWeight="0.6702863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.99938875" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -984,7 +1396,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separated LunchWheel from the Flash_Experiments module to it's own module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed old classes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1006,6 +1418,7 @@
     <MESSAGE value="Refactored the PlanetaryOrbitEngine module from a application to a library. Created GameEngine module for integrating away3d and the orbit engine." />
     <MESSAGE value="Started integrating away3d with the ash framework" />
     <MESSAGE value="Separated LunchWheel from the Flash_Experiments module to it's own module" />
+    <MESSAGE value="Removed old classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1015,111 +1428,141 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LunchWheel/assets/fonts/LICENSE.txt">
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Position.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LunchWheel/src/LunchWheel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="57" selection-start="693" selection-end="693" vertical-scroll-proportion="0.5569423" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="49" selection-end="49" vertical-scroll-proportion="0.10608424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LunchWheel/src/lunchwheel/Spin.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="509" selection-end="509" vertical-scroll-proportion="0.3100304" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.25835866">
+        <state line="10" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.17223911">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/AlienAttack3D-master/src/components/Particle3D.as">
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/components/NBody.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="38" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.45379877">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/AlienAttack3D-master/src/components/GameTimer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="495" selection-end="495" vertical-scroll-proportion="0.3272543">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/AlienAttack3D-master/src/Demo.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="8" selection-start="1863" selection-end="1863" vertical-scroll-proportion="-1.5184805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Asteroids-master/src/starling/net/richardlord/asteroids/graphics/SpaceshipDeathView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="497" selection-end="497" vertical-scroll-proportion="-0.4123607">
+        <state line="20" column="12" selection-start="389" selection-end="389" vertical-scroll-proportion="0.34447822">
           <folding>
-            <element signature="e#46#74#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Asteroids-master/src/starling/net/richardlord/asteroids/graphics/BulletView.as">
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/PlanetView.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="262" selection-end="262" vertical-scroll-proportion="0.18946302">
+        <state line="21" column="12" selection-start="512" selection-end="512" vertical-scroll-proportion="0.3617021">
           <folding>
-            <element signature="e#46#86#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#134#167#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Asteroids-master/src/starling/net/richardlord/asteroids/components/Animation.as">
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="267" selection-end="267" vertical-scroll-proportion="0.22391084">
+        <state line="59" column="9" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.52874744">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/components/MotionControls.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.10472279">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/components/Display3D.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="171" selection-end="171" vertical-scroll-proportion="0.120567374">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Asteroids-master/src/starling/net/richardlord/asteroids/components/Asteroid.as">
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/components/Bullet.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Asteroids-master/src/starling/net/richardlord/asteroids/components/Display.as">
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/components/Asteroid.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="281" selection-end="281" vertical-scroll-proportion="0.20668693">
+        <state line="6" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.103343464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/nodes/BulletCollisionNode.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="39" selection-start="327" selection-end="327" vertical-scroll-proportion="0.18946302">
           <folding>
-            <element signature="e#48#83#0" expanded="true" />
+            <element signature="e#43#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as">
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/nodes/GunControlNode.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="0" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.0">
+        <state line="13" column="39" selection-start="407" selection-end="407" vertical-scroll-proportion="0.22391084">
+          <folding>
+            <element signature="e#43#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/nodes/MotionControlNode.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="395" selection-end="395" vertical-scroll-proportion="0.20668693">
+          <folding>
+            <element signature="e#43#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/nodes/AsteroidCollisionNode.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="302" selection-end="302" vertical-scroll-proportion="0.17223911">
+          <folding>
+            <element signature="e#43#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/nodes/MovementNode.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.24113475">
+          <folding>
+            <element signature="e#43#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/EntityCreator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.40657085">
+          <folding>
+            <element signature="e#37#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as">
+    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Ash-master-multiple-rendering-targets/examples/no-dependencies/asteroids/net/richardlord/asteroids/systems/MovementSystem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.103343464">
+        <state line="40" column="53" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.3272543">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#45#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1178,11 +1621,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>LunchWheel|LunchWheel|Custom Libraries</last-edited>
+          <last-edited>Away3d_Lib|3rd Party Libraries</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.20000002" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -8,13 +8,18 @@ package ashframework.game.graphics
 {
 	import away3d.core.base.Geometry;
 	import away3d.entities.Mesh;
+	import away3d.materials.ColorMaterial;
 	import away3d.materials.MaterialBase;
+	import away3d.primitives.SphereGeometry;
 
 
 	public class PlanetView extends Mesh
 	{
-		public function PlanetView (geometry:Geometry, material:MaterialBase = null)
+		public function PlanetView ()
 		{
+			var geometry:Geometry = new SphereGeometry ();
+			var material:MaterialBase = new ColorMaterial (0xFF0000);
+			
 			super (geometry, material);
 		}
 	}

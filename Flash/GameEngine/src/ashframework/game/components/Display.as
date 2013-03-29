@@ -6,15 +6,15 @@
  */
 package ashframework.game.components
 {
-	import flash.display.DisplayObject;
+	import away3d.containers.ObjectContainer3D;
 
 
 	public class Display
 	{
-		public var displayObject:DisplayObject;
+		public var displayObject:ObjectContainer3D;
 		
 
-		public function Display (displayObject:DisplayObject)
+		public function Display (displayObject:ObjectContainer3D)
 		{
 			this.displayObject = displayObject;
 		}
