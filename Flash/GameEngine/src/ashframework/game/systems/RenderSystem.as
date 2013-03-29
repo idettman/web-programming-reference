@@ -31,11 +31,14 @@ package ashframework.game.systems
 		public function RenderSystem (container:DisplayObjectContainer)
 		{
 			this.container = container;
+			view = new View3D ();
 		}
 
 
 		override public function addToEngine (engine:Engine):void
 		{
+			container.addChild (view);
+
 			nodes = engine.getNodeList (RenderNode);
 
 			for (var node:RenderNode = RenderNode(nodes.head); node; node = RenderNode(node.next))

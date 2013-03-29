@@ -59,7 +59,7 @@ package ashframework.game.systems
 			trace ("GameManager . update(", time, ")");
 
 			var node:GameNode;
-
+			
 			for (node = GameNode(gameNodes.head); node; node = GameNode(node.next))
 			{
 				if (spaceships.empty)
