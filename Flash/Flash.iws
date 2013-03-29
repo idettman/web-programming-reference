@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Refactored the PlanetaryOrbitEngine module from a application to a library. Created GameEngine module for integrating away3d and the orbit engine.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Planet.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlanetNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/graphics/PlanetView.as" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\html-template\history\history.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\html-template\history\history.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\html-template\history\historyFrame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\html-template\index.template.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\html-template\playerProductInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\html-template\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\PlanetaryOrbitEngine\bin\PlanetaryOrbitEngine.swf" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\src\ashframework\game\Main.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/ashframework/AshFramework_Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.ipr" afterPath="$PROJECT_DIR$/Flash.ipr" />
+    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" afterPath="$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" />
     </list>
     <ignored path="Flash.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364519815709" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364518666947" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364522365425" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -152,7 +135,7 @@
       <file leaf-file-name="GameManager.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="450" selection-end="450" vertical-scroll-proportion="0.33843797">
+            <state line="23" column="37" selection-start="520" selection-end="520" vertical-scroll-proportion="0.41653904">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -825,7 +808,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="309" y="0" width="1611" height="1170" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -839,7 +822,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32343447" sideWeight="0.6702863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32343447" sideWeight="0.6702863" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -891,7 +874,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored the PlanetaryOrbitEngine module from a application to a library. Created GameEngine module for integrating away3d and the orbit engine." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started integrating away3d with the ash framework" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -910,6 +893,7 @@
     <MESSAGE value="Added a simple example using the Ash entity framework to Flash Experiments" />
     <MESSAGE value="Created IntelliJ module groups for 3rd party and my custom libs" />
     <MESSAGE value="Refactored the PlanetaryOrbitEngine module from a application to a library. Created GameEngine module for integrating away3d and the orbit engine." />
+    <MESSAGE value="Started integrating away3d with the ash framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1034,7 +1018,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="450" selection-end="450" vertical-scroll-proportion="0.33843797">
+        <state line="23" column="37" selection-start="520" selection-end="520" vertical-scroll-proportion="0.41653904">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
