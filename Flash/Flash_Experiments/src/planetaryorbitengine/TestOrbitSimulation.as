@@ -1,5 +1,5 @@
-package com.iad.orbitsim
-{
+package planetaryorbitengine {
+	import com.iad.orbitsim.*;
 	import away3d.cameras.Camera3D;
 	import away3d.cameras.lenses.PerspectiveLens;
 	import away3d.containers.ObjectContainer3D;

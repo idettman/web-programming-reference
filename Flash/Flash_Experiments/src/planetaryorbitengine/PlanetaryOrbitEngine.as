@@ -1,7 +1,5 @@
-package
+package planetaryorbitengine
 {
-
-	import com.iad.orbitsim.TestOrbitSimulation;
 
 	import flash.display.Sprite;
 

@@ -29,6 +29,9 @@
             <entry module-name="Ash_Lib" build-configuration-name="Ash_Lib_BuildConfig">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="PlanetaryOrbitEngine" build-configuration-name="PlanetaryOrbitEngine">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="AIRSDK_Compiler" />
         </dependencies>
@@ -55,6 +58,7 @@
     <orderEntry type="module" module-name="GreenSock-AS3-master" exported="" />
     <orderEntry type="module" module-name="AbstractBase_Lib" exported="" />
     <orderEntry type="module" module-name="Ash_Lib" exported="" />
+    <orderEntry type="module" module-name="PlanetaryOrbitEngine" exported="" />
   </component>
 </module>
 

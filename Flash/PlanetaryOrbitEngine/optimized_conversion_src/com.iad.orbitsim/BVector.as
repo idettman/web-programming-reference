@@ -11,19 +11,19 @@ package com.iad.orbitsim
 		}
 
 		// scale a vector by x
-		public function scale (x:Number):void
+		public function scale (scale:Number):void
 		{
 			for (var i:int = 0; i < elements.length; ++i)
-				elements[i] = x * elements[i];
+				elements[i] = scale * elements[i];
 		}
 
 
 		// return a copy of a vector
-		public function copy (x:BVector):void
+		public function copy (vector:BVector):void
 		{
 			for (var i:int = 0; i < elements.length; ++i)
 			{
-				elements[i] = x.elements[i];
+				elements[i] = vector.elements[i];
 			}
 		}
 
@@ -50,27 +50,29 @@ package com.iad.orbitsim
 
 		// set this = x*y, interpreting the vectors as polynomials
 		// assume it will fit
-		public function mult (x:BVector, y:BVector):void
+		public function mult (vectorA:BVector, vectorB:BVector):void
 		{
-			if (this == x)
+			var vt:BVector;
+
+			if (this == vectorA)
 			{
-				var vt:BVector = new BVector (x.elements.length);
-				vt.copy (x);
-				x = vt;
-				if (this == y) y = vt;
+				vt = new BVector (vectorA.elements.length);
+				vt.copy (vectorA);
+				vectorA = vt;
+				if (this == vectorB) vectorB = vt;
 			}
-			else if (this == y)
+			else if (this == vectorB)
 			{
-				var vt:BVector = new BVector (y.elements.length);
-				vt.copy (y);
-				y = vt;
+				vt = new BVector (vectorB.elements.length);
+				vt.copy (vectorB);
+				vectorB = vt;
 			}
 			setToZero ();
 			for (var i:int = 0; i < elements.length; ++i)
 			{
 				for (var j:int = 0; i + j < elements.length; ++j)
 				{
-					elements[i + j] += x.elements[i] * y.elements[j];
+					elements[i + j] += vectorA.elements[i] * vectorB.elements[j];
 				}
 			}
 		}

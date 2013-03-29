@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/Flare-master/Flare_Lib.iml" filepath="$PROJECT_DIR$/Flare-master/Flare_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" filepath="$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Frocessing_Lib/Frocessing_Lib.iml" filepath="$PROJECT_DIR$/Frocessing_Lib/Frocessing_Lib.iml" group="3rd Party Libraries" />
+      <module fileurl="file://$PROJECT_DIR$/GameEngine/GameEngine.iml" filepath="$PROJECT_DIR$/GameEngine/GameEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/GreenSock-AS3-master/GreenSock-AS3-master.iml" filepath="$PROJECT_DIR$/GreenSock-AS3-master/GreenSock-AS3-master.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/hype-master/Hype_Lib.iml" filepath="$PROJECT_DIR$/hype-master/Hype_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/MinimalComps_Lib/MinimalComps_Lib.iml" filepath="$PROJECT_DIR$/MinimalComps_Lib/MinimalComps_Lib.iml" group="3rd Party Libraries" />
