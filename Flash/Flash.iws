@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Blast.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/BlastNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/CameraControlNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/CameraControls.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/DataModel.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Explosion.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Fragments.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/FragmentsNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/GameContainer.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Motion3D.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/MovementNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Player.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PlayerControlSystem.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlayerNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Projectile.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/ProjectileNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/SoundNode.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/SoundSystem.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Transform3D.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/bin/GameEngine.swf" afterPath="$PROJECT_DIR$/GameEngine/bin/GameEngine.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/Game.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/Game.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/GameState.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/GameState.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/input/KeyPoll.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/input/KeyPoll.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364603894390" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364596876785" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364607853981" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -149,43 +123,10 @@
       <file leaf-file-name="CameraControlSystem.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="9" selection-start="951" selection-end="951" vertical-scroll-proportion="0.42885375">
+            <state line="59" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.7144269">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#133#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameManager.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="12" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RenderSystem.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityCreator.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="14" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1387,7 +1328,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="First working Ash integration with Away3D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional game classes, hooked up away3d camera to cameracontrolsystem" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1414,6 +1355,7 @@
     <MESSAGE value="Added mouse polling class for adding maya type camera control to gameengine" />
     <MESSAGE value="Bug fix: away3d view was not added to display list" />
     <MESSAGE value="First working Ash integration with Away3D" />
+    <MESSAGE value="Added additional game classes, hooked up away3d camera to cameracontrolsystem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1423,13 +1365,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Asteroids-master/src/no-dependencies/net/richardlord/asteroids/EntityCreator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="12" selection-start="2661" selection-end="2661" vertical-scroll-proportion="0.585997">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ash-master/ash_framework_example/Asteroids-master/src/no-dependencies/net/richardlord/asteroids/Asteroids.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="19" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.3402985">
@@ -1499,30 +1434,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="14" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/CameraControlNode.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="0.3546945">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#131#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1536,9 +1453,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/input/MousePoll.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="2470" selection-end="2470" vertical-scroll-proportion="-0.243083">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1228#1251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/GameManager.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
+        <state line="61" column="12" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.5464427">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/RenderSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="8" selection-start="905" selection-end="905" vertical-scroll-proportion="0.29347825">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/EntityCreator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="14" selection-start="824" selection-end="824" vertical-scroll-proportion="0.16616617">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1547,7 +1492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="9" selection-start="951" selection-end="951" vertical-scroll-proportion="0.42885375">
+        <state line="59" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.7144269">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#133#170#0" expanded="true" />

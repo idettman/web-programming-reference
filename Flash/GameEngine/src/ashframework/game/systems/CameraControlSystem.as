@@ -47,19 +47,19 @@ package ashframework.game.systems
 				// Orbit camera
 				if (mousePoll.leftMouseDown)
 				{
-					camera.rotationX += 2;
+					//camera.rotationX += 2;
 				}
 
 				// Pan camera
 				if (mousePoll.middleMouseDown)
 				{
-					camera.moveLeft (10);
+					//camera.moveLeft (10);
 				}
 
 				// Move camera forward/backward
 				if (mousePoll.rightMouseDown)
 				{
-					camera.moveForward (10);
+					//camera.moveForward (10);
 				}
 
 
