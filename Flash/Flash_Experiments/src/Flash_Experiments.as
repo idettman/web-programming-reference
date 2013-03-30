@@ -1,9 +1,22 @@
 package
 {
 
+	import away3d.AbstractAway3D;
+
 	import base.display.AbstractSprite;
+
+	import flare.FlareTest;
+
 	import oimophysics.OimoPhysicsAway3dIntegrationTest;
 	import oimophysics.PhysicsWheel;
+	import oimophysics.PinballFieldBlocking;
+	import oimophysics.PinballTest;
+
+	import tweenengines.GreenSock_Test;
+	import tweenengines.GreensockAway3d_Test;
+
+	import tweenengines.Tween24_Away3d_Test;
+	import tweenengines.Tween24_Test;
 
 
 	[SWF(width="1024", height="760", frameRate="60")]
@@ -23,7 +36,8 @@ package
 		{
 			super.init ();
 
-			//addChild (new AbstractAway3D ());
+			addChild (new AbstractAway3D ());
+
 			//addChild (new OimoPhysicsAway3dIntegrationTest());
 			//addChild (new PinballTest ());
 			//addChild (new PinballFieldBlocking ());
