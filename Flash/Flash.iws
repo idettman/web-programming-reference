@@ -6,7 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364603894390" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364607853981" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364608295945" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -50,7 +50,7 @@
     <file path="/PlanetView.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364584708313" ignored="false" />
     <file path="/MousePoll.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364590202528" ignored="false" />
     <file path="/GameContainer.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364600578625" ignored="false" />
-    <file path="/CameraControlSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364607749158" ignored="false" />
+    <file path="/CameraControlSystem.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364608612616" ignored="false" />
     <file path="/CameraControls.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364601521970" ignored="false" />
     <file path="/CameraControlNode.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364601619742" ignored="false" />
     <file path="/Renderer3D.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364604011191" ignored="false" />
@@ -123,7 +123,7 @@
       <file leaf-file-name="CameraControlSystem.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.7144269">
+            <state line="57" column="16" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.8320158">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#133#170#0" expanded="true" />
@@ -1328,7 +1328,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added additional game classes, hooked up away3d camera to cameracontrolsystem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented out in progress camera control until the mouse move tracking is ready" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1356,6 +1356,7 @@
     <MESSAGE value="Bug fix: away3d view was not added to display list" />
     <MESSAGE value="First working Ash integration with Away3D" />
     <MESSAGE value="Added additional game classes, hooked up away3d camera to cameracontrolsystem" />
+    <MESSAGE value="Commented out in progress camera control until the mouse move tracking is ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1492,7 +1493,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.7144269">
+        <state line="57" column="16" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.8320158">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#133#170#0" expanded="true" />
