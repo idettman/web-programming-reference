@@ -47,6 +47,7 @@ package ashframework.input
 	{
 		private var states:ByteArray;
 		private var dispObj:DisplayObject;
+
 		
 		/**
 		 * Constructor

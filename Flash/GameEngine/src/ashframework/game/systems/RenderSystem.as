@@ -21,6 +21,7 @@ package ashframework.game.systems
 	import away3d.primitives.SphereGeometry;
 
 	import flash.display.DisplayObjectContainer;
+	import flash.geom.Vector3D;
 
 
 	public class RenderSystem extends System
@@ -31,10 +32,10 @@ package ashframework.game.systems
 
 
 
-		public function RenderSystem (container:DisplayObjectContainer)
+		public function RenderSystem (container:DisplayObjectContainer, view:View3D)
 		{
 			this.container = container;
-			view = new View3D ();
+			this.view = view;
 		}
 
 
@@ -42,12 +43,9 @@ package ashframework.game.systems
 		{
 			container.addChild (view);
 
-			var sphere:Mesh = new Mesh (new SphereGeometry (), new ColorMaterial (0xFF0000));
-			view.scene.addChild (sphere);
-
-			view.camera.moveBackward (800);
-			view.camera.moveUp (200);
-			view.camera.lookAt (sphere.position);
+			/*view.camera.moveBackward (200);
+			view.camera.moveUp (300);
+			view.camera.lookAt (new Vector3D());*/
 
 			nodes = engine.getNodeList (RenderNode);
 
@@ -85,13 +83,11 @@ package ashframework.game.systems
 
 			var node:RenderNode;
 			var position:Position;
-			var display:Display;
 			var displayObject:ObjectContainer3D;
 			
 			for (node = RenderNode(nodes.head); node; node = RenderNode(node.next))
 			{
-				display = node.display;
-				displayObject = display.displayObject;
+				displayObject = node.display.displayObject;
 				position = node.position;
 
 				displayObject.x = position.position.x;

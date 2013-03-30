@@ -56,7 +56,7 @@ package ashframework.game.systems
 
 		override public function update (time:Number):void
 		{
-			trace ("GameManager . update(", time, ")");
+			//trace ("GameManager . update(", time, ")");
 
 			var node:GameNode;
 			

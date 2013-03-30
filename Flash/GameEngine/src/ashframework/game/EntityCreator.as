@@ -10,6 +10,8 @@ package ashframework.game
 	import ash.core.Entity;
 	import ash.fsm.EntityStateMachine;
 
+	import ashframework.game.components.CameraControls;
+
 	import ashframework.game.components.Display;
 
 	import ashframework.game.components.GameState;
@@ -42,6 +44,7 @@ package ashframework.game
 			var gameEntity:Entity = new Entity()
 					.add (new GameState ());
 			engine.addEntity (gameEntity);
+
 			return gameEntity;
 		}
 
@@ -49,11 +52,10 @@ package ashframework.game
 		public function createPlanet (position:Vector3D, velocity:Vector3D, radius:Number, mass:Number):Entity
 		{
 			var planet:Entity = new Entity ()
-					.add(new Planet())
-					.add(new Position(position))
-					.add(new NBody(mass,radius, velocity,0))
-					.add(new PlanetView())
-
+					.add (new Planet ())
+					.add (new Position (position))
+					.add (new NBody (mass, radius, velocity, 0))
+					.add (new PlanetView ());
 			engine.addEntity (planet);
 
 			return planet;
@@ -75,6 +77,17 @@ package ashframework.game
 			engine.addEntity (spaceship);
 
 			return spaceship;
+		}
+
+
+		public function createCamera ():Entity
+		{
+			var camera:Entity = new Entity ()
+					.add(new CameraControls())
+
+			engine.addEntity (camera);
+
+			return camera;
 		}
 	}
 }
