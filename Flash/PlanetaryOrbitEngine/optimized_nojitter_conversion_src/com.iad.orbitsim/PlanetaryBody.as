@@ -40,18 +40,17 @@ package com.iad.orbitsim
 		// number of points used by step()
 		public static var POINTS:int = 9;       // number of points in step method
 		public static var PERIOD:int = POINTS - 1;// same error at oldVelocity[i] and oldVelocity[i+PERIOD]
-		
+
 		// size of queues
 		public static var history:int = 2 * POINTS + 2;
-		
 
 
 		public function PlanetaryBody (position:Vector3D, velocity:Vector3D, mass:Number, color:uint, radius:Number, id:int)
 		{
-			this.oldVelocity = new Vector.<Vector3D>(2 * history);
-			this.oldAcceleration = new Vector.<Vector3D>(2 * history);
-			this.newOldVelocity = new Vector.<Vector3D>(2 * history);
-			this.newOldAcceleration = new Vector.<Vector3D>(2 * history);
+			this.oldVelocity = new Vector.<Vector3D> (2 * history);
+			this.oldAcceleration = new Vector.<Vector3D> (2 * history);
+			this.newOldVelocity = new Vector.<Vector3D> (2 * history);
+			this.newOldAcceleration = new Vector.<Vector3D> (2 * history);
 
 			for (var i:int = 0; i < PlanetaryBody.history; ++i)
 			{
@@ -83,56 +82,41 @@ package com.iad.orbitsim
 			// See http://burtleburtle.net/bob/math/multistep.html
 			// ov and oa are queues, where ov[head] is the most recent position.
 			// v is just a temp variable here, not really velocity
-			//velocity.setToZero ();
 
 			var point:Vector3D;
-
 
 			velocity.setTo (0, 0, 0);
 
 			tempValue = oldAcceleration[head].add (oldAcceleration[head + 7]);
-			//tempValue.plus (oldAcceleration[head], oldAcceleration[head + 7]);
 
-
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy (22081.0 / 15120.0);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, 22081.0 / 15120.0, tempValue);
 
+			tempValue = oldAcceleration[head + 1].add (oldAcceleration[head + 6]);
 
-			tempValue = oldAcceleration[head+1].add (oldAcceleration[head + 6]);
-			//tempValue.plus (oldAcceleration[head + 1], oldAcceleration[head + 6]);
-
-
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy (-7337.0 / 15120.0);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, -7337.0 / 15120.0, tempValue);
 
-			tempValue = oldAcceleration[head+2].add (oldAcceleration[head + 5]);
-			//tempValue.plus (oldAcceleration[head + 2], oldAcceleration[head + 5]);
+			tempValue = oldAcceleration[head + 2].add (oldAcceleration[head + 5]);
 
-
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy (45765.0 / 15120.0);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, 45765.0 / 15120.0, tempValue);
 
-			tempValue = oldAcceleration[head+3].add (oldAcceleration[head + 4]);
-			//tempValue.plus (oldAcceleration[head + 3], oldAcceleration[head + 4]);
+			tempValue = oldAcceleration[head + 3].add (oldAcceleration[head + 4]);
 
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy (-29.0 / 15120.0);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, -29.0 / 15120.0, tempValue);
 
 			velocity.scaleBy (inc * inc);
 			velocity = velocity.add (oldVelocity[head + 7]);
-			//velocity.plus (velocity, oldVelocity[head + 7]);
 
 			position = position.add (velocity);
-			//position.plus (position, velocity);
 		}
+
 
 		/**
 		 * estimateVelocityAtTime - estimate the velocity at time [head+POINTS/2] in v
@@ -148,50 +132,35 @@ package com.iad.orbitsim
 			// -1/280,   4/105, -1/5,   4/5
 			//  1/1260, -5/504,  5/84, -5/21,   5/6
 			// -1/5544,  1/385, -1/56,  3/38, -15/56, 6/7
-			//velocity.setToZero ();
 			velocity.setTo (0, 0, 0);
 
 			tempValue = oldVelocity[head + 3].add (oldVelocity[head + 4]);
-			//tempValue.plus (oldVelocity[head + 3], oldVelocity[head + 4]);   // temp = op[3]-op[5]
 
-
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy ((4.0 / 5.0) / inc);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, (4.0 / 5.0) / inc, tempValue);
 
 			tempValue = tempValue.add (oldVelocity[head + 2]);
-			//tempValue.plus (tempValue, oldVelocity[head + 2]);
-
 			tempValue = tempValue.add (oldVelocity[head + 5]);
-			//tempValue.plus (tempValue, oldVelocity[head + 5]);         // temp = op[2]-op[6]
 
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy ((-1.0 / 5.0) / inc);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, (-1.0 / 5.0) / inc, tempValue);
 
 			tempValue = tempValue.add (oldVelocity[head + 1]);
-			//tempValue.plus (tempValue, oldVelocity[head + 1]);
-
 			tempValue = tempValue.add (oldVelocity[head + 6]);
-			//tempValue.plus (tempValue, oldVelocity[head + 6]);         // temp = op[1]-op[7]
 
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy ((4.0 / 105.0) / inc);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, (4.0 / 105.0) / inc, tempValue);
 
 			tempValue = tempValue.add (oldVelocity[head]);
-			//tempValue.plus (tempValue, oldVelocity[head + 0]);
 
 			tempValue = tempValue.add (oldVelocity[head + 7]);
-			//tempValue.plus (tempValue, oldVelocity[head + 7]);         // temp = op[0]-op[8]
 
-			point = tempValue.clone();
+			point = tempValue.clone ();
 			point.scaleBy ((-1.0 / 280.0) / inc);
 			velocity = velocity.add (point);
-			//velocity.plusMultiplied (velocity, (-1.0 / 280.0) / inc, tempValue);
 		}
 	}
 }

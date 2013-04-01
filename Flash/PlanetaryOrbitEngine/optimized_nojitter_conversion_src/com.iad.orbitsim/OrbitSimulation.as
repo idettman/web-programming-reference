@@ -20,7 +20,6 @@ package com.iad.orbitsim
 		private var _planetaryBody:PlanetaryBody;
 
 
-
 		public function OrbitSimulation (planetaryBodies:Vector.<PlanetaryBody>, timestepIncrement:Number = 1, substepsPerIteration:int = 5)
 		{
 			this._point3d = new Vector3D ();
@@ -28,8 +27,6 @@ package com.iad.orbitsim
 			this.iterationCounter = 0;
 			this.substepsPerIteration = substepsPerIteration;
 			this.timestepIncrement = timestepIncrement;
-
-
 
 			var i:int;
 
@@ -49,6 +46,7 @@ package com.iad.orbitsim
 
 			initIntegrator ();
 		}
+
 
 		/**
 		 *  initIntegrator -- given initial (position, velocity) for all moons,
@@ -76,7 +74,6 @@ package com.iad.orbitsim
 			// calculate accelerations, increment, fill oa[head] and ov[head]
 			moveToNewPoint ();
 
-
 			var pointA:Vector3D;
 
 			// given oa[0], correct ov[0] to really be op[0]-op[1]
@@ -84,14 +81,9 @@ package com.iad.orbitsim
 			{
 				_planetaryBody = planetaryBodies[i];
 
-				/*_point3d.scaleBy (-_planetaryBody.mass * scale);
-				q2.acceleration = q2.acceleration.add (_point3d);*/
-
-				pointA = _planetaryBody.oldAcceleration[_planetaryBody.head].clone();
+				pointA = _planetaryBody.oldAcceleration[_planetaryBody.head].clone ();
 				pointA.scaleBy (0.5 * timestepIncrement * timestepIncrement);
 				_planetaryBody.oldVelocity[_planetaryBody.head] = _planetaryBody.oldVelocity[_planetaryBody.head].add (pointA);
-
-				//_planetaryBody.oldVelocity[_planetaryBody.head].plusMultiplied (_planetaryBody.oldVelocity[_planetaryBody.head], 0.5 * timestepIncrement * timestepIncrement, _planetaryBody.oldAcceleration[_planetaryBody.head]);
 			}
 
 			// initialize the history with the inaccurate formula
@@ -120,8 +112,6 @@ package com.iad.orbitsim
 					if (j < iterationCounter - 1)
 					{
 						_planetaryBody.position = _planetaryBody.position.subtract (_planetaryBody.oldVelocity[_planetaryBody.head + j]);
-						//_planetaryBody.position.minus (_planetaryBody.position, _planetaryBody.oldVelocity[_planetaryBody.head + j]);
-
 						_planetaryBody.newOldVelocity[_planetaryBody.head + j].copyFrom (_planetaryBody.oldVelocity[_planetaryBody.head + iterationCounter - j - 2]);
 					}
 					_planetaryBody.newOldVelocity[_planetaryBody.head + j].scaleBy (-1.0);
@@ -162,31 +152,26 @@ package com.iad.orbitsim
 				pointA = _planetaryBody.velocity.clone ();
 				pointA.scaleBy (_planetaryBody.mass);
 				v = v.add (pointA);
-				//v.plusMultiplied (v, _planetaryBody.mass, _planetaryBody.velocity);
-
 
 				pointB = _planetaryBody.position.clone ();
 				pointB.scaleBy (_planetaryBody.mass);
 				p = p.add (pointB);
-				//p.plusMultiplied (p, _planetaryBody.mass, _planetaryBody.position);
 			}
 
 			for (i = 0; i < planetaryBodies.length; ++i)
 			{
 				_planetaryBody = planetaryBodies[i];
 
-
 				pointA = v.clone ();
 				pointA.scaleBy (-1.0 / m);
 				_planetaryBody.velocity = _planetaryBody.velocity.add (pointA);
-				//_planetaryBody.velocity.plusMultiplied (_planetaryBody.velocity, -1.0 / m, v);
 
 				pointB = p.clone ();
 				pointB.scaleBy (-1.0 / m);
 				_planetaryBody.position = _planetaryBody.position.add (pointA);
-				//_planetaryBody.position.plusMultiplied (_planetaryBody.position, -1.0 / m, p);
 			}
 		}
+
 
 		// In: _planetaryBody.p and _planetaryBody.v for all _planetaryBody
 		// Out: _planetaryBody.oldAcceleration[head] _planetaryBody.oldVelocity[head] for all _planetaryBody
@@ -206,7 +191,6 @@ package com.iad.orbitsim
 
 				_planetaryBody.oldVelocity[_planetaryBody.head].copyFrom (_planetaryBody.velocity);
 				_planetaryBody.oldAcceleration[_planetaryBody.head].copyFrom (_planetaryBody.acceleration);
-				//trace (tempMoon.position.x, tempMoon.position.y, tempMoon.position.z);
 			}
 		}
 
@@ -228,8 +212,6 @@ package com.iad.orbitsim
 				pointA.scaleBy (timestepIncrement * timestepIncrement);
 				_planetaryBody.velocity = _planetaryBody.oldVelocity[_planetaryBody.head].add (pointA);
 
-				//_planetaryBody.velocity.plusMultiplied (_planetaryBody.oldVelocity[_planetaryBody.head], timestepIncrement * timestepIncrement, _planetaryBody.oldAcceleration[_planetaryBody.head]);
-				//_planetaryBody.position.plus (_planetaryBody.position, _planetaryBody.velocity);
 				_planetaryBody.position = _planetaryBody.position.add (_planetaryBody.velocity);
 			}
 
@@ -237,10 +219,10 @@ package com.iad.orbitsim
 			moveToNewPoint ();
 		}
 
+
 		private function stepTwice ():void
 		{
 			var i:int;
-
 
 			// make sure enough history has actually been kept
 			while (iterationCounter < PlanetaryBody.history)
@@ -271,13 +253,6 @@ package com.iad.orbitsim
 					// The new old velocity must be comparing the object value since setting to a new Vector3D breaks physics
 					_planetaryBody.newOldVelocity[_planetaryBody.head + j / 2].setTo (point.x, point.y, point.z);
 
-					/*
-					> Original code
-					_planetaryBody.newOldVelocity[_planetaryBody.head + j / 2]
-							.plus (
-									_planetaryBody.oldVelocity[_planetaryBody.head + j],
-									_planetaryBody.oldVelocity[_planetaryBody.head + j + 1]);*/
-
 					_planetaryBody.newOldAcceleration[_planetaryBody.head + j / 2].copyFrom (_planetaryBody.oldAcceleration[_planetaryBody.head + j]);
 				}
 
@@ -295,6 +270,7 @@ package com.iad.orbitsim
 			timestepIncrement *= 2;
 		}
 
+
 		// move all moons forward by one time increment
 		public function step ():void
 		{
@@ -310,6 +286,7 @@ package com.iad.orbitsim
 			}
 		}
 
+
 		private function calculateEnergy ():Number
 		{
 			var new_energy:Number = 0;
@@ -324,13 +301,10 @@ package com.iad.orbitsim
 				{
 					var q2:PlanetaryBody = planetaryBodies[j];
 					_point3d = q2.position.subtract (_planetaryBody.position);
-					//_point3d.minus (q2.position, _planetaryBody.position);
 
 					for (var k:int = 0; k < PlanetaryBody.POINTS / 2; ++k)
 					{
 						_point3d = _point3d.subtract (q2.oldVelocity[q2.head + k]);
-						//_point3d.minus (_point3d, q2.oldVelocity[q2.head + k]);
-						//_point3d.plus (_point3d, _planetaryBody.oldVelocity[_planetaryBody.head + k]);
 						_point3d = _point3d.add (_planetaryBody.oldVelocity[_planetaryBody.head + k]);
 					}
 					energy2 += q2.mass / Math.sqrt (_point3d.dotProduct (_point3d));
@@ -344,6 +318,7 @@ package com.iad.orbitsim
 			return new_energy;
 		}
 
+
 		private function calculateAcceleration ():void
 		{
 			var i:int;
@@ -352,10 +327,8 @@ package com.iad.orbitsim
 			var scale:Number;
 			var dist:Number;
 
-
 			for (i = 0; i < planetaryBodies.length; ++i)
 			{
-				//planetaryBodies[i].acceleration.setToZero ();
 				planetaryBodies[i].acceleration.setTo (0, 0, 0);
 			}
 
@@ -369,16 +342,13 @@ package com.iad.orbitsim
 					q2 = planetaryBodies[j];
 
 					_point3d = q2.position.subtract (_planetaryBody.position);
-					//_point3d.minus (q2.position, _planetaryBody.position);
 
 					scale = _point3d.dotProduct (_point3d);
 					dist = Math.sqrt (scale);
 					scale = 1 / (scale * dist);
 
-
 					_point3d.scaleBy (q2.mass * scale);
 					_planetaryBody.acceleration = _planetaryBody.acceleration.add (_point3d);
-					//_planetaryBody.acceleration.plusMultiplied (_planetaryBody.acceleration, q2.mass * scale, _point3d);
 				}
 			}
 
@@ -394,26 +364,17 @@ package com.iad.orbitsim
 					q2 = planetaryBodies[j];
 
 					_point3d = q2.position.subtract (_planetaryBody.position);
-					//_point3d.minus (q2.position, _planetaryBody.position);
 
 					scale = _point3d.dotProduct (_point3d);
 					dist = Math.sqrt (scale);
 					scale = 1.0 / (scale * dist);
 
-
-					/*_point3d.scaleBy (q2.mass * scale);
-					_planetaryBody.acceleration = _planetaryBody.acceleration.add (_point3d);*/
-
-					pointA = _point3d.clone();
+					pointA = _point3d.clone ();
 					pointA.scaleBy (q2.mass * scale);
 					_planetaryBody.acceleration = _planetaryBody.acceleration.add (pointA);
 
-					//_planetaryBody.acceleration.plusMultiplied (_planetaryBody.acceleration, q2.mass * scale, _point3d);
-
 					_point3d.scaleBy (-_planetaryBody.mass * scale);
 					q2.acceleration = q2.acceleration.add (_point3d);
-
-					//q2.acceleration.plusMultiplied (q2.acceleration, -_planetaryBody.mass * scale, _point3d);
 				}
 			}
 		}

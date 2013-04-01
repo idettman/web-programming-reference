@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\PlanetaryOrbitEngine\optimized_nojitter_conversion_src\com.iad.orbitsim\Point3D.as" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProductionLib.iws" afterPath="$PROJECT_DIR$/../ProductionLib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364839064653" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364846946864" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364854800700" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -128,17 +122,7 @@
     <favorites_list name="Flash" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="OrbitSimulation.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="396" column="20" selection-start="13007" selection-end="13007" vertical-scroll-proportion="0.19908814">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -979,7 +963,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed intellij compile settings for parallel compilation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed conversion from point3d to use native flash vector3d" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1010,6 +994,7 @@
     <MESSAGE value="Commented out in progress camera control until the mouse move tracking is ready" />
     <MESSAGE value="Cleaned up formatting" />
     <MESSAGE value="Changed intellij compile settings for parallel compilation" />
+    <MESSAGE value="Completed conversion from point3d to use native flash vector3d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1097,14 +1082,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="36" selection-end="36" vertical-scroll-proportion="0.050670642">
-          <folding />
+        <state line="7" column="17" selection-start="103" selection-end="103" vertical-scroll-proportion="0.1266766">
+          <folding>
+            <element signature="e#28#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="20" selection-start="13007" selection-end="13007" vertical-scroll-proportion="0.19908814">
+        <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.025335321">
           <folding />
         </state>
       </provider>
