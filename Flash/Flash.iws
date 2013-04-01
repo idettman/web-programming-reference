@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Cleaned up formatting">
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\libs\AsUnit-4.1.2.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\libs\hamcrest-as3-only-1.1.3.swc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\AllTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\TestRunner.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\ComponentMatchingFamilyTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\EngineAndFamilyIntegrationTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\EngineTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\EntityTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\NodeListTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\SystemTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\ComponentInstanceProviderTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\ComponentSingletonProviderTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\ComponentTypeProviderTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\EntityStateMachineTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\EntityStateTests.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\matchers\NodeListMatcher.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\matchers\nodeList.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\signals\SignalTest.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\tools\ComponentPoolTest.as" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\tools\ListIteratingSystemTest.as" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" />
+    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855434249" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855671611" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855786501" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -918,7 +891,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed extra Ash Framework files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -950,6 +923,7 @@
     <MESSAGE value="Changed intellij compile settings for parallel compilation" />
     <MESSAGE value="Completed conversion from point3d to use native flash vector3d" />
     <MESSAGE value="Cleaned up formatting" />
+    <MESSAGE value="Removed extra Ash Framework files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
