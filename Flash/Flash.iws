@@ -1,41 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Added ash framework intellij module files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/earth.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/jupiter.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/mars.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/mercury.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/neptune.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/pluto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/saturn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/sun.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/uranus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/venus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Obj.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/ObjGraphics.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Queue.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/Stats.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/Three.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/dat.gui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_graphics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_math.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_obj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_simulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/orbitPhys.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/thingy.js" />
+    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Added initial files for lib translation">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
     </list>
-    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364856508658" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855889366" ignored="false" />
+    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364856794320" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364856671407" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -331,52 +302,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Custom Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanetaryOrbitEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanetaryOrbitEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reference" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IsaacNBodyEngine_Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -977,7 +902,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ash framework intellij module files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial files for lib translation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1011,6 +936,7 @@
     <MESSAGE value="Cleaned up formatting" />
     <MESSAGE value="Removed extra Ash Framework files" />
     <MESSAGE value="Added ash framework intellij module files" />
+    <MESSAGE value="Added initial files for lib translation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1020,46 +946,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="345" column="59" selection-start="10681" selection-end="10681" vertical-scroll-proportion="0.27118644">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#133#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="68" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.69491524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="44" selection-start="6754" selection-end="6754" vertical-scroll-proportion="0.79731745">
-          <folding>
-            <element signature="e#32#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="23" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.3546945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.25835866">
@@ -1136,6 +1022,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.45603576">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="27" selection-start="4928" selection-end="4928" vertical-scroll-proportion="2.9508197">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="609" selection-end="609" vertical-scroll-proportion="0.709389">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#133#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/Reference/ISAAC-master/isaac_math.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="49" selection-start="697" selection-end="697" vertical-scroll-proportion="0.5320417">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/Reference/ISAAC-master/isaac_core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="27" selection-start="4928" selection-end="4928" vertical-scroll-proportion="2.1028316">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/Point3D.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="14" selection-start="913" selection-end="913" vertical-scroll-proportion="1.4441133">
+          <folding>
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
