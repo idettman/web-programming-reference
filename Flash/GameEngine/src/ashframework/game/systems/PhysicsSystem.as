@@ -21,8 +21,8 @@ package ashframework.game.systems
 	public class PhysicsSystem extends ListIteratingSystem
 	{
 		private var orbitSimulation:OrbitSimulation;
-		
-		
+
+
 		public function PhysicsSystem ()
 		{
 			super (PhysicsNode, updateNode);
@@ -34,7 +34,6 @@ package ashframework.game.systems
 			var substepsPerIteration:int = 8;
 			var timestepIncrement:Number = 100;
 			var scaleMass:Number = 0.0000000012944;
-			
 
 			var planetaryBodyList:Vector.<PlanetaryBody> = new Vector.<PlanetaryBody> (10);
 			planetaryBodyList[0] = new PlanetaryBody (
@@ -96,7 +95,7 @@ package ashframework.game.systems
 					new Vector3D (0.000124706, -0.000051827, -0.000053747),
 					0.000002575, 0xccccff,
 					0.0000155, 9);
-			
+
 			var i:int;
 			var planet:PlanetaryBody;
 
@@ -109,29 +108,25 @@ package ashframework.game.systems
 
 			orbitSimulation = new OrbitSimulation (planetaryBodyList, timestepIncrement, substepsPerIteration);
 
-			
 			// Create position debug lines
 			/*for (i = 0; i < planetaryBodyList.length; ++i)
-			{
-				planet = planetaryBodyList[i];
-				sphereMesh = planet.sphereMesh;
-				
-				sphereMesh.x = planet.position.x * SCALE_MULTIPLIER;
-				sphereMesh.y = planet.position.y * SCALE_MULTIPLIER;
-				sphereMesh.z = planet.position.z * SCALE_MULTIPLIER;
-			}*/
-		}
+			 {
+			 planet = planetaryBodyList[i];
+			 sphereMesh = planet.sphereMesh;
 
+			 sphereMesh.x = planet.position.x * SCALE_MULTIPLIER;
+			 sphereMesh.y = planet.position.y * SCALE_MULTIPLIER;
+			 sphereMesh.z = planet.position.z * SCALE_MULTIPLIER;
+			 }*/
+		}
 
 
 		private function updateNode (node:PhysicsNode, time:Number):void
 		{
 			orbitSimulation.step ();
 
-
 			var nbody:NBody = node.nbody;
 			var position:Position = node.position;
-			
 
 		}
 	}

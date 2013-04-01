@@ -1,5 +1,4 @@
 package planetaryorbitengine {
-	import com.iad.orbitsim.*;
 	import away3d.cameras.Camera3D;
 	import away3d.cameras.lenses.PerspectiveLens;
 	import away3d.containers.ObjectContainer3D;
@@ -12,6 +11,8 @@ package planetaryorbitengine {
 	import away3d.primitives.LineSegment;
 	import away3d.primitives.SphereGeometry;
 	import away3d.primitives.data.Segment;
+
+	import com.iad.orbitsim.*;
 
 	import flash.display.Sprite;
 	import flash.events.Event;

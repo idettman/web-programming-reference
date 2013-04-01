@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
+    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Cleaned up formatting">
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\libs\AsUnit-4.1.2.swc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\libs\hamcrest-as3-only-1.1.3.swc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\AllTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\TestRunner.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\ComponentMatchingFamilyTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\EngineAndFamilyIntegrationTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\EngineTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\EntityTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\NodeListTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\core\SystemTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\ComponentInstanceProviderTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\ComponentSingletonProviderTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\ComponentTypeProviderTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\EntityStateMachineTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\fsm\EntityStateTests.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\matchers\NodeListMatcher.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\matchers\nodeList.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\signals\SignalTest.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\tools\ComponentPoolTest.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\test\src\ash\tools\ListIteratingSystemTest.as" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" afterPath="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" />
     </list>
-    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364839064653" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364854800700" ignored="false" />
+    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855434249" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855671611" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -156,11 +181,11 @@
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/BVector.as" />
         <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" />
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/Point3D.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" />
+        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
       </list>
     </option>
   </component>
@@ -293,76 +318,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Flash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash_Experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash_Experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanetaryOrbitEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanetaryOrbitEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optimized_nojitter_conversion_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.iad.orbitsim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -963,7 +918,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed conversion from point3d to use native flash vector3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up formatting" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -992,9 +947,9 @@
     <MESSAGE value="First working Ash integration with Away3D" />
     <MESSAGE value="Added additional game classes, hooked up away3d camera to cameracontrolsystem" />
     <MESSAGE value="Commented out in progress camera control until the mouse move tracking is ready" />
-    <MESSAGE value="Cleaned up formatting" />
     <MESSAGE value="Changed intellij compile settings for parallel compilation" />
     <MESSAGE value="Completed conversion from point3d to use native flash vector3d" />
+    <MESSAGE value="Cleaned up formatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1039,11 +994,6 @@
         <state line="62" column="8" selection-start="981" selection-end="981" vertical-scroll-proportion="0.68083006" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="64" selection-start="1549" selection-end="1549" vertical-scroll-proportion="1.0592705" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/OrbitSimulation.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="263" column="0" selection-start="9039" selection-end="9039" vertical-scroll-proportion="0.09270517" />
@@ -1061,28 +1011,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="0" selection-start="3849" selection-end="3849" vertical-scroll-proportion="0.8468468">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#133#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="54" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.6141141">
-          <folding>
-            <element signature="e#32#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="103" selection-end="103" vertical-scroll-proportion="0.1266766">
+        <state line="161" column="49" selection-start="5380" selection-end="5380" vertical-scroll-proportion="1.4084084">
           <folding>
             <element signature="e#28#56#0" expanded="true" />
           </folding>
@@ -1091,8 +1022,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.025335321">
+        <state line="345" column="59" selection-start="10681" selection-end="10681" vertical-scroll-proportion="0.27118644">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#133#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="68" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.69491524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="44" selection-start="6754" selection-end="6754" vertical-scroll-proportion="0.79731745">
+          <folding>
+            <element signature="e#32#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
