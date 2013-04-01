@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Added ash framework intellij module files">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/earth.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/jupiter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/mars.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/mercury.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/neptune.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/pluto.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/saturn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/sun.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/uranus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/planets/venus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Obj.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/ObjGraphics.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Queue.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/Stats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/Three.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/external/dat.gui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_graphics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_obj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_simulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/orbitPhys.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/thingy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
     </list>
-    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855434249" ignored="false" />
+    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364856508658" ignored="false" />
     <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364855889366" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
@@ -143,11 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/input/KeyPoll.as" />
-        <option value="$PROJECT_DIR$/actuate/Source/AS3/com/eclecticdesignstudio/motion/Actuate.as" />
-        <option value="$PROJECT_DIR$/Ash-master/src/ash/tools/ComponentPool.as" />
-        <option value="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/arcane.as" />
-        <option value="$PROJECT_DIR$/Away3d_Lib/away3d-core-fp11-dev/src/away3d/Away3D.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/Point3D.as" />
@@ -159,6 +184,11 @@
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Queue.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Obj.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/ObjGraphics.as" />
       </list>
     </option>
   </component>
@@ -293,6 +323,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanetaryOrbitEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanetaryOrbitEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reference" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IsaacNBodyEngine_Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -326,19 +412,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\PlanetaryOrbitEngine\optimized_nojitter_conversion_src" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\GameEngine\src\ashframework\game\nodes" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\GameEngine\src\ashframework\game\components" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\GameEngine\src\ashframework\game\systems" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\Ash-master\ash_framework_example\Invawayders-master\invawayders-core\src\com\awaystudios\invawayders" />
-    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="" />
       <recent name="ashframework.game.components" />
       <recent name="ashframework.game" />
       <recent name="ashframework.game.systems" />
       <recent name="ashframework.game.graphics" />
-      <recent name="ashframework.game.nodes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\IsaacNBodyEngine_Lib\reference" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\PlanetaryOrbitEngine\optimized_nojitter_conversion_src" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\GameEngine\src\ashframework\game\nodes" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\GameEngine\src\ashframework\game\components" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\GameEngine\src\ashframework\game\systems" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\Flash\Flash_Experiments\src\flare" />
@@ -934,67 +1020,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/Reference/ISAAC-master/isaac_queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="314" selection-end="314" vertical-scroll-proportion="0.21837945" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/Reference/ISAAC-master/isaac_simulation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="8" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.4214214" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/Reference/ISAAC-master/isaac_worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="967" selection-end="967" vertical-scroll-proportion="0.5632411" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/PlanetaryBody.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="13" selection-start="7997" selection-end="7997" vertical-scroll-proportion="0.5745746" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/BVectorMatrix.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.23517786" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/PlanetaryOrbitEngine.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="240" selection-end="351" vertical-scroll-proportion="0.20158103" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/Point3D.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="8" selection-start="981" selection-end="981" vertical-scroll-proportion="0.68083006" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/OrbitSimulation.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="0" selection-start="9039" selection-end="9039" vertical-scroll-proportion="0.09270517" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/InterpolateBVector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="45" selection-end="45" vertical-scroll-proportion="0.03359684" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="49" selection-start="5380" selection-end="5380" vertical-scroll-proportion="1.4084084">
-          <folding>
-            <element signature="e#28#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="345" column="59" selection-start="10681" selection-end="10681" vertical-scroll-proportion="0.27118644">
@@ -1025,6 +1050,92 @@
           <folding>
             <element signature="e#32#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="23" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.3546945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.25835866">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="221" selection-end="221" vertical-scroll-proportion="0.17734724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Queue.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_obj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.3800298">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_math.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.27868852">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/ObjGraphics.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_graphics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="49" selection-start="330" selection-end="330" vertical-scroll-proportion="0.22801788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Obj.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.2533532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_simulation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.45603576">
+          <folding />
         </state>
       </provider>
     </entry>
