@@ -12,6 +12,8 @@ package
 	import oimophysics.PinballFieldBlocking;
 	import oimophysics.PinballTest;
 
+	import planetaryorbitengine.TestOrbitSimulation;
+
 	import tweenengines.GreenSock_Test;
 	import tweenengines.GreensockAway3d_Test;
 
@@ -36,8 +38,7 @@ package
 		{
 			super.init ();
 
-			addChild (new AbstractAway3D ());
-
+			//addChild (new AbstractAway3D ());
 			//addChild (new OimoPhysicsAway3dIntegrationTest());
 			//addChild (new PinballTest ());
 			//addChild (new PinballFieldBlocking ());
@@ -48,6 +49,15 @@ package
 			//addChild(new GreensockAway3d_Test());
 			//addChild (new Tween24_Away3d_Test ());
 			//addChild (new PhysicsWheel ());
+
+			testOrbitSimulation ();
+		}
+
+
+		private function testOrbitSimulation ():void
+		{
+			var orbit:TestOrbitSimulation = addChild (new TestOrbitSimulation ()) as TestOrbitSimulation;
+			orbit.init ();
 		}
 	}
 }

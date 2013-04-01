@@ -126,7 +126,8 @@ package ashframework.game.systems
 		private function updateNode (node:PhysicsNode, time:Number):void
 		{
 			orbitSimulation.step ();
-			
+
+
 			var nbody:NBody = node.nbody;
 			var position:Position = node.position;
 			

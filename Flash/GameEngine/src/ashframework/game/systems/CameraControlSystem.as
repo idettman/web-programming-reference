@@ -25,6 +25,7 @@ package ashframework.game.systems
 		private var camera:Camera3D;
 
 
+
 		public function CameraControlSystem (keyPoll:KeyPoll, mousePoll:MousePoll, camera:Camera3D)
 		{
 			super (CameraControlNode, updateNode);
@@ -44,6 +45,8 @@ package ashframework.game.systems
 			//if (keyPoll.isDown(Keyboard.UP))
 			if (keyPoll.isDown(Keyboard.CONTROL))
 			{
+
+
 				// Orbit camera
 				if (mousePoll.leftMouseDown)
 				{

@@ -4,10 +4,7 @@
 
 	<head>
 		<meta charset="utf-8">
-
 		<meta name="viewport" content="width=device-width">
-
-		<meta http-equiv="refresh" content="10">
 
 
 		<title>Dynamic Navigation</title>
@@ -47,6 +44,8 @@
 
 			DynamicNavigation.prototype = {
 
+				navItems: [],
+
 				data: function (navItemVoList)
 				{
 					// Create navigation container div
@@ -60,6 +59,7 @@
 						//noinspection JSValidateTypes
 						var navigationLink = new NavigationLink (navItemVoList[i]);
 						navContainer.appendChild (navigationLink.htmlElement);
+						this.navItems.push (navigationLink.htmlElement);
 						/*navigationLink.linkSelected ();*/
 					}
 
@@ -72,7 +72,18 @@
 
 					// Finally add navContainer with child nav item nodes to body
 					document.body.appendChild (navContainer);
+				},
+
+
+				resize: function(newWidth)
+				{
+					for (var i = 0; i < this.navItems.length; i++)
+					{
+						this.navItems[i].style.width = (newWidth / this.navItems.length).toString () + 'px';
+					}
 				}
+
+
 			}
 
 
@@ -85,17 +96,17 @@
 
 				this.onClickHandler = function(event)
 				{
-
+					console.log ("click");
 				};
 
 				this.onOutHandler = function(event)
 				{
-					/*this.htmlElement.innerHTML = data.linkTitle;*/
+					console.log ("out");
 				};
 
 				this.onOverHandler = function()
 				{
-					/*this.htmlElement.innerHTML = "over";*/
+					console.log ("over");
 				};
 
 				this.htmlElement.addEventListener ("click", this.onClickHandler);
@@ -114,26 +125,30 @@
 
 			var Application = {
 
+				navigation: new DynamicNavigation (),
+
 				init: function ()
 				{
 					var linkVoList = [
-						new LinkVo ('home',     'home.html',    'Home Page'),
-						new LinkVo ('resume',   'resume.html',  'Resume Page'),
-						new LinkVo ('gallery',  'gallery.html', 'Gallery Page'),
-						new LinkVo ('about',    'about.html',   'Bout Page')
+						new LinkVo ('home', 'home.html', 'Home Page'),
+						new LinkVo ('resume', 'resume.html', 'Resume Page'),
+						new LinkVo ('gallery', 'gallery.html', 'Gallery Page'),
+						new LinkVo ('about', 'about.html', 'Bout Page')
 					];
 
-					var mainNavigation = new DynamicNavigation ();
-					mainNavigation.data (linkVoList);
+					this.navigation.data (linkVoList);
 				}
-			}
-
-
+			};
 
 
 			window.onload = function ()
 			{
 				Application.init ();
+			}
+
+			window.onresize = function (event)
+			{
+				Application.navigation.resize (window.innerWidth - 86/* this is to compensate for scrollbars, borders, margin and padding*/);
 			}
 
 

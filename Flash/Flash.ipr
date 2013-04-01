@@ -65,6 +65,7 @@
       <module fileurl="file://$PROJECT_DIR$/GameEngine/GameEngine.iml" filepath="$PROJECT_DIR$/GameEngine/GameEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/GreenSock-AS3-master/GreenSock-AS3-master.iml" filepath="$PROJECT_DIR$/GreenSock-AS3-master/GreenSock-AS3-master.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/hype-master/Hype_Lib.iml" filepath="$PROJECT_DIR$/hype-master/Hype_Lib.iml" group="3rd Party Libraries" />
+      <module fileurl="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/IsaacNBodyEngine_Lib.iml" filepath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/IsaacNBodyEngine_Lib.iml" group="Custom Libraries" />
       <module fileurl="file://$PROJECT_DIR$/LunchWheel/LunchWheel.iml" filepath="$PROJECT_DIR$/LunchWheel/LunchWheel.iml" group="Custom Libraries" />
       <module fileurl="file://$PROJECT_DIR$/MinimalComps_Lib/MinimalComps_Lib.iml" filepath="$PROJECT_DIR$/MinimalComps_Lib/MinimalComps_Lib.iml" group="3rd Party Libraries" />
       <module fileurl="file://$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" filepath="$PROJECT_DIR$/OimoPhysicsEngine/OimoPhysicsEngine.iml" group="3rd Party Libraries" />

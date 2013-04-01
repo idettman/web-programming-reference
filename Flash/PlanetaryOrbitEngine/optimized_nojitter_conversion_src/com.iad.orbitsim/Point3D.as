@@ -26,22 +26,27 @@ package com.iad.orbitsim
 			z = p.z;
 		}
 
-		public function setToZero ():void
-		{
-			x = y = z = 0;
-		}
-
 		public function dotProduct (p:Point3D):Number
 		{
 			return p.x * x + p.y * y + p.z * z;
 		}
 
+		public function toString():String
+		{
+			return x.toString () + ", " + y.toString () + ", " + z.toString ();
+		}
+
 		// this = b-c
-		public function minus (b:Point3D, c:Point3D):void
+		/*public function minus (b:Point3D, c:Point3D):void
 		{
 			x = b.x - c.x;
 			y = b.y - c.y;
 			z = b.z - c.z;
+		}*/
+
+		public function subtract(value:Point3D):Point3D
+		{
+			return new Point3D (x - value.x, y - value.y, z - value.z);
 		}
 
 		// this = b+c
@@ -52,6 +57,11 @@ package com.iad.orbitsim
 			z = b.z + c.z;
 		}
 
+		public function add(value:Point3D):Point3D
+		{
+			return new Point3D (x + value.x, y + value.y, z + value.z);
+		}
+
 		// this = b+ac
 		public function plusMultiplied (b:Point3D, a:Number, c:Point3D):void
 		{
@@ -60,16 +70,11 @@ package com.iad.orbitsim
 			z = b.z + a * c.z;
 		}
 
-		// evaluate polynomial p at value x
-		public function evalPolynomialAtValue (polynomial:Vector.<Point3D>, value:Number):void
+		public function setTo (xa:Number, ya:Number, za:Number):void
 		{
-			var y:Number = 1;
-			setToZero ();
-			for (var i:int = 0; i < polynomial.length; ++i)
-			{
-				this.plusMultiplied (this, y, polynomial[i]);
-				y *= value;
-			}
+			x = xa;
+			y = ya;
+			z = za;
 		}
 	}
 }
