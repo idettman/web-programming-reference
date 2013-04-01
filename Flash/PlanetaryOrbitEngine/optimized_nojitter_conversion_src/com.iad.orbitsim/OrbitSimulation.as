@@ -1,5 +1,8 @@
 package com.iad.orbitsim
 {
+	import flash.geom.Vector3D;
+
+
 	public class OrbitSimulation
 	{
 
@@ -13,14 +16,14 @@ package com.iad.orbitsim
 		public var planetaryBodies:Vector.<PlanetaryBody>;
 
 		// instance placeholders
-		private var _point3d:Point3D;
+		private var _point3d:Vector3D;
 		private var _planetaryBody:PlanetaryBody;
 
 
 
 		public function OrbitSimulation (planetaryBodies:Vector.<PlanetaryBody>, timestepIncrement:Number = 1, substepsPerIteration:int = 5)
 		{
-			this._point3d = new Point3D ();
+			this._point3d = new Vector3D ();
 			this.planetaryBodies = planetaryBodies;
 			this.iterationCounter = 0;
 			this.substepsPerIteration = substepsPerIteration;
@@ -73,11 +76,22 @@ package com.iad.orbitsim
 			// calculate accelerations, increment, fill oa[head] and ov[head]
 			moveToNewPoint ();
 
+
+			var pointA:Vector3D;
+
 			// given oa[0], correct ov[0] to really be op[0]-op[1]
 			for (i = 0; i < planetaryBodies.length; ++i)
 			{
 				_planetaryBody = planetaryBodies[i];
-				_planetaryBody.oldVelocity[_planetaryBody.head].plusMultiplied (_planetaryBody.oldVelocity[_planetaryBody.head], 0.5 * timestepIncrement * timestepIncrement, _planetaryBody.oldAcceleration[_planetaryBody.head]);
+
+				/*_point3d.scaleBy (-_planetaryBody.mass * scale);
+				q2.acceleration = q2.acceleration.add (_point3d);*/
+
+				pointA = _planetaryBody.oldAcceleration[_planetaryBody.head].clone();
+				pointA.scaleBy (0.5 * timestepIncrement * timestepIncrement);
+				_planetaryBody.oldVelocity[_planetaryBody.head] = _planetaryBody.oldVelocity[_planetaryBody.head].add (pointA);
+
+				//_planetaryBody.oldVelocity[_planetaryBody.head].plusMultiplied (_planetaryBody.oldVelocity[_planetaryBody.head], 0.5 * timestepIncrement * timestepIncrement, _planetaryBody.oldAcceleration[_planetaryBody.head]);
 			}
 
 			// initialize the history with the inaccurate formula
@@ -115,10 +129,10 @@ package com.iad.orbitsim
 				}
 
 				// swap blah and nblah arrays
-				var tv:Vector.<Point3D> = _planetaryBody.newOldVelocity;
+				var tv:Vector.<Vector3D> = _planetaryBody.newOldVelocity;
 				_planetaryBody.newOldVelocity = _planetaryBody.oldVelocity;
 				_planetaryBody.oldVelocity = tv;
-				var ta:Vector.<Point3D> = _planetaryBody.newOldAcceleration;
+				var ta:Vector.<Vector3D> = _planetaryBody.newOldAcceleration;
 				_planetaryBody.newOldAcceleration = _planetaryBody.oldAcceleration;
 				_planetaryBody.oldAcceleration = ta;
 			}
@@ -131,27 +145,46 @@ package com.iad.orbitsim
 		private function initCenterOfGravityAndMomentum ():void
 		{
 			var m:Number = 0.0;  // total mass
-			var p:Point3D = new Point3D ();  // center of gravity so far
-			var v:Point3D = new Point3D ();  // mv is total momentum so far
+			var p:Vector3D = new Vector3D ();  // center of gravity so far
+			var v:Vector3D = new Vector3D ();  // mv is total momentum so far
 
 			var i:int;
 
+			var pointA:Vector3D;
+			var pointB:Vector3D;
 
 			for (i = 0; i < planetaryBodies.length; ++i)
 			{
 				_planetaryBody = planetaryBodies[i];
 
 				m += _planetaryBody.mass;
-				v.plusMultiplied (v, _planetaryBody.mass, _planetaryBody.velocity);
-				p.plusMultiplied (p, _planetaryBody.mass, _planetaryBody.position);
+
+				pointA = _planetaryBody.velocity.clone ();
+				pointA.scaleBy (_planetaryBody.mass);
+				v = v.add (pointA);
+				//v.plusMultiplied (v, _planetaryBody.mass, _planetaryBody.velocity);
+
+
+				pointB = _planetaryBody.position.clone ();
+				pointB.scaleBy (_planetaryBody.mass);
+				p = p.add (pointB);
+				//p.plusMultiplied (p, _planetaryBody.mass, _planetaryBody.position);
 			}
 
 			for (i = 0; i < planetaryBodies.length; ++i)
 			{
 				_planetaryBody = planetaryBodies[i];
 
-				_planetaryBody.velocity.plusMultiplied (_planetaryBody.velocity, -1.0 / m, v);
-				_planetaryBody.position.plusMultiplied (_planetaryBody.position, -1.0 / m, p);
+
+				pointA = v.clone ();
+				pointA.scaleBy (-1.0 / m);
+				_planetaryBody.velocity = _planetaryBody.velocity.add (pointA);
+				//_planetaryBody.velocity.plusMultiplied (_planetaryBody.velocity, -1.0 / m, v);
+
+				pointB = p.clone ();
+				pointB.scaleBy (-1.0 / m);
+				_planetaryBody.position = _planetaryBody.position.add (pointA);
+				//_planetaryBody.position.plusMultiplied (_planetaryBody.position, -1.0 / m, p);
 			}
 		}
 
@@ -184,12 +217,18 @@ package com.iad.orbitsim
 		 */
 		private function leapfrog ():void
 		{
+			var pointA:Vector3D;
+
 			// find the new point
 			for (var i:int = 0; i < planetaryBodies.length; ++i)
 			{
 				_planetaryBody = planetaryBodies[i];
 
-				_planetaryBody.velocity.plusMultiplied (_planetaryBody.oldVelocity[_planetaryBody.head], timestepIncrement * timestepIncrement, _planetaryBody.oldAcceleration[_planetaryBody.head]);
+				pointA = _planetaryBody.oldAcceleration[_planetaryBody.head].clone ();
+				pointA.scaleBy (timestepIncrement * timestepIncrement);
+				_planetaryBody.velocity = _planetaryBody.oldVelocity[_planetaryBody.head].add (pointA);
+
+				//_planetaryBody.velocity.plusMultiplied (_planetaryBody.oldVelocity[_planetaryBody.head], timestepIncrement * timestepIncrement, _planetaryBody.oldAcceleration[_planetaryBody.head]);
 				//_planetaryBody.position.plus (_planetaryBody.position, _planetaryBody.velocity);
 				_planetaryBody.position = _planetaryBody.position.add (_planetaryBody.velocity);
 			}
@@ -218,6 +257,8 @@ package com.iad.orbitsim
 			if (iterationCounter > PlanetaryBody.history)
 				iterationCounter = PlanetaryBody.history;
 
+			var point:Vector3D;
+
 			// make up the new history
 			for (i = 0; i < planetaryBodies.length; ++i)
 			{
@@ -225,21 +266,26 @@ package com.iad.orbitsim
 
 				for (var j:int = 0; j < iterationCounter; j += 2)
 				{
-					//_planetaryBody.newOldVelocity[_planetaryBody.head + j / 2].plus (_planetaryBody.oldVelocity[_planetaryBody.head + j], _planetaryBody.oldVelocity[_planetaryBody.head + j + 1]);
+					point = _planetaryBody.oldVelocity[_planetaryBody.head + j].add (_planetaryBody.oldVelocity[_planetaryBody.head + j + 1]);
 
+					// The new old velocity must be comparing the object value since setting to a new Vector3D breaks physics
+					_planetaryBody.newOldVelocity[_planetaryBody.head + j / 2].setTo (point.x, point.y, point.z);
 
-					_planetaryBody.newOldVelocity[_planetaryBody.head + j / 2] = _planetaryBody.oldVelocity[_planetaryBody.head + j].add(_planetaryBody.oldVelocity[_planetaryBody.head + j + 1]);
-					trace ("_planetaryBody.newOldVelocity[_planetaryBody.head + j / 2]:", _planetaryBody.newOldVelocity[_planetaryBody.head + j / 2]);
-
+					/*
+					> Original code
+					_planetaryBody.newOldVelocity[_planetaryBody.head + j / 2]
+							.plus (
+									_planetaryBody.oldVelocity[_planetaryBody.head + j],
+									_planetaryBody.oldVelocity[_planetaryBody.head + j + 1]);*/
 
 					_planetaryBody.newOldAcceleration[_planetaryBody.head + j / 2].copyFrom (_planetaryBody.oldAcceleration[_planetaryBody.head + j]);
 				}
 
-				var tv:Vector.<Point3D> = _planetaryBody.newOldVelocity;
+				var tv:Vector.<Vector3D> = _planetaryBody.newOldVelocity;
 				_planetaryBody.newOldVelocity = _planetaryBody.oldVelocity;
 				_planetaryBody.oldVelocity = tv;
 
-				var ta:Vector.<Point3D> = _planetaryBody.newOldAcceleration;
+				var ta:Vector.<Vector3D> = _planetaryBody.newOldAcceleration;
 				_planetaryBody.newOldAcceleration = _planetaryBody.oldAcceleration;
 				_planetaryBody.oldAcceleration = ta;
 			}
@@ -328,9 +374,15 @@ package com.iad.orbitsim
 					scale = _point3d.dotProduct (_point3d);
 					dist = Math.sqrt (scale);
 					scale = 1 / (scale * dist);
-					_planetaryBody.acceleration.plusMultiplied (_planetaryBody.acceleration, q2.mass * scale, _point3d);
+
+
+					_point3d.scaleBy (q2.mass * scale);
+					_planetaryBody.acceleration = _planetaryBody.acceleration.add (_point3d);
+					//_planetaryBody.acceleration.plusMultiplied (_planetaryBody.acceleration, q2.mass * scale, _point3d);
 				}
 			}
+
+			var pointA:Vector3D;
 
 			// all moons with mass affect each other
 			for (i = firstMass; i < planetaryBodies.length; ++i)
@@ -347,8 +399,21 @@ package com.iad.orbitsim
 					scale = _point3d.dotProduct (_point3d);
 					dist = Math.sqrt (scale);
 					scale = 1.0 / (scale * dist);
-					_planetaryBody.acceleration.plusMultiplied (_planetaryBody.acceleration, q2.mass * scale, _point3d);
-					q2.acceleration.plusMultiplied (q2.acceleration, -_planetaryBody.mass * scale, _point3d);
+
+
+					/*_point3d.scaleBy (q2.mass * scale);
+					_planetaryBody.acceleration = _planetaryBody.acceleration.add (_point3d);*/
+
+					pointA = _point3d.clone();
+					pointA.scaleBy (q2.mass * scale);
+					_planetaryBody.acceleration = _planetaryBody.acceleration.add (pointA);
+
+					//_planetaryBody.acceleration.plusMultiplied (_planetaryBody.acceleration, q2.mass * scale, _point3d);
+
+					_point3d.scaleBy (-_planetaryBody.mass * scale);
+					q2.acceleration = q2.acceleration.add (_point3d);
+
+					//q2.acceleration.plusMultiplied (q2.acceleration, -_planetaryBody.mass * scale, _point3d);
 				}
 			}
 		}
