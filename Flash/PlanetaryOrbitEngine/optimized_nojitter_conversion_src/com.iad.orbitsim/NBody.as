@@ -5,7 +5,7 @@ package com.iad.orbitsim
 	import flash.geom.Vector3D;
 
 
-	public class PlanetaryBody
+	public class NBody
 	{
 		public var id:int;
 		public var mass:Number;
@@ -45,14 +45,14 @@ package com.iad.orbitsim
 		public static var history:int = 2 * POINTS + 2;
 
 
-		public function PlanetaryBody (position:Vector3D, velocity:Vector3D, mass:Number, color:uint, radius:Number, id:int)
+		public function NBody (position:Vector3D, velocity:Vector3D, mass:Number, color:uint, radius:Number, id:int)
 		{
 			this.oldVelocity = new Vector.<Vector3D> (2 * history);
 			this.oldAcceleration = new Vector.<Vector3D> (2 * history);
 			this.newOldVelocity = new Vector.<Vector3D> (2 * history);
 			this.newOldAcceleration = new Vector.<Vector3D> (2 * history);
 
-			for (var i:int = 0; i < PlanetaryBody.history; ++i)
+			for (var i:int = 0; i < NBody.history; ++i)
 			{
 				this.oldVelocity[i] = this.oldVelocity[i + history] = new Vector3D ();
 				this.oldAcceleration[i] = this.oldAcceleration[i + history] = new Vector3D ();
@@ -67,7 +67,7 @@ package com.iad.orbitsim
 			this.mass = mass;
 			this.radius = radius;
 			this.color = color;
-			this.head = PlanetaryBody.history;
+			this.head = NBody.history;
 		}
 
 
