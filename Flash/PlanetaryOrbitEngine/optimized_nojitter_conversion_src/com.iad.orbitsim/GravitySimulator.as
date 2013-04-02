@@ -127,7 +127,7 @@ package com.iad.orbitsim
 			}
 
 			this.displayNum = 0;
-			this.initialTotalEnergy = calculateEnergy ();
+			//this.initialTotalEnergy = calculateEnergy ();
 		}
 
 
@@ -285,6 +285,7 @@ package com.iad.orbitsim
 		}
 
 
+/*
 		private function calculateEnergy ():Number
 		{
 			var new_energy:Number = 0;
@@ -315,15 +316,18 @@ package com.iad.orbitsim
 			}
 			return new_energy;
 		}
+*/
 
 
 		private function calculateAcceleration ():void
 		{
 			var i:int;
 			var j:int;
-			var q2:NBody;
 			var scale:Number;
 			var dist:Number;
+			var tempNBody:NBody;
+			var tempVector3D:Vector3D;
+
 
 			for (i = 0; i < nBodyList.length; ++i)
 			{
@@ -337,20 +341,20 @@ package com.iad.orbitsim
 
 				for (j = firstMass; j < nBodyList.length; ++j)
 				{
-					q2 = nBodyList[j];
+					tempNBody = nBodyList[j];
 
-					_vector3d = q2.position.subtract (_nBody.position);
+					_vector3d = tempNBody.position.subtract (_nBody.position);
 
 					scale = _vector3d.dotProduct (_vector3d);
 					dist = Math.sqrt (scale);
 					scale = 1 / (scale * dist);
 
-					_vector3d.scaleBy (q2.mass * scale);
+					_vector3d.scaleBy (tempNBody.mass * scale);
 					_nBody.acceleration = _nBody.acceleration.add (_vector3d);
 				}
 			}
 
-			var pointA:Vector3D;
+
 
 			// all moons with mass affect each other
 			for (i = firstMass; i < nBodyList.length; ++i)
@@ -359,20 +363,20 @@ package com.iad.orbitsim
 
 				for (j = i + 1; j < nBodyList.length; ++j)
 				{
-					q2 = nBodyList[j];
+					tempNBody = nBodyList[j];
 
-					_vector3d = q2.position.subtract (_nBody.position);
+					_vector3d = tempNBody.position.subtract (_nBody.position);
 
 					scale = _vector3d.dotProduct (_vector3d);
 					dist = Math.sqrt (scale);
 					scale = 1.0 / (scale * dist);
 
-					pointA = _vector3d.clone ();
-					pointA.scaleBy (q2.mass * scale);
-					_nBody.acceleration = _nBody.acceleration.add (pointA);
+					tempVector3D = _vector3d.clone ();
+					tempVector3D.scaleBy (tempNBody.mass * scale);
+					_nBody.acceleration = _nBody.acceleration.add (tempVector3D);
 
 					_vector3d.scaleBy (-_nBody.mass * scale);
-					q2.acceleration = q2.acceleration.add (_vector3d);
+					tempNBody.acceleration = tempNBody.acceleration.add (_vector3d);
 				}
 			}
 		}

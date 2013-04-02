@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Added initial files for lib translation">
+    <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="Updated main intellij project file">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/PlanetaryOrbitEngine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/GravitySimulator.as" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/GravitySimulator.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364856794320" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364856671407" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364923361010" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -121,7 +123,17 @@
     <favorites_list name="Flash" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="GravitySimulator.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/GravitySimulator.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="8" selection-start="589" selection-end="589" vertical-scroll-proportion="0.31288344">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -144,15 +156,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/CameraControlSystem.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/Point3D.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/BVector.as" />
         <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/Point3D.as" />
-        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as" />
-        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/planetaryorbitengine/TestOrbitSimulation.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
@@ -160,6 +168,10 @@
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Queue.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Obj.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/ObjGraphics.as" />
+        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/OrbitSimulation.as" />
+        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/PlanetaryBody.as" />
+        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/NBody.as" />
+        <option value="$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/GravitySimulator.as" />
       </list>
     </option>
   </component>
@@ -195,6 +207,62 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanetaryOrbitEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanetaryOrbitEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="optimized_nojitter_conversion_src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.iad.orbitsim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Default">
@@ -282,26 +350,6 @@
             <PATH_ELEMENT USER_OBJECT="game">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -836,25 +884,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851636" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32264334" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32264334" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19210246" sideWeight="0.67735666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19637139" sideWeight="0.67735666" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -902,7 +950,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added initial files for lib translation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated main intellij project file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -937,6 +985,7 @@
     <MESSAGE value="Removed extra Ash Framework files" />
     <MESSAGE value="Added ash framework intellij module files" />
     <MESSAGE value="Added initial files for lib translation" />
+    <MESSAGE value="Updated main intellij project file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -946,135 +995,92 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.25835866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="221" selection-end="221" vertical-scroll-proportion="0.17734724">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Queue.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
-          <folding />
-        </state>
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_obj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.3800298">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.3800298" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_math.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.27868852">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="54" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.27868852" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/ObjGraphics.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
-          <folding />
-        </state>
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_graphics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="330" selection-end="330" vertical-scroll-proportion="0.22801788">
-          <folding />
-        </state>
+        <state line="9" column="49" selection-start="330" selection-end="330" vertical-scroll-proportion="0.22801788" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Obj.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
-          <folding />
-        </state>
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596">
-          <folding />
-        </state>
+        <state line="8" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.07600596" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.2533532">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.2533532" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_simulation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.45603576">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.45603576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="27" selection-start="4928" selection-end="4928" vertical-scroll-proportion="2.9508197">
-          <folding />
-        </state>
+        <state line="137" column="27" selection-start="4928" selection-end="4928" vertical-scroll-proportion="2.9508197" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/systems/PhysicsSystem.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="9" selection-start="609" selection-end="609" vertical-scroll-proportion="0.709389">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#133#170#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#133#170#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/Reference/ISAAC-master/isaac_math.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="697" selection-end="697" vertical-scroll-proportion="0.5320417">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="21" column="49" selection-start="697" selection-end="697" vertical-scroll-proportion="0.5320417" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/Reference/ISAAC-master/isaac_core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="27" selection-start="4928" selection-end="4928" vertical-scroll-proportion="2.1028316">
-          <folding />
-        </state>
+        <state line="137" column="27" selection-start="4928" selection-end="4928" vertical-scroll-proportion="2.1028316" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_conversion_src/com.iad.orbitsim/Point3D.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="14" selection-start="913" selection-end="913" vertical-scroll-proportion="1.4441133">
-          <folding>
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1364838652878" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state line="57" column="14" selection-start="913" selection-end="913" vertical-scroll-proportion="1.4441133" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/NBody.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="330" selection-end="330" vertical-scroll-proportion="0.23728813">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlanetaryOrbitEngine/optimized_nojitter_conversion_src/com.iad.orbitsim/GravitySimulator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="589" selection-end="589" vertical-scroll-proportion="0.31288344">
+          <folding />
         </state>
       </provider>
     </entry>
