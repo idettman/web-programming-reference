@@ -71,7 +71,10 @@ package
 
 			/*canvas.graphics.clear ();
 			canvas.graphics.beginFill (0xFF0000);*/
-			const SCALE_MULTIPLIER:Number = 0.1;
+
+			canvas.graphics.clear ();
+
+			const SCALE_MULTIPLIER:Number = 4;
 
 			for each (var obj:OrbitalBody in orbit.bodies)
 			{
@@ -83,12 +86,15 @@ package
 					canvas.graphics.moveTo (obj.lastPosition.x * SCALE_MULTIPLIER, obj.lastPosition.y * SCALE_MULTIPLIER);
 					canvas.graphics.lineTo (obj.position.x * SCALE_MULTIPLIER, obj.position.y * SCALE_MULTIPLIER);
 					canvas.graphics.lineStyle (0);
+
+					canvas.graphics.beginFill (0xFF0000);
+					canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, obj.radius*(SCALE_MULTIPLIER*0.00002));
+					//canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, obj.radius*(SCALE_MULTIPLIER*0.00001));
+					//canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2);
+					canvas.graphics.endFill ();
 				}
-				else
-				{
-					canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2);
-				}
-				obj.lastPosition = obj.position.clone();
+
+				obj.lastPosition = obj.position;
 			}
 		}
 

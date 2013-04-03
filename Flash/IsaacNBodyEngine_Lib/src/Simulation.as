@@ -14,16 +14,11 @@ package
 		public var core:Core;
 		public var bodies:Vector.<OrbitalBody>;
 
-		// We don't store a buffer of frames - just the latest one.
-		// This means that when the program frame rate lowers, we end up
-		// dropping frames to keep the simulation rate the same.
-
 		// Frame rate should always be less than or equal to update rate.
-		//public var posQueue:Queue = new Queue(1);
-		public var count:int = 0;
 		public var time:Number = 50 / 3;
 		public var gcm:Number = 1;
-		public var updateStep:Number = 90;
+		public var updateStep:Number = 1;
+
 
 		// Planet positions and velocities taken from JPL's HORIZONS system,
 		// for April 09, 2012, 00:00:00.0000CT.
@@ -135,6 +130,7 @@ package
 		{
 			// Update the position of the planets. Use the updateStep specified by the user
 			// (default: 1 second is 1 day).
+/*
 			for (var i:int = 0; i < updateStep; i++)
 			{
 				for (var j:int = 0; j < bodies.length - 1; j++)
@@ -149,14 +145,32 @@ package
 					core.movementModule (bodies[l]);
 				}
 			}
+*/
+			for (var j:int = 0; j < bodies.length - 1; j++)
+			{
+				for (var k:int = j + 1; k < bodies.length; k++)
+				{
+					_planet1 = bodies[j];
+					_planet2 = bodies[k];
+
+					_planet1.forceStore["gravity" + _planet2.name] = core.gravitationalForce (_planet1, _planet2, gcm);
+					_planet2.forceStore["gravity" + _planet1.name] = core.gravitationalForce (_planet2, _planet1, gcm);
+				}
+			}
+			for (var l:int = 0; l < bodies.length; l++)
+			{
+				core.movementModule (bodies[l]);
+			}
 		}
 
+		private var _planet1:OrbitalBody;
+		private var _planet2:OrbitalBody;
 
-		private function updateGravity (planet1:OrbitalBody, planet2:OrbitalBody):void
+		/*private function updateGravity (planet1:OrbitalBody, planet2:OrbitalBody):void
 		{
 			planet1.forceStore["gravity" + planet2.name] = core.gravitationalForce (planet1, planet2, gcm);
 			planet2.forceStore["gravity" + planet1.name] = core.gravitationalForce (planet2, planet1, gcm);
-		}
+		}*/
 
 	}
 }
