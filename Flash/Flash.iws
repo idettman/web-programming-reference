@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364941140680" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364948016121" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364948102008" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -128,59 +126,7 @@
     <favorites_list name="Flash" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Core.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flash_Experiments.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#12#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Simulation.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="76" selection-start="734" selection-end="734" vertical-scroll-proportion="0.68405366">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isaac_graphics.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_graphics.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="62" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrbitalBody.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="8" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -294,38 +240,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Custom Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IsaacNBodyEngine_Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IsaacNBodyEngine_Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -951,7 +865,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -961,7 +875,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851636" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32264334" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32264334" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1017,7 +931,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beta version of the Isaac orbit simulation conversion to as3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed gravity multiplier back to the default value (one)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1055,6 +969,7 @@
     <MESSAGE value="Updated main intellij project file" />
     <MESSAGE value="Commented out deprecated method" />
     <MESSAGE value="Beta version of the Isaac orbit simulation conversion to as3" />
+    <MESSAGE value="Changed gravity multiplier back to the default value (one)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1147,44 +1062,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="148" column="32" selection-start="4913" selection-end="4913" vertical-scroll-proportion="3.609538">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+        <state line="37" column="8" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.56838906">
           <folding>
-            <element signature="e#12#47#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_graphics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="62" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.0">
+        <state line="45" column="62" selection-start="2082" selection-end="2082" vertical-scroll-proportion="1.1400894">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as">
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="8" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.45603576">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#12#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="76" selection-start="734" selection-end="734" vertical-scroll-proportion="0.68405366">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="116" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.8614009">
+          <folding />
         </state>
       </provider>
     </entry>
