@@ -22,7 +22,7 @@ package
 		//public var posQueue:Queue = new Queue(1);
 		public var count:int = 0;
 		public var time:Number = 50 / 3;
-		public var gcm:Number = 10;
+		public var gcm:Number = 1;
 		public var updateStep:Number = 90;
 
 		// Planet positions and velocities taken from JPL's HORIZONS system,
