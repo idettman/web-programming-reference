@@ -32,6 +32,9 @@
             <entry module-name="Ash_Lib" build-configuration-name="Ash_Lib_BuildConfig">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="IsaacNBodyEngine_Lib" build-configuration-name="IsaacNBodyEngine_Lib">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="AIRSDK_Compiler" />
         </dependencies>
@@ -59,6 +62,7 @@
     <orderEntry type="module" module-name="AbstractBase_Lib" exported="" />
     <orderEntry type="module" module-name="PlanetaryOrbitEngine" exported="" />
     <orderEntry type="module" module-name="Ash_Lib" exported="" />
+    <orderEntry type="module" module-name="IsaacNBodyEngine_Lib" exported="" />
   </component>
 </module>
 
