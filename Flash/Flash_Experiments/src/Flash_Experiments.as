@@ -74,7 +74,7 @@ package
 
 			canvas.graphics.clear ();
 
-			const SCALE_MULTIPLIER:Number = 4;
+			const SCALE_MULTIPLIER:Number = 1;
 
 			for each (var obj:OrbitalBody in orbit.bodies)
 			{

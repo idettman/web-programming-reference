@@ -4,13 +4,11 @@
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/bin/IsaacNBodyEngine_Lib.swc" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/bin/IsaacNBodyEngine_Lib.swc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364941140680" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365017763091" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365026992193" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -135,7 +133,7 @@
       <file leaf-file-name="Flash_Experiments.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0">
+            <state line="76" column="45" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,7 +142,7 @@
       <file leaf-file-name="Simulation.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="8" selection-start="365" selection-end="365" vertical-scroll-proportion="0.2244582">
+            <state line="48" column="43" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.39473686">
               <folding />
             </state>
           </provider>
@@ -186,9 +184,9 @@
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Force.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Constants.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
-        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
       </list>
     </option>
   </component>
@@ -987,7 +985,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored classes and  removed the Constants class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started the optimization process, looking to remove new object creation and extra looping" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1002,7 +1000,6 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Created intellij module for Ash Entity Framework library" />
     <MESSAGE value="Added a simple example using the Ash entity framework to Flash Experiments" />
     <MESSAGE value="Created IntelliJ module groups for 3rd party and my custom libs" />
     <MESSAGE value="Refactored the PlanetaryOrbitEngine module from a application to a library. Created GameEngine module for integrating away3d and the orbit engine." />
@@ -1027,6 +1024,7 @@
     <MESSAGE value="Changed gravity multiplier back to the default value (one)" />
     <MESSAGE value="Removed unused class" />
     <MESSAGE value="Refactored classes and  removed the Constants class" />
+    <MESSAGE value="Started the optimization process, looking to remove new object creation and extra looping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1093,13 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="-0.08941878">
@@ -1107,9 +1098,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="45" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="365" selection-end="365" vertical-scroll-proportion="0.2244582">
+        <state line="48" column="43" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.39473686">
           <folding />
         </state>
       </provider>
