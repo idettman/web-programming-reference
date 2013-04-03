@@ -11,15 +11,21 @@ package
 
 	public class Core
 	{
+		// Units
+		// Distance: gigameters
+		// Mass: gigagrams
+		public static const timeStep:Number = 1440; // in seconds
+		public static const G:Number = 6.67e-32; // in Newton square gigameters per gigagram squared
+
 		// Movement Module.
 		// Calls all other modules to modify an object's properties with regard to motion.
 		public function movementModule (obj:OrbitalBody):Boolean
 		{
 			if (obj.motionEnabled)
 			{
-				var forceChanged:Boolean = forceModule(obj);
-				var accelerationChanged:Boolean = accelerationModule(obj);
-				var velocityChanged:Boolean = velocityModule(obj);
+				var forceChanged:Boolean = forceModule (obj);
+				var accelerationChanged:Boolean = accelerationModule (obj);
+				var velocityChanged:Boolean = velocityModule (obj);
 
 				if (velocityChanged || accelerationChanged || forceChanged)
 				{
@@ -37,7 +43,7 @@ package
 			if (obj.motionEnabled)
 			{
 				var temp:Vector3D = obj.velocity.clone ();
-				temp.scaleBy (Constants.timeStep);
+				temp.scaleBy (timeStep);
 
 				obj.position = obj.position.add (temp);
 				//obj.position = ISAAC.Math.addVector(obj.motion.position, ISAAC.Math.scaleVector(obj.motion.velocity, ISAAC.Constants.timeStep));
@@ -54,7 +60,7 @@ package
 			if (obj.accelerationEnabled)
 			{
 				var temp:Vector3D = obj.acceleration.clone ();
-				temp.scaleBy (Constants.timeStep);
+				temp.scaleBy (timeStep);
 
 				obj.velocity = obj.velocity.add (temp);
 				//obj.motion.velocity = ISAAC.Math.addVector(obj.motion.velocity, ISAAC.Math.scaleVector(obj.motion.acceleration, ISAAC.Constants.timeStep));
@@ -111,12 +117,11 @@ package
 			// Get the direction vector from the first object to the second.
 			var directionVector:Vector3D = obj2.position.subtract (obj1.position);
 
-
 			// Get the distance between the two objects.
 			var distance:Number = directionVector.length;
 
 			// Get Gm1m2 and modify it according to the relevant multipliers.
-			var numerator:Number = Constants.G * gravConstMult * obj1.mass * obj1.massMult * obj2.mass * obj2.massMult;
+			var numerator:Number = G * gravConstMult * obj1.mass * obj1.massMult * obj2.mass * obj2.massMult;
 
 			// Get the force between the two objects.
 			var force:Number = numerator / (distance * distance);

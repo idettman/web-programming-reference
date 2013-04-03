@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\IsaacNBodyEngine_Lib\src\Force.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\Flash\IsaacNBodyEngine_Lib\src\Constants.as" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364941140680" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365009790255" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365009898198" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -162,10 +165,10 @@
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/IsaacMath.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Force.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Constants.as" />
-        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" />
-        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" />
       </list>
     </option>
   </component>
@@ -903,20 +906,20 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851636" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32264334" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20064034" sideWeight="0.67735666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20064034" sideWeight="0.6724976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32264334" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -964,7 +967,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed gravity multiplier back to the default value (one)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused class" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1003,6 +1006,7 @@
     <MESSAGE value="Commented out deprecated method" />
     <MESSAGE value="Beta version of the Isaac orbit simulation conversion to as3" />
     <MESSAGE value="Changed gravity multiplier back to the default value (one)" />
+    <MESSAGE value="Removed unused class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1032,11 +1036,6 @@
         <state line="39" column="5" selection-start="2226" selection-end="2226" vertical-scroll-proportion="-1.609538" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Constants.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="193" selection-end="193" vertical-scroll-proportion="0.32935917" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_obj.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="9" selection-start="212" selection-end="212" vertical-scroll-proportion="0.15201192" />
@@ -1062,16 +1061,6 @@
         <state line="104" column="50" selection-start="3528" selection-end="3528" vertical-scroll-proportion="0.65871835" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="32" selection-start="4913" selection-end="4913" vertical-scroll-proportion="3.609538" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="8" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.56838906" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_graphics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="62" selection-start="2082" selection-end="2082" vertical-scroll-proportion="1.1400894" />
@@ -1082,14 +1071,23 @@
         <state line="18" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.45603576" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.8614009" />
+        <state line="7" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.033898305">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Force.as">
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="240" selection-end="240" vertical-scroll-proportion="0.20338982">
+        <state line="94" column="43" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.118644066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="67" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.55353534">
           <folding />
         </state>
       </provider>

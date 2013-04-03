@@ -26,7 +26,6 @@ package
 		public var forceChanged:Boolean;
 		public var massMult:Number;
 
-
 		// OrbitalBody Parameters
 		// - mass : Default 1. The mass of this body in gigagrams.
 		// - radius : Default 1000. The radius of this body, in kilometres.
@@ -34,7 +33,7 @@ package
 		// - velocity : Default [0, 0, 0]. The X, Y, and Z (right-handed as above) starting velocities of the body.
 		// - motionEnabled : Default true. Whether or not this object should move.
 		// - accelerationEnabled : Default true. Whether or not this object will have acceleration calculated for it.
-		public function OrbitalBody (name:String, mass:Number=1, radius:Number=1000, position:Vector3D=null,velocity:Vector3D=null, isStar:Boolean=false, motionEnabled:Boolean=true, accelerationEnabled:Boolean=true)
+		public function OrbitalBody (name:String, mass:Number = 1, radius:Number = 1000, position:Vector3D = null, velocity:Vector3D = null, isStar:Boolean = false, motionEnabled:Boolean = true, accelerationEnabled:Boolean = true)
 		{
 			// Name of the object.
 			this.name = name;
@@ -53,24 +52,19 @@ package
 			};
 
 			// The resultant force on the object. Calculated at runtime.
-			this.resultantForce = new Vector3D();
+			this.resultantForce = new Vector3D ();
 
 			this.position = position;
 			this.velocity = velocity;
 
 			// The acceleration vector of the object, including gravity (if enabled). Calculated at runtime.
-			this.acceleration = new Vector3D();
+			this.acceleration = new Vector3D ();
 
 			this.motionEnabled = motionEnabled;
 			this.accelerationEnabled = accelerationEnabled;
 			this.forceChanged = false;
 			this.massMult = 1;
 		}
-
-
-
-
-
 
 	}
 }
