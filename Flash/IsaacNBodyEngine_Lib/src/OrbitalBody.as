@@ -7,15 +7,15 @@
 package
 {
 	import flash.geom.Vector3D;
+	import flash.utils.Dictionary;
 
 
 	public class OrbitalBody
 	{
 		public var name:String;
-		public var isStar:Boolean;
 		public var mass:Number;
 		public var radius:Number;
-		public var forceStore:Object;
+		public var forceStore:Dictionary;
 		public var resultantForce:Vector3D;
 		public var lastPosition:Vector3D;
 		public var position:Vector3D;
@@ -33,35 +33,30 @@ package
 		// - velocity : Default [0, 0, 0]. The X, Y, and Z (right-handed as above) starting velocities of the body.
 		// - motionEnabled : Default true. Whether or not this object should move.
 		// - accelerationEnabled : Default true. Whether or not this object will have acceleration calculated for it.
-		public function OrbitalBody (name:String, mass:Number = 1, radius:Number = 1000, position:Vector3D = null, velocity:Vector3D = null, isStar:Boolean = false, motionEnabled:Boolean = true, accelerationEnabled:Boolean = true)
+		public function OrbitalBody (name:String, mass:Number = 1, radius:Number = 1000, position:Vector3D = null, velocity:Vector3D = null)
 		{
 			// Name of the object.
 			this.name = name;
 
-			// Is this object a Star?
-			this.isStar = isStar;
-
-			// Mass of the object, in gigagrams.
+			// Mass of the object, in gigagrams
 			this.mass = mass;
 
-			// Radius of the object, in kilometres.
+			// Radius of the object, in kilometres
 			this.radius = radius;
 
-			this.forceStore = {
-				// External forces on the object will be kept here.
-			};
+			this.forceStore = new Dictionary ();
 
-			// The resultant force on the object. Calculated at runtime.
+			// The resultant force on the object. Calculated at runtime
 			this.resultantForce = new Vector3D ();
 
 			this.position = position;
 			this.velocity = velocity;
 
-			// The acceleration vector of the object, including gravity (if enabled). Calculated at runtime.
+			// The acceleration vector of the object, including gravity (if enabled). Calculated at runtime
 			this.acceleration = new Vector3D ();
 
-			this.motionEnabled = motionEnabled;
-			this.accelerationEnabled = accelerationEnabled;
+			this.motionEnabled = true;
+			this.accelerationEnabled = true;
 			this.forceChanged = false;
 			this.massMult = 1;
 		}
