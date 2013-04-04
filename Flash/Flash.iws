@@ -4,11 +4,14 @@
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" afterPath="$PROJECT_DIR$/Flash_Experiments/bin/Flash_Experiments.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/bin/IsaacNBodyEngine_Lib.swc" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/bin/IsaacNBodyEngine_Lib.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" afterPath="$PROJECT_DIR$/PlanetaryOrbitEngine/bin/PlanetaryOrbitEngine.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
     </list>
-    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364941140680" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365026992193" ignored="false" />
+    <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365034288343" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365034063405" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -60,12 +63,12 @@
     <file path="/Point3D.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364852969400" ignored="false" />
     <file path="/OrbitSimulation.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364853699779" ignored="false" />
     <file path="/PlanetaryBody.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364854288439" ignored="false" />
-    <file path="/Core.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364947440322" ignored="false" />
+    <file path="/Core.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365035232430" ignored="false" />
     <file path="/OrbitalBody.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364946848253" ignored="false" />
     <file path="/Force.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364929470685" ignored="false" />
     <file path="/Constants.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364946384293" ignored="false" />
-    <file path="/Simulation.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365025202768" ignored="false" />
-    <file path="/Flash_Experiments.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365025696307" ignored="false" />
+    <file path="/Simulation.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365035577085" ignored="false" />
+    <file path="/Flash_Experiments.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365037004348" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +87,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -120,7 +124,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -133,16 +136,25 @@
       <file leaf-file-name="Flash_Experiments.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="45" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
+            <state line="15" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simulation.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Simulation.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="43" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.39473686">
+            <state line="76" column="26" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Core.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="8" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.10227273">
               <folding />
             </state>
           </provider>
@@ -184,8 +196,8 @@
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Force.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Constants.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" />
-        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
+        <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
       </list>
     </option>
@@ -193,8 +205,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -222,7 +234,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,24 +287,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IsaacNBodyEngine_Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Custom Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IsaacNBodyEngine_Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,15 +382,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="flex.compiler" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/bin" />
     <property name="project.structure.side.proportion" value="0.20000002" />
@@ -405,11 +399,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -918,26 +912,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851636" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32264334" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3219396" sideWeight="0.9992867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20064034" sideWeight="0.67735666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20246619" sideWeight="0.6780604" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1034,14 +1028,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/isaac_queue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="2" selection-start="314" selection-end="314" vertical-scroll-proportion="0.22033899" />
-      </provider>
-    </entry>
-    <entry file="file://S:/Dev_Archive/WK_ParaNorman_Banner/Source/Parallax_RM/classes/app/view/RM_Exp_728x90/Shell.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="8" selection-start="6729" selection-end="6729" vertical-scroll-proportion="0.5084746" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/reference/ISAAC-master/thingy.js">
@@ -1091,23 +1094,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="-0.08941878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="45" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
+        <state line="15" column="8" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="43" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.39473686">
+        <state line="76" column="26" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="8" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.10227273">
           <folding />
         </state>
       </provider>
@@ -1142,7 +1145,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 2.7.2 (C:/Python27/python.exe) interpreter library</last-edited>
+          <last-edited>Away3d Physics</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1158,7 +1161,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20000002" />
               </list>
             </option>
           </splitter-proportions>

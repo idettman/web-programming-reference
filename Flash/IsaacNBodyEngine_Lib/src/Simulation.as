@@ -18,8 +18,8 @@ package
 		public var time:Number = 50 / 3;
 		public var gcm:Number = 1;
 		public var updateStep:Number = 1;
-
-
+		
+		
 		// Planet positions and velocities taken from JPL's HORIZONS system,
 		// for April 09, 2012, 00:00:00.0000CT.
 		public function initSimulation ():void
@@ -59,6 +59,14 @@ package
 							radius: 6367.5,
 							texture: "external/planets/earth.jpg"
 						},
+						/*{
+							name: "Earth_Moon",
+							position: new Vector3D (-142.0464397912099, -51.60175623515072, 1.845629910630098e-3),
+							mass: 3.344,
+							velocity: new Vector3D (14.387467194099132e-6, -2.820546804750964e-5, -3.335489234220996e-10),
+							radius: 1737.5,
+							texture: "external/planets/earth.jpg"
+						},*/
 						{
 							name: "Mars",
 							position: new Vector3D (-247.0577964253138, 2.607918972403293, 6.120960274943644),
@@ -152,7 +160,7 @@ package
 				{
 					_planet1 = bodies[j];
 					_planet2 = bodies[k];
-
+					
 					_planet1.forceStore["gravity" + _planet2.name] = core.gravitationalForce (_planet1, _planet2, gcm);
 					_planet2.forceStore["gravity" + _planet1.name] = core.gravitationalForce (_planet2, _planet1, gcm);
 				}

@@ -55,8 +55,8 @@ package
 			canvas.x = 300;
 			canvas.y = 200;
 			canvas.graphics.beginFill (0xFF0000);
-
-
+			
+			
 			orbit = new Simulation ();
 			orbit.initSimulation ();
 
@@ -72,8 +72,8 @@ package
 			/*canvas.graphics.clear ();
 			canvas.graphics.beginFill (0xFF0000);*/
 
-			canvas.graphics.clear ();
-
+			//canvas.graphics.clear ();
+			
 			const SCALE_MULTIPLIER:Number = 1;
 
 			for each (var obj:OrbitalBody in orbit.bodies)
@@ -86,11 +86,17 @@ package
 					canvas.graphics.moveTo (obj.lastPosition.x * SCALE_MULTIPLIER, obj.lastPosition.y * SCALE_MULTIPLIER);
 					canvas.graphics.lineTo (obj.position.x * SCALE_MULTIPLIER, obj.position.y * SCALE_MULTIPLIER);
 					canvas.graphics.lineStyle (0);
-
-					canvas.graphics.beginFill (0xFF0000);
-					canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, obj.radius*(SCALE_MULTIPLIER*0.00002));
+					
+					/*canvas.graphics.beginFill (0xFF0000);
+					canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2 + obj.radius*(SCALE_MULTIPLIER*0.00002));
 					//canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, obj.radius*(SCALE_MULTIPLIER*0.00001));
 					//canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2);
+					canvas.graphics.endFill ();*/
+				}
+				else
+				{
+					canvas.graphics.beginFill (0xFF0000);
+					canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2 + obj.radius*(SCALE_MULTIPLIER*0.00002));
 					canvas.graphics.endFill ();
 				}
 
