@@ -69,6 +69,7 @@ package
 		{
 			orbit.update ();
 
+			canvas.graphics.clear ();
 			/*canvas.graphics.clear ();
 			canvas.graphics.beginFill (0xFF0000);*/
 
@@ -87,11 +88,11 @@ package
 					canvas.graphics.lineTo (obj.position.x * SCALE_MULTIPLIER, obj.position.y * SCALE_MULTIPLIER);
 					canvas.graphics.lineStyle (0);
 					
-					/*canvas.graphics.beginFill (0xFF0000);
+					canvas.graphics.beginFill (0xFF0000);
 					canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2 + obj.radius*(SCALE_MULTIPLIER*0.00002));
 					//canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, obj.radius*(SCALE_MULTIPLIER*0.00001));
 					//canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2);
-					canvas.graphics.endFill ();*/
+					canvas.graphics.endFill ();
 				}
 				else
 				{

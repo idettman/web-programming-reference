@@ -11,13 +11,20 @@ package
 
 	public class Simulation
 	{
-		public var core:Core;
 		public var bodies:Vector.<OrbitalBody>;
 
 		// Frame rate should always be less than or equal to update rate.
 		public var time:Number = 50 / 3;
 		public var gcm:Number = 1;
 		public var updateStep:Number = 1;
+
+		// Units
+		// Distance: gigameters
+		// Mass: gigagrams
+		//public static const timeStep:Number = 1440; // in seconds
+		public static const timeStep:Number = 14400; // in seconds
+		public static const G:Number = 6.67e-32; // in Newton square gigameters per gigagram squared
+		private var _vector3d:Vector3D;
 		
 		
 		// Planet positions and velocities taken from JPL's HORIZONS system,
@@ -121,14 +128,11 @@ package
 
 		private function init (orbitalBodyData:Vector.<Object>):void
 		{
-			core = new Core ();
 			bodies = new Vector.<OrbitalBody> ();
 
 			for each (var object:Object in orbitalBodyData)
 			{
 				bodies.push (new OrbitalBody (object.name, object.mass, object.radius, object.position, object.velocity, object.isStar));
-				// Handle graphics, if applicable.
-				//Graphics.createModel(curr, JSON.config.scaling);
 			}
 		}
 
@@ -158,27 +162,85 @@ package
 			{
 				for (var k:int = j + 1; k < bodies.length; k++)
 				{
-					_planet1 = bodies[j];
-					_planet2 = bodies[k];
-					
-					_planet1.forceStore["gravity" + _planet2.name] = core.gravitationalForce (_planet1, _planet2, gcm);
-					_planet2.forceStore["gravity" + _planet1.name] = core.gravitationalForce (_planet2, _planet1, gcm);
+					updateGravitationalForce (bodies[j], bodies[k], gcm);
 				}
 			}
 			for (var l:int = 0; l < bodies.length; l++)
 			{
-				core.movementModule (bodies[l]);
+				updatePosition (bodies[l]);
 			}
 		}
 
-		private var _planet1:OrbitalBody;
-		private var _planet2:OrbitalBody;
 
-		/*private function updateGravity (planet1:OrbitalBody, planet2:OrbitalBody):void
+		public function updatePosition (orbitalBody:OrbitalBody):void
 		{
-			planet1.forceStore["gravity" + planet2.name] = core.gravitationalForce (planet1, planet2, gcm);
-			planet2.forceStore["gravity" + planet1.name] = core.gravitationalForce (planet2, planet1, gcm);
-		}*/
+			if (orbitalBody.motionEnabled)
+			{
+			// Force, calculates the acceleration of an object based on the resultant forces on it
+				_vector3d.setTo (0, 0, 0);
+				// Iterate through the forces acting on the object and add them to the resultant force
+				for (var force:String in orbitalBody.forceStore)
+				{
+					_vector3d = _vector3d.add (orbitalBody.forceStore[force] as Vector3D);
+				}
+				orbitalBody.resultantForce = _vector3d.clone();
+				// Adjust the object's acceleration based on the resultant force
+				orbitalBody.acceleration.setTo (orbitalBody.resultantForce.x / orbitalBody.mass, orbitalBody.resultantForce.y / orbitalBody.mass, orbitalBody.resultantForce.z / orbitalBody.mass);
+				orbitalBody.forceChanged = false;
 
+
+			// Acceleration, adjusts the velocity of the object, based on the acceleration vector
+				_vector3d = orbitalBody.acceleration.clone ();
+				_vector3d.scaleBy (timeStep);
+				orbitalBody.velocity = orbitalBody.velocity.add (_vector3d);
+
+
+			// Velocity, adjusts the position of the object, based on the velocity vector
+				_vector3d = orbitalBody.velocity.clone ();
+				_vector3d.scaleBy (timeStep);
+				orbitalBody.position = orbitalBody.position.add (_vector3d);
+
+				return;
+			}
+			return;
+		}
+
+
+		// Gravitational Force Function, given two objects, returns the vector of gravitational force between them, from the first object to the second
+		public function updateGravitationalForce (orbitalBodyA:OrbitalBody, orbitalBodyB:OrbitalBody, gravConstMult:Number = 1):void
+		{
+		// Update orbitalBodyA force
+
+			// Get the direction vector from the first object to the second
+			_vector3d = orbitalBodyB.position.subtract (orbitalBodyA.position);
+
+			// Get the distance between the two objects
+			var distance:Number = _vector3d.length;
+
+			// Get Gm1m2 and modify it according to the relevant multipliers
+			var numerator:Number = G * gravConstMult * orbitalBodyA.mass * orbitalBodyA.massMult * orbitalBodyB.mass * orbitalBodyB.massMult;
+
+			// Get the force between the two objects.
+			var force:Number = numerator / (distance * distance);
+
+			// Scale the direction vector to be the same magnitude as the force
+			_vector3d.normalize ();
+			_vector3d.scaleBy (force);
+
+			orbitalBodyA.forceStore["gravity" + orbitalBodyB.name] = _vector3d.clone();
+
+
+
+		// Update orbitalBodyB force
+
+			// Get the direction vector from the first object to the second
+			_vector3d = orbitalBodyA.position.subtract (orbitalBodyB.position);
+
+			// Scale the direction vector to be the same magnitude as the force
+			_vector3d.normalize ();
+			_vector3d.scaleBy (force);
+
+			orbitalBodyB.forceStore["gravity" + orbitalBodyA.name] = _vector3d.clone();
+		}
 	}
 }
