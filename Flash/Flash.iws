@@ -6,13 +6,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/bin/IsaacNBodyEngine_Lib.swc" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/bin/IsaacNBodyEngine_Lib.swc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" afterPath="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" afterPath="$PROJECT_DIR$/Flash_Experiments/Flash_Experiments.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/IsaacNBodyEngine_Lib.iml" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/IsaacNBodyEngine_Lib.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" afterPath="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365103940212" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365101802369" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365106893468" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -65,10 +63,10 @@
     <file path="/OrbitSimulation.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364853699779" ignored="false" />
     <file path="/PlanetaryBody.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364854288439" ignored="false" />
     <file path="/Core.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365101166749" ignored="false" />
-    <file path="/OrbitalBody.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365104184143" ignored="false" />
+    <file path="/OrbitalBody.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365110780808" ignored="false" />
     <file path="/Force.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364929470685" ignored="false" />
     <file path="/Constants.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364946384293" ignored="false" />
-    <file path="/Simulation.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365106595520" ignored="false" />
+    <file path="/Simulation.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365110660344" ignored="false" />
     <file path="/Flash_Experiments.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365037004348" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +80,7 @@
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\Faygo\Dev\ProductionLib\Flash" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -137,7 +135,7 @@
       <file leaf-file-name="Flash_Experiments.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="49" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
+            <state line="78" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,7 +144,7 @@
       <file leaf-file-name="Simulation.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="44" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.62053573">
+            <state line="60" column="27" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.7217262">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -157,7 +155,7 @@
       <file leaf-file-name="OrbitalBody.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+            <state line="38" column="19" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#106#133#0" expanded="true" />
               </folding>
@@ -201,8 +199,8 @@
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Force.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Constants.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Core.as" />
-        <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as" />
+        <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
       </list>
     </option>
@@ -1002,7 +1000,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made some major refactoring and optimizations, responsibilities of Core class were too few to justify the extra dot access overhead on the update method calls, so integrated it's methods into the simulation class. Also removed boolean flag variables and the conditionals evaluating them since their values never equal false." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inlining to inner loop update methods, changed bodies vector to fixed length" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1017,7 +1015,6 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Created IntelliJ module groups for 3rd party and my custom libs" />
     <MESSAGE value="Refactored the PlanetaryOrbitEngine module from a application to a library. Created GameEngine module for integrating away3d and the orbit engine." />
     <MESSAGE value="Started integrating away3d with the ash framework" />
     <MESSAGE value="Separated LunchWheel from the Flash_Experiments module to it's own module" />
@@ -1042,6 +1039,7 @@
     <MESSAGE value="Refactored classes and  removed the Constants class" />
     <MESSAGE value="Started the optimization process, looking to remove new object creation and extra looping" />
     <MESSAGE value="Made some major refactoring and optimizations, responsibilities of Core class were too few to justify the extra dot access overhead on the update method calls, so integrated it's methods into the simulation class. Also removed boolean flag variables and the conditionals evaluating them since their values never equal false." />
+    <MESSAGE value="Added inlining to inner loop update methods, changed bodies vector to fixed length" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1112,25 +1110,25 @@
         <state line="45" column="62" selection-start="2082" selection-end="2082" vertical-scroll-proportion="1.1400894" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="49" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/OrbitalBody.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+        <state line="38" column="19" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#106#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="44" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.62053573">
+        <state line="60" column="27" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.7217262">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

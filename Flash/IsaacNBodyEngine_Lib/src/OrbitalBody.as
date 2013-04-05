@@ -21,10 +21,7 @@ package
 		public var position:Vector3D;
 		public var velocity:Vector3D;
 		public var acceleration:Vector3D;
-		public var motionEnabled:Boolean;
-		public var accelerationEnabled:Boolean;
-		public var forceChanged:Boolean;
-		public var massMult:Number;
+
 
 		// OrbitalBody Parameters
 		// - mass : Default 1. The mass of this body in gigagrams.
@@ -54,11 +51,6 @@ package
 
 			// The acceleration vector of the object, including gravity (if enabled). Calculated at runtime
 			this.acceleration = new Vector3D ();
-
-			this.motionEnabled = true;
-			this.accelerationEnabled = true;
-			this.forceChanged = false;
-			this.massMult = 1;
 		}
 
 	}

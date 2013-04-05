@@ -20,11 +20,10 @@ package
 		// Distance: gigameters
 		// Mass: gigagrams
 		//public static const timeStep:Number = 1440; // in seconds
-		public static const timeStep:Number = 14400; // in seconds
+		public static const timeStep:Number = 144000; // in seconds
 		public static const G:Number = 6.67e-32; // in Newton square gigameters per gigagram squared
 		private var _vector3d:Vector3D;
 
-		
 		// Planet positions and velocities taken from JPL's HORIZONS system,
 		// for April 09, 2012, 00:00:00.0000CT.
 		final public function initSimulation ():void
@@ -33,9 +32,9 @@ package
 					new <Object>[
 						{
 							name: "Sun",
-							position: new Vector3D (0, 0, 0),
+							position: new Vector3D (),
 							mass: 1.988435e24,
-							velocity: new Vector3D (0, 0, 0),
+							velocity: new Vector3D (),
 							radius: 695500
 						},
 						{
@@ -57,14 +56,14 @@ package
 							position: new Vector3D (-141.3464397912099, -49.70175623515072, 1.845629910630098e-3),
 							mass: 5.9721986e18,
 							velocity: new Vector3D (9.387467194099132e-6, -2.820546804750964e-5, -3.335489234220996e-10),
-							radius: 6367.5
+							radius: 1367.5
 						},
 						/*{
-							name: "Earth_Moon",
-							position: new Vector3D (-142.0464397912099, -51.60175623515072, 1.845629910630098e-3),
-							mass: 3.344,
-							velocity: new Vector3D (14.387467194099132e-6, -2.820546804750964e-5, -3.335489234220996e-10),
-							radius: 1737.5
+							 name: "Earths_Moon",
+							 position: new Vector3D (-141.5758459177027, -49.97883897891333, 6.736832123280781e-3),
+							 mass: 5.0e18,
+							 velocity: new Vector3D (1.020734179413276, -2.892155141805041, 9.359901789415041),
+							 radius: 69550000
 						},*/
 						{
 							name: "Mars",
@@ -114,15 +113,18 @@ package
 
 		final private function init (orbitalBodyData:Vector.<Object>):void
 		{
-			orbitalBodyData.fixed = true;
-			bodies = new Vector.<OrbitalBody> ();
-			for each (var object:Object in orbitalBodyData)
-			{
-				bodies.push (new OrbitalBody (object.name, object.mass, object.radius, object.position, object.velocity));
-			}
+			var object:Object;
+			bodies = new Vector.<OrbitalBody> (orbitalBodyData.length, true);
 
+			for (var i:int = 0; i < bodies.length; i++)
+			{
+				object = orbitalBodyData[i];
+				bodies[i] = new OrbitalBody (object.name, object.mass, object.radius, object.position, object.velocity);
+				orbitalBodyData[i].position = null;
+				orbitalBodyData[i].velocity = null;
+				orbitalBodyData[i] = null;
+			}
 			orbitalBodyData = null;
-			bodies.fixed = true;
 		}
 
 
@@ -130,15 +132,15 @@ package
 		{
 			// Update the position of the planets. Use the updateStep specified by the user
 			// (default: 1 second is 1 day).
-/*
-			for (var i:int = 0; i < updateStep; i++)
-			{
-			}
-*/
+			/*
+			 for (var i:int = 0; i < updateStep; i++)
+			 {
+			 }
+			 */
 			var j:int;
 			var k:int;
 			var bodyNum:int = bodies.length;
-			for (j = 0; j < bodyNum-1; j++)
+			for (j = 0; j < bodyNum - 1; j++)
 			{
 				for (k = j + 1; k < bodyNum; k++)
 				{
@@ -152,7 +154,7 @@ package
 		[Inline]
 		final public function updatePosition (orbitalBody:OrbitalBody):void
 		{
-		// Force, calculates the acceleration of an object based on the resultant forces on it
+			// Force, calculates the acceleration of an object based on the resultant forces on it
 			_vector3d.setTo (0, 0, 0);
 
 			// Iterate through the forces acting on the object and add them to the resultant force
@@ -160,20 +162,17 @@ package
 			{
 				_vector3d.incrementBy (Vector3D (orbitalBody.forceStore[force]));
 			}
-			orbitalBody.resultantForce = _vector3d.clone();
+			orbitalBody.resultantForce = _vector3d.clone ();
 
 			// Adjust the object's acceleration based on the resultant force
 			orbitalBody.acceleration.setTo (orbitalBody.resultantForce.x / orbitalBody.mass, orbitalBody.resultantForce.y / orbitalBody.mass, orbitalBody.resultantForce.z / orbitalBody.mass);
-			orbitalBody.forceChanged = false;
 
-
-		// Acceleration, adjusts the velocity of the object, based on the acceleration vector
+			// Acceleration, adjusts the velocity of the object, based on the acceleration vector
 			_vector3d = orbitalBody.acceleration.clone ();
 			_vector3d.scaleBy (timeStep);
 			orbitalBody.velocity = orbitalBody.velocity.add (_vector3d);
 
-
-		// Velocity, adjusts the position of the object, based on the velocity vector
+			// Velocity, adjusts the position of the object, based on the velocity vector
 			_vector3d = orbitalBody.velocity.clone ();
 			_vector3d.scaleBy (timeStep);
 			orbitalBody.position = orbitalBody.position.add (_vector3d);
@@ -191,19 +190,18 @@ package
 			// Get the distance between the two objects
 			var distance:Number = _vector3d.length;
 
-			// Get the force between the two objects.
-			var force:Number = (G * orbitalBodyA.mass * orbitalBodyA.massMult * orbitalBodyB.mass * orbitalBodyB.massMult) / (distance * distance);
+			// Get the force between the two objects
+			var force:Number = (G * orbitalBodyA.mass * orbitalBodyB.mass) / (distance * distance);
 
 			// Scale the direction vector to be the same magnitude as the force
 			_vector3d.normalize ();
 			_vector3d.scaleBy (force);
 
-			orbitalBodyA.forceStore[orbitalBodyB] = _vector3d.clone();
-
+			orbitalBodyA.forceStore[orbitalBodyB] = _vector3d.clone ();
 
 			// Update orbitalBodyB force, inverse of orbitalBodyB
 			_vector3d.negate ();
-			orbitalBodyB.forceStore[orbitalBodyA] = _vector3d.clone();
+			orbitalBodyB.forceStore[orbitalBodyA] = _vector3d.clone ();
 		}
 	}
 }
