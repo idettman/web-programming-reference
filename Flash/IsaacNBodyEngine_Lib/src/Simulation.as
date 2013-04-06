@@ -20,7 +20,7 @@ package
 		// Distance: gigameters
 		// Mass: gigagrams
 		//public static const timeStep:Number = 1440; // in seconds
-		public static const timeStep:Number = 144000; // in seconds
+		public static const timeStep:Number = 1440; // in seconds
 		public static const G:Number = 6.67e-32; // in Newton square gigameters per gigagram squared
 		private var _vector3d:Vector3D;
 
@@ -58,12 +58,19 @@ package
 							velocity: new Vector3D (9.387467194099132e-6, -2.820546804750964e-5, -3.335489234220996e-10),
 							radius: 1367.5
 						},
+						{
+							name: "Luna",
+							position: new Vector3D (-143.5758459177027, -49.97883897891333, 1.736832123280781e-3),
+							mass: 0.2721986e18,
+							velocity: new Vector3D (1.020734179413276e-5, -2.892155141805041e-5, 9.335489234220996e-10),
+							radius: 1007.5
+						},
 						/*{
-							 name: "Earths_Moon",
-							 position: new Vector3D (-141.5758459177027, -49.97883897891333, 6.736832123280781e-3),
+							 name: "Luna",
+							 position: new Vector3D (-143.5758459177027, -49.97883897891333, 1.736832123280781e-3),
 							 mass: 5.0e18,
 							 velocity: new Vector3D (1.020734179413276, -2.892155141805041, 9.359901789415041),
-							 radius: 69550000
+							 radius: 1367.5
 						},*/
 						{
 							name: "Mars",

@@ -52,7 +52,7 @@ package
 			addChild(canvas);
 			/*canvas.x = 800;
 			canvas.y = 800;*/
-			canvas.x = 300;
+			canvas.x = 200;
 			canvas.y = 200;
 			canvas.graphics.beginFill (0xFF0000);
 			
@@ -75,7 +75,7 @@ package
 
 			//canvas.graphics.clear ();
 			
-			const SCALE_MULTIPLIER:Number = 0.1;
+			const SCALE_MULTIPLIER:Number = 0.5;
 
 			for each (var obj:OrbitalBody in orbit.bodies)
 			{
@@ -83,10 +83,10 @@ package
 
 				if (obj.lastPosition)
 				{
-					canvas.graphics.lineStyle (1);
+					/*canvas.graphics.lineStyle (1);
 					canvas.graphics.moveTo (obj.lastPosition.x * SCALE_MULTIPLIER, obj.lastPosition.y * SCALE_MULTIPLIER);
 					canvas.graphics.lineTo (obj.position.x * SCALE_MULTIPLIER, obj.position.y * SCALE_MULTIPLIER);
-					canvas.graphics.lineStyle (0);
+					canvas.graphics.lineStyle (0);*/
 					
 					canvas.graphics.beginFill (0xFF0000);
 					canvas.graphics.drawCircle (obj.position.x*SCALE_MULTIPLIER, obj.position.y*SCALE_MULTIPLIER, 2 + obj.radius*(SCALE_MULTIPLIER*0.00002));
