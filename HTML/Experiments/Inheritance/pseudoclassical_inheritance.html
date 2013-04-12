@@ -1,0 +1,44 @@
+<!--
+ * Created with IntelliJ IDEA.
+ * User: Isaac Dettman
+ * Date: 4/12/13
+ * Time: 3:52 PM
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>pseudoclassical_inheritance</title>
+	</head>
+	<body>
+		<script>
+			var Bird = function (name, power)
+			{
+				this.name = name + " Bird";
+				this.power = power || "";
+			};
+			Bird.prototype.getName = function ()
+			{
+				return this.name;
+			};
+			Bird.prototype.catapult = function ()
+			{
+				return this.getName () + " is catapulting with " + this.power;
+			};
+
+			var YellowBird = function ()
+			{
+				this.constructor.apply (this, arguments);
+			};
+			YellowBird.prototype = new Bird ();
+
+			var yellowBird = new YellowBird ("Yellow", "Speed");
+			yellowBird.getName = function ()
+			{
+				return "Super Awesome " + this.name;
+			};
+			console.log (yellowBird.catapult ());
+		</script>
+	</body>
+</html>

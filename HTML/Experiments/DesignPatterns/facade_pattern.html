@@ -1,0 +1,34 @@
+<!--
+ * Created with IntelliJ IDEA.
+ * User: Isaac Dettman
+ * Date: 4/12/13
+ * Time: 3:41 PM
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+			// Facade Pattern
+			var addEvent = function (element, type, eventHandler)
+			{
+				if (element.addEventListener)
+				{
+					element.addEventListener (type, eventHandler, false);
+				}
+				else if (elemement.attachEvent)
+				{
+					element.attachEvent ("on" + type, eventHandler);
+				}
+			};
+
+
+
+		</script>
+	</body>
+</html>

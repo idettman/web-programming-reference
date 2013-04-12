@@ -1,0 +1,32 @@
+<!--
+ * Created with IntelliJ IDEA.
+ * User: Isaac Dettman
+ * Date: 4/12/13
+ * Time: 3:54 PM
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>chaining_pattern</title>
+	</head>
+	<body>
+		<script>
+			var bird = {
+				catapult: function ()
+				{
+					console.log ("Foo Bar");
+					return this;
+				},
+				destroy: function ()
+				{
+					console.log ("Destroy");
+					return this;
+				}
+			};
+
+			bird.catapult ().destroy ();
+		</script>
+	</body>
+</html>
