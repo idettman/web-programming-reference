@@ -19,7 +19,7 @@ package ashframework.game.graphics
 		{
 			var geometry:Geometry = new SphereGeometry ();
 			var material:MaterialBase = new ColorMaterial (0xFF0000);
-			
+
 			super (geometry, material);
 		}
 	}

@@ -20,7 +20,7 @@ package
 		// Distance: gigameters
 		// Mass: gigagrams
 		//public static const timeStep:Number = 1440; // in seconds
-		public static const timeStep:Number = 1440; // in seconds
+		public static const timeStep:Number = 144000; // in seconds
 		public static const G:Number = 6.67e-32; // in Newton square gigameters per gigagram squared
 		private var _vector3d:Vector3D;
 

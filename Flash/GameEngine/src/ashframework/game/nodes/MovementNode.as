@@ -8,7 +8,7 @@ package ashframework.game.nodes
 
 	public class MovementNode extends Node
 	{
-		public var position : Transform3D;
-		public var motion : Motion3D;
+		public var position:Transform3D;
+		public var motion:Motion3D;
 	}
 }

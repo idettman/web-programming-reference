@@ -59,14 +59,14 @@ package ashframework.game.systems
 			//trace ("GameManager . update(", time, ")");
 
 			var node:GameNode;
-			
-			for (node = GameNode(gameNodes.head); node; node = GameNode(node.next))
+
+			for (node = GameNode (gameNodes.head); node; node = GameNode (node.next))
 			{
 				if (spaceships.empty)
 				{
 					if (node.state.lives > 0)
 					{
-						creator.createSpaceship (new Vector3D(config.width/2, config.height/2, 0));
+						creator.createSpaceship (new Vector3D (config.width / 2, config.height / 2, 0));
 
 						node.state.lives--;
 					}

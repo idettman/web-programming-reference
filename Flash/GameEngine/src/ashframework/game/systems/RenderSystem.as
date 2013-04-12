@@ -10,18 +10,13 @@ package ashframework.game.systems
 	import ash.core.NodeList;
 	import ash.core.System;
 
-	import ashframework.game.components.Display;
 	import ashframework.game.components.Position;
 	import ashframework.game.nodes.RenderNode;
 
 	import away3d.containers.ObjectContainer3D;
 	import away3d.containers.View3D;
-	import away3d.entities.Mesh;
-	import away3d.materials.ColorMaterial;
-	import away3d.primitives.SphereGeometry;
 
 	import flash.display.DisplayObjectContainer;
-	import flash.geom.Vector3D;
 
 
 	public class RenderSystem extends System
@@ -29,7 +24,6 @@ package ashframework.game.systems
 		public var container:DisplayObjectContainer;
 		public var view:View3D;
 		private var nodes:NodeList;
-
 
 
 		public function RenderSystem (container:DisplayObjectContainer, view:View3D)
@@ -44,14 +38,14 @@ package ashframework.game.systems
 			container.addChild (view);
 
 			/*view.camera.moveBackward (200);
-			view.camera.moveUp (300);
-			view.camera.lookAt (new Vector3D());*/
+			 view.camera.moveUp (300);
+			 view.camera.lookAt (new Vector3D());*/
 
 			nodes = engine.getNodeList (RenderNode);
 
-			for (var node:RenderNode = RenderNode(nodes.head); node; node = RenderNode(node.next))
+			for (var node:RenderNode = RenderNode (nodes.head); node; node = RenderNode (node.next))
 			{
-				addToDisplay(node);
+				addToDisplay (node);
 			}
 
 			nodes.nodeAdded.add (addToDisplay);
@@ -84,8 +78,8 @@ package ashframework.game.systems
 			var node:RenderNode;
 			var position:Position;
 			var displayObject:ObjectContainer3D;
-			
-			for (node = RenderNode(nodes.head); node; node = RenderNode(node.next))
+
+			for (node = RenderNode (nodes.head); node; node = RenderNode (node.next))
 			{
 				displayObject = node.display.displayObject;
 				position = node.position;

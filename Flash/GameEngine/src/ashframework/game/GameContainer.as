@@ -9,10 +9,7 @@ package ashframework.game
 	import ashframework.game.components.GameState;
 
 	import away3d.containers.View3D;
-	import away3d.entities.Mesh;
-	import away3d.materials.SkyBoxMaterial;
 	import away3d.materials.lightpickers.StaticLightPicker;
-	import away3d.primitives.CubeGeometry;
 	import away3d.textures.BitmapCubeTexture;
 
 	import flash.display.MovieClip;
@@ -108,15 +105,15 @@ package ashframework.game
 		{
 			// create skybox texture
 			/*_cubeMap = new BitmapCubeTexture (
-					new SkyboxImagePosX ().bitmapData, new SkyboxImageNegX ().bitmapData,
-					new SkyboxImagePosY ().bitmapData, new SkyboxImageNegY ().bitmapData,
-					new SkyboxImagePosZ ().bitmapData, new SkyboxImageNegZ ().bitmapData
-			);
+			 new SkyboxImagePosX ().bitmapData, new SkyboxImageNegX ().bitmapData,
+			 new SkyboxImagePosY ().bitmapData, new SkyboxImageNegY ().bitmapData,
+			 new SkyboxImagePosZ ().bitmapData, new SkyboxImageNegZ ().bitmapData
+			 );
 
-			var cubeMaterial:SkyBoxMaterial = new SkyBoxMaterial (_cubeMap);
-			cubeMaterial.bothSides = true;
-			var cube:Mesh = new Mesh (new CubeGeometry (100000, 100000, 100000), cubeMaterial);
-			_view.scene.addChild (cube);*/
+			 var cubeMaterial:SkyBoxMaterial = new SkyBoxMaterial (_cubeMap);
+			 cubeMaterial.bothSides = true;
+			 var cube:Mesh = new Mesh (new CubeGeometry (100000, 100000, 100000), cubeMaterial);
+			 _view.scene.addChild (cube);*/
 
 			// Init starfield environment map here
 
@@ -126,18 +123,18 @@ package ashframework.game
 		private function initHUD ():void
 		{
 			// initialise the HUD container
-			_hudContainer = new Sprite();
-			addChild(_hudContainer);
+			_hudContainer = new Sprite ();
+			addChild (_hudContainer);
 
 			// initialise the score text
 			/*var scoreClip:CustomTextField = new CustomTextField();
-			_scoreText = scoreClip.tf;
-			_hudContainer.addChild( _scoreText );
+			 _scoreText = scoreClip.tf;
+			 _hudContainer.addChild( _scoreText );
 
-			// initialise the lives text
-			var livesClip:CustomTextField = new CustomTextField();
-			_livesText = livesClip.tf;
-			_hudContainer.addChild( _livesText );
+			 // initialise the lives text
+			 var livesClip:CustomTextField = new CustomTextField();
+			 _livesText = livesClip.tf;
+			 _hudContainer.addChild( _livesText );
 
 
 			 // initialise the lives icons
@@ -203,14 +200,14 @@ package ashframework.game
 
 			 // set the splash popup to visible
 			 showPopUp( _splashPopUp );
-			*/
+			 */
 		}
 
 
 		private function initGame ():void
 		{
 			/*_invawayders = new GameController( _view, _saveStateManager, _cameraLightPicker, _lightPicker, _stageProperties );
-			_invawayders.gameStateUpdated.add(onUpdateGameState);*/
+			 _invawayders.gameStateUpdated.add(onUpdateGameState);*/
 		}
 
 
@@ -220,37 +217,37 @@ package ashframework.game
 		}
 
 
-		private function onUpdateGameState( gameState : GameState):void
+		private function onUpdateGameState (gameState:GameState):void
 		{
 			// Update lives icons.
 			/*for( var i:uint; i < GameSettings.playerLives; i++ )
-				_liveIconsContainer.getChildAt( i ).visible = gameState.lives >= i + 1;
+			 _liveIconsContainer.getChildAt( i ).visible = gameState.lives >= i + 1;
 
-			// Update lives text.
-			_livesText.text = "LIVES " + gameState.lives + "";
-			_livesText.width = _livesText.textWidth * 1.05;
+			 // Update lives text.
+			 _livesText.text = "LIVES " + gameState.lives + "";
+			 _livesText.width = _livesText.textWidth * 1.05;
 
-			//Update score text
-			_scoreText.text = "SCORE " + StringUtils.uintToSameLengthString( gameState.score, 5 ) + "   HIGH-SCORE " + StringUtils.uintToSameLengthString( gameState.highScore, 5 );
-			_scoreText.width = int(_scoreText.textWidth * 1.05);
+			 //Update score text
+			 _scoreText.text = "SCORE " + StringUtils.uintToSameLengthString( gameState.score, 5 ) + "   HIGH-SCORE " + StringUtils.uintToSameLengthString( gameState.highScore, 5 );
+			 _scoreText.width = int(_scoreText.textWidth * 1.05);
 
-			//reset layout to account for lives and score text
-			onResize();
+			 //reset layout to account for lives and score text
+			 onResize();
 
-			if (!gameState.lives && !_stageProperties.popupVisible) {
-				//prepare game over popup
-				_goScoreText.text =     "SCORE................................... " + StringUtils.uintToSameLengthString( gameState.score, 5 );
-				_goHighScoreText = _gameOverPopUp.highScoreText;
-				_goHighScoreText.text = "HIGH-SCORE.............................. " + StringUtils.uintToSameLengthString( gameState.highScore, 5 );
-				_goScoreText.width = int(_goScoreText.textWidth * 1.05);
-				_goScoreText.x = -int(_goScoreText.width / 2);
-				_goHighScoreText.width = int(_goHighScoreText.textWidth * 1.05);
-				_goHighScoreText.x = -int(_goHighScoreText.width / 2);
+			 if (!gameState.lives && !_stageProperties.popupVisible) {
+			 //prepare game over popup
+			 _goScoreText.text =     "SCORE................................... " + StringUtils.uintToSameLengthString( gameState.score, 5 );
+			 _goHighScoreText = _gameOverPopUp.highScoreText;
+			 _goHighScoreText.text = "HIGH-SCORE.............................. " + StringUtils.uintToSameLengthString( gameState.highScore, 5 );
+			 _goScoreText.width = int(_goScoreText.textWidth * 1.05);
+			 _goScoreText.x = -int(_goScoreText.width / 2);
+			 _goHighScoreText.width = int(_goHighScoreText.textWidth * 1.05);
+			 _goHighScoreText.x = -int(_goHighScoreText.width / 2);
 
-				showPopUp( _gameOverPopUp );
+			 showPopUp( _gameOverPopUp );
 
-				_invawayders.end();
-			}*/
+			 _invawayders.end();
+			 }*/
 		}
 
 	}

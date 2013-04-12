@@ -1,6 +1,6 @@
 package ashframework.game.components
 {
-	import flash.geom.*;
+	import flash.geom.Vector3D;
 
 
 	public class Motion3D
