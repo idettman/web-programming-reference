@@ -1,0 +1,45 @@
+html {
+
+}
+
+body {
+	min-width: 640px;
+	background: #000000;
+	color: #ffffff;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color: #ffffff;
+	font-style: normal;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+
+nav {
+	width: 224px;
+	margin: 0 auto 0 auto;
+}
+
+footer {
+	width: 410px;
+	margin: 0 auto 0 auto;
+}
+
+#main {
+	height: 600px;
+	background: #000088;
+	/*border: #cacaca solid 1px;
+	border-radius: 8px;*/
+}
+
+#main section {
+	position: absolute;
+	display: none;
+}
