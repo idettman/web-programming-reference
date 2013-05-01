@@ -97,6 +97,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTML_Framework/HTML_Framework.iml" filepath="$PROJECT_DIR$/HTML_Framework/HTML_Framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductionLib.iml" filepath="$PROJECT_DIR$/ProductionLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python/References/youtube-v3.iml" filepath="$PROJECT_DIR$/Python/References/youtube-v3.iml" />
     </modules>
