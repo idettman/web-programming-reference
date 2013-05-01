@@ -1,299 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="Updated projects and removed Frame.js example">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/Delicious-Bold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/Delicious-BoldItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/Delicious-Italic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/Delicious-Roman.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/img/HTML5-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/apple-touch-icon-114x114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/apple-touch-icon-72x72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/apple-touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/images/bbb-splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/images/bird1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/images/bubble-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/chosen/chosen-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/assets/classy_fabric.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/build/compiler.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/images/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/img/denim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/images/door.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/images/evil-frank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/forkmeongithub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/screenshots/jquery-contextMenu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/screenshots/jquery-contextMenu.subs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/load_dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/lib/load_dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/load_light.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/lib/load_light.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/microdata-domapi.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/screenshots/native.firefox-9.0a1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/build/optipng.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/images/page_white_copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/images/page_white_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/images/page_white_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/images/page_white_paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/images/s1_proog.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/images/s6_both.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/images/s8_emocu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/build/yui-compressor-licence" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/build/yuicompressor-2.4.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/js/Bubble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/Cakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/Eventsource.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/punytan-jquery.addsocial.js-d0d8613/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/enure-Hide-All-Except-One-951cd6f/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/punytan-jquery.addsocial.js-d0d8613/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/sass/_extends.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/sass/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/demo/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/coffee/lib/abstract-chosen.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/accesskeys.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/animations.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/lib/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/audio.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/background-image.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/border-image.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/border-radius.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/box-reflection.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/box-shadow.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/box-sizing.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/build/build.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/calc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/callback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/canvas.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/chosen/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/coffee/chosen.jquery.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/chosen/chosen.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/chosen/chosen.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/coffee/chosen.proto.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/chosen/chosen.proto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/chosen/chosen.proto.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/classList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/classlist.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/cors.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/css3-colors.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/custom-command.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/datalist.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/dataset.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/punytan-jquery.addsocial.js-d0d8613/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/script/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/demo.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/demo.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/details.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/disabled-callback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/disabled-changing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/disabled-menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/disabled.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/docs/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/docs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/dom.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/dragndrop.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/dynamic-create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/dynamic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/ec.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/es6.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/example.jquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/example.proto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/exclusions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/features.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/docs/fetchFlickr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/fetchFlickr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/filters.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/flexbox.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/font-feature-settings.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/fontface.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/form-validation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/geolocation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/build/google-compiler-licence" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/gradients.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/grids.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/css/grumble.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/css/grumble.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/history.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/html5-import.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/html5-polyfill-firefox8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/html5-polyfill.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/html5-sectioningelements.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/hyphens.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/tzappa-SocialBookmarks-d788f39/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/enure-Hide-All-Except-One-951cd6f/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/tzappa-SocialBookmarks-d788f39/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/indexeddb.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/input-placeholder.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/input-typecolor.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/input-typedate.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/input-typerange.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/jquery-1.6.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/jquery-1.6.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/demo/jquery-1.6.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/punytan-jquery.addsocial.js-d0d8613/jquery.addsocial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/jquery.contextMenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/jquery.contextMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/js/jquery.grumble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/js/jquery.grumble.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/enure-Hide-All-Except-One-951cd6f/jquery.hideAllExceptOne.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/enure-Hide-All-Except-One-951cd6f/jquery.hideAllExceptOne.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/script/jquery.scrollpath.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/src/jquery.ui.position.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/json.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/keeping-contextmenu-open.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-apollo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-clj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-hs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-lisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-proto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-scala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-tex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-vhdl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-wiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-xq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/lang-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/list.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/localstorage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/masks.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/match-media.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/mediaqueries.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/meter.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/script/min.jquery.scrollpath.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/punytan-jquery.addsocial.js-d0d8613/minify.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/minmax-widthheight.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/modernizr-2.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/multibackgrounds.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/multicolumn.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/new_feature.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/offline.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/ol-reversed.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/opacity.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/demo/options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/jamescryer-grumble.js-6ab1445/build/optipng-licence" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/paged-media.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/pagify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/parisjs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/photos.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/pointer-events.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/positionfixed.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/postmessage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/script/prefixfree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/prettify/prettify.sunburst.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/progress.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/pseudo-elements.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/regions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/requestanimationframe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/respond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/libs/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/responsiveslides.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/responsiveslides.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/ruby.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/scoped-css.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/screen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/style/scrollpath.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/coffee/lib/select-parser.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/selectors.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/slider.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/docs/slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/lib/slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/slider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/demo/slider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/lib/slider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/gre-slider.js-c808266/lib/slider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/JoelBesada-scrollpath-db1b1bf/style/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/demo/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/enure-Hide-All-Except-One-951cd6f/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/sass/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/sub-menus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/svg.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/text-overflow.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/text-shadow.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/text-stroke.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/transforms.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/transitions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/trigger-custom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/trigger-hover-autohide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/trigger-hover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/medialize-jQuery-contextMenu-6b21e95/demo/trigger-left-click.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML_Framework/js/libs/cmpolis-Pagify-56413c0/demo/usage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/video.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/web-workers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/webgl.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/websockets.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/posts/websql.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/libs/YUI/yui-min.js" />
+    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/images/1_thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/images/2_thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/images/3_thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/logos/badge-250.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/logos/badge-500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/logos/badge-64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photos/img10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/themes/themes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/punytan-jquery.addsocial.js-d0d8613/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/MNSite.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/punytan-jquery.addsocial.js-d0d8613/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/demo/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/punytan-jquery.addsocial.js-d0d8613/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/tzappa-SocialBookmarks-d788f39/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/demo/jquery-1.6.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/jquery-2.0.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/jquery-2.0.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/punytan-jquery.addsocial.js-d0d8613/jquery.addsocial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/jquery.hideAllExceptOne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/jquery.hideAllExceptOne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/jquery.hideAllExceptOne.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/jquery.hideAllExceptOne.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/punytan-jquery.addsocial.js-d0d8613/minify.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/modernizr-latest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/modernizr.custom.92190.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/demo/options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/pagify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/responsiveslides.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/responsiveslides.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/responsiveslides.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/responsiveslides.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/responsiveslides.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/tzappa-SocialBookmarks-d788f39/social_bookmarks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/demo/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/themes/themes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/themes/themes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/cmpolis-Pagify-56413c0/demo/usage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.ipr" afterPath="$PROJECT_DIR$/ProductionLib.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML_Framework/js/main.js" afterPath="$PROJECT_DIR$/HTML_Framework/js/main.js" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367373288609" ignored="false" />
-    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364406005821" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367428888710" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367429150871" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
     <file path="/DrawDisplayObjectUtil.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358978475854" ignored="false" />
-    <file path="/index.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367368014325" ignored="false" />
+    <file path="/index.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367438524532" ignored="false" />
     <file path="/a.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364405932537" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/view/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359067331419" ignored="false" />
     <file path="/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066861477" ignored="false" />
@@ -396,8 +183,8 @@
     <file path="/casttype.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365805938711" ignored="false" />
     <file path="/facade_pattern.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365806072379" ignored="false" />
     <file path="/adapter_pattern.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365806531112" ignored="false" />
-    <file path="/styles.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367363133219" ignored="false" />
-    <file path="/main.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367369734499" ignored="false" />
+    <file path="/styles.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367437346380" ignored="false" />
+    <file path="/main.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367435874289" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,6 +204,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -453,7 +241,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -490,12 +277,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/HTML/Experiments/DesignPatterns/adapter_pattern.html" />
-        <option value="$PROJECT_DIR$/HTML/Game/simplemovement.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/DesignPatterns/facade_pattern.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/DesignPatterns/observer_pattern.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/Inheritance/inheritance04.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/Inheritance/prototypal_inheritance.html" />
         <option value="$PROJECT_DIR$/HTML/Experiments/Inheritance/pseudoclassical_inheritance.html" />
         <option value="$PROJECT_DIR$/HTML/Experiments/DesignPatterns/chaining_pattern.html" />
         <option value="$PROJECT_DIR$/HTML/Experiments/DesignPatterns/singleton_pattern.html" />
@@ -506,14 +287,21 @@
         <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/HTML_Framework/index.html" />
         <option value="$PROJECT_DIR$/HTML_Framework/js/main.js" />
+        <option value="$PROJECT_DIR$/MNSite/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/index.html" />
+        <option value="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.html" />
+        <option value="$PROJECT_DIR$/MNSite/js/libs/jquery.hideAllExceptOne.js" />
+        <option value="$PROJECT_DIR$/MNSite/css/styles.css" />
+        <option value="$PROJECT_DIR$/MNSite/js/main.js" />
+        <option value="$PROJECT_DIR$/MNSite/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="409" />
-    <option name="width" value="1511" />
-    <option name="height" value="1170" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -569,7 +357,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML_Framework" />
+              <option name="myItemId" value="MNSite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,7 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML_Framework" />
+              <option name="myItemId" value="MNSite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -601,7 +389,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
+              <option name="myItemId" value="MNSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -615,16 +411,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
+              <option name="myItemId" value="MNSite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
@@ -719,13 +516,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/Flash_Experiments/src" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="options.splitter.main.proportions" value="0.19400954" />
@@ -734,19 +530,19 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML_Framework" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.26882967" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="JavaScriptPreferStrict" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -770,19 +566,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\MNSite\js\libs" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\MNSite" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework\js\libs" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework" />
+      <recent name="C:\Users\Faygo\Dev\ProductionLib\AbstractBase_Lib\src\base\away3d" />
+    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="" />
       <recent name="lib_templates" />
       <recent name="base.display" />
       <recent name="utils" />
       <recent name="lunchwheel" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework\js\libs" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\AbstractBase_Lib\src\base\away3d" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\AbstractBase_Lib" />
-      <recent name="C:\Users\Faygo\Dev\ProductionLib\AbstractBase_Lib\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework" />
@@ -952,7 +748,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="0" width="1511" height="1170" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -960,22 +756,22 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21256039" sideWeight="0.67324775" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21504803" sideWeight="0.67324775" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.4996772" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.50032276" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.50032276" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32675222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1023,7 +819,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated projects and removed Frame.js example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Missed folder for last commit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1037,8 +833,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Integrated Away3d with the Oimo physics engine, also created a project for the Oimo physics engine so that I can make modifications for integration with Away3d" />
-    <MESSAGE value="Added hinge constraint test" />
     <MESSAGE value="Added javascript console api test. Added Away3d lite and OimoAway3dEngine  intellij projects." />
     <MESSAGE value="Started class for blocking in the pinball field" />
     <MESSAGE value="Updated flexsdk and missing tweenlite library for Animation Scrubber. Created Greensock intelliJ module for Tweenmax availability" />
@@ -1062,6 +856,8 @@
     <MESSAGE value="Simple browser detect script" />
     <MESSAGE value="refactored and deleted unused files" />
     <MESSAGE value="Updated projects and removed Frame.js example" />
+    <MESSAGE value="Added additional helper libraries for mn site" />
+    <MESSAGE value="Missed folder for last commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,96 +872,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/idettman.com/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/idettman.com/css/google-glass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="53607" selection-start="66" selection-end="53607" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/js/libs/jquery-2.0.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.55852157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/images/photos/img01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="403" selection-end="403" vertical-scroll-proportion="0.37892604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="372" selection-end="372" vertical-scroll-proportion="0.58561295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/js/libs/frame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="545" selection-end="545" vertical-scroll-proportion="0.34447822" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="555" selection-end="555" vertical-scroll-proportion="0.2827443">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/BoundsBall/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6330562" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/BoundsBall/css/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flash/Effects_Lib/src/CurveMotion.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="28" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.91286725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flash/Effects_Lib/src/ThrowBall.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.41337386">
-          <folding />
-        </state>
+        <state line="28" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.41337386" />
       </provider>
     </entry>
     <entry file="file://S:/Images/ChromeDownloads/chest-23-04-12/bishopZ-Frame.js-86ca58f/bishopZ-Frame.js-86ca58f/example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.16943868">
-          <folding />
-        </state>
+        <state line="48" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.16943868" />
       </provider>
     </entry>
     <entry file="file://S:/Images/ChromeDownloads/chest-23-04-12/bishopZ-Frame.js-86ca58f/bishopZ-Frame.js-86ca58f/frame.make.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="5665" selection-end="5665" vertical-scroll-proportion="0.261807">
+        <state line="15" column="7" selection-start="5665" selection-end="5665" vertical-scroll-proportion="0.261807" />
+      </provider>
+    </entry>
+    <entry file="file://S:/Images/ChromeDownloads/chest-23-04-12/denysonique-imgPreload-20e1ec0/denysonique-imgPreload-20e1ec0/imgPreload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="12" selection-start="927" selection-end="927" vertical-scroll-proportion="0.44782168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML_Framework/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="166" selection-end="166" vertical-scroll-proportion="0.13559322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML_Framework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="26" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.73926383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="14" selection-start="1282" selection-end="1313" vertical-scroll-proportion="0.59322035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/responsiveslides.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.016949153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="6" selection-start="3492" selection-end="3492" vertical-scroll-proportion="0.8590674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/jquery.hideAllExceptOne.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.016949153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="3" selection-start="427" selection-end="427" vertical-scroll-proportion="0.20338982">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="474" selection-end="474" vertical-scroll-proportion="0.24335378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="10" selection-start="991" selection-end="991" vertical-scroll-proportion="0.47564766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/jquery.hideAllExceptOne.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="207" selection-end="207" vertical-scroll-proportion="0.10169491">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://S:/Images/ChromeDownloads/chest-23-04-12/denysonique-imgPreload-20e1ec0/denysonique-imgPreload-20e1ec0/imgPreload.js">
+    <entry file="file://$PROJECT_DIR$/MNSite/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="927" selection-end="927" vertical-scroll-proportion="0.44782168">
+        <state line="22" column="12" selection-start="366" selection-end="366" vertical-scroll-proportion="0.37288135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="0.15254237">
           <folding />
         </state>
       </provider>
@@ -1223,11 +1031,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>youtube-v3</last-edited>
+          <last-edited>HTML_Framework</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.26882967" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

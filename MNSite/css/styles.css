@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #000000;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+
+	min-width: 640px;
+	color: #ffffff;
+	font-size: 100%;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color: #ffffff;
+	font-style: normal;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+
+nav {
+	width: 224px;
+	margin: 0 auto 0 auto;
+}
+
+footer {
+	width: 410px;
+	margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+
+	h1 {
+		/*font: 30px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+
+	}
+
+}
+
+
+
+#main {
+	height: 600px;
+	background: #000088;
+	/*border: #cacaca solid 1px;
+	border-radius: 8px;*/
+}
+
+#main section {
+	/*position: absolute;
+	display: none;
+	overflow: hidden;*/
+}
+
+#photos-pager {
+
+}
+
+#photos-pager li {
+	float: left;
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+
+/* Slides.js CSS */
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
