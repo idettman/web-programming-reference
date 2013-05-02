@@ -7,21 +7,19 @@
  */
 
 var Site = {
+
 	pageSelector: null,
 	photoGallery: null,
 
+
 	init: function ()
 	{
-		this.pageSelector = new PageSelector ();
-		this.photoGallery = new PhotoGallery ();
-
-
 		var imageList = $('#photos').get (0).firstChild.nodeValue;
-		imageList = imageList.split (',');
-		console.log (imageList, ':imgList');
 
-		this.photoGallery.addImages (imageList);
+		this.photoGallery = new PhotoGallery ();
+		this.photoGallery.addImages (imageList.split (','));
 
+		this.pageSelector = new PageSelector ();
 		this.pageSelector.showPage ('home');
 	}
 }
