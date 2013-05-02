@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<site title="Melissa Nearman: %PAGE%" menu="true">
+	
+    <page id="index" src="index.swf" level="bottom">
+			<page id="home" 	title="Home" 	src="home.swf" 		menu="true" level="top" />
+			<page id="reel" 	title="Reel" 	src="reel.swf" 		menu="true" level="top" />
+			<page id="photos" 	title="Photos" 	src="photos.swf" 	menu="true" level="top" />
+			<page id="reviews"	title="Reviews" src="reviews.swf"	menu="true" level="top" />
+			<page id="contact"	title="Contact" src="contact.swf"	menu="true" level="top" />
+			<page id="resume"	title="Resume" 	src="resume.swf"	menu="true" level="top" />
+    </page>
+</site>
