@@ -10,11 +10,14 @@ html {
 body {
 	-webkit-font-smoothing: antialiased;
 
-	min-width: 640px;
+	min-width: 320px;
+	min-height: 240px;
+
 	color: #ffffff;
 	font-size: 100%;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-weight: 400;
+	padding: 16px;
 }
 
 a {
@@ -23,39 +26,48 @@ a {
 	text-decoration: none;
 }
 
-h1 {
+#siteHeader {
+	height: 3em;
+}
+
+#siteHeader .logo {
 	font-weight: 700;
+	margin-right: 100px;
+	text-transform: capitalize;
 }
 
-nav {
-	width: 224px;
-	margin: 0 auto 0 auto;
-}
+#siteHeader .navMenu {  }
+	.navMenu ul li { display: block; float: left; padding: 6px 12px; margin: 0 8px; }
+	.navMenu ul li a { line-height: 2.5em; text-transform: uppercase; }
 
-footer {
-	width: 410px;
-	margin: 0 auto 0 auto;
-}
-
-@media screen and (max-width: 600px) {
-	/*h1 {
-		font: 30px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	}*/
-}
 
 #main {
-	height: 600px;
-	background: #000088;
-	/*border: #cacaca solid 1px;
-	border-radius: 8px;*/
+	background: #22232a url("../images/repeating_vgradient.png") repeat-y right;
+	border-radius: 8px;
 }
 
-#main section {
+#main .pageContent {
+	border-radius: 8px;
+}
+
+#home {
+	background: transparent url("../images/photogallery/melissa_nearman_10.jpg") no-repeat center right;
+}
+
+#reel {
 
 }
 
-#photos-pager {
+#photoViewer {
 
+}
+
+#resume {
+	background: transparent url("../images/photogallery/melissa_nearman_03.jpg") no-repeat center right;
+}
+
+#contact {
+	background: transparent url("../images/photogallery/melissa_nearman_05.jpg") no-repeat center right;
 }
 
 #photos-pager li {
@@ -63,6 +75,26 @@ footer {
 	display: block;
 	height: 40px;
 	width: 40px;
+	overflow: hidden;
+}
+
+
+#resume .resumeDownloadLink {
+	display: block;
+	background:#000088;
+	padding: 8px 12px;
+	margin-bottom: 1em;
+}
+
+
+/* generic shared */
+.floatLeft {
+	display: block;
+	float: left;
+}
+
+.clearFix {
+	clear: both;
 }
 
 

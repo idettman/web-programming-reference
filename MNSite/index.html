@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html lang='en'>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 legacy-ie"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 legacy-ie"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8 legacy-ie"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 	<head>
 		<meta charset='utf-8' />
-		<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
 
 		<title>Melissa Nearman</title>
 
-		<meta name='description' content=''>
-		<meta name='viewport' content='width=780' />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel='shortcut icon' href='/favicon.ico' />
-
 		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css' />
-		<link href='css/styles.css' rel='stylesheet' />
 		<link href='http://vjs.zencdn.net/c/video-js.css' rel='stylesheet' />
+		<link href='css/styles.css' rel='stylesheet' />
 
 		<script src='js/libs/modernizr.custom.50500.js'></script>
 		<script src='js/libs/frame.js'></script>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a class='tab' href='#reel'>Reel</a>
-				<a class='tab' href='#photoGallery'>Photos</a>
-				<a class='tab' href='#'>Resume</a>
-				<a class='tab' href='#contact'>Contact</a>
+		<header id='siteHeader'>
+			<h1 class='floatLeft logo'>Melissa Nearman</h1>
+
+			<nav class='floatLeft navMenu'>
+				<ul>
+					<li><a class='tab' href='#reel'>Reel</a></li>
+					<li><a class='tab' href='#photoViewer'>Photos</a></li>
+					<li><a class='tab' href='#resume'>Resume</a></li>
+					<li><a class='tab' href='#contact'>Contact</a></li>
+				</ul>
 			</nav>
 		</header>
 
-		<div role='main' id='main'>
+		<div role='main' id='main' class='clearFix'>
 
-			<h1>Melissa Nearman</h1>
-
-			<section id='home' class='box'>
+			<section id='home' class='box pageContent'>
 				HOME
 			</section>
 
-			<section id='reel' class='box'>
+			<section id='reel' class='box pageContent'>
 				<video id='reelVideoPlayer' class='video-js vjs-default-skin' width='640' height='480' poster='reel/melissa_short_reel_poster.jpg' data-setup='{ "controls": true, "autoplay": false, "preload": "none" }'>
 					<source src='reel/melissa_short_reel.webm' type='video/webm' />
 					<source src='reel/melissa_short_reel.mp4' type='video/mp4' />
@@ -44,31 +48,34 @@
 				</video>
 			</section>
 
-			<section id='photoGallery' class='box'>
+			<section id="photoViewer" class='box pageContent'>
 				<ul id='photos' class='rslides'>
-					<li><img src='images/photos/img01.jpg' /></li>
-					<li><img src='images/photos/img02.jpg' /></li>
-					<li><img src='images/photos/img03.jpg' /></li>
-					<li><img src='images/photos/img04.jpg' /></li>
-					<li><img src='images/photos/img05.jpg' /></li>
-					<li><img src='images/photos/img06.jpg' /></li>
-					<li><img src='images/photos/img07.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_01.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_02.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_03.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_04.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_05.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_06.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_07.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_08.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_09.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_10.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_11.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_12.jpg' /></li>
+					<li><img src='images/photogallery/melissa_nearman_13.jpg' /></li>
 				</ul>
 
-				<ul id='photos-pager'>
-					<li><a href='#'><img src='images/photos/img01.jpg' alt=''></a></li>
-					<li><a href='#'><img src='images/photos/img02.jpg' alt=''></a></li>
-					<li><a href='#'><img src='images/photos/img03.jpg' alt=''></a></li>
-					<li><a href='#'><img src='images/photos/img04.jpg' alt=''></a></li>
-					<li><a href='#'><img src='images/photos/img05.jpg' alt=''></a></li>
-					<li><a href='#'><img src='images/photos/img06.jpg' alt=''></a></li>
-					<li><a href='#'><img src='images/photos/img07.jpg' alt=''></a></li>
+				<ul id="photoThumbnails">
+
 				</ul>
 			</section>
 
+			<section id='resume' class='box pageContent'>
+				<a class='resumeDownloadLink' type='application/pdf' href='resume/MELISSANEARMAN.pdf' target='_blank'>Download Resume</a>
+			</section>
 
-			<section id='contact' class='box'>
-				CONTACT
+			<section id='contact' class='box pageContent'>
+
 				<address>
 					<a href='tel:3104676285'>310.467.6285</a>
 					<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
@@ -76,24 +83,11 @@
 			</section>
 		</div>
 
-
 		<script>
-
-			Frame ('js/libs/jquery-2.0.0.js', function (next) {
-				next ();
-			});
-
-			Frame ('js/libs/responsiveslides.js', function (next) {
-				next ();
-			});
-
-			Frame ('js/libs/jquery.hideAllExceptOne.js', function (next) {
-				next ();
-			});
-
-			Frame ('http://vjs.zencdn.net/c/video.js', function (next) {
-				next ();
-			});
+			Frame ('js/libs/jquery-2.0.0.js');
+			Frame ('js/libs/responsiveslides.js');
+			Frame ('js/libs/jquery.hideAllExceptOne.js');
+			Frame ('http://vjs.zencdn.net/c/video.js');
 
 			Frame ('js/main.js', function (next) {
 				$ (document).ready ($.proxy(Main.init, Main));

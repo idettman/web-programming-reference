@@ -2,17 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/repeating_vgradient.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/resume/resume.html" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\images\photogallery\MelissaNearman#3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\0000009_melissa1_9560.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\0000009_melissa2_9561.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_02.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/index.html" afterPath="$PROJECT_DIR$/MNSite/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/js/main.js" afterPath="$PROJECT_DIR$/MNSite/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/css/styles.css" afterPath="$PROJECT_DIR$/MNSite/css/styles.css" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367460646576" ignored="false" />
-    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367429150871" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367536725544" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367537275656" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
     <file path="/DrawDisplayObjectUtil.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358978475854" ignored="false" />
-    <file path="/index.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367458631384" ignored="false" />
+    <file path="/index.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367544136483" ignored="false" />
     <file path="/a.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364405932537" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/view/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359067331419" ignored="false" />
     <file path="/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066861477" ignored="false" />
@@ -31,7 +54,7 @@
     <file path="/inheritance.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367263202496" ignored="false" />
     <file path="/scope.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360104355962" ignored="false" />
     <file path="/inheritance02.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360119609233" ignored="false" />
-    <file path="/fragment.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363635484812" ignored="false" />
+    <file path="/fragment.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367533356229" ignored="false" />
     <file path="/requestanimationframe.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360620310032" ignored="false" />
     <file path="/a.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363200410104" ignored="false" />
     <file path="/main.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360623540115" ignored="false" />
@@ -115,10 +138,11 @@
     <file path="/casttype.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365805938711" ignored="false" />
     <file path="/facade_pattern.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365806072379" ignored="false" />
     <file path="/adapter_pattern.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365806531112" ignored="false" />
-    <file path="/styles.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367437346380" ignored="false" />
-    <file path="/main.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367459550896" ignored="false" />
+    <file path="/styles.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367547197005" ignored="false" />
+    <file path="/main.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367545394370" ignored="false" />
     <file path="/test_getter_setter.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367447429412" ignored="false" />
     <file path="/jquery.hideAllExceptOne.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367457711646" ignored="false" />
+    <file path="/resume.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367535332408" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,29 +235,32 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/HTML/Experiments/DesignPatterns/singleton_pattern.html" />
-        <option value="$PROJECT_DIR$/HTML/Experiments/Inheritance/inheritance.html" />
         <option value="$PROJECT_DIR$/HTML/Experiments/Layout/adaptable_layout.html" />
         <option value="$PROJECT_DIR$/HTML/MinimalLib/browserdetect.js" />
         <option value="$PROJECT_DIR$/HTML_Framework/css/styles.css" />
-        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/HTML_Framework/index.html" />
         <option value="$PROJECT_DIR$/HTML_Framework/js/main.js" />
         <option value="$PROJECT_DIR$/MNSite/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/index.html" />
         <option value="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.html" />
-        <option value="$PROJECT_DIR$/MNSite/css/styles.css" />
         <option value="$PROJECT_DIR$/MNSite/test_getter_setter.html" />
         <option value="$PROJECT_DIR$/MNSite/js/libs/enure-Hide-All-Except-One-951cd6f/jquery.hideAllExceptOne.js" />
         <option value="$PROJECT_DIR$/MNSite/js/libs/jquery.hideAllExceptOne.js" />
-        <option value="$PROJECT_DIR$/MNSite/index.html" />
+        <option value="S:/Images/ChromeDownloads/MELISSANEARMAN/MELISSANEARMAN.htm" />
+        <option value="$PROJECT_DIR$/MNSite/resume/resume.html" />
+        <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/MNSite/js/main.js" />
+        <option value="$PROJECT_DIR$/MNSite/css/styles.css" />
+        <option value="$PROJECT_DIR$/MNSite/index.html" />
       </list>
     </option>
   </component>
+  <component name="NamedScopeManager">
+    <scope name="MNSite" pattern="(!file[HTML]:*/&amp;&amp;!file[HTML_Framework]:*/&amp;&amp;!file[ProductionLib]:*/&amp;&amp;!file[youtube-v3]:*/||file[MNSite]:*/)&amp;&amp;!file[MNSite]:livesite//*" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="409" />
-    <option name="width" value="1511" />
+    <option name="x" value="478" />
+    <option name="width" value="1442" />
     <option name="height" value="1170" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -250,7 +277,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="Scope" currentSubView="MNSite" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -262,11 +289,142 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MNSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MNSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MNSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MNSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="MNSite">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MNSite">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MNSite">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MNSite">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -357,100 +515,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MNSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MNSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MNSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="livesite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MNSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/Flash_Experiments/src" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="options.splitter.main.proportions" value="0.19400954" />
@@ -459,19 +529,19 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML_Framework" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.26882967" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="JavaScriptPreferStrict" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -518,6 +588,24 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="youtube-v3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -677,17 +765,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="0" width="1511" height="1170" extended-state="0" />
+    <frame x="478" y="0" width="1442" height="1170" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28778467" sideWeight="0.67324775" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17948718" sideWeight="0.42645606" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22309338" sideWeight="0.67324775" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.4996772" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.50032276" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -697,8 +785,8 @@
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32675222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -801,36 +889,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://S:/Images/ChromeDownloads/chest-23-04-12/bishopZ-Frame.js-86ca58f/bishopZ-Frame.js-86ca58f/frame.make.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="5665" selection-end="5665" vertical-scroll-proportion="0.261807" />
-      </provider>
-    </entry>
-    <entry file="file://S:/Images/ChromeDownloads/chest-23-04-12/denysonique-imgPreload-20e1ec0/denysonique-imgPreload-20e1ec0/imgPreload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="927" selection-end="927" vertical-scroll-proportion="0.44782168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="166" selection-end="166" vertical-scroll-proportion="0.13559322" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="26" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.73926383" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="14" selection-start="1282" selection-end="1313" vertical-scroll-proportion="0.59322035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/responsiveslides.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.016949153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="6" selection-start="3492" selection-end="3492" vertical-scroll-proportion="0.8590674" />
@@ -844,11 +902,6 @@
     <entry file="file://$PROJECT_DIR$/MNSite/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.55932206" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/test_getter_setter.html">
@@ -873,16 +926,61 @@
         <state line="22" column="8" selection-start="604" selection-end="604" vertical-scroll-proportion="0.37288135" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/livesite/googleef4777428ebe5a1f.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/livesite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.6361746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://S:/Images/ChromeDownloads/MELISSANEARMAN/MELISSANEARMAN.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/resume/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="372" column="6" selection-start="10706" selection-end="10706" vertical-scroll-proportion="0.8939709">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.IntelliJIdea12/config/plugins/JSFLSupport.jar!/org/jsflsupport/libraries/JSFLTimeline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="9" selection-start="6953" selection-end="6953" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="121" selection-start="215" selection-end="215" vertical-scroll-proportion="0.120567374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="51" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.3834197">
+        <state line="50" column="12" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.6269758">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.67173254">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="41" selection-start="908" selection-end="908" vertical-scroll-proportion="0.7288136" />
+        <state line="103" column="0" selection-start="2068" selection-end="2068" vertical-scroll-proportion="1.7740629">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -938,7 +1036,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HTML_Framework</last-edited>
+          <last-edited>MNSite</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -974,13 +1072,17 @@
       </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
+          <last-edited>MNSite</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19379845" />
               </list>
             </option>
           </splitter-proportions>
+          <order>
+            <scope name="MNSite" />
+          </order>
         </settings>
       </state>
     </states>
