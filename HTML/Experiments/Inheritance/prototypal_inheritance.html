@@ -1,0 +1,35 @@
+<!--
+ * Created with IntelliJ IDEA.
+ * User: Isaac Dettman
+ * Date: 4/12/13
+ * Time: 3:50 PM
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>inheritance04</title>
+	</head>
+	<body>
+		<script>
+			var bird = {
+				name: "Foo Bar",
+				power: "Stoppped",
+				getName: function ()
+				{
+					return this.name;
+				},
+				catapult: function ()
+				{
+					return this.name + " is what the situation is at speed: " + this.power;
+				}
+			};
+
+			var yellowBird = Object.create (bird);
+			yellowBird.name = "Super Foo Bar";
+			yellowBird.power = "Full Speed";
+			console.log (yellowBird.catapult ());
+		</script>
+	</body>
+</html>
