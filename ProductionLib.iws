@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/photogallery/melissa_nearman_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/repeating_vgradient.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/resume/resume.html" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\images\photogallery\MelissaNearman#3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\0000009_melissa1_9560.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\0000009_melissa2_9561.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_02.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/index.html" afterPath="$PROJECT_DIR$/MNSite/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/js/main.js" afterPath="$PROJECT_DIR$/MNSite/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/css/styles.css" afterPath="$PROJECT_DIR$/MNSite/css/styles.css" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367536725544" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367547307613" ignored="false" />
     <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367537275656" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
@@ -768,15 +745,16 @@
     <frame x="478" y="0" width="1442" height="1170" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17948718" sideWeight="0.42645606" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22309338" sideWeight="0.67324775" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22309338" sideWeight="0.6021718" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.4996772" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.50032276" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39782822" sideWeight="0.50032276" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -787,7 +765,6 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -836,7 +813,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated main intellij project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup jquery to handle layout resizing" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -850,7 +827,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Fixed the dynamic polygon generation for the lunchwheel wheel items" />
     <MESSAGE value="Added Oimo Physics Engine spin wheel created with hinge and ball joint constraints" />
     <MESSAGE value="Added Youtube API Python examples" />
     <MESSAGE value="Created a save file python script, and committed progress for googles youtube python api" />
@@ -875,6 +851,7 @@
     <MESSAGE value="set up video, image gallery, and page selection" />
     <MESSAGE value="Missed a bunch of assets for the last commit" />
     <MESSAGE value="Updated main intellij project" />
+    <MESSAGE value="Setup jquery to handle layout resizing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
