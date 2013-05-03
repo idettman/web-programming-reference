@@ -16,12 +16,13 @@ package ashframework.game
 
 	import ashframework.game.components.GameState;
 	import ashframework.game.components.MotionControls;
-	import ashframework.game.components.NBody;
 	import ashframework.game.components.Planet;
 	import ashframework.game.components.Position;
 	import ashframework.game.components.Spaceship;
 	import ashframework.game.graphics.PlanetView;
 	import ashframework.game.graphics.SpaceshipView;
+
+	import com.iad.orbitsim.NBody;
 
 	import flash.geom.Vector3D;
 
@@ -41,7 +42,7 @@ package ashframework.game
 
 		public function createGame ():Entity
 		{
-			var gameEntity:Entity = new Entity()
+			var gameEntity:Entity = new Entity ()
 					.add (new GameState ());
 			engine.addEntity (gameEntity);
 
@@ -54,7 +55,7 @@ package ashframework.game
 			var planet:Entity = new Entity ()
 					.add (new Planet ())
 					.add (new Position (position))
-					.add (new NBody (mass, radius, velocity, 0))
+					.add (new NBody (position, velocity, mass, 0xFF0000, radius, 0))
 					.add (new PlanetView ());
 			engine.addEntity (planet);
 
@@ -83,7 +84,7 @@ package ashframework.game
 		public function createCamera ():Entity
 		{
 			var camera:Entity = new Entity ()
-					.add(new CameraControls())
+					.add (new CameraControls ())
 
 			engine.addEntity (camera);
 

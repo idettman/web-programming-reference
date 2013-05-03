@@ -1,8 +1,9 @@
 package ashframework.game.components
 {
-	import away3d.entities.*;
 
-	import flash.geom.*;
+	import away3d.entities.Mesh;
+
+	import flash.geom.Vector3D;
 
 
 	public class Fragments

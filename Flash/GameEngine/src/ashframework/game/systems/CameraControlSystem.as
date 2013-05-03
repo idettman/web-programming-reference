@@ -25,7 +25,6 @@ package ashframework.game.systems
 		private var camera:Camera3D;
 
 
-
 		public function CameraControlSystem (keyPoll:KeyPoll, mousePoll:MousePoll, camera:Camera3D)
 		{
 			super (CameraControlNode, updateNode);
@@ -43,7 +42,7 @@ package ashframework.game.systems
 		private function updateNode (node:CameraControlNode, time:Number):void
 		{
 			//if (keyPoll.isDown(Keyboard.UP))
-			if (keyPoll.isDown(Keyboard.CONTROL))
+			if (keyPoll.isDown (Keyboard.CONTROL))
 			{
 
 
@@ -64,7 +63,6 @@ package ashframework.game.systems
 				{
 
 				}
-
 
 			}
 

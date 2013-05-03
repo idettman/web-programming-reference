@@ -7,6 +7,7 @@
 package ashframework.game.nodes
 {
 	import ash.core.Node;
+
 	import ashframework.game.components.MotionControls;
 	import ashframework.game.components.Position;
 

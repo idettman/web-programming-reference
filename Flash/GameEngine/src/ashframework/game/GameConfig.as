@@ -9,7 +9,7 @@ package ashframework.game
 {
 	public class GameConfig
 	{
-		public var width : Number;
-		public var height : Number;
+		public var width:Number;
+		public var height:Number;
 	}
 }

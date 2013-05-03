@@ -7,6 +7,8 @@ package
 
 	import flash.events.Event;
 
+	import oimophysics.PhysicsWheel;
+
 	import planetaryorbitengine.TestOrbitSimulation;
 
 
@@ -41,8 +43,8 @@ package
 			//addChild (new Tween24_Away3d_Test ());
 			//addChild (new PhysicsWheel ());
 
-			//testOrbitSimulation ();
-			testIsaacOrbitSimulation ();
+			//testOrbitSimulation (); // JavaConverted Lib
+			testIsaacOrbitSimulation ();// Isaac Lib
 		}
 
 		private var orbit:Simulation;

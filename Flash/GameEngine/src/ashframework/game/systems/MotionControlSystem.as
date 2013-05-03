@@ -41,7 +41,7 @@ package ashframework.game.systems
 				position.position.y += control.accelerationRate * time;
 			}
 
-			if (keyPoll.isDown(control.left))
+			if (keyPoll.isDown (control.left))
 			{
 				position.position.x -= control.accelerationRate * time;
 			}

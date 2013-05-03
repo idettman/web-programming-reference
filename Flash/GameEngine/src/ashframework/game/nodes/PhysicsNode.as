@@ -7,9 +7,9 @@ package ashframework.game.nodes
 {
 	import ash.core.Node;
 
-	import ashframework.game.components.NBody;
-
 	import ashframework.game.components.Position;
+
+	import com.iad.orbitsim.NBody;
 
 
 	public class PhysicsNode extends Node

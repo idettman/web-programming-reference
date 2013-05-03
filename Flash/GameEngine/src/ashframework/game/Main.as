@@ -18,16 +18,16 @@ package ashframework.game
 
 		public function Main ()
 		{
-			addEventListener( Event.ENTER_FRAME, init );
+			addEventListener (Event.ENTER_FRAME, init);
 		}
 
 
 		private function init (e:Event):void
 		{
-			removeEventListener( Event.ENTER_FRAME, init);
+			removeEventListener (Event.ENTER_FRAME, init);
 
 			game = new Game (this, stage.stageWidth, stage.stageHeight);
-			game.start();
+			game.start ();
 		}
 	}
 }

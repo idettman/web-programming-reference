@@ -1,9 +1,12 @@
 package ashframework.game.nodes
 {
-	import com.awaystudios.invawayders.components.*;
-	
 	import ash.core.*;
-	
+
+	import ashframework.game.components.Blast;
+	import ashframework.game.components.DataModel;
+	import ashframework.game.components.Motion3D;
+	import ashframework.game.components.Transform3D;
+
 
 	public class BlastNode extends Node
 	{

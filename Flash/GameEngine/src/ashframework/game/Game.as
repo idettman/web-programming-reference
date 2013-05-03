@@ -10,7 +10,6 @@ package ashframework.game
 	import ash.tick.FrameTickProvider;
 
 	import ashframework.game.systems.CameraControlSystem;
-
 	import ashframework.game.systems.GameManager;
 	import ashframework.game.systems.MotionControlSystem;
 	import ashframework.game.systems.PhysicsSystem;
@@ -18,8 +17,6 @@ package ashframework.game
 	import ashframework.game.systems.SystemPriorities;
 	import ashframework.input.KeyPoll;
 	import ashframework.input.MousePoll;
-
-	import away3d.cameras.Camera3D;
 
 	import away3d.containers.View3D;
 
@@ -39,7 +36,6 @@ package ashframework.game
 		private var view:View3D;
 
 
-
 		public function Game (container:DisplayObjectContainer, width:Number, height:Number)
 		{
 			this.container = container;
@@ -55,8 +51,8 @@ package ashframework.game
 			mousePoll = new MousePoll (container.stage);
 			view = new View3D ();
 			config = new GameConfig ();
-			config.width = width; config.height = height;
-
+			config.width = width;
+			config.height = height;
 
 			engine.addSystem (new GameManager (creator, config), SystemPriorities.preUpdate);
 			engine.addSystem (new MotionControlSystem (keyPoll), SystemPriorities.update);
@@ -64,9 +60,8 @@ package ashframework.game
 			engine.addSystem (new PhysicsSystem (), SystemPriorities.resolveCollisions);
 			engine.addSystem (new RenderSystem (container, view), SystemPriorities.render);
 
-
-			creator.createCamera();
-			creator.createGame();
+			creator.createCamera ();
+			creator.createGame ();
 		}
 
 

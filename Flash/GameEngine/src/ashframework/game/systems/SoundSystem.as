@@ -9,20 +9,22 @@ package ashframework.game.systems
 	{
 		[Inject]
 		//public var soundLibrary : SoundLibrary;
-		
+
 		//[Inject(nodeType="com.awaystudios.invawayders.nodes.SoundNode")]
-		public var nodes : NodeList;
-		
+		public var nodes:NodeList;
+
+
 		[PostConstruct]
-		public function setUpListeners() : void
+		public function setUpListeners ():void
 		{
-			nodes.nodeAdded.add( addToNodes );
+			nodes.nodeAdded.add (addToNodes);
 		}
-		
-		private function addToNodes( node : SoundNode ) : void
+
+
+		private function addToNodes (node:SoundNode):void
 		{
 			/*if (node.dataModel.subType.soundOnAdd)
-				soundLibrary.playSound(node.dataModel.subType.soundOnAdd);*/
+			 soundLibrary.playSound(node.dataModel.subType.soundOnAdd);*/
 		}
 	}
 }

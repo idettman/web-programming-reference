@@ -7,6 +7,6 @@ package ashframework.game.nodes
 
 	public class SoundNode extends Node
 	{
-		public var dataModel : DataModel;
+		public var dataModel:DataModel;
 	}
 }
