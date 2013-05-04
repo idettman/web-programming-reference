@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8' />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Melissa Nearman</title>
+		<meta name="description" content="">
+		<meta name='viewport' content='width=780' />
+
+		<link rel='shortcut icon' href='/favicon.ico' />
+		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css' />
+
+		<link rel='stylesheet' href='css/styles.css' />
+
+		<link href="http://vjs.zencdn.net/c/video-js.css" />
+		<script src="http://vjs.zencdn.net/c/video.js"></script>
+
+		<script src='js/libs/modernizr.custom.92190.js'></script>
+		<script src="js/libs/frame.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href='javascript:void(0);'>Reel</a>
+				<a href='javascript:void(0);'>Photos</a>
+				<a href='javascript:void(0);'>Resume</a>
+				<a href='javascript:void(0);'>Contact</a>
+			</nav>
+		</header>
+
+		<div role='main' id='main'>
+			<h1>Melissa Nearman</h1>
+
+			<section id="home">
+				HOME
+			</section>
+
+			<section id="reel">
+				REEL
+				<!--<video id="my_video_1" class="video-js vjs-default-skin" controls
+					   preload="auto" width="640" height="264" poster="my_video_poster.png" data-setup="{}">
+					<source src="my_video.mp4" type='video/mp4'>
+					<source src="my_video.webm" type='video/webm'>
+				</video>-->
+			</section>
+
+			<section id="photos"><!--img01.jpg,img02.jpg,img03.jpg,img04.jpg,img05.jpg,img06.jpg,img07.jpg,img08.jpg,img09.jpg,img10.jpg--></section>
+
+			<section id="contact">
+				CONTACT
+				<address>
+					<a href="tel:3104676285">310.467.6285</a>
+					<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
+				</address>
+			</section>
+		</div>
+
+
+		<script>
+
+			Frame ('js/libs/jquery-2.0.0.js', function (next) {
+				console.log ('jquery loaded');
+				next ();
+			});
+
+			Frame ('js/main.js', function (next) {
+				console.log ('main.js loaded');
+				$ (document).ready (Site.init);
+				next ();
+			});
+
+			Frame.start ();
+		</script>
+	</body>
+</html>

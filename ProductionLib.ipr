@@ -24,6 +24,7 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="IdProvider" IDEtalkID="A116A0AE50C63D7AB8D9A3DDB2CBF9AD" />
   <component name="InspectionProjectProfileManager">
     <profiles>
       <profile version="1.0" is_locked="false">
@@ -96,6 +97,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTML_Framework/HTML_Framework.iml" filepath="$PROJECT_DIR$/HTML_Framework/HTML_Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MNSite/MNSite.iml" filepath="$PROJECT_DIR$/MNSite/MNSite.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductionLib.iml" filepath="$PROJECT_DIR$/ProductionLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python/References/youtube-v3.iml" filepath="$PROJECT_DIR$/Python/References/youtube-v3.iml" />
     </modules>

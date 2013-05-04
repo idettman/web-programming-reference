@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>"Hide All Except One" demo (like tabs)</title>
+    <link href="http://enure.net/_css/base.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script src="jquery.hideAllExceptOne.min.js"></script>
+    <script>
+      jQuery(function($){
+        $.hideAllExcept('.tab', '.box');
+      });
+    </script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Hide All Except One</span></h1>
+      <ul id="about">
+        <li>Requires jQuery</li>
+        <li>Bookmarkable</li>
+        <li>Unobtrusive</li>
+        <li>Simple markup</li>
+      </ul><br>
+      <h2>Download <a class="code" href="http://github.com/enure/Hide-All-Except-One">jquery.hideAllExceptOne.js</a></h2>
+      <div id="example">
+        <ul id="tabs">
+          <li><a class="tab" href="#breakfast">breakfast</a></li>
+          <li><a class="tab" href="#lunch">lunch</a></li>
+          <li><a class="tab" href="#dinner">dinner</a></li>
+        </ul><br>
+        <div id="boxes">
+          <div id="breakfast" class="box">
+            <h3>Eggs and Toast</h3>
+            <h4>Ingredients</h4>
+            <ul>
+              <li>Eggs</li>
+              <li>Toast</li>
+            </ul><br>
+            <h4>Directions</h4>
+            <ol>
+              <li>Crack eggs</li>
+              <li>Fry on skillet</li>
+              <li>Toast bread. Add butter.</li>
+            </ol><br>
+          </div>
+          <div id="lunch" class="box">
+            <h3>
+              <a href="http://allrecipes.com/Recipe/Delicious-Beef-Tongue-Tacos/Detail.aspx">
+                Delicious Beef Tongue Tacos
+              </a>
+            </h3>
+            <h4>Ingredients</h4>
+            <ul>
+              <li>1 beef tongue</li>
+              <li>1/2 white onion, sliced</li>
+              <li>5 cloves garlic, crushed</li>
+              <li>1 bay leaf</li>
+              <li>salt to taste</li>
+            </ul><br>
+            <ul>
+              <li>3 tablespoons vegetable oil</li>
+              <li>5 Roma tomatoes</li>
+              <li>5 serrano peppers</li>
+              <li>salt to taste</li>
+              <li>1/2 onion, diced</li>
+              <li>2 (10 ounce) packages corn tortillas</li>
+            </ul><br>
+            <h4>Directions</h4>
+            <ol>
+              <li>Place the beef tongue in a slow cooker and cover with water. Add the onion slices, garlic, and bay leaf. Season with salt. Cover and cook on Low overnight or 8 hours. Remove the tongue and shred the meat into strands.</li>
+              <li>Heat the oil in a skillet over medium heat. Cook the tomatoes and peppers in the hot oil until softened on all sides. Remove the tomatoes and peppers in a blender, keeping the oil on the heat; season with salt. Blend briefly until still slightly chunky. Cook the diced onion in the skillet until translucent; stir in the tomato mixture. Cook another 5 to 6 minutes. Build the tacos by placing shredded tongue meat into a tortilla and spooning salsa over the meat.</li>
+            </ol><br>
+          </div>
+          <div id="dinner" class="box">
+            <h3>Black Bean Soup</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      try {
+        var pageTracker = _gat._getTracker("UA-603643-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  </body>
+</html>

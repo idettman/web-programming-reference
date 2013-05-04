@@ -1,0 +1,21 @@
+/* http://github.com/enure/Hide-All-Except-One */
+h1{font-weight:bold;margin-bottom:0;}
+h2{margin:1em 0;}
+h3{font-weight:bold;}
+#about{margin-top:0;}
+#about,#tabs{padding-left:0;}
+#about li,#tabs li{float:left;display:block;margin-right:1.5em;}
+#about li:before{content:"* ";}
+#tabs{margin:6em 0 .5em .5em;}
+#tabs li{padding:.1em .4em;}
+#tabs li a{color:#777;}
+#boxes{margin:.2em 0 2em 0;border:1px solid #ccc;width:400px;}
+#boxes div{background-color:#F7F7F7;padding:1em;color:#444;font-family:georgia,serif;}
+#boxes ol,
+#boxes ul{margin-left:2em;}
+a,a:link,a:visited{color:#111;text-decoration:none;}
+a.code{border-bottom:1px solid #888;}
+#tabs li a.active,a:hover{color:#34756F;outline:none;border-bottom:0;}
+#me{text-align:center;}
+#me a{color:#aaa;}
+#me a:hover{color:red;}

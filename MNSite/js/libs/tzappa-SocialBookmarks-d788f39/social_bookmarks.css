@@ -1,0 +1,13 @@
+/* Social Bookmarks */
+#social_bookmarks {
+	height: 100%;
+	overflow: hidden;
+}
+#social_bookmarks a {
+	display: block;
+	background: transparent url(social_bookmarks.png) no-repeat scroll 0 0;
+	height: 32px;
+	width: 32px;
+	margin-right: 4px;
+	float: left;
+}
