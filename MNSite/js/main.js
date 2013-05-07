@@ -1,5 +1,10 @@
 var Main = {
 
+	windowData: {
+		windowWidth: 0,
+		windowHeight: 0,
+		isLandscapeView: false
+	},
 
 	init: function ()
 	{
@@ -80,26 +85,26 @@ var Main = {
 	updateLayout: function ()
 	{
 //		console.log('body scroll height:', $('body')[0].scrollHeight);
+		this.windowData.windowWidth = $ (window).width ();
+		this.windowData.windowHeight = $ (window).innerHeight ();
+		this.windowData.isLandscapeView = (Math.max(this.windowData.windowWidth, this.windowData.windowHeight) === this.windowData.windowWidth);
 
-		var windowHeight = $(window).innerHeight();
-		var updatedHeight;
+		$ ('#main').height (this.windowData.windowHeight - $ ('#siteHeader').outerHeight () - 32);
+		$ ('.pageContent').width ($ ('#main').width ());
+		$ ('.pageContent').height ($ ('#main').innerHeight());
 
+		/*var updatedHeight;
 		if (windowHeight > 240)
 		{
 			updatedHeight = windowHeight - $ ('#siteHeader').outerHeight () - 32;
-
-			$ ('#main').height (updatedHeight);
-			$ ('.pageContent').width ($ ('#main').width ());
-			$ ('.pageContent').height (updatedHeight);
 		}
 		else
 		{
 			updatedHeight = 240 - $ ('#siteHeader').outerHeight () - 24;
-
-			$ ('#main').height (updatedHeight);
-			$ ('.pageContent').width ($ ('#main').width ());
-			$ ('.pageContent').height (updatedHeight);
 		}
+		$ ('#main').height (updatedHeight);
+		 $ ('.pageContent').width ($ ('#main').width ());
+		 $ ('.pageContent').height (updatedHeight);*/
 	},
 
 

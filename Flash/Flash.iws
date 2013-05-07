@@ -2,93 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c096bf-1071-441e-9a5b-cea578de001d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\build\cannon.demo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\build\cannon.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\build\cannon.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\build\cannon.pretty.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\bunny.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\bunny.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\callbacks.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\collisions.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\compound.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\constraints.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\container.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\convexhull.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\events.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\friction.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\impulses.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\motionstates.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\pile.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\shapes.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\singleBodyOnPlane.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\sleep.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\splitSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\demos\stacks.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\examples\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\examples\js\PointerLockControls.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\examples\scenejs.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\examples\threejs.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\examples\threejs_fps.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\libs\Detector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\libs\Stats.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\libs\Three.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\libs\dat.gui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\libs\scenejs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\libs\smoothie.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\Cannon.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\collision\Broadphase.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\collision\NaiveBroadphase.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\collision\Ray.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\constraints\ContactEquation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\constraints\DistanceConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\constraints\Equation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\constraints\FrictionEquation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\constraints\PointToPointConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\demo\Demo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\material\ContactMaterial.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\material\Material.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\math\Mat3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\math\MatN.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\math\Quaternion.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\math\Vec3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Body.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Box.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Compound.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\ConvexPolyhedron.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Cylinder.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Particle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Plane.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\RigidBody.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Shape.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Sph.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\objects\Sphere.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\solver\GSSolver.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\solver\Solver.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\solver\SplitSolver.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\utils\EventTarget.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\utils\Pool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\utils\Vec3Pool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\world\ContactGenerator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\world\ContactPoint.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\world\World.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\wrapper\End.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\src\wrapper\Start.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\Box.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\Compound.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\ConvexHull.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\ConvexPolyhedron.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\Mat3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\Quaternion.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\Ray.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\RigidBody.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\test\Vec3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\utils\JSCompress.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faygo\Dev\ProductionLib\HTML\libs\cannon.js\utils\build.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flash.iws" afterPath="$PROJECT_DIR$/Flash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProductionLib.iws" afterPath="$PROJECT_DIR$/../ProductionLib.iws" />
     </list>
     <file path="/fragment.js2" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365808676703" ignored="false" />
-    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1366047822866" ignored="false" />
+    <file path="/Dummy.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1367878731951" ignored="false" />
     <file path="/away3d_examples.txt" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364410480210" ignored="false" />
     <file path="/ElementAutoPanning.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364420720806" ignored="false" />
     <file path="/TreFoilKnot.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364419299464" ignored="false" />
@@ -146,6 +64,8 @@
     <file path="/Constants.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1364946384293" ignored="false" />
     <file path="/Simulation.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365110660344" ignored="false" />
     <file path="/Flash_Experiments.as" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1365037004348" ignored="false" />
+    <file path="S:/Dev_Archive/557_wk_old_spice_shave_prep_masthead/Prep/bouncing-terry-test/js/bouncingterry.js" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1367865320199" ignored="false" />
+    <file path="/bouncingterry.js" changelist="63c096bf-1071-441e-9a5b-cea578de001d" time="1367865311387" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +84,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -200,7 +121,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -232,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlanetNode.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/PlayerNode.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/ProjectileNode.as" />
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/nodes/RenderNode.as" />
@@ -248,6 +167,7 @@
         <option value="$PROJECT_DIR$/GameEngine/src/ashframework/game/components/MotionControls.as" />
         <option value="$PROJECT_DIR$/IsaacNBodyEngine_Lib/src/Simulation.as" />
         <option value="$PROJECT_DIR$/Flash_Experiments/src/Flash_Experiments.as" />
+        <option value="$PROJECT_DIR$/Effects_Lib/src/FlashTip_NaturalMotions.as" />
       </list>
     </option>
   </component>
@@ -389,20 +309,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Flash_Experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Flash_Experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -941,9 +847,8 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21504803" sideWeight="0.67832845" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21454929" sideWeight="0.67832845" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851636" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -952,6 +857,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1054,16 +960,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/components/DataModel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.2542373" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Display.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.37288135" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GameEngine/src/ashframework/game/components/Explosion.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.27118644" />
@@ -1132,6 +1028,16 @@
     <entry file="file://$PROJECT_DIR$/Flash_Experiments/src/ashframework/AshFramework_Main.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="44" selection-start="401" selection-end="401" vertical-scroll-proportion="0.2881356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/FlashTip_NaturalMotions.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.016949153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Effects_Lib/src/VeryStableCollisionResolver.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="35" selection-start="3205" selection-end="3205" vertical-scroll-proportion="0.4915254" />
       </provider>
     </entry>
   </component>

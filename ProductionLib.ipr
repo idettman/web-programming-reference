@@ -24,6 +24,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Python" />
+  </component>
   <component name="IdProvider" IDEtalkID="A116A0AE50C63D7AB8D9A3DDB2CBF9AD" />
   <component name="InspectionProjectProfileManager">
     <profiles>
