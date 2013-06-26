@@ -37,8 +37,8 @@ var Main = {
 			fade: 500,
 			nav: true,
 			pager: true,
-			prevText: 'Previous',
-			nextText: 'Next',
+			prevText: '<',
+			nextText: '>',
 			manualControls: '#photos-pager'
 		});
 	},
@@ -88,10 +88,10 @@ var Main = {
 		this.windowData.windowWidth = $ (window).width ();
 		this.windowData.windowHeight = $ (window).innerHeight ();
 		this.windowData.isLandscapeView = (Math.max(this.windowData.windowWidth, this.windowData.windowHeight) === this.windowData.windowWidth);
-
-		$ ('#main').height (this.windowData.windowHeight - $ ('#siteHeader').outerHeight () - 32);
-		$ ('.pageContent').width ($ ('#main').width ());
-		$ ('.pageContent').height ($ ('#main').innerHeight());
+		
+//		$ ('#main').height (this.windowData.windowHeight - $ ('#siteHeader').outerHeight () - 32);
+//		$ ('.pageContent').width ($ ('#main').width ());
+//		$ ('.pageContent').height ($ ('#main').innerHeight());
 
 		/*var updatedHeight;
 		if (windowHeight > 240)
@@ -107,6 +107,6 @@ var Main = {
 		 $ ('.pageContent').height (updatedHeight);*/
 	},
 
-
+	
 	reelVideoPlayer: null
 };
