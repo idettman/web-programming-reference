@@ -85,14 +85,35 @@ var Main = {
 	updateLayout: function ()
 	{
 //		console.log('body scroll height:', $('body')[0].scrollHeight);
-		this.windowData.windowWidth = $ (window).width ();
-		this.windowData.windowHeight = $ (window).innerHeight ();
+		this.windowData.windowWidth = $ (window).width();
+		this.windowData.windowHeight = $ (window).height();
 		this.windowData.isLandscapeView = (Math.max(this.windowData.windowWidth, this.windowData.windowHeight) === this.windowData.windowWidth);
 		
-		var emsWidth = this.windowData.windowWidth / 16;
+		// find largest side
 		
-		console.log (emsWidth / 64.2 + " : resulta");
-		$ ("body").css ("font-size", (emsWidth / 64.2) + "em");
+		/*var emsWidth = 0;
+		if (this.windowData.windowWidth > this.windowData.windowHeight)
+		{
+			emsWidth = this.windowData.windowHeight / 16.0;
+			$ ("body").css ("font-size", (emsWidth / 40.1) + "em");
+		}
+		else
+		{
+			emsWidth = this.windowData.windowWidth / 16.0;
+			$ ("body").css ("font-size", (emsWidth / 64.2) + "em");
+		}*/
+
+
+		if (this.windowData.windowWidth/16.0 < 64.2)
+		{
+			var emsWidth = this.windowData.windowWidth / 16.0;
+			$ ("body").css ("font-size", (emsWidth / 64.2) + "em");
+		}
+		else
+		{
+			$ ("body").css ("font-size", "1.0em");
+		}
+		
 		
 		
 		
