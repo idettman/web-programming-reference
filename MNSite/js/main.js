@@ -89,6 +89,13 @@ var Main = {
 		this.windowData.windowHeight = $ (window).innerHeight ();
 		this.windowData.isLandscapeView = (Math.max(this.windowData.windowWidth, this.windowData.windowHeight) === this.windowData.windowWidth);
 		
+		var emsWidth = this.windowData.windowWidth / 16;
+		
+		console.log (emsWidth / 64.2 + " : resulta");
+		$ ("body").css ("font-size", (emsWidth / 64.2) + "em");
+		
+		
+		
 //		$ ('#main').height (this.windowData.windowHeight - $ ('#siteHeader').outerHeight () - 32);
 //		$ ('.pageContent').width ($ ('#main').width ());
 //		$ ('.pageContent').height ($ ('#main').innerHeight());
@@ -105,8 +112,10 @@ var Main = {
 		$ ('#main').height (updatedHeight);
 		 $ ('.pageContent').width ($ ('#main').width ());
 		 $ ('.pageContent').height (updatedHeight);*/
+//		font-size: 1em;
+//		$ ("body").css ("font-size", "1.2em");
 	},
-
+	
 	
 	reelVideoPlayer: null
 };

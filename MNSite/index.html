@@ -10,74 +10,75 @@
 		
 		<title>Melissa Nearman</title>
 		
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<link rel='shortcut icon' href='/favicon.ico' />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
 		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css' />
 		<link href='http://vjs.zencdn.net/c/video-js.css' rel='stylesheet' />
 		<link href='http://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
 		<link href='css/styles.css' rel='stylesheet' />
-		
 		<script src='js/libs/modernizr.custom.50500.js'></script>
 		<script src='js/libs/frame.js'></script>
 	</head>
 	<body>
-		<header id='siteHeader'>
-			<h1 class='floatLeft logo'>Melissa Nearman</h1>
-		</header>
-		<nav class='navMenu'>
-			<ul>
-				<li><a class='tab' href='#reel'>Reel</a></li>
-				<li><a class='tab' href='#photoViewer'>Photos</a></li>
-				<li><a class='tab' href='#resume'>Resume</a></li>
-				<li><a class='tab' href='#contact'>Contact</a></li>
-			</ul>
-		</nav>
-		
-		<div role='main' id='main'>
+		<div id="siteContainer">
 			
-			<section id="photoViewer" class='box pageContent'>
-				<ul id='photos' class='rslides'>
-					<li><img src='images/photogallery/melissa_nearman_01.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_02.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_03.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_04.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_05.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_06.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_07.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_08.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_09.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_10.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_11.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_12.jpg' /></li>
-					<li><img src='images/photogallery/melissa_nearman_13.jpg' /></li>
+			<header id='siteHeader'>
+				<h1 class='floatLeft logo'>Melissa Nearman</h1>
+			</header>
+			<nav class='navMenu'>
+				<ul>
+					<li><a class='tab' href='#reel'>Reel</a></li>
+					<li><a class='tab' href='#photoViewer'>Photos</a></li>
+					<li><a class='tab' href='#resume'>Resume</a></li>
+					<li><a class='tab' href='#contact'>Contact</a></li>
 				</ul>
+			</nav>
+			
+			<div role='main' id='main'>
 				
-				<ul id="photoThumbnails">
+				<section id="photoViewer" class='box pageContent'>
+					<ul id='photos' class='rslides'>
+						<li><img src='images/photogallery/melissa_nearman_01.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_02.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_03.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_04.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_05.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_06.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_07.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_08.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_09.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_10.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_11.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_12.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_13.jpg' /></li>
+					</ul>
 					
-				</ul>
-				
-			</section>
-			<section id='reel' class='box pageContent'>
-				<video id='reelVideoPlayer' class='video-js vjs-default-skin' width='640' height='480' poster='reel/melissa_short_reel_poster.jpg' data-setup='{ "controls": true, "autoplay": false, "preload": "none" }'>
-					<source src='reel/melissa_short_reel.webm' type='video/webm' />
-					<source src='reel/melissa_short_reel.mp4' type='video/mp4' />
-					<source src='reel/melissa_short_reel.ogv' type='video/ogg' />
-				</video>
-			</section>
-			<section id='resume' class='box pageContent'>
-				<a class='resumeDownloadLink' type='application/pdf' href='resume/MELISSANEARMAN.pdf' target='_blank'>Download Resume</a>
-			</section>
-
-			<section id='contact' class='box pageContent'>
-
-				<address>
-					<a href='tel:3104676285'>310.467.6285</a>
-					<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
-				</address>
-			</section>
+					<ul id="photoThumbnails">
+						
+					</ul>
+					
+				</section>
+				<section id='reel' class='box pageContent'>
+					<video id='reelVideoPlayer' class='video-js vjs-default-skin' width='640' height='480' poster='reel/melissa_short_reel_poster.jpg' data-setup='{ "controls": true, "autoplay": false, "preload": "none" }'>
+						<source src='reel/melissa_short_reel.webm' type='video/webm' />
+						<source src='reel/melissa_short_reel.mp4' type='video/mp4' />
+						<source src='reel/melissa_short_reel.ogv' type='video/ogg' />
+					</video>
+				</section>
+				<section id='resume' class='box pageContent'>
+					<a class='resumeDownloadLink' type='application/pdf' href='resume/MELISSANEARMAN.pdf' target='_blank'>Download Resume</a>
+				</section>
+	
+				<section id='contact' class='box pageContent'>
+	
+					<address>
+						<a href='tel:3104676285'>310.467.6285</a>
+						<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
+					</address>
+				</section>
+			</div>
+			
 		</div>
-
+		
 		<script>
 			Frame ('js/libs/jquery-2.0.0.js');
 			Frame ('js/libs/responsiveslides.js');
