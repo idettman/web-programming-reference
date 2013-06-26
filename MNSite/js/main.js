@@ -89,25 +89,20 @@ var Main = {
 		this.windowData.windowHeight = $ (window).height();
 		this.windowData.isLandscapeView = (Math.max(this.windowData.windowWidth, this.windowData.windowHeight) === this.windowData.windowWidth);
 		
-		// find largest side
+		var MIN_WIDTH = 30.0;
+		var MAX_WIDTH = 64.2;
 		
-		/*var emsWidth = 0;
-		if (this.windowData.windowWidth > this.windowData.windowHeight)
+		if (this.windowData.windowWidth/16.0 < MAX_WIDTH)
 		{
-			emsWidth = this.windowData.windowHeight / 16.0;
-			$ ("body").css ("font-size", (emsWidth / 40.1) + "em");
-		}
-		else
-		{
-			emsWidth = this.windowData.windowWidth / 16.0;
-			$ ("body").css ("font-size", (emsWidth / 64.2) + "em");
-		}*/
-
-
-		if (this.windowData.windowWidth/16.0 < 64.2)
-		{
-			var emsWidth = this.windowData.windowWidth / 16.0;
-			$ ("body").css ("font-size", (emsWidth / 64.2) + "em");
+			if (this.windowData.windowWidth/16.0 > MIN_WIDTH)
+			{
+				var emsWidth = this.windowData.windowWidth / 16.0;
+				$ ("body").css ("font-size", (emsWidth / MAX_WIDTH) + "em");
+			}
+			else
+			{
+				$ ("body").css ("font-size", MIN_WIDTH/MAX_WIDTH + "em");
+			}
 		}
 		else
 		{
