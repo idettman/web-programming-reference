@@ -32,7 +32,7 @@
     
     .faqs em { display: block; }
     
-    .clearfix:after {
+    .clear:after {
       content: "\0020";
       display: block;
       height: 0;
@@ -56,7 +56,7 @@
     <p>Chosen is a JavaScript plugin for Prototype and jQuery that makes long, unwieldy select boxes much more user-friendly. For more information (including usage, explanation and faqs), check out the <a href="http://harvesthq.github.com/chosen/">online documentation</a>.</p>
     
     <h2>Standard Select</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <div>
         <em>Turns This</em>
         <select data-placeholder="Choose a Country..." style="width:350px;" tabindex="1">
@@ -558,7 +558,7 @@
     </div>
     
     <h2>Multiple Select</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <div>
         <em>Turns This</em>
         <select data-placeholder="Choose a Country..." style="width:350px;" multiple tabindex="3">
@@ -1059,7 +1059,7 @@
     </div>
     
     <h2>&lt;optgroup&gt; Support</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <div>
         <em>Single Select with Groups</em>
         <select data-placeholder="Your Favorite Football Team" style="width:350px;" class="chzn-select" tabindex="5">
@@ -1171,7 +1171,7 @@
     </div>
 
     <h2>Selected and Disabled Support</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <p>Chosen automatically highlights selected options and removes disabled options.</p>
       <div>
         <em>Single Select</em>
@@ -1204,14 +1204,14 @@
     </div>
 
     <h2>Default Text Support</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <p>Chosen automatically sets the default field text ("Choose a country...") by reading the select element's data-placeholder value. If no data-placeholder value is present, it will default to "Select Some Option" or "Select Some Options" depending on whether the select is single or multiple. You can change these elements in the plugin js file as you see fit.</p>
       <code>&lt;select <strong>data-placeholder="Choose a country..."</strong> style="width:350px;" multiple class="chzn-select"&gt;</code>
       <p><strong>Note:</strong> on single selects, the first element is assumed to be selected by the browser. To take advantage of the default text support, you will need to include a blank option as the first element of your select list.</p>
     </div>
     
     <h2>No Results Text Support</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <p>Setting the "No results" search text is as easy as passing an option when you create Chosen:</p>
       <code>
         $(".chzn-select").chosen({no_results_text: "No results matched"});
@@ -1219,9 +1219,9 @@
     </div>
     
     <h2>Allow Deselect on Single Selects</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <p>When a single select box isn't a required field, you can set <code>allow_single_deselect: true</code> and Chosen will add a UI element for option deselection. This will only work if the first option has blank text.</p>
-      <div class="side-by-side clearfix">
+      <div class="side-by-side clear">
         <select data-placeholder="Your Favorite Type of Bear" style="width:350px;" class="chzn-select-deselect" tabindex="7">
           <option value=""></option>
           <option>American Black Bear</option>
@@ -1237,7 +1237,7 @@
     </div>
 
     <h2>Right to Left Support</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <p>Chosen supports right to left select boxes too. just add <code>"chzn-rtl"</code> in addition to <code>"chzn-select"</code> to your select tags and you are good to go.</p>
       <p><code>&lt;select class="chzn-select <strong>chzn-rtl</strong>"&gt;</code></p>
       <div>
@@ -1267,7 +1267,7 @@
     </div>
 
     <h2>Change / Update Events</h2>
-    <div class="side-by-side clearfix">
+    <div class="side-by-side clear">
       <ul>
         <li>
           <h3>Form Field Change</h3>

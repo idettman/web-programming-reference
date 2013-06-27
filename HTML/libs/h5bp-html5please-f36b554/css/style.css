@@ -769,16 +769,17 @@ code:hover {
   visibility: hidden;
 }
 
-.clearfix:before, .clearfix:after {
+.clear:before, .clear:after {
   content: "";
   display: table;
 }
 
-.clearfix:after {
+.clear:after {
   clear: both;
 }
 
-.clearfix {
+.clear
+{
   zoom: 1;
 }
 
