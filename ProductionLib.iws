@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/draft1.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/resume.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/images/resume_webedit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/trees.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/resume/MELISSANEARMAN.pdf" afterPath="$PROJECT_DIR$/MNSite/resume/MELISSANEARMAN.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/example.jquery.html" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/example.jquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/example.proto.html" afterPath="$PROJECT_DIR$/HTML/libs/harvesthq-chosen-v0.9.5-35-g880a30d/harvesthq-chosen-880a30d/example.proto.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/index.html" afterPath="$PROJECT_DIR$/MNSite/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/css/style.css" afterPath="$PROJECT_DIR$/HTML/libs/h5bp-html5please-f36b554/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/css/styles.css" afterPath="$PROJECT_DIR$/MNSite/css/styles.css" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1372291426758" ignored="false" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1372318379837" ignored="false" />
     <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367537275656" ignored="false" />
     <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
     <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
@@ -190,19 +191,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MNSite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="12" selection-start="7152" selection-end="7152" vertical-scroll-proportion="-15.307693">
+            <state line="57" column="72" selection-start="2712" selection-end="2712" vertical-scroll-proportion="0.3737288">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="19" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.3275862">
+            <state line="269" column="0" selection-start="4114" selection-end="4114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -259,8 +260,8 @@
         <option value="$USER_HOME$/.IntelliJIdea12/config/plugins/scratches/scratch.txt" />
         <option value="S:/Dev_Archive/SSLA_Toyota_Rav4_Sustaining/Source/Flash/HPTO_Yahoo/bin/index.html" />
         <option value="$PROJECT_DIR$/MNSite/js/main.js" />
-        <option value="$PROJECT_DIR$/MNSite/index.html" />
         <option value="$PROJECT_DIR$/MNSite/css/styles.css" />
+        <option value="$PROJECT_DIR$/MNSite/index.html" />
       </list>
     </option>
   </component>
@@ -269,8 +270,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1120" />
-    <option name="height" value="1400" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -780,7 +783,11 @@
       <created>1372241738882</created>
       <updated>1372241738882</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added 3 colum layout for resume section.">
+      <created>1372318383217</created>
+      <updated>1372318383217</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -807,8 +814,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1120" height="1400" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -820,10 +827,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17948718" sideWeight="0.42645606" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30812854" sideWeight="0.6021718" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12967382" sideWeight="0.6021718" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="578" y="100" width="1242" height="970" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -834,7 +842,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32675222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -881,7 +888,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Browser tested in major 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 3 colum layout for resume section." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -895,7 +902,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Added missing file for last commit. Removed all personal info from auth_data.py so the example code is complete for the youtube video upload" />
     <MESSAGE value="Added debug lines connecting orbiting bodies, also changed camera to overhead pointing directly down" />
     <MESSAGE value="Camera animated to move toward sun" />
     <MESSAGE value="Updated away3d to latest in github dev branch" />
@@ -920,6 +926,7 @@
     <MESSAGE value="Implemented em based scaling by setting the body font-size to a multiple of one" />
     <MESSAGE value="Fixed the resizing so it only scales down from default size" />
     <MESSAGE value="Browser tested in major 3" />
+    <MESSAGE value="Added 3 colum layout for resume section." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1049,16 +1056,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MNSite/index.html">
+    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="12" selection-start="7152" selection-end="7152" vertical-scroll-proportion="-15.307693">
+        <state line="269" column="0" selection-start="4114" selection-end="4114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/MNSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="19" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.3275862">
+        <state line="57" column="72" selection-start="2712" selection-end="2712" vertical-scroll-proportion="0.3737288">
           <folding />
         </state>
       </provider>
