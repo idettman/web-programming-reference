@@ -46,19 +46,13 @@ a:active {
 }
 
 #siteHeader {
-	/*width: 64.2em;*/
 	height: 4.4em;
-	
-	/*background: #00FF00;*/
 }
 
 #siteHeader .logo {
 	text-transform: uppercase;
 	font-size: 3.75em;
 	font-weight: 200;
-	/*text-shadow: 1px 0px #eee, 0px 1px #ff0000;*/
-	/*line-height: 0.8em;*/
-	/*background: #880000;*/
 }
 
 .contactInfo {
@@ -66,7 +60,6 @@ a:active {
 	line-height: 1.25em;
 	width: 13.25em;
 	height: 2.2em;
-	/*background: #880000;*/
 	font-size: 1.5em;
 	margin: 0.3em auto 0 auto;
 }
@@ -82,7 +75,6 @@ a:active {
 	display: block;
 	clear: both;
 	float: left;
-	/*background: #2c751d;*/
 	width: 9.1em;
 	height: 35.8em;
 	margin: 0.8em 0 0 0;
@@ -100,15 +92,11 @@ a:active {
 	display: block;
 	width: 3.6em;
 	height: 1.4em;
-	/*background: #880000;*/
-	/*font-size: 2.3em;*/
 	font-size: 2.2em;
 	line-height: 1.4em;
 	text-transform: uppercase; 
 	letter-spacing: 0.11em;
-	/*text-align: right;*/
 }
-
 
 #main {
 	float: left;
@@ -156,11 +144,15 @@ a:active {
 	left: 0;
 	width: 0.45em;
 	margin: -1.091em 0 0 auto;
+}
+
+#reel video {
 
 }
 
-#reel {
-
+.video-js {
+	width: 53.375em;
+	height: 36em;
 }
 
 #resume .layered-paper {
@@ -169,7 +161,7 @@ a:active {
 
 .layered-paper {
 	
-	background: #eee;
+	background: #ffffff;
 	box-shadow:
 		0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
 		0 10px 0 -5px #eee, /* The second layer */
@@ -181,42 +173,34 @@ a:active {
 .resumeLinks {
 	display: block;
 	position: relative;
-	padding: 1.5em 0 0 0.5em;
-	/*position: absolute;*/
-	/*top: 7.25em;*/
-	/*left: 68em;*/
+	margin: 0 0 0 1.6em;
+	padding: 1.25em 0 0 1em;
 }
 
 .resumeLinks li {
 	display: block;
 	float: left;
-	/*width: 15.2em;*/
+	margin: 0 1.5em 0 0;
 }
 
 .resumeLinks li a {
-	font-family: sans-serif;
+	color: #19469d;
+	font-size: 1.5em;
+	line-height: 1em;
+	font-weight: 700;
 	letter-spacing: 0;
 	text-transform: uppercase;
-	color: #ffffff;
-	font-size: 1.0em;
-	line-height: 1.0em;
-	font-weight: normal;
-	display: block;
-	-moz-border-radius: 0.5em;
-	-webkit-border-radius: 0.5em;
-	border-radius: 0.5em; /* future proofing */
-	-html-border-radius: 0.5em; /* for old Konqueror browsers */
-	margin: 0 0.2em 0 0.5em;
-	padding: 0.3em 1.0em 0.3em 1.0em;
-	background: #3875d7;
-	border: #0088FF solid 0.1em;
+	text-decoration: underline;
 }
 
 .resumeColumns {
 	clear: both;
+	overflow-y: scroll;
+	height: 30.0em;
+	width: 56em;
 	font-family: sans-serif;
 	letter-spacing: 0;
-	font-size: 0.85em;
+	font-size: 0.9em;
 	line-height: 1.0em;
 	color: #0c0d0d;
 	display: block;
@@ -229,7 +213,7 @@ a:active {
 }
 
 .resumeColumns li div {
-	padding: 1.5em 0 0 1.1em;
+	padding: 1.5em 0 0 3em;
 }
 
 .resumeColumns li div h3 {
@@ -241,15 +225,17 @@ a:active {
 
 
 .specialSkills {
+	border-top: #111111 dashed thin;
 	clear: both;
 	font-family: sans-serif;
 	letter-spacing: 0;
-	font-size: 0.85em;
+	font-size: 0.9em;
 	line-height: 1.0em;
+	margin: 1.25em 0 0 0;
 	color: #0c0d0d;
 	display: block;
 	width: 46em;
-	padding: 0.2em 0 0 1em;
+	padding: 0 0 0 3em;
 }
 
 .specialSkills h3 {
