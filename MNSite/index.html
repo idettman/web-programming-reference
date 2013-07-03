@@ -12,8 +12,8 @@
 		<title>Melissa Nearman</title>
 		
 		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
-		<!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>-->
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
 		<link href='css/styles.css' rel='stylesheet'>
 		<link href='http://vjs.zencdn.net/c/video-js.css' rel='stylesheet'>
 		<script src='js/libs/frame.js'></script>
@@ -23,10 +23,6 @@
 			
 			<header id='siteHeader'>
 				<h1 class='floatLeft logo'>Melissa Nearman</h1>
-				<address class='contactInfo'>
-					<a href='tel:3104676285'>310.467.6285</a>
-					<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
-				</address>
 			</header>
 			
 			<nav class='navMenu'>
@@ -34,7 +30,7 @@
 					<li><a class='tab' href='#reel'>Reel</a></li>
 					<li><a class='tab' href='#photoViewer'>Photos</a></li>
 					<li><a class='tab' href='#resume'>Resume</a></li>
-					<!--<li><a class='tab' href='#contact'>Contact</a></li>-->
+					<li><a class='tab' href='#contact'>Contact</a></li>
 				</ul>
 			</nav>
 			
@@ -69,13 +65,14 @@
 						<source src='MELISSA_NEARMAN_REEL.ogv' type='video/ogg' />
 					</video>
 				</section>
+				<section id='contact' class='box pageContent'>
+					<address>
+						<a href='tel:3104676285'>310.467.6285</a>
+						<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
+					</address>
+				</section>
 				<section id='resume' class='box pageContent'>
 					<div class="layered-paper">
-						<!--<address>-->
-							<!--<a href='tel:3104676285'>310.467.6285</a>-->
-							<!--<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>-->
-						<!--</address>-->
-						
 						<ul class="resumeLinks">
 							<li><a href='http://www.imdb.com/name/nm2834550/' target='_blank'>IMDB</a></li>
 							<li><a href='http://resumes.actorsaccess.com/melissanearman' target='_blank'>Actors Access</a></li>
@@ -84,7 +81,7 @@
 						
 						<ul class="resumeColumns">
 							<li>
-								<div>
+								<div class="defaultSerif">
 								<b>SAG-AFTRA</b>
 								<h3>FILM</h3>
 								Electrick Children<br />
@@ -119,7 +116,7 @@
 								</div>
 							</li>
 							<li>
-								<div>
+								<div class="defaultSerif">
 								Height: 5’6”<br />
 
 								<h3>ROLE</h3>
@@ -151,7 +148,7 @@
 								</div>
 							</li>
 							<li>
-								<div>
+								<div class="defaultSerif">
 									Weight: 112<br />
 									<h3>DIRECTOR</h3>
 									Rebecca Thomas<br />
@@ -183,7 +180,7 @@
 								</div>
 							</li>
 						</ul>
-						<div class="specialSkills">
+						<div class="specialSkills defaultSerif">
 							<h3>SPECIAL SKILLS</h3>
 							Conversational French. Accents: Southern, Midwestern.<br/>
 							Dance: (Basic) Ballet, Ballroom, Belly, Tango. Sports: Spinning/ Cycling, Pilates, Hiking,<br/>
@@ -205,7 +202,6 @@
 				$ (document).ready ($.proxy(Main.init, Main));
 				next ();
 			});
-
 			Frame.start ();
 		</script>
 	</body>

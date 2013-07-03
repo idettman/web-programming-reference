@@ -1,13 +1,8 @@
 var Main = {
 
-	windowData: {
-		windowWidth: 0,
-		windowHeight: 0,
-		isLandscapeView: false
-	},
+	windowData: { windowWidth: 0,windowHeight: 0,isLandscapeView: false },
 
-	init: function ()
-	{
+	init: function () {
 		$.proxy (this.initVideoPlayer, this);
 		$.proxy (this.initPhotoViewer, this);
 		$.proxy (this.initPageSelector, this);
@@ -19,9 +14,7 @@ var Main = {
 		this.initLayout ();
 	},
 
-
-	initVideoPlayer: function ()
-	{
+	initVideoPlayer: function () {
 		this.reelVideoPlayer = _V_ ('reelVideoPlayer');
 		/*_V_('reelVideoPlayer').ready(function() {
 		 //var myPlayer = this; //myPlayer.play();
@@ -29,12 +22,10 @@ var Main = {
 		 });*/
 	},
 
-
-	initPhotoViewer: function ()
-	{
+	initPhotoViewer: function () {
 		$ ('#photos').responsiveSlides ({
 			auto: false,
-			fade: 500,
+			fade: 200,
 			nav: true,
 			pager: true,
 			prevText: '<',
@@ -43,36 +34,25 @@ var Main = {
 		});
 	},
 
-
-	initPageSelector: function ()
-	{
+	initPageSelector: function () {
 		$.hideAllExcept ('.tab', '.box', $.proxy (this.onPageChange, this));
 	},
 
+	onPageChange: function (pageID) {
 
-	onPageChange: function (pageID)
-	{
-
-		console.log ('onPageChange:', this, this.reelVideoPlayer);
-
-		if (pageID !== '#reel')
-		{
+		if (pageID !== '#reel') {
 			this.reelVideoPlayer.pause ();
 		}
-		else
-		{
-			if (this.reelVideoPlayer.currentTime () !== 0)
-			{
+		else {
+			if (this.reelVideoPlayer.currentTime () !== 0) {
 				this.reelVideoPlayer.currentTime (0);
 				this.reelVideoPlayer.play ();
 			}
 		}
 	},
 
-
-	initLayout: function ()
-	{
-		$ ('#main').bind ('updateLayout', $.proxy(this.updateLayout, this));
+	initLayout: function () {
+		$ ('#main').bind ('updateLayout', $.proxy (this.updateLayout, this));
 
 		$ (window).bind ('load resize orientationchange', function () {
 			$ ('#main').trigger ('updateLayout');
@@ -81,57 +61,28 @@ var Main = {
 		this.updateLayout ();
 	},
 
+	updateLayout: function () {
+		this.windowData.windowWidth = $ (window).width ();
+		this.windowData.windowHeight = $ (window).height ();
+		this.windowData.isLandscapeView = (Math.max (this.windowData.windowWidth, this.windowData.windowHeight) === this.windowData.windowWidth);
 
-	updateLayout: function ()
-	{
-//		console.log('body scroll height:', $('body')[0].scrollHeight);
-		this.windowData.windowWidth = $ (window).width();
-		this.windowData.windowHeight = $ (window).height();
-		this.windowData.isLandscapeView = (Math.max(this.windowData.windowWidth, this.windowData.windowHeight) === this.windowData.windowWidth);
-		
-		var MIN_WIDTH = 30.0;
+		//var MIN_WIDTH = 30.0;//32.0
+		var MIN_WIDTH = 40.0;
 		var MAX_WIDTH = 64.2;
-		
-		if (this.windowData.windowWidth/16.0 < MAX_WIDTH)
-		{
-			if (this.windowData.windowWidth/16.0 > MIN_WIDTH)
-			{
+
+		if (this.windowData.windowWidth / 16.0 < MAX_WIDTH) {
+			if (this.windowData.windowWidth / 16.0 > MIN_WIDTH) {
 				var emsWidth = this.windowData.windowWidth / 16.0;
 				$ ("body").css ("font-size", (emsWidth / MAX_WIDTH) + "em");
 			}
-			else
-			{
-				$ ("body").css ("font-size", MIN_WIDTH/MAX_WIDTH + "em");
+			else {
+				$ ("body").css ("font-size", MIN_WIDTH / MAX_WIDTH + "em");
 			}
 		}
-		else
-		{
+		else {
 			$ ("body").css ("font-size", "1.0em");
 		}
-		
-		
-		
-		
-//		$ ('#main').height (this.windowData.windowHeight - $ ('#siteHeader').outerHeight () - 32);
-//		$ ('.pageContent').width ($ ('#main').width ());
-//		$ ('.pageContent').height ($ ('#main').innerHeight());
-
-		/*var updatedHeight;
-		if (windowHeight > 240)
-		{
-			updatedHeight = windowHeight - $ ('#siteHeader').outerHeight () - 32;
-		}
-		else
-		{
-			updatedHeight = 240 - $ ('#siteHeader').outerHeight () - 24;
-		}
-		$ ('#main').height (updatedHeight);
-		 $ ('.pageContent').width ($ ('#main').width ());
-		 $ ('.pageContent').height (updatedHeight);*/
-//		font-size: 1em;
-//		$ ("body").css ("font-size", "1.2em");
 	},
-	
-	
+
 	reelVideoPlayer: null
 };
