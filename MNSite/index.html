@@ -13,11 +13,9 @@
 		
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,700' rel='stylesheet' type='text/css'>
-		<!--<link href='http://vjs.zencdn.net/c/video-js.css' rel='stylesheet'>-->
-		<!--<link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">-->
 		<link href="http://vjs.zencdn.net/4.1/video-js.css" rel="stylesheet">
 		<link href='css/styles.css' rel='stylesheet'>
-
+		
 		<script src="js/libs/modernizr.custom.76844.js"></script>
 		<script src='js/libs/frame.js'></script>
 	</head>
@@ -198,10 +196,8 @@
 			Frame ('js/libs/jquery-2.0.0.min.js');
 			Frame ('js/libs/responsiveslides.min.js');
 			Frame ('js/libs/jquery.hideAllExceptOne.min.js');
-			/*Frame ('http://vjs.zencdn.net/4.0/video.js');*/
 			Frame ('http://vjs.zencdn.net/4.1/video.js');
-
-
+			
 			Frame ('js/main.js', function (next) {
 				$ (document).ready ($.proxy(Main.init, Main));
 				next ();

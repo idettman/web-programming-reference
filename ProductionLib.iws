@@ -1,200 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="">
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\logos\badge-250.png" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\logos\badge-500.png" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\logos\badge-64.png" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\images\photos\img10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\README.md" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\demo.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\images\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\images\1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\images\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\images\2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\images\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\images\3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\images\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\themes\themes.css" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\themes\themes.gif" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\demo\themes\themes.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\responsiveslides.css" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\responsiveslides.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\ResponsiveSlides.js-master\responsiveslides.min.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\README.md" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\demo\about.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\demo\index.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\demo\jquery-1.6.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\demo\options.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\demo\style.css" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\demo\usage.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\cmpolis-Pagify-56413c0\pagify.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\enure-Hide-All-Except-One-951cd6f\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\enure-Hide-All-Except-One-951cd6f\index.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\enure-Hide-All-Except-One-951cd6f\jquery.hideAllExceptOne.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\enure-Hide-All-Except-One-951cd6f\jquery.hideAllExceptOne.min.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\enure-Hide-All-Except-One-951cd6f\style.css" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\jquery-2.0.0.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\jquery.hideAllExceptOne.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\modernizr-latest.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\modernizr.custom.50500.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\js\libs\responsiveslides.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\MELISSA_NEARMAN_RESUME.pdf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\SkinOverPlayFullscreen.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\SkinOverPlayStopSeekMuteVol.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\SkinUnderAllNoCaption.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\SkinOverPlayFullscreen.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\SkinOverPlayStopSeekMuteVol.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\SkinUnderAllNoCaption.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\contact.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\gdform.php" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\home.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_LBL014-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_LBL016-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_MelissaNearman1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_MelissaNearman2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_MelissaNearman4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_MelissaNearman6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_Melissa_3-20-08_018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_Melissa_3-20-08_132.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_Melissa_3-20-08_139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_Melissa_3-20-08_205.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_Melissa_3-20-08_210.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\smaller\thumb_Melissa_3-20-08_239.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_LBL014-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_LBL016-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_MelissaNearman1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_MelissaNearman2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_MelissaNearman4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_MelissaNearman6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_Melissa_3-20-08_018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_Melissa_3-20-08_132.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_Melissa_3-20-08_139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_Melissa_3-20-08_205.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_Melissa_3-20-08_210.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\images\photos\thumb_Melissa_3-20-08_239.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\index.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\index.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\js\swfaddress.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\js\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\main.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\nav.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\photos.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\preload.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\reel.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\resume.pdf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\resume.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\reviews.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\scaffold.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\video\test.f4v" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\welcome.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\archive_042510\xml\site.xml" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\contact.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\googleef4777428ebe5a1f.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\home.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_2_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_5_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_7_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_7_small.png" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_9_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\Melissa_Nearman_paired_photos.psd" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\PSD\Melissa_Nearman_paired_photos.psd" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_LBL014-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_LBL016-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_MelissaNearman1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_MelissaNearman2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_MelissaNearman4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_MelissaNearman6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_Melissa_3-20-08_018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_Melissa_3-20-08_132.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_Melissa_3-20-08_139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_Melissa_3-20-08_205.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_Melissa_3-20-08_210.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\smaller\thumb_Melissa_3-20-08_239.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_LBL014-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_LBL016-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_MelissaNearman1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_MelissaNearman2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_MelissaNearman4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_MelissaNearman6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_Melissa_3-20-08_018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_Melissa_3-20-08_132.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_Melissa_3-20-08_139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_Melissa_3-20-08_205.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_Melissa_3-20-08_210.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\archive\thumb_Melissa_3-20-08_239.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\fwdpix\mellisa_nearman_new_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_03_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_05_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\images\photos\mellisa_nearman_new_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\index.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\index.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\js\swfaddress.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\js\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\main.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\missing.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\nav.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\photos.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\php.ini" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\preload.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\reel.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\resume.pdf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\scaffold.swf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\stats\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\stats\index.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\video\Melissa Short Reel SD-poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\video\ReadMe.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\video\archive\melissa_short_reel_sd.f4v" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\video\archive\melissa_short_reel_sd_01.f4v" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\video\melissa_short_reel.m4v" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\livesite\xml\site.xml" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\reel\melissa_short_reel.m4v" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\reel\melissa_short_reel.mp4" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\reel\melissa_short_reel.ogv" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\reel\melissa_short_reel.webm" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\reel\melissa_short_reel_poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\resume\MELISSANEARMAN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\resume\resume.html" afterPath="" />
-      <change type="DELETED" beforePath="S:\Dev\HTML\ProductionLib\MNSite\test_getter_setter.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.ipr" afterPath="$PROJECT_DIR$/ProductionLib.ipr" />
+    <list default="true" id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="" />
+    <list id="831621a7-d661-4f06-ac27-32048d08d50f" name="Fix last commit from work" comment="Add missing video and PDF assets">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/MELISSA_NEARMAN_REEL.f4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/MELISSA_NEARMAN_REEL.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/MELISSA_NEARMAN_REEL.ogv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/MELISSA_NEARMAN_REEL.webm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/MELISSA_NEARMAN_RESUME.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MNSite/js/libs/modernizr.custom.76844.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductionLib.iws" afterPath="$PROJECT_DIR$/ProductionLib.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML_Framework/index.html" afterPath="$PROJECT_DIR$/HTML_Framework/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/index.html" afterPath="$PROJECT_DIR$/MNSite/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MNSite/css/styles.css" afterPath="$PROJECT_DIR$/MNSite/css/styles.css" />
     </list>
     <ignored path="ProductionLib.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored mask="*.psd" />
+    <ignored path="MNSite/images/resume.png" />
+    <ignored path="MNSite/images/resume_webedit.png" />
+    <file path="/Dummy.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1372971224556" ignored="false" />
+    <file path="/fragment.js2" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367537275656" ignored="false" />
+    <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/components/base/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358968506883" ignored="false" />
+    <file path="/AbstractMovieClip.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103229437" ignored="false" />
+    <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/model/HPTO_ApplicationProxy.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066618745" ignored="false" />
+    <file path="/DrawDisplayObjectUtil.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1358978475854" ignored="false" />
+    <file path="/index.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1372316551508" ignored="false" />
+    <file path="/a.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364405932537" ignored="false" />
+    <file path="$PROJECT_DIR$/../521_gsp_sonic_groundhogs_day/Source/Flash/Sonic_GroundhogsDay/classes/app/groundhogsday/view/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359067331419" ignored="false" />
+    <file path="/AskQuestionContainer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359066861477" ignored="false" />
+    <file path="/cannonexperiment_ie.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359079486956" ignored="false" />
+    <file path="/cannonjs_orbits.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359164363977" ignored="false" />
+    <file path="/ListSliderComponent.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359475392554" ignored="false" />
+    <file path="/ListItem.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359475373993" ignored="false" />
+    <file path="/domCreationAndModifications.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359686736367" ignored="false" />
+    <file path="/DynamicNavigation.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364846521205" ignored="false" />
+    <file path="/Broadcaster.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360003037976" ignored="false" />
+    <file path="/a.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362093104985" ignored="false" />
+    <file path="/AsyncLoader.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359749898572" ignored="false" />
+    <file path="/AsyncScriptLoader.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359752547465" ignored="false" />
+    <file path="/EventTarget.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360011907746" ignored="false" />
+    <file path="/CustomEventBind.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1359767606403" ignored="false" />
+    <file path="/inheritance.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367263202496" ignored="false" />
+    <file path="/scope.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360104355962" ignored="false" />
+    <file path="/inheritance02.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360119609233" ignored="false" />
+    <file path="/fragment.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367533356229" ignored="false" />
+    <file path="/requestanimationframe.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360620310032" ignored="false" />
+    <file path="/a.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363200410104" ignored="false" />
+    <file path="/main.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1360623540115" ignored="false" />
+    <file path="/simplemovement.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1361316068064" ignored="false" />
+    <file path="/gameengine.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1361386473626" ignored="false" />
+    <file path="/load_obj.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1361411650393" ignored="false" />
+    <file path="/FlashExperiments.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363221446734" ignored="false" />
+    <file path="/DisplayListUtils.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362094438868" ignored="false" />
+    <file path="/AbstractAway3D.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362445969499" ignored="false" />
+    <file path="/AbstractSprite.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362102621402" ignored="false" />
+    <file path="/DisplayInitializationCue.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362103200239" ignored="false" />
+    <file path="/inheritance03.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362167015011" ignored="false" />
+    <file path="/Away3dLite_Experiment.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362447603152" ignored="false" />
+    <file path="/OimoPhysicsAway3dIntegrationTest.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362624385349" ignored="false" />
+    <file path="/Mat44.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362621352605" ignored="false" />
+    <file path="S:/Libs_Global/Flash_IDE_JSFL/FlashExtensions/jsfl/set_component_property_on_selected_frames.jsfl" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362684145708" ignored="false" />
+    <file path="S:/Libs_Global/Flash_IDE_JSFL/FlashExtensions/jsfl/set_component_props.mxi.xml" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362685926843" ignored="false" />
+    <file path="/set_component_props.mxi.xml" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362685926843" ignored="false" />
+    <file path="/PinballTest.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362789563676" ignored="false" />
+    <file path="/World.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362694329113" ignored="false" />
+    <file path="/RigidBody.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362787276240" ignored="false" />
+    <file path="/console_test1.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362769956087" ignored="false" />
+    <file path="/Away3dRigidBody.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1362788991872" ignored="false" />
+    <file path="/PinballFieldBlocking.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363045925977" ignored="false" />
+    <file path="/a.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363200413326" ignored="false" />
+    <file path="/a.xml" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363717496513" ignored="false" />
+    <file path="/DebugDraw.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363651252755" ignored="false" />
+    <file path="/JSONConverter.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363214993218" ignored="false" />
+    <file path="/GraphMLConverter.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363215606392" ignored="false" />
+    <file path="/FlareTest.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363216382238" ignored="false" />
+    <file path="/Tween24_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363226018668" ignored="false" />
+    <file path="/Flash_Experiments.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363642553513" ignored="false" />
+    <file path="/TestGreenSock.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363238732563" ignored="false" />
+    <file path="/a.dummy" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364002229814" ignored="false" />
+    <file path="/LunchWheel_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363416550776" ignored="false" />
+    <file path="/clockhands_as2_rav4clockgirl.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363289966125" ignored="false" />
+    <file path="/Wedge.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363298803890" ignored="false" />
+    <file path="/CreateWheelGeometry_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363372856212" ignored="false" />
+    <file path="/DrawArcsAndPolys_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363304568597" ignored="false" />
+    <file path="/greeting.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363371397011" ignored="false" />
+    <file path="/CreatePolygonWithRectangles_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363384567628" ignored="false" />
+    <file path="/GeometryUtils.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363387338930" ignored="false" />
+    <file path="/StructureSynth_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363413829065" ignored="false" />
+    <file path="/LunchWheelAltLabelRotation.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363642382224" ignored="false" />
+    <file path="/Away3dTemplate.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363624665611" ignored="false" />
+    <file path="/Away3dBase.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363625461681" ignored="false" />
+    <file path="/Tween24_Away3d_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363641763411" ignored="false" />
+    <file path="/SimpleActuator.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363642360186" ignored="false" />
+    <file path="/ManualUpdateActuator.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363637985833" ignored="false" />
+    <file path="/GreensockAway3d_Test.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363641634799" ignored="false" />
+    <file path="/PhysicsWheel.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363650907683" ignored="false" />
+    <file path="/sample.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363657243027" ignored="false" />
+    <file path="/hello_world.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363658855733" ignored="false" />
+    <file path="/upload_video.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363826986851" ignored="false" />
+    <file path="/youtube_upload.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363713512459" ignored="false" />
+    <file path="/save_file.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363734682895" ignored="false" />
+    <file path="/a.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363717490723" ignored="false" />
+    <file path="/scratch.txt" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363728262026" ignored="false" />
+    <file path="/getauth.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363802901048" ignored="false" />
+    <file path="/auth_return.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830168871" ignored="false" />
+    <file path="/auth.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363973622614" ignored="false" />
+    <file path="C:/Python27/Lib/cgitb.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363816994759" ignored="false" />
+    <file path="/upload_video.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363825263277" ignored="false" />
+    <file path="/auth_data.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830243913" ignored="false" />
+    <file path="/auth_upload.py" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363830195137" ignored="false" />
+    <file path="/solar.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363978028404" ignored="false" />
+    <file path="/BVector.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363996887270" ignored="false" />
+    <file path="/BMatrix.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364002470496" ignored="false" />
+    <file path="/BInterpolate.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363996895118" ignored="false" />
+    <file path="/Eye.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364002134832" ignored="false" />
+    <file path="/Point.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363990410792" ignored="false" />
+    <file path="/Moon.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364002183380" ignored="false" />
+    <file path="/Orbit.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364003167665" ignored="false" />
+    <file path="/Simulate.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364004377269" ignored="false" />
+    <file path="/Color.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1363994102456" ignored="false" />
+    <file path="/StringTokenizer.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364001296592" ignored="false" />
+    <file path="/PlanetaryOrbitEngine.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364318028078" ignored="false" />
+    <file path="/TestOrbitSimulation.as" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364324310897" ignored="false" />
+    <file path="/a.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364405902474" ignored="false" />
+    <file path="/sample.java" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1364405899529" ignored="false" />
+    <file path="/casttype.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365805938711" ignored="false" />
+    <file path="/facade_pattern.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365806072379" ignored="false" />
+    <file path="/adapter_pattern.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1365806531112" ignored="false" />
+    <file path="/styles.css" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1372318048318" ignored="false" />
+    <file path="/main.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1372241286498" ignored="false" />
+    <file path="/test_getter_setter.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367447429412" ignored="false" />
+    <file path="/jquery.hideAllExceptOne.js" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367457711646" ignored="false" />
+    <file path="/resume.html" changelist="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" time="1367535332408" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,28 +196,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MNSite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="12" selection-start="7022" selection-end="7022" vertical-scroll-proportion="-27.56" vertical-offset="2711" max-vertical-offset="3689">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML_Framework/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="44" selection-start="1773" selection-end="1773" vertical-scroll-proportion="-13.08" vertical-offset="710" max-vertical-offset="1377">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML_Framework/js/libs/enure-Hide-All-Except-One-951cd6f/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="86" selection-start="897" selection-end="897" vertical-scroll-proportion="0.22590673" vertical-offset="190" max-vertical-offset="1632">
+            <state line="10" column="8" selection-start="491" selection-end="491" vertical-scroll-proportion="0.26481715">
               <folding />
             </state>
           </provider>
@@ -290,7 +208,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="5270">
+            <state line="269" column="0" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -299,7 +217,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MNSite/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="16" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2414">
+            <state line="98" column="2" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -322,6 +240,7 @@
     </compiler-options>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -335,6 +254,7 @@
       <list>
         <option value="$PROJECT_DIR$/HTML/MinimalLib/browserdetect.js" />
         <option value="$PROJECT_DIR$/HTML_Framework/css/styles.css" />
+        <option value="$PROJECT_DIR$/HTML_Framework/index.html" />
         <option value="$PROJECT_DIR$/HTML_Framework/js/main.js" />
         <option value="$PROJECT_DIR$/MNSite/js/libs/viljamis-ResponsiveSlides.js-cd2fa2b/example/index.html" />
         <option value="$PROJECT_DIR$/MNSite/js/libs/ResponsiveSlides.js-master/demo/demo.html" />
@@ -348,7 +268,6 @@
         <option value="$PROJECT_DIR$/MNSite/js/main.js" />
         <option value="$PROJECT_DIR$/MNSite/css/styles.css" />
         <option value="$PROJECT_DIR$/MNSite/index.html" />
-        <option value="$PROJECT_DIR$/HTML_Framework/index.html" />
       </list>
     </option>
   </component>
@@ -359,24 +278,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Ant inspections</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -404,6 +307,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductionLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youtube-v3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -606,32 +523,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProductionLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtube-v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/Flash_Experiments/src" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="options.splitter.main.proportions" value="0.19400954" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="web.server" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="JavaScriptLanguageLevel" value="ES5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML_Framework" />
     <property name="project.structure.side.proportion" value="0.26882967" />
@@ -648,12 +551,16 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig" serverName="idettman.com" serverId="62240d40-3ee6-4213-9259-f3d6618df4d4">
+  <component name="PublishConfig">
     <servers>
-      <server id="62240d40-3ee6-4213-9259-f3d6618df4d4">
+      <server id="e3e53453-792f-4cee-a58c-a5b77c1b47c4">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html/mnsite/" local="$PROJECT_DIR$/MNSite" web="/mnsite" />
+            <mapping local="$PROJECT_DIR$/HTML" />
+            <mapping local="$PROJECT_DIR$/HTML_Framework" />
+            <mapping local="$PROJECT_DIR$/MNSite" />
+            <mapping local="$PROJECT_DIR$" />
+            <mapping local="$PROJECT_DIR$/Python" />
           </mappings>
         </serverdata>
       </server>
@@ -668,19 +575,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="" />
-      <recent name="lib_templates" />
-      <recent name="base.display" />
-      <recent name="utils" />
-      <recent name="lunchwheel" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\MNSite\js\libs" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\MNSite" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework\js\libs" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework" />
       <recent name="C:\Users\Faygo\Dev\ProductionLib\AbstractBase_Lib\src\base\away3d" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="" />
+      <recent name="lib_templates" />
+      <recent name="base.display" />
+      <recent name="utils" />
+      <recent name="lunchwheel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Faygo\Dev\ProductionLib\HTML_Framework" />
@@ -691,6 +598,24 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="youtube-v3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -705,7 +630,6 @@
         <LauncherParameters>
           <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
         </LauncherParameters>
       </option>
@@ -741,6 +665,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -759,7 +690,6 @@
         <LauncherParameters>
           <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
         </LauncherParameters>
       </option>
@@ -810,6 +740,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4627049e-dd8b-4a2a-a8ac-c9008fbaca5e" name="Default" comment="" />
+      <changelist id="831621a7-d661-4f06-ac27-32048d08d50f" name="Fix last commit from work" comment="Add missing video and PDF assets" />
       <created>1363230613970</created>
       <updated>1363230613970</updated>
       <workItem from="1363230612973" duration="2680000" />
@@ -872,35 +803,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39782822" sideWeight="0.4996772" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39704433" sideWeight="0.50032276" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17948718" sideWeight="0.42645606" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18089648" sideWeight="0.67346936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13166268" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="578" y="100" width="1242" height="970" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Randori Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32675222" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1846002" sideWeight="0.4996772" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -999,30 +930,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MNSite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="0" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="58" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="98" column="2" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="20" column="10" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="49" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="58" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNSite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1034,35 +1021,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="16" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2414">
+        <state line="98" column="2" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5270">
+        <state line="269" column="0" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MNSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="12" selection-start="7022" selection-end="7022" vertical-scroll-proportion="-27.56" vertical-offset="2711" max-vertical-offset="3689">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="44" selection-start="1773" selection-end="1773" vertical-scroll-proportion="-13.08" vertical-offset="710" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Framework/js/libs/enure-Hide-All-Except-One-951cd6f/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="86" selection-start="897" selection-end="897" vertical-scroll-proportion="0.22590673" vertical-offset="190" max-vertical-offset="1632">
+        <state line="10" column="8" selection-start="491" selection-end="491" vertical-scroll-proportion="0.26481715">
           <folding />
         </state>
       </provider>
