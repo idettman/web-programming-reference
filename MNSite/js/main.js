@@ -15,17 +15,20 @@ var Main = {
 	},
 
 	initVideoPlayer: function () {
-		this.reelVideoPlayer = _V_ ('reelVideoPlayer');
-		/*_V_('reelVideoPlayer').ready(function() {
-		 //var myPlayer = this; //myPlayer.play();
-		 console.log ('reelvideoplayer ready');
-		 });*/
+
+//		this.reelVideoPlayer = _V_ ('reelVideoPlayer');
+
+		var classLevelScope = this;
+
+		_V_ ('reelVideoPlayer').ready (function () {
+			classLevelScope.reelVideoPlayer = this;
+		});
 	},
 
 	initPhotoViewer: function () {
 		$ ('#photos').responsiveSlides ({
 			auto: false,
-			fade: 200,
+			fade: 100,
 			nav: true,
 			pager: true,
 			prevText: '<',
@@ -35,18 +38,26 @@ var Main = {
 	},
 
 	initPageSelector: function () {
-		$.hideAllExcept ('.tab', '.box', $.proxy (this.onPageChange, this));
+		$.hideAllExcept ('.tab', '.box');
+		$ ('.tab').on ('click', $.proxy (this.onPageChange, this));
 	},
 
-	onPageChange: function (pageID) {
+	onPageChange: function (event) {
 
-		if (pageID !== '#reel') {
-			this.reelVideoPlayer.pause ();
-		}
-		else {
-			if (this.reelVideoPlayer.currentTime () !== 0) {
-				this.reelVideoPlayer.currentTime (0);
-				this.reelVideoPlayer.play ();
+		// Could be null until ready callback fires
+		if (this.reelVideoPlayer) {
+			if (event.delegateTarget.hash !== '#reel') {
+				this.reelVideoPlayer.pause ();
+			}
+			else {
+				if (this.reelVideoPlayer.currentTime () !== 0) {
+					this.reelVideoPlayer.currentTime (0);
+					this.reelVideoPlayer.play ();
+				}
+				else
+				{
+					this.reelVideoPlayer.play ();
+				}
 			}
 		}
 	},

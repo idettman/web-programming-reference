@@ -13,9 +13,12 @@
 		
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+		<!--<link href='http://vjs.zencdn.net/c/video-js.css' rel='stylesheet'>-->
+		<!--<link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">-->
+		<link href="http://vjs.zencdn.net/4.1/video-js.css" rel="stylesheet">
 		<link href='css/styles.css' rel='stylesheet'>
-		<link href='http://vjs.zencdn.net/c/video-js.css' rel='stylesheet'>
+
+		<script src="js/libs/modernizr.custom.76844.js"></script>
 		<script src='js/libs/frame.js'></script>
 	</head>
 	<body>
@@ -45,12 +48,8 @@
 						<li><img src='images/photogallery/melissa_nearman_05.jpg' /></li>
 						<li><img src='images/photogallery/melissa_nearman_06.jpg' /></li>
 						<li><img src='images/photogallery/melissa_nearman_07.jpg' /></li>
-						<!--<li><img src='images/photogallery/melissa_nearman_08.jpg' /></li>
+						<li><img src='images/photogallery/melissa_nearman_08.jpg' /></li>
 						<li><img src='images/photogallery/melissa_nearman_09.jpg' /></li>
-						<li><img src='images/photogallery/melissa_nearman_10.jpg' /></li>
-						<li><img src='images/photogallery/melissa_nearman_11.jpg' /></li>
-						<li><img src='images/photogallery/melissa_nearman_12.jpg' /></li>
-						<li><img src='images/photogallery/melissa_nearman_13.jpg' /></li>-->
 					</ul>
 					
 					<ul id="photoThumbnails">
@@ -59,17 +58,19 @@
 					
 				</section>
 				<section id='reel' class='box pageContent'>
-					<video id='reelVideoPlayer' class='video-js vjs-default-skin' width='854' height='480' data-setup='{ "controls": true, "autoplay": false, "preload": "none" }'>
+					<video id='reelVideoPlayer' class='video-js vjs-default-skin' width='854' height='480' data-setup='{ "controls": true, "autoplay": false, "preload": "none", "width": 854, "height": 480 }'>
 						<source src='MELISSA_NEARMAN_REEL.webm' type='video/webm' />
 						<source src='MELISSA_NEARMAN_REEL.mp4' type='video/mp4' />
 						<source src='MELISSA_NEARMAN_REEL.ogv' type='video/ogg' />
 					</video>
 				</section>
 				<section id='contact' class='box pageContent'>
-					<address>
-						<a href='tel:3104676285'>310.467.6285</a>
-						<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
-					</address>
+					<div class="layered-paper">
+						<address>
+							<a href='tel:3104676285'>310.467.6285</a>
+							<a href='mailto:melissanearman@gmail.com'>melissanearman@gmail.com</a>
+						</address>
+					</div>
 				</section>
 				<section id='resume' class='box pageContent'>
 					<div class="layered-paper">
@@ -197,7 +198,10 @@
 			Frame ('js/libs/jquery-2.0.0.min.js');
 			Frame ('js/libs/responsiveslides.min.js');
 			Frame ('js/libs/jquery.hideAllExceptOne.min.js');
-			Frame ('http://vjs.zencdn.net/c/video.js');
+			/*Frame ('http://vjs.zencdn.net/4.0/video.js');*/
+			Frame ('http://vjs.zencdn.net/4.1/video.js');
+
+
 			Frame ('js/main.js', function (next) {
 				$ (document).ready ($.proxy(Main.init, Main));
 				next ();

@@ -55,20 +55,27 @@ a:active {
 	font-weight: 200;
 }
 
-.contactInfo {
-	float: right;
-	line-height: 1.25em;
-	width: 13.25em;
-	height: 2.2em;
-	font-size: 1.25em;
-	margin: 0.3em auto 0 auto;
+#contact .layered-paper {
+	height: 24.1em;
 }
 
-.contactInfo a {
-	display: block;
-	width: 13.25em;
-	text-align: right;
-	line-height: 1em;
+#contact address {
+	padding: 2em;
+}
+
+#contact a {
+	color: #e16734;
+	text-shadow: 0.01em 0.01em 0.1em #a8adac;
+	text-transform: uppercase;
+	/*text-decoration: underline;*/
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 2.5em;
+	line-height: 1.8em;
+	text-decoration: none;
+
+	display:block;
+	letter-spacing:0.1em;
+	font-weight:700;
 }
 
 .navMenu {
@@ -83,9 +90,8 @@ a:active {
 .navMenu ul li { 
 	float: left; 
 	clear: both;
-	display: block; 
-	padding: 0 0 0 1.6em;
-	margin: 0 0; 
+	display: block;
+	padding: 0 0 0 1.0em;
 }
 
 .navMenu ul li a {
@@ -94,8 +100,7 @@ a:active {
 	height: 1.4em;
 	font-size: 2.0em;
 	line-height: 1.75em;
-	text-transform: uppercase; 
-	letter-spacing: 0.11em;
+	text-transform: uppercase;
 }
 
 #main {
@@ -117,52 +122,12 @@ a:active {
 	overflow: hidden;
 }
 
-.prev {
-	text-shadow: 0.015em 0.015em 0.02em #000;
-	opacity: 0.8;
-	display: block;
-	position: relative;
-	z-index: 42;
-	font-size: 10em;
-	line-height: 1em;
-	top: 0;
-	left: 0;
-	width: 0.45em;
-	margin: -2.6em 0 0 0.05em;
-}
-
-
-
-.next {
-	text-shadow: 0.015em 0.015em 0.02em #000;
-	opacity: 0.8;
-	display: block;
-	position: relative;
-	z-index: 43;
-	font-size: 10em;
-	top: 0;
-	left: 0;
-	width: 0.45em;
-	margin: -1.091em 0 0 auto;
-}
-
-
-#resume {
+#reel {
 
 }
 
-.defaultSerif {
-	font-family: "Arial", sans-serif;
-	font-size: 0.90em;
-	line-height: 1.0em;
-	letter-spacing: 0;
-}
-
-.defaultSerif h3 {
-	font-size: 0.90em;
-	line-height: 1.0em;
-	letter-spacing: 0;
-	font-weight:bold;
+.vjs-default-skin .vjs-play-progress {
+	border: #000088 solid 0.1em;
 }
 
 #resume .layered-paper {
@@ -170,7 +135,6 @@ a:active {
 }
 
 .layered-paper {
-	
 	background: #eeeeee;
 	box-shadow:
 		0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
@@ -184,18 +148,19 @@ a:active {
 	display: block;
 	position: relative;
 	margin: 0 0 0 1.6em;
-	padding: 2.0em 0 0 1.0em;
+	padding: 2.4em 0 0 1em;
 }
 
 .resumeLinks li {
 	float: left;
 	display: block;
 	margin: 0 1.25em 0 0;
-	line-height: 1.0em;
+	line-height: 1em;
 }
 
 .resumeLinks li a {
 	color: #e16734;
+	text-shadow: 0.015em 0.015em 0.25em #a8adac;
 	text-transform: uppercase;
 	text-decoration: underline;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -206,10 +171,10 @@ a:active {
 
 .resumeColumns {
 	clear: both;
-	overflow-y: scroll;
+	width: 48.0em;
 	height: 24.0em;
-	width: 50.0em;
 	display: block;
+	overflow-y: scroll;
 }
 
 .resumeColumns li {
@@ -224,15 +189,13 @@ a:active {
 }
 
 .resumeColumns li div h3 {
-	padding: 0 0 0 0;
 	margin: 1.2em 0 0 0;
 }
 
 .specialSkills {
-	border-top: #111111 dashed thin;
 	clear: both;
+	border-top: #111111 dashed thin;
 	margin: 1.25em 0 0 0;
-	line-height: 1.0em;
 	color: #0c0d0d;
 	display: block;
 	width: 46em;
@@ -241,13 +204,9 @@ a:active {
 
 .specialSkills h3 {
 	color: #0c0d0d;
-	/*font-size: 0.90em;
-	line-height: 1.0em;*/
 	line-height: 1.0em;
-	padding: 0 0 0 0;
 	margin: 1.2em 0 0 0;
 }
-
 
 /* generic shared */
 .floatLeft {
@@ -304,3 +263,51 @@ a:active {
 
 
 
+
+.prev {
+	font-size: 10em;
+	line-height: 1em;
+	text-shadow: 0.015em 0.015em 0.02em #000;
+	opacity: 0.8;
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 0.45em;
+	z-index: 42;
+	margin: -2.6em 0 0 0.05em;
+}
+
+.next {
+	font-size: 10em;
+	line-height: 1em;
+	text-shadow: 0.015em 0.015em 0.02em #000;
+	opacity: 0.8;
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 0.45em;
+	z-index: 43;
+	margin: -1.091em 0 0 auto;
+}
+
+.defaultSerif {
+	color: #0c0d0d;
+	font-size: 1.0em;
+	font-family: "Arial", sans-serif;
+	line-height: 1.0em;
+	letter-spacing: 0;
+}
+
+.defaultSerif h3 {
+	font-size: 0.90em;
+	line-height: 1em;
+	font-weight: bold;
+}
+
+.defaultSerif b {
+	font-size: 0.90em;
+	line-height: 1em;
+	font-weight: bold;
+}
